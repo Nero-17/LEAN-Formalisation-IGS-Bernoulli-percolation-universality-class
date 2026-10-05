@@ -50,3 +50,4 @@ import Universality.Algebra.ExponentRecovery
 import Universality.Graph.CyclicSubstitution
 import Universality.Graph.TerminalEdgeConnectivity
 import Universality.Examples.AdmissibleObservations
+import Universality.Graph.SubstitutionFullConnectivity

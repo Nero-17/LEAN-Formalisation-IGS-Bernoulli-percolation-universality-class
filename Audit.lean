@@ -97,3 +97,4 @@ import Universality
 #print axioms Universality.Rule.cyclic_substitution_response
 #print axioms Universality.FiniteNetwork.interior_fixed_point_iff_terminalEdgeConnectivity
 #print axioms Universality.no_classification_by_admissible_multiplicative_observations
+#print axioms Universality.FiniteNetwork.substitute_all_vertices_connected
