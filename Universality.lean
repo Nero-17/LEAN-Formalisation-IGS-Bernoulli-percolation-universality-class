@@ -46,3 +46,7 @@ import Universality.Examples.ClassicalSeeds
 import Universality.Percolation.GeometricPrimitivity
 import Universality.Percolation.RenormalisationLimits
 import Universality.Percolation.ClassicalCriticalPoint
+import Universality.Algebra.ExponentRecovery
+import Universality.Graph.CyclicSubstitution
+import Universality.Graph.TerminalEdgeConnectivity
+import Universality.Examples.AdmissibleObservations

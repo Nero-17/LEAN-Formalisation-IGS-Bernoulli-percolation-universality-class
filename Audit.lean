@@ -92,3 +92,8 @@ import Universality
 #print axioms Universality.Rule.generation_crossing_tendsto_one
 #print axioms Universality.Rule.Classical.finite_crossing_transition
 #print axioms Universality.Rule.Classical.pivotal_mass_inequalities
+#print axioms Universality.four_exponent_formulas_eq_iff_dimensions_eq
+#print axioms Universality.Rule.cyclic_substitution_spectralRadius
+#print axioms Universality.Rule.cyclic_substitution_response
+#print axioms Universality.FiniteNetwork.interior_fixed_point_iff_terminalEdgeConnectivity
+#print axioms Universality.no_classification_by_admissible_multiplicative_observations
