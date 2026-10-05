@@ -1,0 +1,363 @@
+Reusing verified Universality/Matrix/TwoByTwo.lean
+Reusing verified Universality/Matrix/SpectralSeparation.lean
+Reusing verified Universality/Algebra/MultiplicativeObstruction.lean
+Reusing verified Universality/Graph/Reachability.lean
+Reusing verified Universality/Percolation/FiniteNetwork.lean
+Reusing verified Universality/Percolation/Wheatstone.lean
+Reusing verified Universality/Percolation/Bernoulli.lean
+Reusing verified Universality/Percolation/WheatstoneKernels.lean
+Reusing verified Universality/Percolation/ReliabilityPolynomial.lean
+Reusing verified Universality/Percolation/WheatstoneReliability.lean
+Reusing verified Universality/Percolation/FastReachability.lean
+Reusing verified Universality/Matrix/PositiveEigenvector.lean
+Reusing verified Universality/Matrix/PositiveTwoByTwo.lean
+Reusing verified Universality/Matrix/NoncommutativeExample.lean
+Reusing verified Universality/Matrix/CommonPositiveVector.lean
+Reusing verified Universality/Matrix/MassPlane.lean
+Reusing verified Universality/Percolation/ReliabilityDerivative.lean
+Reusing verified Universality/Matrix/WheatstoneSpectrum.lean
+Reusing verified Universality/Matrix/PopulationGrowth.lean
+Reusing verified Universality/Percolation/BitConnectivity.lean
+Reusing verified Universality/Percolation/ConfigurationEncoding.lean
+Reusing verified Universality/Arithmetic/Commensurability.lean
+Reusing verified Universality/Algebra/WordExpansion.lean
+Reusing verified Universality/Algebra/GroupedWords.lean
+Reusing verified Universality/Algebra/PacketCancellation.lean
+Reusing verified Universality/Certificates/IntegerMoments.lean
+Reusing verified Universality/Certificates/Data/Base19.lean
+Reusing verified Universality/Certificates/Data/Base661.lean
+Reusing verified Universality/Certificates/Data/Base739.lean
+Reusing verified Universality/Certificates/Data/Shifted19.lean
+Reusing verified Universality/Percolation/FirstMoments.lean
+Reusing verified Universality/Graph/StoppedIteration.lean
+Reusing verified Universality/Certificates/Capacity.lean
+Reusing verified Universality/Percolation/StoppedConnectivity.lean
+Reusing verified Universality/Graph/Substitution.lean
+Reusing verified Universality/Percolation/SubstitutionLaw.lean
+Reusing verified Universality/Percolation/SubstitutionDerivative.lean
+Reusing verified Universality/Graph/NetworkSymmetry.lean
+Reusing verified Universality/Percolation/TerminalSymmetry.lean
+Reusing verified Universality/Percolation/WheatstoneSymmetry.lean
+Reusing verified Universality/Algebra/CyclicInvariance.lean
+Reusing verified Universality/Percolation/ConnectivityCertificate.lean
+Reusing verified Universality/Percolation/CertifiedCounts.lean
+Reusing verified Universality/Percolation/OppositeWheatstone.lean
+Reusing verified Universality/Certificates/Opposite/Batch00.lean
+Reusing verified Universality/Certificates/Opposite/Batch01.lean
+Reusing verified Universality/Certificates/Opposite/Batch02.lean
+Reusing verified Universality/Certificates/Opposite/Batch03.lean
+Reusing verified Universality/Certificates/Opposite/Batch04.lean
+Reusing verified Universality/Certificates/Opposite/Batch05.lean
+Reusing verified Universality/Certificates/Opposite/Batch06.lean
+Reusing verified Universality/Certificates/Opposite/Batch07.lean
+Reusing verified Universality/Certificates/Opposite/Batch08.lean
+Reusing verified Universality/Certificates/Opposite/Batch09.lean
+Reusing verified Universality/Certificates/Opposite/Batch10.lean
+Reusing verified Universality/Certificates/Opposite/Batch11.lean
+Reusing verified Universality/Certificates/Opposite/Batch12.lean
+Reusing verified Universality/Certificates/Opposite/Batch13.lean
+Reusing verified Universality/Certificates/Opposite/Batch14.lean
+Reusing verified Universality/Certificates/Opposite/Batch15.lean
+Reusing verified Universality/Certificates/Opposite/Batch16.lean
+Reusing verified Universality/Certificates/Opposite/Batch17.lean
+Reusing verified Universality/Certificates/Opposite/Batch18.lean
+Reusing verified Universality/Certificates/Opposite/Batch19.lean
+Reusing verified Universality/Certificates/Opposite/Batch20.lean
+Reusing verified Universality/Certificates/Opposite/Batch21.lean
+Reusing verified Universality/Certificates/Opposite/Batch22.lean
+Reusing verified Universality/Certificates/Opposite/Batch23.lean
+Reusing verified Universality/Certificates/Opposite/Batch24.lean
+Reusing verified Universality/Certificates/Opposite/Batch25.lean
+Reusing verified Universality/Certificates/Opposite/Batch26.lean
+Reusing verified Universality/Certificates/Opposite/Batch27.lean
+Reusing verified Universality/Certificates/Opposite/Batch28.lean
+Reusing verified Universality/Certificates/Opposite/Batch29.lean
+Reusing verified Universality/Certificates/Opposite/Batch30.lean
+Reusing verified Universality/Certificates/Opposite/Batch31.lean
+Reusing verified Universality/Certificates/Opposite/Batch32.lean
+Reusing verified Universality/Certificates/Opposite/Batch33.lean
+Reusing verified Universality/Certificates/Opposite/Batch34.lean
+Reusing verified Universality/Certificates/Opposite/Batch35.lean
+Reusing verified Universality/Certificates/Opposite/Batch36.lean
+Reusing verified Universality/Certificates/Opposite/Batch37.lean
+Reusing verified Universality/Certificates/Opposite/Batch38.lean
+Reusing verified Universality/Certificates/Opposite/Batch39.lean
+Reusing verified Universality/Certificates/Opposite/Batch40.lean
+Reusing verified Universality/Certificates/Opposite/Batch41.lean
+Reusing verified Universality/Certificates/Opposite/Batch42.lean
+Reusing verified Universality/Certificates/Opposite/Batch43.lean
+Reusing verified Universality/Certificates/Opposite/Batch44.lean
+Reusing verified Universality/Certificates/Opposite/Batch45.lean
+Reusing verified Universality/Certificates/Opposite/Batch46.lean
+Reusing verified Universality/Certificates/Opposite/Batch47.lean
+Reusing verified Universality/Certificates/Opposite/Batch48.lean
+Reusing verified Universality/Certificates/Opposite/Batch49.lean
+Reusing verified Universality/Certificates/Opposite/Batch50.lean
+Reusing verified Universality/Certificates/Opposite/Batch51.lean
+Reusing verified Universality/Certificates/Opposite/Batch52.lean
+Reusing verified Universality/Certificates/Opposite/Batch53.lean
+Reusing verified Universality/Certificates/Opposite/Batch54.lean
+Reusing verified Universality/Certificates/Opposite/Batch55.lean
+Reusing verified Universality/Certificates/Opposite/Batch56.lean
+Reusing verified Universality/Certificates/Opposite/Batch57.lean
+Reusing verified Universality/Certificates/Opposite/Batch58.lean
+Reusing verified Universality/Certificates/Opposite/Batch59.lean
+Reusing verified Universality/Certificates/Opposite/Batch60.lean
+Reusing verified Universality/Certificates/Opposite/Batch61.lean
+Reusing verified Universality/Certificates/Opposite/Batch62.lean
+Reusing verified Universality/Certificates/Opposite/Batch63.lean
+Reusing verified Universality/Percolation/OppositeWheatstoneCounts.lean
+Reusing verified Universality/Graph/SubstitutionStates.lean
+Reusing verified Universality/Percolation/ProductDisintegration.lean
+Reusing verified Universality/Percolation/LocalMassResponse.lean
+Reusing verified Universality/Percolation/SubstitutionMass.lean
+Reusing verified Universality/Graph/SubstitutionNetwork.lean
+Reusing verified Universality/Graph/DistanceCertificate.lean
+Reusing verified Universality/Graph/SubstitutionDistance.lean
+Reusing verified Universality/Graph/Rule.lean
+Reusing verified Universality/Matrix/OppositeWheatstoneSpectrum.lean
+Reusing verified Universality/Matrix/FullNoncommutativeExample.lean
+Reusing verified Universality/Percolation/OppositeWheatstoneSymmetry.lean
+Reusing verified Universality/Examples/GraphNoncommutativity.lean
+Reusing verified Universality/Examples/GraphDistances.lean
+Reusing verified Universality/Percolation/CertifiedReliability.lean
+Reusing verified Universality/Certificates/Opposite/Crossing00.lean
+Reusing verified Universality/Certificates/Opposite/Crossing01.lean
+Reusing verified Universality/Certificates/Opposite/Crossing02.lean
+Reusing verified Universality/Certificates/Opposite/Crossing03.lean
+Reusing verified Universality/Certificates/Opposite/Crossing04.lean
+Reusing verified Universality/Certificates/Opposite/Crossing05.lean
+Reusing verified Universality/Certificates/Opposite/Crossing06.lean
+Reusing verified Universality/Certificates/Opposite/Crossing07.lean
+Reusing verified Universality/Certificates/Opposite/Crossing08.lean
+Reusing verified Universality/Certificates/Opposite/Crossing09.lean
+Reusing verified Universality/Certificates/Opposite/Crossing10.lean
+Reusing verified Universality/Certificates/Opposite/Crossing11.lean
+Reusing verified Universality/Certificates/Opposite/Crossing12.lean
+Reusing verified Universality/Certificates/Opposite/Crossing13.lean
+Reusing verified Universality/Certificates/Opposite/Crossing14.lean
+Reusing verified Universality/Certificates/Opposite/Crossing15.lean
+Reusing verified Universality/Certificates/Opposite/Crossing16.lean
+Reusing verified Universality/Certificates/Opposite/Crossing17.lean
+Reusing verified Universality/Certificates/Opposite/Crossing18.lean
+Reusing verified Universality/Certificates/Opposite/Crossing19.lean
+Reusing verified Universality/Certificates/Opposite/Crossing20.lean
+Reusing verified Universality/Certificates/Opposite/Crossing21.lean
+Reusing verified Universality/Certificates/Opposite/Crossing22.lean
+Reusing verified Universality/Certificates/Opposite/Crossing23.lean
+Reusing verified Universality/Certificates/Opposite/Crossing24.lean
+Reusing verified Universality/Certificates/Opposite/Crossing25.lean
+Reusing verified Universality/Certificates/Opposite/Crossing26.lean
+Reusing verified Universality/Certificates/Opposite/Crossing27.lean
+Reusing verified Universality/Certificates/Opposite/Crossing28.lean
+Reusing verified Universality/Certificates/Opposite/Crossing29.lean
+Reusing verified Universality/Certificates/Opposite/Crossing30.lean
+Reusing verified Universality/Certificates/Opposite/Crossing31.lean
+Reusing verified Universality/Certificates/Opposite/Crossing32.lean
+Reusing verified Universality/Certificates/Opposite/Crossing33.lean
+Reusing verified Universality/Certificates/Opposite/Crossing34.lean
+Reusing verified Universality/Certificates/Opposite/Crossing35.lean
+Reusing verified Universality/Certificates/Opposite/Crossing36.lean
+Reusing verified Universality/Certificates/Opposite/Crossing37.lean
+Reusing verified Universality/Certificates/Opposite/Crossing38.lean
+Reusing verified Universality/Certificates/Opposite/Crossing39.lean
+Reusing verified Universality/Certificates/Opposite/Crossing40.lean
+Reusing verified Universality/Certificates/Opposite/Crossing41.lean
+Reusing verified Universality/Certificates/Opposite/Crossing42.lean
+Reusing verified Universality/Certificates/Opposite/Crossing43.lean
+Reusing verified Universality/Certificates/Opposite/Crossing44.lean
+Reusing verified Universality/Certificates/Opposite/Crossing45.lean
+Reusing verified Universality/Certificates/Opposite/Crossing46.lean
+Reusing verified Universality/Certificates/Opposite/Crossing47.lean
+Reusing verified Universality/Certificates/Opposite/Crossing48.lean
+Reusing verified Universality/Certificates/Opposite/Crossing49.lean
+Reusing verified Universality/Certificates/Opposite/Crossing50.lean
+Reusing verified Universality/Certificates/Opposite/Crossing51.lean
+Reusing verified Universality/Certificates/Opposite/Crossing52.lean
+Reusing verified Universality/Certificates/Opposite/Crossing53.lean
+Reusing verified Universality/Certificates/Opposite/Crossing54.lean
+Reusing verified Universality/Certificates/Opposite/Crossing55.lean
+Reusing verified Universality/Certificates/Opposite/Crossing56.lean
+Reusing verified Universality/Certificates/Opposite/Crossing57.lean
+Reusing verified Universality/Certificates/Opposite/Crossing58.lean
+Reusing verified Universality/Certificates/Opposite/Crossing59.lean
+Reusing verified Universality/Certificates/Opposite/Crossing60.lean
+Reusing verified Universality/Certificates/Opposite/Crossing61.lean
+Reusing verified Universality/Certificates/Opposite/Crossing62.lean
+Reusing verified Universality/Certificates/Opposite/Crossing63.lean
+Reusing verified Universality/Percolation/OppositeWheatstoneReliability.lean
+Reusing verified Universality/Examples/GraphThermalResponse.lean
+Reusing verified Universality/Percolation/OppositeWheatstoneFixedPoint.lean
+Reusing verified Universality/Graph/Iteration.lean
+Reusing verified Universality/Percolation/EdgeResampling.lean
+Reusing verified Universality/Percolation/Russo.lean
+Reusing verified Universality/Percolation/ConditionalPivotal.lean
+Reusing verified Universality/Percolation/PivotalDimension.lean
+Reusing verified Universality/Matrix/ColumnGrowth.lean
+Reusing verified Universality/Percolation/ClusterMass.lean
+Reusing verified Universality/Graph/EdgeOpening.lean
+Reusing verified Universality/Percolation/StateRowIdentities.lean
+Reusing verified Universality/Matrix/UniversalPivotalVector.lean
+Reusing verified Universality/Graph/SubstitutionSymmetry.lean
+Reusing verified Universality/Graph/TerminalSymmetricRule.lean
+Reusing verified Universality/Examples/GraphMassDimensions.lean
+Reusing verified Universality/Percolation/MassPositivity.lean
+Reusing verified Universality/Percolation/SimpleConfigurations.lean
+Reusing verified Universality/Percolation/GeometricMassPositivity.lean
+Reusing verified Universality/Percolation/FiniteMassDimension.lean
+Reusing verified Universality/Graph/SubstitutionConnectivity.lean
+Reusing verified Universality/Examples/AdmissibleMassCounterexample.lean
+Reusing verified Universality/Matrix/TwoByTwoExpansion.lean
+Reusing verified Universality/Percolation/ExactMassExpansion.lean
+Reusing verified Universality/Percolation/RootEdgeResponse.lean
+Reusing verified Universality/Percolation/EdgeScoreIdentities.lean
+Reusing verified Universality/Matrix/PivotalRightVector.lean
+Reusing verified Universality/Matrix/CriticalBlockDecomposition.lean
+Reusing verified Universality/Matrix/RealDiagonalization.lean
+Reusing verified Universality/Matrix/ResponseDominance.lean
+Reusing verified Universality/Matrix/PrimitiveThreeState.lean
+Reusing verified Universality/Percolation/ProbabilityEndpoints.lean
+Reusing verified Universality/Percolation/InteriorFixedPoint.lean
+Reusing verified Universality/Percolation/FixedPointCutCriterion.lean
+Reusing verified Universality/Percolation/StrictReliability.lean
+Reusing verified Universality/Percolation/FiniteCore.lean
+Reusing verified Universality/Graph/ClassicalRule.lean
+Reusing verified Universality/Examples/ClassicalSeeds.lean
+Reusing verified Universality/Percolation/GeometricPrimitivity.lean
+Reusing verified Universality/Percolation/BernoulliVariance.lean
+Reusing verified Universality/Percolation/StrictInstability.lean
+Reusing verified Universality/Percolation/UniqueFixedPoint.lean
+Reusing verified Universality/Percolation/RenormalisationLimits.lean
+Reusing verified Universality/Percolation/ClassicalCriticalPoint.lean
+Reusing verified Universality/Algebra/ExponentRecovery.lean
+Reusing verified Universality/Graph/CyclicSubstitution.lean
+Reusing verified Universality/Graph/TerminalEdgeConnectivity.lean
+Reusing verified Universality/Examples/AdmissibleObservations.lean
+Checking Universality/Graph/SubstitutionFullConnectivity.lean
+Checking Universality.lean
+Checking Audit.lean
+'SimpleGraph.mem_reachableBall_card_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.sum_bernoulliWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.wheatstone_exact_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.wheatstone_fair_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.noncommutative_trace_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.noncommutative_spectra_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.no_classification_by_multiplicative_observations' depends on axioms: [propext, Quot.sound]
+'Universality.FiniteNetwork.massMatrix_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.fastConditionalCount_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.wheatstone_outer_pair_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.spectralRadius_eq_of_positive_eigenvector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.spectralRadius_positive_twoByTwo' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.noncommutative_logarithmic_growth_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.common_positive_vector_spectralRadius_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.wheatstone_unique_interior_fixed_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.wheatstone_pivotal_left_eigenvector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.wheatstone_full_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.massPlane_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.massPlaneBlock_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.matrix_row_sum_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.indexedConditioningCount_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.commensurate_iff_rational_log_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.explicit_scales_pairwise_incommensurate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.weighted_word_sum' depends on axioms: [propext, Quot.sound]
+'Universality.signed_wheatstone_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Certificates.certificateBase19_integer_moments' depends on axioms: [propext]
+'Universality.Certificates.certificateBase661_integer_moments' depends on axioms: [propext]
+'Universality.Certificates.certificateBase739_integer_moments' depends on axioms: [propext]
+'Universality.Certificates.certificateShifted19_integer_moments' depends on axioms: [propext]
+'Universality.FiniteNetwork.generationResponse_eq_matrix_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.generationResponse_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.iterateUntilFixed_eq' does not depend on any axioms
+'Universality.FiniteNetwork.substitutedReachable_iff_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.coarse_configuration_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.substitutedReliability_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.hasDerivAt_substitutedReliability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.NetworkSymmetry.massMatrix_reverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.cyclic_word_spectralRadius_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.cyclic_derivative_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.ConnectivityCertificate.reachable_iff' depends on axioms: [propext]
+'Universality.FiniteNetwork.certified_conditionalCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.oppositeWheatstone_exact_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.oppositeWheatstone_fair_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.substitutedChildState_eq_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.coarse_cell_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.substitutedMassMatrix_eq_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.substitute_massMatrix_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.substitute_terminal_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.reordered_rules_terminal_distances' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.reordered_rules_derivatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.reordered_graph_mass_spectralRadii_ne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.no_multiplicative_classification_of_graph_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.oppositeWheatstone_unique_interior_fixed_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.russo_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.conditional_connected_pivotalCount_at_fixed_point' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.generation_massMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.pivotal_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.conditional_cluster_mass_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.childState_row_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.pivotal_left_eigenvector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.massMatrix_preservesMassPlane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.NetworkSymmetry.substitute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.reordered_graph_cluster_mass_dimensions_differ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.no_multiplicative_classification_of_cluster_mass_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.massMatrix_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.finite_cluster_mass_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.connected_counting_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.disconnected_counting_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.pivotal_right_eigenvector_at_fixed_point' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.massMatrix_critical_block_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.massMatrix_real_diagonalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.mass_spectral_dominance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.exact_conditional_cluster_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.three_state_fourth_power_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.no_multiplicative_classification_of_admissible_mass_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.derivative_zero_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.interior_fixed_point_iff_single_deletions_survive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.reliability_derivative_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.finite_three_growth_formulas' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.interior_fixed_point_spectral_dominance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.mass_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.pivotal_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.wheatstoneRule_classical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.oppositeWheatstoneRule_classical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.massMatrix_fourth_power_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.strict_bernoulli_poincare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.interior_fixed_point_strictly_unstable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.interior_fixed_point_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.generation_crossing_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.generation_crossing_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.finite_crossing_transition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.pivotal_mass_inequalities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.four_exponent_formulas_eq_iff_dimensions_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.cyclic_substitution_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.cyclic_substitution_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.interior_fixed_point_iff_terminalEdgeConnectivity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.no_classification_by_admissible_multiplicative_observations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.substitute_all_vertices_connected' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Verified 238 project modules; rebuilt 3.

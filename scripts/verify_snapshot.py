@@ -61,6 +61,8 @@ result = {
 }
 (root / "docs/source-audit.json").write_text(
     json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(json.dumps({key: value for key, value in result.items() if key != "sources"},
-                 ensure_ascii=False, indent=2))
+summary = {key: value for key, value in result.items() if key not in {"sources", "errors"}}
+summary["error_count"] = len(errors)
+summary["first_errors"] = errors[:10]
+print(json.dumps(summary, ensure_ascii=False, indent=2))
 raise SystemExit(0 if result["ok"] else 1)

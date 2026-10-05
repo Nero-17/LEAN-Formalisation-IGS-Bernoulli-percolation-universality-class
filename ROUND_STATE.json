@@ -6,6 +6,10 @@
   "start_shanghai": "2026-10-06T01:14:33+08:00",
   "source_manuscript_commit": "6270a59",
   "archive_file_id": "1ZJnVn-1C6MNLFzYfGkekj728D8siwE91",
-  "status": "working",
-  "objective": "Begin Lean formalisation for six wall-clock hours; prove a finite-rule/matrix/noncommutative-obstruction chain and extend as far as possible with explicit dependencies."
+  "status": "completed",
+  "objective": "Begin Lean formalisation for six wall-clock hours; prove a finite-rule/matrix/noncommutative-obstruction chain and extend as far as possible with explicit dependencies.",
+  "finished_utc": "2026-10-05T23:14:50.010649+00:00",
+  "wall_clock_seconds": 21617.011,
+  "verified_modules": 238,
+  "proof_source_commit": "347766e"
 }

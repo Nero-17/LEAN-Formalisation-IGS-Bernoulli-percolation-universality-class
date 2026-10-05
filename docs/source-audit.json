@@ -1,0 +1,961 @@
+{
+  "ok": true,
+  "module_count": 238,
+  "certificate_batch_count": 128,
+  "milestone_axiom_audit_count": 98,
+  "errors": [],
+  "sources": [
+    {
+      "module": "Universality/Matrix/TwoByTwo.lean",
+      "source_sha256": "8ae2ada33f2a870142c4a18b61da9b4e9eefcc2906c383b24bcd568ee9b858df"
+    },
+    {
+      "module": "Universality/Matrix/SpectralSeparation.lean",
+      "source_sha256": "588066b05fbad9e2e41f727c6bf77e5a55889607ac45aaed994fd42d6b8dbaec"
+    },
+    {
+      "module": "Universality/Algebra/MultiplicativeObstruction.lean",
+      "source_sha256": "d37989e2c16056a52dae160fec6101f01217d8e568457fe70ea9c5e324bd9ddc"
+    },
+    {
+      "module": "Universality/Graph/Reachability.lean",
+      "source_sha256": "f8fb10f42d3d660fd3edfcfae0c4b716f74216444f012d8e62b67c541d8fe3c5"
+    },
+    {
+      "module": "Universality/Percolation/FiniteNetwork.lean",
+      "source_sha256": "f3fc9f3d0875567bd6feb504893b20f4e2b56cffcdfa6e393250003768f1ac3f"
+    },
+    {
+      "module": "Universality/Percolation/Wheatstone.lean",
+      "source_sha256": "f759971a8bb5d3b61557b6e1eed807aa7ebad8d4b255311a2325cc8709aa8d78"
+    },
+    {
+      "module": "Universality/Percolation/Bernoulli.lean",
+      "source_sha256": "f185f9fd2f7517c1234cc8dc2bb534e1722870e2f96045464e7d686324136aa7"
+    },
+    {
+      "module": "Universality/Percolation/WheatstoneKernels.lean",
+      "source_sha256": "dd0d293fe1ec38631178cf02f360424db214e881b77fe2c6d2c2a019537d49ec"
+    },
+    {
+      "module": "Universality/Percolation/ReliabilityPolynomial.lean",
+      "source_sha256": "ee6ec5ab0777a5f002de321ad4535a259c6bcd482fe8902bce188281db259b58"
+    },
+    {
+      "module": "Universality/Percolation/WheatstoneReliability.lean",
+      "source_sha256": "7bb82ab5d383d7f31b6b6d77286a235a021b96a0456740dbb0765b79b6fe52ec"
+    },
+    {
+      "module": "Universality/Percolation/FastReachability.lean",
+      "source_sha256": "2b9d00080f2b2b739851ba9cf0647a3c021554c783d50323da22fef320dcc90a"
+    },
+    {
+      "module": "Universality/Matrix/PositiveEigenvector.lean",
+      "source_sha256": "041102fb607bcdf7a1a18f908b1ade56911616fbc05b9a2e25d70d236cf34da5"
+    },
+    {
+      "module": "Universality/Matrix/PositiveTwoByTwo.lean",
+      "source_sha256": "368ad31cc5465a6f7daf8fdf336abe53f91acbf37d2781c94fcb59e7c8685b13"
+    },
+    {
+      "module": "Universality/Matrix/NoncommutativeExample.lean",
+      "source_sha256": "c53d160acfbf9eb834933259d26343cbf7e04caed5a97254e7efa43e2a4c60e3"
+    },
+    {
+      "module": "Universality/Matrix/CommonPositiveVector.lean",
+      "source_sha256": "73b6969cb55f8cf93668152c1c1760aa31c57c2eeedfa4f09721c54ade5bb5e0"
+    },
+    {
+      "module": "Universality/Matrix/MassPlane.lean",
+      "source_sha256": "6d79c517f9ad10dc3e978d41bd9caa2d3f7aa0e7cddb4891151fcb12424c86ba"
+    },
+    {
+      "module": "Universality/Percolation/ReliabilityDerivative.lean",
+      "source_sha256": "812215491cdfc3ce3c62471d5220a1b45778005948019125d3340eac73f50acf"
+    },
+    {
+      "module": "Universality/Matrix/WheatstoneSpectrum.lean",
+      "source_sha256": "139a81a73d8bbc1de65dd86d3a6797e348a4e0d5eda39b357a4445e8027173ce"
+    },
+    {
+      "module": "Universality/Matrix/PopulationGrowth.lean",
+      "source_sha256": "096e44a339c7b166103f708faf8849abe592d44e294d09d2ea735479abec3763"
+    },
+    {
+      "module": "Universality/Percolation/BitConnectivity.lean",
+      "source_sha256": "c7385bb42069d8d4cded43de05d0df1f6f671828e132774bfa9b8a5617a61b32"
+    },
+    {
+      "module": "Universality/Percolation/ConfigurationEncoding.lean",
+      "source_sha256": "e16c7a0bcd4938f251b016f1aa0427e2227649fd58c90c39c2309c1146df5bb7"
+    },
+    {
+      "module": "Universality/Arithmetic/Commensurability.lean",
+      "source_sha256": "e1e7366b269bffc0e773f8a4e677bd1363d097267223b57a9ebb5e03f38bb7cd"
+    },
+    {
+      "module": "Universality/Algebra/WordExpansion.lean",
+      "source_sha256": "504764b3dd5102e4d681b1efc97d0b085d525819c3867c51d0ecf766bf0e7558"
+    },
+    {
+      "module": "Universality/Algebra/GroupedWords.lean",
+      "source_sha256": "aaa972c16fcef3b602250a996b0aa3c2b6a863686f020e53442314e853c20c96"
+    },
+    {
+      "module": "Universality/Algebra/PacketCancellation.lean",
+      "source_sha256": "48e7442416230ae8ca6f798655114a6c501be15e195326cd69cb21fafb9da832"
+    },
+    {
+      "module": "Universality/Certificates/IntegerMoments.lean",
+      "source_sha256": "b06409f1611b523898df01cb9365da9dd4715aa9698885d14f9476e2c940c314"
+    },
+    {
+      "module": "Universality/Certificates/Data/Base19.lean",
+      "source_sha256": "38ce81a48d61573cf24a9088db9dd4648c16fd6c7d620a4b41e6ff41acc5bb48"
+    },
+    {
+      "module": "Universality/Certificates/Data/Base661.lean",
+      "source_sha256": "383941c6d69eb46fd9928fa3a438cd207ffb771b23e231b8f3ebcbcdc87273de"
+    },
+    {
+      "module": "Universality/Certificates/Data/Base739.lean",
+      "source_sha256": "70b93bb12400088740541a8629a1aecad26a909440d768233375dad3703faf1b"
+    },
+    {
+      "module": "Universality/Certificates/Data/Shifted19.lean",
+      "source_sha256": "6c994614dfdbbef78d63fbb192488cb3f84e128a6ece2170c29eeb6c14f4a387"
+    },
+    {
+      "module": "Universality/Percolation/FirstMoments.lean",
+      "source_sha256": "4c7acd909fda786d2dcbec37067fe5349ec46b94fab1502375bdab8329046200"
+    },
+    {
+      "module": "Universality/Graph/StoppedIteration.lean",
+      "source_sha256": "b999e18052aac0120f3c2250593608d0acd345cff5860206303fb7ae99c6d676"
+    },
+    {
+      "module": "Universality/Certificates/Capacity.lean",
+      "source_sha256": "1c4db1d0282e24dd9e9378e031b0284b9b354b76c93971c5bc57e9604b0b3259"
+    },
+    {
+      "module": "Universality/Percolation/StoppedConnectivity.lean",
+      "source_sha256": "340e9c3c0f2b674cd3283773e616a5a3b94eee1e1ade4c8478b4c0b46d130bd8"
+    },
+    {
+      "module": "Universality/Graph/Substitution.lean",
+      "source_sha256": "cc17231bc45460dc9d4165c9788b7d582c53ae705718261b1e9eaadce6b8ba15"
+    },
+    {
+      "module": "Universality/Percolation/SubstitutionLaw.lean",
+      "source_sha256": "9cb399a833008039b756775b071b0bce8aebc9915432a4c1a52251de8c18e19e"
+    },
+    {
+      "module": "Universality/Percolation/SubstitutionDerivative.lean",
+      "source_sha256": "c5b4008d842b8c21630a5b3e74d77337dacada9bff3b55c754beb5adc1b3c478"
+    },
+    {
+      "module": "Universality/Graph/NetworkSymmetry.lean",
+      "source_sha256": "211fff1a31f559f3f99b70b1b4aa0fe5592ddf5d7f1b74eadb6fc34cd0d68d28"
+    },
+    {
+      "module": "Universality/Percolation/TerminalSymmetry.lean",
+      "source_sha256": "a5a91388c2826df1d2a96dc4a23d1e6d1c4f46ec2463ab86a328e8699ec5ef50"
+    },
+    {
+      "module": "Universality/Percolation/WheatstoneSymmetry.lean",
+      "source_sha256": "0913c352e30f5d3ba28336b3fd47bbfb7401b8d814adf49df521eaec938a31c6"
+    },
+    {
+      "module": "Universality/Algebra/CyclicInvariance.lean",
+      "source_sha256": "c4634a53066a9675c0485d36401cc3a7ccb22bbbc259651076c69fafda39bc69"
+    },
+    {
+      "module": "Universality/Percolation/ConnectivityCertificate.lean",
+      "source_sha256": "e442e1fe2a18a6f4af6e59d862e5ca509b6b714c5bd43ae75c3b0a68dbddace9"
+    },
+    {
+      "module": "Universality/Percolation/CertifiedCounts.lean",
+      "source_sha256": "6337c56206cfa26ff43269ca5041bb905fd1338a1528a970556b378adff5174e"
+    },
+    {
+      "module": "Universality/Percolation/OppositeWheatstone.lean",
+      "source_sha256": "bb59727be57cafdf05f596824588990d6cc8893d61e5de3062dd9f47a71b2544"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch00.lean",
+      "source_sha256": "d107e1eab07031fe7e2d906cf8be4e921a69576db922c4f550c93c8ff2f492e6"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch01.lean",
+      "source_sha256": "988e648466234497f7a22d71a3b2026db7314577906bfc1066527a0236190b7b"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch02.lean",
+      "source_sha256": "79bb93dea18c067e6ed6746c58c240f4e2a29aadc84a8bce8c73548c6d3ffea2"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch03.lean",
+      "source_sha256": "070e9558545bc3078ba6f07008e26bfdfb9633933730026ce1470bd2f1cdb4c5"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch04.lean",
+      "source_sha256": "a0aa55167907f097b254275565ea7fec1de39283ca6619da37eafa212e51fb96"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch05.lean",
+      "source_sha256": "95d2ceab15c86b0795c2a1fca90ac8d74006818583c29adcc0e6e8e1124bb6cd"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch06.lean",
+      "source_sha256": "3aa81902963ffe84d3d2b63c3fe4ce51dd6efbc877e2490e87fd3a5fbdfdd06b"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch07.lean",
+      "source_sha256": "a95668846e9ce05ce0590b2d1bdf48a8c56fc87aec216048d9512a147b453d42"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch08.lean",
+      "source_sha256": "d6027c67085bab956b80726314ed072d9786c848785dc2ad8629838f912a9741"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch09.lean",
+      "source_sha256": "fcfa3161b1af1adcd55f1303ced5ad76fa8420b8233b897495d976d90a0be711"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch10.lean",
+      "source_sha256": "6de8133f8727d51e4bb92aee5be1886844292b9e351cb429ad8cf5e06d136cab"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch11.lean",
+      "source_sha256": "0a652dfaa6fbe35830794821e7adc876184c2fed57cb49a7a0a972837cac5261"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch12.lean",
+      "source_sha256": "1b1770e469679056f28179a7cc6eb1b31d635d2961d1f95d5ea995be94b8e5b0"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch13.lean",
+      "source_sha256": "31c47472ee6186aedbedec503cb859fce86170ec4a52f34bb4f2d6e7dbe06c4e"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch14.lean",
+      "source_sha256": "7db27cd38fcccdae8babaafed831fc47584720bf5a1a1e5442402faaad2de1ce"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch15.lean",
+      "source_sha256": "52ecc6c62645de47c61ccdec80dcb4998c84fbea721491862b5dccd1587b805e"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch16.lean",
+      "source_sha256": "c84432e2f4d865e012f4d94e72a0b8f7efcafb055dac8d37776bc43c6c5aa5bf"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch17.lean",
+      "source_sha256": "2edeba18c251057a54c716bc413d523bcf355a1d986d04701ecbb32e8675f019"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch18.lean",
+      "source_sha256": "d86d50c18a3e52a8475d964c05e1da9c1364fa9469d26652f4d324703349b0cb"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch19.lean",
+      "source_sha256": "76f14bb9e892049012030e0507844f3b325c24882bf13c6831fd0b95aa378a01"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch20.lean",
+      "source_sha256": "0adcb8432be7cc8ea052629f9a5e17b4b4442ebe06100a83e6e09e7612329b59"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch21.lean",
+      "source_sha256": "3d73d1eec9e9c43441f0396561dc3329c06ace8bb8e4aab73320d394a244d9e2"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch22.lean",
+      "source_sha256": "63d1b4901f166aa856f16b4452ae9fff8703a8671439efd2e4bac133c089f2bf"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch23.lean",
+      "source_sha256": "6a418a845176da3905f77b9afdac7f1c3f750ac2ee0e11031b1c61ec1076ec98"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch24.lean",
+      "source_sha256": "55427ed2019778e1f31684a551fd033c386a74527c4158ada879bad983136309"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch25.lean",
+      "source_sha256": "0bdc8d4512f6372c201c732a63f50fc889a1441e0c5f804655acad50724c2d25"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch26.lean",
+      "source_sha256": "bff37c5d0656d6e2ad9c8db166521b8da7da80e4957eb0bd92084293cdd85337"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch27.lean",
+      "source_sha256": "427cb481b7f079b4b63aa4fef5a182524f807f98f8f89cf980addc4e6c731a0f"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch28.lean",
+      "source_sha256": "9e820ddf5d6307f1430131f9d1a48262d250038dc91315306eaae28dc5ef5f28"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch29.lean",
+      "source_sha256": "42b76567cae33c48f49ebd4b7bb8cd596e2457937d3295f4052adb12cab6a21c"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch30.lean",
+      "source_sha256": "d4260471358bc9bbe95e00f0d025cc121ec0e48589325c2a9004d511eef3eb1c"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch31.lean",
+      "source_sha256": "d6bec3a29d4710087defcc1b174a641cbdb64126f6f18fcbc3ab85515659a04f"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch32.lean",
+      "source_sha256": "9e42a6a1a4ecd74843ae0a62b261632e52660f183ffd36dd042d8962305f9719"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch33.lean",
+      "source_sha256": "9eaaaac9c0cc00598358199857880430784872f116b256f5c1d2e2c5f223a58a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch34.lean",
+      "source_sha256": "68afacfeae6405c91abc8342a1337fcaaeb49d6d6e51cae666028ffe90b1c73b"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch35.lean",
+      "source_sha256": "736bddbaf03c1720b16c930f9393d9ffb67d1a739e02ab574bea46c081fc9051"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch36.lean",
+      "source_sha256": "1db321e07af04d244a2f63debead36936e28bfa48b97493c81235ca461f3ae0b"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch37.lean",
+      "source_sha256": "d064e49b205b2ba9450bb3bf9bbb3ac54182e01cb6fb1e118bf57da70419a59d"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch38.lean",
+      "source_sha256": "079fed1e1e3fb20c9a4e0a81ebb413edb482075f8046938a9855c64a0492d322"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch39.lean",
+      "source_sha256": "04d70731834e5555602d83550104c6b19c4299d8b6ff53020bcaddc84327f1c0"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch40.lean",
+      "source_sha256": "f05b3f556b6d8a6ce6020c0b661beb00bd612fba8b8532de219a74059667de81"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch41.lean",
+      "source_sha256": "fb243f5acf89efba12cdccd15fb9c40987550c49f802661ed6af6ed90ffaf3a5"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch42.lean",
+      "source_sha256": "23ea695662134879b1870e8462bc5e967eaf41b0eda88ee49d9aa8f47667a9f1"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch43.lean",
+      "source_sha256": "b45b7fbab8ae98f9ec18719f8da91aa7df4f2ae5a1b10de789b52f05bf0c08d6"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch44.lean",
+      "source_sha256": "5b9757f4b6c528e23dc915b41a1847b7cb23c0e583a62f4f358b55e250f7dcb8"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch45.lean",
+      "source_sha256": "3bef4db25385cc68b9ba4ba1753075ee311c68a7232abc1436d1890f2078b519"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch46.lean",
+      "source_sha256": "3218b766e65b3b6ce03e489b4cec2555bc6f82f23e98a330662d7e796798dd0a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch47.lean",
+      "source_sha256": "a089d0cff0c66d6e46a3a4384fbe5429df6089716568fad31a00b905af1d31af"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch48.lean",
+      "source_sha256": "7724d5ebd8d4f288dc2e3154f3b7bef6bc742f1559ae016611d6a45218c24c64"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch49.lean",
+      "source_sha256": "7b7a07f1250a07fafeffb1800b14fd38785f8a69ba17dc7c9e7dc1f2284d73c0"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch50.lean",
+      "source_sha256": "8a27e13c26b779c3f5b300bfbb0bb87d2406f29cc39bcbc2c1597ebd9c226508"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch51.lean",
+      "source_sha256": "090a5266ac15fc00340b19f59ca4fcb6c89a5f12a869c3b3610da5c2f9ad5d94"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch52.lean",
+      "source_sha256": "cff3ffd0d275bb53a2915ec0bc2c7ec479729bcc52b9061afc7bc20be61b757d"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch53.lean",
+      "source_sha256": "6c09367c77745322d0a5d5cffade542c614fe3aff1497d393604b6cd8cbf218c"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch54.lean",
+      "source_sha256": "b12c57d7a150cfec3138f06ca701d7b2c23e37319ec3af47b6ac471101e4db63"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch55.lean",
+      "source_sha256": "0a04fd5240d4a120000a6a76ea7173dfb86aaa4f5fccbf558c0fc3f6709a645d"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch56.lean",
+      "source_sha256": "0add2493aa7365bac9b3da5dd6cd56be79078f0f0e67030455dd4a9bccf53890"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch57.lean",
+      "source_sha256": "55ce572acd28afbadb7c7a209612f3e397cb75d7a28fa11f005a49c2522298e8"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch58.lean",
+      "source_sha256": "9b4078b4894b94dec0e81e64922898c64ab0abade1c12a0f237d374e060a45d4"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch59.lean",
+      "source_sha256": "54c85ee5141b62efa15f8da9feac5b2f730e1b4c149d80c74cde15787858c7dc"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch60.lean",
+      "source_sha256": "a980f181a0ce8d0712d4879af4ec519437f03e2dd0edf8de97d34de80080b398"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch61.lean",
+      "source_sha256": "ac0151c05b504c3b1faafcd3db1e2c05653e5f2f175f84cf4a55caed7d67cb93"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch62.lean",
+      "source_sha256": "4a0da9e1b79489ca6a3a30628cde08cab54e31186989c02e0eacd3895df62b9a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Batch63.lean",
+      "source_sha256": "41cadbcaaffb5f482e894cb7e3a49c257f04abe36b15bc3144a152ba3408e38d"
+    },
+    {
+      "module": "Universality/Percolation/OppositeWheatstoneCounts.lean",
+      "source_sha256": "ce0f451fea052064060f4e5b57789b5763995c24d4f6e65d194315e7471b70f4"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionStates.lean",
+      "source_sha256": "54a80743b5d17716aec674114f7ad91c7daa30713f870f4dcb0e2ab4fc6dd3f0"
+    },
+    {
+      "module": "Universality/Percolation/ProductDisintegration.lean",
+      "source_sha256": "0894f4ae82c9b4830916df206d687a852f04ba2af54120bb7eb9dc9a68248ea4"
+    },
+    {
+      "module": "Universality/Percolation/LocalMassResponse.lean",
+      "source_sha256": "b4e5867731b245ca30f9d5696ec9fc3b641dea2d8e5e918b1672475f1f1f7237"
+    },
+    {
+      "module": "Universality/Percolation/SubstitutionMass.lean",
+      "source_sha256": "44da66e0a476c5eb876f1d64d0daf85041be31c5beb13e7a3c7883614c423ae0"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionNetwork.lean",
+      "source_sha256": "3f9b7672578c82f6c24d4e774e4e51be605d882bf26597cae0ba2061c492a7a6"
+    },
+    {
+      "module": "Universality/Graph/DistanceCertificate.lean",
+      "source_sha256": "4fe4fdd132242ed9a71178187d21fe562212cb6e0869ada19a20d7e71e15b61e"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionDistance.lean",
+      "source_sha256": "39696ab42181f17e0fde1bd81ac2bf887c5f17d550566dce49abeac20a52b385"
+    },
+    {
+      "module": "Universality/Graph/Rule.lean",
+      "source_sha256": "3b4d72620f877c2f2ced1d3679d4d78e272e10e15c9c1e6dae02d07caa2bb19a"
+    },
+    {
+      "module": "Universality/Matrix/OppositeWheatstoneSpectrum.lean",
+      "source_sha256": "f799ec33070990ea6c82121c61a770e82120d49b7559b4963ba804cb465f5901"
+    },
+    {
+      "module": "Universality/Matrix/FullNoncommutativeExample.lean",
+      "source_sha256": "67ca133dc65fa2cca233d5ff9ddd38a53e5c0706a05c1d1340203d79d85d62fd"
+    },
+    {
+      "module": "Universality/Percolation/OppositeWheatstoneSymmetry.lean",
+      "source_sha256": "02f9b4ae896d806589c037bfff955a28c58f721b8326331e197f7b04f3e38c6f"
+    },
+    {
+      "module": "Universality/Examples/GraphNoncommutativity.lean",
+      "source_sha256": "da6ab03c55fc726da8405af39067908fcaba04724cd4eb5b9c74d7b6c70060b0"
+    },
+    {
+      "module": "Universality/Examples/GraphDistances.lean",
+      "source_sha256": "9c628cb8d6da63d2b2bb3b0326a093453509ee1b557521cf484638cca094e700"
+    },
+    {
+      "module": "Universality/Percolation/CertifiedReliability.lean",
+      "source_sha256": "12ea92566ad34be96aac72c179c67d89c316c2e298d0d22e1809f633e5ecc1f3"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing00.lean",
+      "source_sha256": "f1f4b094105fdf656a1077fd19fea4ae0c10fe3d290689126580283f9474f501"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing01.lean",
+      "source_sha256": "32abfcffbcc1a2fa288e13afb8da8ac5dd9cdac7921d261fbf222c9aa9fce6f4"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing02.lean",
+      "source_sha256": "b0173614550433cdcbd5b4b293de0b98deeec6401cc157b3cefab4c94ef79d99"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing03.lean",
+      "source_sha256": "d9d86f913385c72fb2c16e03fb5750e67b96cf3dc37a8b64bbb112d808b4240a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing04.lean",
+      "source_sha256": "7f5a3aa2d49f31f4d7ef9021c24aa652c5a14e95ce24d645f02a6f67bf17baa0"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing05.lean",
+      "source_sha256": "efb0307056e93d2485d6b8ea157dea8b5c01c7a6182da0e5679d81830082a30d"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing06.lean",
+      "source_sha256": "b76ac1bf2a5e625411d82db38de0f1920f95d0be16c009b1b37e260b1903658d"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing07.lean",
+      "source_sha256": "38d4a7b674c52da3d253aa82f371a6fb0b86f5480d1098c23df6b12f8ff2b117"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing08.lean",
+      "source_sha256": "63b2d1cc417184e43909092d64fd318270aea822aa220c45246cafa3b41baca7"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing09.lean",
+      "source_sha256": "b453a82a396ae73cc91caf9169f222e7fc6b1b7d643953eb612218dfbdccc274"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing10.lean",
+      "source_sha256": "04ed02eb3487b03fb5522d38227bbd3c7f357409990486f6c700cee90d758275"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing11.lean",
+      "source_sha256": "b4c10cd665021c0f2ee013205689bea1155116f04edb623e01757a90eeee90c0"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing12.lean",
+      "source_sha256": "11a971eee4dba1c1f1d16e21bb3cf9e264ec6da4048158898cc5bd53e4c863ea"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing13.lean",
+      "source_sha256": "feecc00e75988b28554b8887ccb999ee449229c07f02de040e23323aee70681c"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing14.lean",
+      "source_sha256": "cced2f35fd0f42eff3554793b286b589ae06ba672b0f8d6057418966bc03972a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing15.lean",
+      "source_sha256": "dd143bedb9c06e2215b2731b51e6e48b6a33b3333c50096220b7876e931cd7a9"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing16.lean",
+      "source_sha256": "4b0f1ae90fcfa7de358394b2e247d4f41847f3b122cb8fdc6070e457e0d90c10"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing17.lean",
+      "source_sha256": "6700640641c4ad9541bbc4c1ad83ef1e54a1f052e9c6bbec5e0c5932e65ce011"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing18.lean",
+      "source_sha256": "867339b0c081b747a8db6ac71d34cc6c66fad3d57620468d9e691ce4058e117f"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing19.lean",
+      "source_sha256": "b5b55974a7fbab98952eaa3ca10c7e61b6bb666d07d44e0f017fdafe5dea7bbd"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing20.lean",
+      "source_sha256": "2e103eee849047f07c3230ca026666209b6e08c2c942104f4381f8480ffa8f86"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing21.lean",
+      "source_sha256": "0893e0ce5bdaef4cdfad73e646ea73a4385c76351e86c31d6a24d4a1ff8d0560"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing22.lean",
+      "source_sha256": "75eb71acb9aeec360cd2c5bbd17c43bef71a0ea64fe426351a48210945555b58"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing23.lean",
+      "source_sha256": "a875aec68771fb9b3aad44ce67494d9fe6960dc2cf3173d2b09bed175741eb99"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing24.lean",
+      "source_sha256": "743533bc4ea7ace2e788986d3e87d2950e984ae21b2bffa19246da39f08d0ca2"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing25.lean",
+      "source_sha256": "fce9a79e39a30e305f2b5362846d5649e6bbc104c64b74dee1267d70dab850b4"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing26.lean",
+      "source_sha256": "4d82a2b1d59e9c4e1ee7a26e3a34ff9fdda878b38df5d7c989c4ce82ee11d338"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing27.lean",
+      "source_sha256": "4d76020f7792292290b9f9a0692b474cdddc7f75d85b7574987c20cb58249419"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing28.lean",
+      "source_sha256": "29c794ff400b6049521b70692bd55e3bfed2836b849b75d9371b60f30403ea94"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing29.lean",
+      "source_sha256": "27e7e13a081f4bc117362b9664b0e8234b71fe1207e7d35d65e615022ac200bc"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing30.lean",
+      "source_sha256": "ff46ce7a9bddc161f68d2ee4b8943ba0a6cccef573f198f8a8a9572ddead983b"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing31.lean",
+      "source_sha256": "a28ee094ef342538e4a9fc8454071109c8a86c929055a4d3f4aed9a027a33b3a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing32.lean",
+      "source_sha256": "c633bd1d6d838dbb083119d7716036d053a56c6c97f22d65337b67ea9e7a00c2"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing33.lean",
+      "source_sha256": "2d701ef87208df6f1aca54d71f028eb0f7b7abc6f0b4f2639495c27ddbcb648d"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing34.lean",
+      "source_sha256": "25996e568d7f407da75ef86d57326b888a9d755a93ffb1a3e16798cc3788ba01"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing35.lean",
+      "source_sha256": "827701a877dfb9cb8ec97059febb3df3c90bf312a23f7347fd4114986c58a9c0"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing36.lean",
+      "source_sha256": "bb21a6e17849290d678960640e1a2e80697a1cd4b58724be753c46e12a3c798d"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing37.lean",
+      "source_sha256": "9de1a9f9c420c21d15f054f481b2d047502e10ef6852c103402421d0c2a070ab"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing38.lean",
+      "source_sha256": "ab9571008d44cb843427f64f34765869c0abd1bafb60c3418b1070ac0c0e8590"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing39.lean",
+      "source_sha256": "8fb66a3df7827f6c52ab5add541b6a3865f4bfb86af75749a618e79bb4fe7ee6"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing40.lean",
+      "source_sha256": "fd67e1db134c02c4caabde8a172f494d1cb5faa322260165fe022c70f8c463f4"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing41.lean",
+      "source_sha256": "1eba0b55765fc276b637ce1de534ad78bf95f9d4151f8c4efc1915906ac434cf"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing42.lean",
+      "source_sha256": "31ad8ce0f3ae7c804ebc904f9566aa4e2c217b40b9cb6b20e69d4ab63b265735"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing43.lean",
+      "source_sha256": "6eea920226da0195750307b138576846d58a7001613bcde7d361f161ae092422"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing44.lean",
+      "source_sha256": "3bc8179cfb2c6ef1ad49b849f91fd03bd02510ea8dde2ed1e91b001e5b70cdf4"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing45.lean",
+      "source_sha256": "3fc6083259f352533baeff60cd6b05ae611f0da94946a2358d841438770368f1"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing46.lean",
+      "source_sha256": "43535e335dc5e8780b31de9edc13ac042658595830fa1d3e99d5fa7665cdc779"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing47.lean",
+      "source_sha256": "5c4452ef532d91486bb9751a3c0ddd14dc7b1a497f10ff83be362cff642dc549"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing48.lean",
+      "source_sha256": "d8ed8ce87dd3ca11d0093314d5fd6ab1d315fdbc5cc92dfc896d82088e6c7388"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing49.lean",
+      "source_sha256": "6f4cc6ac31bd723f0b4b180571cd723af799f500b0cca11989419ebef292c9f0"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing50.lean",
+      "source_sha256": "b87711ce6837226b1054bb13a070ec73230b51a7efdb689f0829bd255304173a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing51.lean",
+      "source_sha256": "6064519fef4cd716d0c2db861e85e986e8364398c0384c8097702ad8b279b572"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing52.lean",
+      "source_sha256": "9e7260e74f3e3e83203c950c4991f1dfdf2abb542c52c94be31a608b25bff4e9"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing53.lean",
+      "source_sha256": "c9c5872e88442801afbb9df898290324ed29acc76a9d4fe81092be7ddb3fbc25"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing54.lean",
+      "source_sha256": "e46d64a1ed5267a0c27379c7d2b107aea9cbc2122de47064913f64b1f5be2528"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing55.lean",
+      "source_sha256": "86c124dae17f7b8f4a35f898ae530243b5986ee86aee1edc1167a0c2c592b61a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing56.lean",
+      "source_sha256": "1ee76d130edf41eab955f6e65e1a85292ef645996bdb3b91e76da620971bc83a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing57.lean",
+      "source_sha256": "e6d6a6545ecfd6d012e3332e3efb641e39072941ecc66c343e8e0c5823e424eb"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing58.lean",
+      "source_sha256": "e8e163accb73bcee0d248ae0437a52e45e201db9a9dad70859b78b6e1ce6b52a"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing59.lean",
+      "source_sha256": "9da32b4aa27c007acfb5ae2d8a6f73a07dd7b783278eb284b690031bd7b3c2fa"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing60.lean",
+      "source_sha256": "4c5042fce1446deb2f0fd84c8114d62346dd69b738b084bf858fe41964b603f6"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing61.lean",
+      "source_sha256": "db4063eb86c7ed158a566c9f9b2b8aba2726b113c3133392f153c555cde7506e"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing62.lean",
+      "source_sha256": "e78256c30afad68e86939a771f4f3c76db76baa9b1547e8709e5772d7097757e"
+    },
+    {
+      "module": "Universality/Certificates/Opposite/Crossing63.lean",
+      "source_sha256": "53afb8576e49ef0a008f5c06556b350d4fd7711770fcfd05da3402069e0a1d03"
+    },
+    {
+      "module": "Universality/Percolation/OppositeWheatstoneReliability.lean",
+      "source_sha256": "990cdab56572a9824b3b7059b0bfbb451c8e1a91a598e96e559f30e3085be1bc"
+    },
+    {
+      "module": "Universality/Examples/GraphThermalResponse.lean",
+      "source_sha256": "03cfe6e35c028bea68b41a902b787073467e692057804d2e8b6ef698f0cb9ad6"
+    },
+    {
+      "module": "Universality/Percolation/OppositeWheatstoneFixedPoint.lean",
+      "source_sha256": "696cf09a7d54c912c915b36ae1134bbcd2259b18af7d4cd4434d1a4c55843e37"
+    },
+    {
+      "module": "Universality/Graph/Iteration.lean",
+      "source_sha256": "6cc788b907630632f2ae1d2b139650e464752f4f07503f4e1be2d839b7b9fc12"
+    },
+    {
+      "module": "Universality/Percolation/EdgeResampling.lean",
+      "source_sha256": "8321dea2336d851847a12352368ba1788cda6c401e429cce2abb024e0bf59fe2"
+    },
+    {
+      "module": "Universality/Percolation/Russo.lean",
+      "source_sha256": "6087a7f20eb9eda003a4ce9430645c289f46252751c1e462cd1a61524323c052"
+    },
+    {
+      "module": "Universality/Percolation/ConditionalPivotal.lean",
+      "source_sha256": "579d548aa4fde4bcdfb4830f340dfc8fb23150e72c7f3d41564a245f5565db28"
+    },
+    {
+      "module": "Universality/Percolation/PivotalDimension.lean",
+      "source_sha256": "58a3b2a9b70b594943d47d06c990806f30357ed8b808f2e8fc79476acf4d5893"
+    },
+    {
+      "module": "Universality/Matrix/ColumnGrowth.lean",
+      "source_sha256": "c4157a54a0d3d7b3d97ea27f606dcd934ff82c9add1fe4cbdc8b13e8baa67fea"
+    },
+    {
+      "module": "Universality/Percolation/ClusterMass.lean",
+      "source_sha256": "0f7a36fba572b07f05bda8f5dc17acb0e981b20a5190adb9efaf22bca5faaa53"
+    },
+    {
+      "module": "Universality/Graph/EdgeOpening.lean",
+      "source_sha256": "8d94bbeb001ce0d66b29a85326c60ac18871789fe41b4c9b53f061c417423316"
+    },
+    {
+      "module": "Universality/Percolation/StateRowIdentities.lean",
+      "source_sha256": "bdcb15f3613b8029f075a6a46e71ceaec9078c4260671f736e1b21cae97b4b77"
+    },
+    {
+      "module": "Universality/Matrix/UniversalPivotalVector.lean",
+      "source_sha256": "6106629b3c5761b581b977b7f51d056e3d8eb2db52745f307dacdc861683ebd7"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionSymmetry.lean",
+      "source_sha256": "002b327f3121b73b4d16837b495c1f24d30a7176799641d9d7502b1362390f64"
+    },
+    {
+      "module": "Universality/Graph/TerminalSymmetricRule.lean",
+      "source_sha256": "4c4323dc52dc6c9e22f79b7c13a3aeb580177d476dd8753ed44f6d3c30b1a445"
+    },
+    {
+      "module": "Universality/Examples/GraphMassDimensions.lean",
+      "source_sha256": "39aa8b8db14b9500599c28823ff9ecfe65f1b041b516dccd37fc82db0308c998"
+    },
+    {
+      "module": "Universality/Percolation/MassPositivity.lean",
+      "source_sha256": "f537ef090f622b45c0158610ec9a7851143c76a7210a58a30c44407fe41d7068"
+    },
+    {
+      "module": "Universality/Percolation/SimpleConfigurations.lean",
+      "source_sha256": "b34d7b7b93d1eff4af2fa1271a6f95482f77cfd4d3cfd150c54806c026ccc7d2"
+    },
+    {
+      "module": "Universality/Percolation/GeometricMassPositivity.lean",
+      "source_sha256": "e61ac6e13ef9f0745c2cb12213390a1785fe197863c8b8db2ef0baa654a83a8f"
+    },
+    {
+      "module": "Universality/Percolation/FiniteMassDimension.lean",
+      "source_sha256": "8d1c98a856a224c8d402ee9b0a3c005ceeb94b1d71dabb0299c36ef7ced58fc2"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionConnectivity.lean",
+      "source_sha256": "6d8b268a7c7b87b04d46548520c5097b6db32b90e60d6a1e19015182640ccc59"
+    },
+    {
+      "module": "Universality/Examples/AdmissibleMassCounterexample.lean",
+      "source_sha256": "ca83f991e6812e46569afd62d1a09d3f104a3ae555333aa81cc75d5b1e288f0a"
+    },
+    {
+      "module": "Universality/Matrix/TwoByTwoExpansion.lean",
+      "source_sha256": "41d8753fbe6b7f8d0cb2d62090c0f15f21a1752ffc56df76719e74e98d717520"
+    },
+    {
+      "module": "Universality/Percolation/ExactMassExpansion.lean",
+      "source_sha256": "37167ebc8eaae8b79c31d1fc79a708d086cf907149df3a55476f8e6336a2addf"
+    },
+    {
+      "module": "Universality/Percolation/RootEdgeResponse.lean",
+      "source_sha256": "3c58e831005811d0c134f6f8abefbd5a008538b97434d6dc41343005043fa544"
+    },
+    {
+      "module": "Universality/Percolation/EdgeScoreIdentities.lean",
+      "source_sha256": "1652d2bdf59a29245cc002fb951af76ef07af156e5cad2f2289090c5770e956f"
+    },
+    {
+      "module": "Universality/Matrix/PivotalRightVector.lean",
+      "source_sha256": "f239f6cf416339c473004db2892095dafad703703825edcad18b44fa139cccc2"
+    },
+    {
+      "module": "Universality/Matrix/CriticalBlockDecomposition.lean",
+      "source_sha256": "758eea73be686d71f8ebf3796fc5170d5454ac2b9ad23bf34da2369853161065"
+    },
+    {
+      "module": "Universality/Matrix/RealDiagonalization.lean",
+      "source_sha256": "6c26ef4d4444810d735f6a7d3f83c667590444de9fd1149679674b174e75d39e"
+    },
+    {
+      "module": "Universality/Matrix/ResponseDominance.lean",
+      "source_sha256": "9a4c67e414a7318552ac9d4a34ad81c432ecb9d21ab4da495ac73a1d177d6447"
+    },
+    {
+      "module": "Universality/Matrix/PrimitiveThreeState.lean",
+      "source_sha256": "53782f4ae37272e550cd88ad438be806b5bd03208cd0bb6384640df3df41bfd0"
+    },
+    {
+      "module": "Universality/Percolation/ProbabilityEndpoints.lean",
+      "source_sha256": "413b62d2e233f27a57451edf9e89427fa765bfa189ff93402c396a4f2790508f"
+    },
+    {
+      "module": "Universality/Percolation/InteriorFixedPoint.lean",
+      "source_sha256": "34d4acb79444cf4f4ef69ac6acce93af16a3532d8f4e59d2a6d78639efb7fe66"
+    },
+    {
+      "module": "Universality/Percolation/FixedPointCutCriterion.lean",
+      "source_sha256": "2c6a03e9039770d3684f3e58cf43f8444d1898f76bb78ddc715f08cf87bde9f6"
+    },
+    {
+      "module": "Universality/Percolation/StrictReliability.lean",
+      "source_sha256": "3dd56ac8b40eec5481f9d3a306008b9ad511eac5311c56cdc1d935a880b495ef"
+    },
+    {
+      "module": "Universality/Percolation/FiniteCore.lean",
+      "source_sha256": "08aacedab398b956174e40d9b13e0fc4d73a271dd1c2cb1a95cec29cb2a4eb16"
+    },
+    {
+      "module": "Universality/Graph/ClassicalRule.lean",
+      "source_sha256": "fa292aa9d0b109ee06360a55de7700ff7861e41c08172cf1b6282bf4829d28e0"
+    },
+    {
+      "module": "Universality/Examples/ClassicalSeeds.lean",
+      "source_sha256": "53f48bd228c20a1e364680f535725e81811bc5603dd7efa4b4f5e0f2e44d66de"
+    },
+    {
+      "module": "Universality/Percolation/GeometricPrimitivity.lean",
+      "source_sha256": "725cb6424870d186107208c4dc985b58875008ca73906c60b8a4ff7319fe6ffd"
+    },
+    {
+      "module": "Universality/Percolation/BernoulliVariance.lean",
+      "source_sha256": "7f3c09371508c35c3e82be17672218a644836c3739b1436ae64c0eb682baa461"
+    },
+    {
+      "module": "Universality/Percolation/StrictInstability.lean",
+      "source_sha256": "5c6daf46bac76c400c5c4009e6982e2f79f28e9f0cce2fa52ff70da478c6c2cb"
+    },
+    {
+      "module": "Universality/Percolation/UniqueFixedPoint.lean",
+      "source_sha256": "e685f3b820a37f0de8a0a1c977a9cae49298723a5b25041256a6d6d99d87ef10"
+    },
+    {
+      "module": "Universality/Percolation/RenormalisationLimits.lean",
+      "source_sha256": "287e4fd62941e8e5844d565643c137d19b2a12d592ee57cd7f519e9269d34eb2"
+    },
+    {
+      "module": "Universality/Percolation/ClassicalCriticalPoint.lean",
+      "source_sha256": "f7cd30841ed19fece70fe524bf8f8eb6b0c8cc3a0e424cbf0319b2de34347aed"
+    },
+    {
+      "module": "Universality/Algebra/ExponentRecovery.lean",
+      "source_sha256": "33f9c9a361d2d388d18adbde54c44cd54376afe5583e2c025fd2c35a53cf1a77"
+    },
+    {
+      "module": "Universality/Graph/CyclicSubstitution.lean",
+      "source_sha256": "3f516dd14ba78b57c8e512410052a69de2d8c14d104490eb87d0b33d820d9c6e"
+    },
+    {
+      "module": "Universality/Graph/TerminalEdgeConnectivity.lean",
+      "source_sha256": "211f3a927f45c7cc43eb35907b6feb1f95101bd2cb9ffeb0dc8eb1737a9eeef5"
+    },
+    {
+      "module": "Universality/Examples/AdmissibleObservations.lean",
+      "source_sha256": "ad47a6b36adf3a2d9a90480ff28704b56f20a30a407bcdf46be270ec8f93417f"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionFullConnectivity.lean",
+      "source_sha256": "ae9e9d502991a3b28cbaf42780eb302b7d5a4da6a7781cd1b075f58a2b50dd15"
+    },
+    {
+      "module": "Universality.lean",
+      "source_sha256": "7b076759772d7d99f7830a1be1727701def281aa2aeb4792624640e0d54b4ecf"
+    },
+    {
+      "module": "Audit.lean",
+      "source_sha256": "0b369e8f8ba55ce35f57efe77e327153d204a3c4197004483a724feb0d1c61ad"
+    }
+  ]
+}

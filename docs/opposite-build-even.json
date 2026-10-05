@@ -1,0 +1,162 @@
+[
+  {
+    "file": "Batch00.lean",
+    "exit_code": 0,
+    "seconds": 16.0870917
+  },
+  {
+    "file": "Batch02.lean",
+    "exit_code": 0,
+    "seconds": 17.9648757
+  },
+  {
+    "file": "Batch04.lean",
+    "exit_code": 0,
+    "seconds": 18.4806152
+  },
+  {
+    "file": "Batch06.lean",
+    "exit_code": 0,
+    "seconds": 19.1559913
+  },
+  {
+    "file": "Batch08.lean",
+    "exit_code": 0,
+    "seconds": 18.0473091
+  },
+  {
+    "file": "Batch10.lean",
+    "exit_code": 0,
+    "seconds": 18.0451077
+  },
+  {
+    "file": "Batch12.lean",
+    "exit_code": 0,
+    "seconds": 18.5199889
+  },
+  {
+    "file": "Batch14.lean",
+    "exit_code": 0,
+    "seconds": 20.1695071
+  },
+  {
+    "file": "Batch16.lean",
+    "exit_code": 0,
+    "seconds": 18.400717
+  },
+  {
+    "file": "Batch18.lean",
+    "exit_code": 0,
+    "seconds": 19.467761
+  },
+  {
+    "file": "Batch20.lean",
+    "exit_code": 0,
+    "seconds": 19.8024608
+  },
+  {
+    "file": "Batch22.lean",
+    "exit_code": 0,
+    "seconds": 20.0044815
+  },
+  {
+    "file": "Batch24.lean",
+    "exit_code": 0,
+    "seconds": 19.0374276
+  },
+  {
+    "file": "Batch26.lean",
+    "exit_code": 0,
+    "seconds": 20.0027089
+  },
+  {
+    "file": "Batch28.lean",
+    "exit_code": 0,
+    "seconds": 20.4104173
+  },
+  {
+    "file": "Batch30.lean",
+    "exit_code": 0,
+    "seconds": 18.4092146
+  },
+  {
+    "file": "Batch32.lean",
+    "exit_code": 0,
+    "seconds": 18.7914949
+  },
+  {
+    "file": "Batch34.lean",
+    "exit_code": 0,
+    "seconds": 17.1293686
+  },
+  {
+    "file": "Batch36.lean",
+    "exit_code": 0,
+    "seconds": 16.8920874
+  },
+  {
+    "file": "Batch38.lean",
+    "exit_code": 0,
+    "seconds": 17.2747383
+  },
+  {
+    "file": "Batch40.lean",
+    "exit_code": 0,
+    "seconds": 17.0386405
+  },
+  {
+    "file": "Batch42.lean",
+    "exit_code": 0,
+    "seconds": 19.0761023
+  },
+  {
+    "file": "Batch44.lean",
+    "exit_code": 0,
+    "seconds": 17.790514
+  },
+  {
+    "file": "Batch46.lean",
+    "exit_code": 0,
+    "seconds": 17.746789
+  },
+  {
+    "file": "Batch48.lean",
+    "exit_code": 0,
+    "seconds": 16.9254889
+  },
+  {
+    "file": "Batch50.lean",
+    "exit_code": 0,
+    "seconds": 18.0816068
+  },
+  {
+    "file": "Batch52.lean",
+    "exit_code": 0,
+    "seconds": 16.5067322
+  },
+  {
+    "file": "Batch54.lean",
+    "exit_code": 0,
+    "seconds": 17.4588704
+  },
+  {
+    "file": "Batch56.lean",
+    "exit_code": 0,
+    "seconds": 16.9458189
+  },
+  {
+    "file": "Batch58.lean",
+    "exit_code": 0,
+    "seconds": 19.0287918
+  },
+  {
+    "file": "Batch60.lean",
+    "exit_code": 0,
+    "seconds": 18.5405677
+  },
+  {
+    "file": "Batch62.lean",
+    "exit_code": 0,
+    "seconds": 17.8857823
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "file": "Crossing01.lean",
+    "exit_code": 0,
+    "seconds": 8.6971477
+  },
+  {
+    "file": "Crossing03.lean",
+    "exit_code": 0,
+    "seconds": 8.7113117
+  },
+  {
+    "file": "Crossing05.lean",
+    "exit_code": 0,
+    "seconds": 8.8694109
+  },
+  {
+    "file": "Crossing07.lean",
+    "exit_code": 0,
+    "seconds": 9.274597
+  },
+  {
+    "file": "Crossing09.lean",
+    "exit_code": 0,
+    "seconds": 8.6774046
+  },
+  {
+    "file": "Crossing11.lean",
+    "exit_code": 0,
+    "seconds": 8.4375275
+  },
+  {
+    "file": "Crossing13.lean",
+    "exit_code": 0,
+    "seconds": 8.7631485
+  },
+  {
+    "file": "Crossing15.lean",
+    "exit_code": 0,
+    "seconds": 9.1667115
+  },
+  {
+    "file": "Crossing17.lean",
+    "exit_code": 0,
+    "seconds": 8.5031704
+  },
+  {
+    "file": "Crossing19.lean",
+    "exit_code": 0,
+    "seconds": 8.5650325
+  },
+  {
+    "file": "Crossing21.lean",
+    "exit_code": 0,
+    "seconds": 9.0134057
+  },
+  {
+    "file": "Crossing23.lean",
+    "exit_code": 0,
+    "seconds": 8.9418371
+  },
+  {
+    "file": "Crossing25.lean",
+    "exit_code": 0,
+    "seconds": 9.120034
+  },
+  {
+    "file": "Crossing27.lean",
+    "exit_code": 0,
+    "seconds": 9.015234
+  },
+  {
+    "file": "Crossing29.lean",
+    "exit_code": 0,
+    "seconds": 10.0598185
+  },
+  {
+    "file": "Crossing31.lean",
+    "exit_code": 0,
+    "seconds": 10.061396
+  },
+  {
+    "file": "Crossing33.lean",
+    "exit_code": 0,
+    "seconds": 10.7372943
+  },
+  {
+    "file": "Crossing35.lean",
+    "exit_code": 0,
+    "seconds": 10.1613967
+  },
+  {
+    "file": "Crossing37.lean",
+    "exit_code": 0,
+    "seconds": 12.8662516
+  },
+  {
+    "file": "Crossing39.lean",
+    "exit_code": 0,
+    "seconds": 11.1210185
+  },
+  {
+    "file": "Crossing41.lean",
+    "exit_code": 0,
+    "seconds": 9.2540724
+  },
+  {
+    "file": "Crossing43.lean",
+    "exit_code": 0,
+    "seconds": 8.4449259
+  },
+  {
+    "file": "Crossing45.lean",
+    "exit_code": 0,
+    "seconds": 8.7818769
+  },
+  {
+    "file": "Crossing47.lean",
+    "exit_code": 0,
+    "seconds": 8.6816836
+  },
+  {
+    "file": "Crossing49.lean",
+    "exit_code": 0,
+    "seconds": 8.488938
+  },
+  {
+    "file": "Crossing51.lean",
+    "exit_code": 0,
+    "seconds": 8.6212592
+  },
+  {
+    "file": "Crossing53.lean",
+    "exit_code": 0,
+    "seconds": 8.9537657
+  },
+  {
+    "file": "Crossing55.lean",
+    "exit_code": 0,
+    "seconds": 9.4142983
+  },
+  {
+    "file": "Crossing57.lean",
+    "exit_code": 0,
+    "seconds": 8.8015036
+  },
+  {
+    "file": "Crossing59.lean",
+    "exit_code": 0,
+    "seconds": 8.8467319
+  },
+  {
+    "file": "Crossing61.lean",
+    "exit_code": 0,
+    "seconds": 8.8441116
+  },
+  {
+    "file": "Crossing63.lean",
+    "exit_code": 0,
+    "seconds": 8.7743439
+  }
+]
