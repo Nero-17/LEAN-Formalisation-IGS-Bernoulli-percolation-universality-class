@@ -1,0 +1,162 @@
+[
+  {
+    "module": "Universality/Matrix/TwoByTwo.lean",
+    "exit_code": 0,
+    "seconds": 8.6803106
+  },
+  {
+    "module": "Universality/Matrix/SpectralSeparation.lean",
+    "exit_code": 0,
+    "seconds": 11.7868538
+  },
+  {
+    "module": "Universality/Algebra/MultiplicativeObstruction.lean",
+    "exit_code": 0,
+    "seconds": 3.9172673
+  },
+  {
+    "module": "Universality/Graph/Reachability.lean",
+    "exit_code": 0,
+    "seconds": 6.8358443
+  },
+  {
+    "module": "Universality/Percolation/FiniteNetwork.lean",
+    "exit_code": 0,
+    "seconds": 7.570128
+  },
+  {
+    "module": "Universality/Percolation/Wheatstone.lean",
+    "exit_code": 0,
+    "seconds": 12.1218742
+  },
+  {
+    "module": "Universality/Percolation/Bernoulli.lean",
+    "exit_code": 0,
+    "seconds": 7.9249564
+  },
+  {
+    "module": "Universality/Percolation/WheatstoneKernels.lean",
+    "exit_code": 0,
+    "seconds": 13.3080612
+  },
+  {
+    "module": "Universality/Percolation/ReliabilityPolynomial.lean",
+    "exit_code": 0,
+    "seconds": 8.2617128
+  },
+  {
+    "module": "Universality/Percolation/WheatstoneReliability.lean",
+    "exit_code": 0,
+    "seconds": 10.9075817
+  },
+  {
+    "module": "Universality/Percolation/FastReachability.lean",
+    "exit_code": 0,
+    "seconds": 7.8960068
+  },
+  {
+    "module": "Universality/Matrix/PositiveEigenvector.lean",
+    "exit_code": 0,
+    "seconds": 14.5777691
+  },
+  {
+    "module": "Universality/Matrix/PositiveTwoByTwo.lean",
+    "exit_code": 0,
+    "seconds": 12.3777648
+  },
+  {
+    "module": "Universality/Matrix/NoncommutativeExample.lean",
+    "exit_code": 0,
+    "seconds": 11.3145512
+  },
+  {
+    "module": "Universality/Matrix/CommonPositiveVector.lean",
+    "exit_code": 0,
+    "seconds": 9.8406949
+  },
+  {
+    "module": "Universality/Matrix/MassPlane.lean",
+    "exit_code": 0,
+    "seconds": 12.5032154
+  },
+  {
+    "module": "Universality/Percolation/ReliabilityDerivative.lean",
+    "exit_code": 0,
+    "seconds": 10.5233689
+  },
+  {
+    "module": "Universality/Matrix/WheatstoneSpectrum.lean",
+    "exit_code": 0,
+    "seconds": 10.6034047
+  },
+  {
+    "module": "Universality/Matrix/PopulationGrowth.lean",
+    "exit_code": 0,
+    "seconds": 10.8613574
+  },
+  {
+    "module": "Universality/Percolation/BitConnectivity.lean",
+    "exit_code": 0,
+    "seconds": 7.7971673
+  },
+  {
+    "module": "Universality/Percolation/ConfigurationEncoding.lean",
+    "exit_code": 0,
+    "seconds": 7.3969854
+  },
+  {
+    "module": "Universality/Arithmetic/Commensurability.lean",
+    "exit_code": 0,
+    "seconds": 10.0325844
+  },
+  {
+    "module": "Universality/Algebra/WordExpansion.lean",
+    "exit_code": 0,
+    "seconds": 6.6407669
+  },
+  {
+    "module": "Universality/Algebra/GroupedWords.lean",
+    "exit_code": 0,
+    "seconds": 7.1794192
+  },
+  {
+    "module": "Universality/Algebra/PacketCancellation.lean",
+    "exit_code": 0,
+    "seconds": 9.3646927
+  },
+  {
+    "module": "Universality/Certificates/IntegerMoments.lean",
+    "exit_code": 0,
+    "seconds": 7.8615194
+  },
+  {
+    "module": "Universality/Certificates/Data/Base19.lean",
+    "exit_code": 0,
+    "seconds": 7.9550944
+  },
+  {
+    "module": "Universality/Certificates/Data/Base661.lean",
+    "exit_code": 0,
+    "seconds": 9.6680736
+  },
+  {
+    "module": "Universality/Certificates/Data/Base739.lean",
+    "exit_code": 0,
+    "seconds": 9.4513091
+  },
+  {
+    "module": "Universality/Certificates/Data/Shifted19.lean",
+    "exit_code": 0,
+    "seconds": 7.5539103
+  },
+  {
+    "module": "Universality.lean",
+    "exit_code": 0,
+    "seconds": 11.4959681
+  },
+  {
+    "module": "Audit.lean",
+    "exit_code": 0,
+    "seconds": 10.9836584
+  }
+]

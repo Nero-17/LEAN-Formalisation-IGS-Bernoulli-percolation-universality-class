@@ -1,0 +1,34 @@
+import Universality
+
+#print axioms SimpleGraph.mem_reachableBall_card_iff
+#print axioms Universality.FiniteNetwork.sum_bernoulliWeight
+#print axioms Universality.wheatstone_exact_counts
+#print axioms Universality.wheatstone_fair_block
+#print axioms Universality.noncommutative_trace_difference
+#print axioms Universality.noncommutative_spectra_disjoint
+#print axioms Universality.no_classification_by_multiplicative_observations
+#print axioms Universality.FiniteNetwork.massMatrix_half
+#print axioms Universality.FiniteNetwork.fastConditionalCount_eq
+#print axioms Universality.wheatstone_outer_pair_counts
+#print axioms Universality.spectralRadius_eq_of_positive_eigenvector
+#print axioms Universality.spectralRadius_positive_twoByTwo
+#print axioms Universality.noncommutative_logarithmic_growth_ne
+#print axioms Universality.common_positive_vector_spectralRadius_mul
+#print axioms Universality.wheatstone_unique_interior_fixed_point
+#print axioms Universality.wheatstone_pivotal_left_eigenvector
+#print axioms Universality.wheatstone_full_spectralRadius
+#print axioms Universality.massPlane_spectralRadius
+#print axioms Universality.massPlaneBlock_mul
+#print axioms Universality.matrix_row_sum_dimension
+#print axioms Universality.FiniteNetwork.indexedConditioningCount_eq
+#print axioms Universality.commensurate_iff_rational_log_ratio
+#print axioms Universality.explicit_scales_pairwise_incommensurate
+#print axioms Universality.weighted_word_sum
+#print axioms Universality.signed_wheatstone_packet
+#print axioms Universality.Certificates.certificateBase19_integer_moments
+#print axioms Universality.Certificates.certificateBase661_integer_moments
+#print axioms Universality.Certificates.certificateBase739_integer_moments
+#print axioms Universality.Certificates.certificateShifted19_integer_moments
+#print axioms Universality.FiniteNetwork.generationResponse_eq_matrix_power
+#print axioms Universality.FiniteNetwork.generationResponse_dimension
+#print axioms Universality.iterateUntilFixed_eq
