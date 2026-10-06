@@ -50,11 +50,28 @@ assuming independence between a cell's reward and its offspring types.
 The complementary reward population and its accumulated sum vanish in L²
 at the spectral scale. An exact telescoping identity identifies the vertex
 limit with a positive scalar multiple of a Perron population limit. The
-smoothing equation and local limit theorem remain separate obligations.
+smoothing equation and local limit theorem were separate obligations at R075.
 
-Section 3 as a whole is **not yet formalised**. The infinite branching local
-limit theorem, uniformly rooted infinite graph identification, β/δ/averaged η,
-near-critical moments, cluster-number higher regularity and singular response,
+R077 proves the actual Fourier smoothing equation, locally uniform convergence
+of the finite mass characteristic functions, and nonlattice limits for all
+three types. It proves the exact critical integer moment threshold for the
+limiting finite uniform-root size law, including divergence at equality, and
+finiteness of all integer finite-cluster moments at fixed supercritical
+parameters. The actual cluster-number density has the stated first derivative
+at criticality without assumed regularity. Exact cell isometry and uniform
+generation diameter bounds are also proved. The first R077 checkpoint passed
+the complete 439-module build and 289 milestone audits. Further results in
+the coverage map are being integrated and audited in the same ongoing round.
+
+Further R077 single-module checks establish the fixed positive subcritical
+moment threshold, actual mass local limits and smooth probability densities,
+the cluster-number proposition at every allowed differentiability order,
+and uniform pre-exit moment estimates. The second complete checkpoint passed
+522 modules and 337 milestone audits, with zero source/build audit errors.
+
+Section 3 as a whole is **not yet formalised**. Strictly positive densities
+and spatial pointwise tails, uniformly rooted infinite graph identification,
+β/δ/averaged η, complete near-critical moments, cluster-number examples,
 radius laws, and remaining cyclic-list/example details are still open.
 
 ## Section 2 continuation (R072)
