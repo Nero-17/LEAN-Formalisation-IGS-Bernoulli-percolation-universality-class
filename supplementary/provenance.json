@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-06",
+  "source_overleaf_project": "69b4d5f8e9e9b26ffd015f17",
+  "current_manuscript_commit": "9e64b5bb1b22311f67fa8104b9d98219138bc822",
+  "historical_spectrum_commit": "5bfd38b4cc0b17c77f37ca07c08603ff6b06f309",
+  "historical_finite_rank_commit": "da0741fc7b1695fa44f4feeb387fe8d99779a48c",
+  "scope": "Supplementary publication and rerun of finite computations; not a full proof or Lean audit.",
+  "checks": [
+    {
+      "script": "section3/verify_permutation.py",
+      "exit_code": 0,
+      "stdout": "Exact enumeration verified: 32 and 8192 configurations; crossing probabilities, derivatives, both mass blocks, and trace difference -1521/4194304"
+    },
+    {
+      "script": "additional/spectrum/verify_spectral.py",
+      "exit_code": 0,
+      "stdout": "{\"spectral_perturbation\": \"PASS\", \"allocation_capacity\": \"PASS\", \"trace_sign\": \"strictly negative\", \"noncommuting_witness\": \"PASS\", \"trace_difference\": \"-1521/4194304\"}"
+    },
+    {
+      "script": "additional/finite-rank/verify_rank_constants.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"mass_zero_fraction\": [\n    0.8127093788134744,\n    0.8127093788134744\n  ],\n  \"volume_fraction\": [\n    0.30901699437494745,\n    0.30901699437494745\n  ],\n  \"thermal_fraction\": [\n    0.4396078054371139,\n    0.4396078054371139\n  ],\n  \"mass_prefix_K_fraction\": [\n    0.3160706105501268,\n    0.3160706105501268\n  ],\n  \"mass_prefix_J_fraction\": [\n    0.33043556203733915,\n    0.33043556203733915\n  ],\n  \"all_four_fractions_strictly_in\": [\n    \"1/5\",\n    \"4/5\"\n  ],\n  \"aggregate_preserving_prefix_KC_JC_determinant\": [\n    -826.4463462050688,\n    -826.4463462050688\n  ],\n  \"arithmetic\": \"Exact rational interval arithmetic with integer square-root enclosures\",\n  \"commutator_square_18I\": true,\n  \"adjacent_swap_mass_lattice_inclusion\": \"18Z x 3Z\",\n  \"scalar_kernel_mod18_correction_checked\": true,\n  \"high_ratio_interval_invariant\": true,\n  \"last_packet_columns\": [\n    [\n      2747146,\n      1306176\n    ],\n    [\n      1306176,\n      606742\n    ],\n    [\n      603603,\n      279798\n    ],\n    [\n      1279464,\n      603603\n    ]\n  ],\n  \"last_packet_minors\": [\n    -39286884644,\n    -19765795620,\n    -13019602626,\n    -765858978,\n    12107205840,\n    6345113337\n  ],\n  \"last_packet_minors_gcd\": 1,\n  \"raw_word_sum_PF_less_than_44\": true,\n  \"high_packet_inverse_ratio_interval\": [\n    \"2\",\n    \"5/2\"\n  ],\n  \"high_packet_determinant_bound\": \"abs(7r^2-12r-36)>=89/4 for 2<=r<=5/2\",\n  \"high_packet_uniform_capacity_ratio_less_than_one\": true\n}"
+    }
+  ],
+  "sha256": {
+    "section3/figure/wheatstone_permutation_rules.tex": "eb06d4e4f518df8576b33a98a4f66af11f1c02fb500678937643d7a07d7a8176",
+    "section3/noncommuting-witness.tex": "ef22f13b503da42831450961a5139a69dddc018a04be88a18939a3fceb078b9b",
+    "section3/README.md": "51415ce130ce53c08a9910f41ecb49121e245cbf1ea9e15c093f1c09bd1be9a0",
+    "section3/verification.txt": "5e0856f3200adfff131766ee9d1309ee969c5efb8e3db282eb142277381d0b97",
+    "section3/verify_permutation.py": "5d9ac2ef14db100ff510b60e8da7e5e1cdba5742e9f60f0fb101e956b74b8c01",
+    "additional/finite-rank/historical-finite-rank-argument.tex": "b4069c31a742ba00b1a8fdc5a26b502d39fe69268fb0d374f940ea5810dd8e88",
+    "additional/finite-rank/README.md": "06f83fd62f1b41dae3da4e53584966afabecf216df22865fa30ce28eaeb8279f",
+    "additional/finite-rank/verify_rank_constants.json": "8b65a9be2cdd2e8663584dd40a662a2d28b813dddab01c2782df4e3e7e41e758",
+    "additional/finite-rank/verify_rank_constants.py": "dec5b52a056926cbcfe068b536347142b49da1651066460924ce5f4d606987a1",
+    "additional/spectrum/README.md": "44850566d40ad56086913d43d24d718536aeb7a1acf25205347074c9a2f9d0fd",
+    "additional/spectrum/spectral-perturbation.tex": "f51074679f2a8f2069a2b9b92101b872584a086109ab893dfadaa6e6910e8222",
+    "additional/spectrum/spectral-verification.json": "94a4d01978235b7e73489de01166dad0b1fe5e21d93944f539e9d165b33db6d1",
+    "additional/spectrum/verify_spectral.py": "bcf97c43d0c2ada2e6543ab040dff8432c9ffc56f1499849ed2570e3c21cf02a"
+  }
+}

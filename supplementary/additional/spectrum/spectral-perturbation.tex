@@ -1,0 +1,35 @@
+% Historical proof from Overleaf 5bfd38b4cc0b17c77f37ca07c08603ff6b06f309.
+% Not in the current manuscript; uses its macros and references.
+% Original certificates/verify_spectral.py is now verify_spectral.py here.
+\begin{proposition}\label{prop:spectral-redundancy}
+There are admissible rules with the same scale, edge count, thermal multiplier and mass Perron root, but different full three-state spectra.
+\end{proposition}
+\begin{proof}
+Use the $19$-based allocation at depth $424$. For the four words with common prefix $0^{337}1^{83}$ and tails $1100,1010,1001,0110$, change their allocation counts by
+\[
+ -17413779,\qquad169010230,\qquad-155094721,\qquad3498270,
+\]
+respectively. All four words have $339$ zeroes and begin with $00$. They therefore avoid every correction packet, whose first pair is $01$ or $10$. Their initial counts are the zero-first-letter count at $z=339$, possibly increased by one. The supplied certificate satisfies
+\[
+ \min\{\text{that count},\ 2^{339}-\text{that count}-1\}
+ \ge169010230.
+\]
+Thus both the displayed changes and their negatives preserve every capacity bound. This inequality and the small matrix identities below are checked in \path{certificates/verify_spectral.py}.
+
+The changes sum to zero and have the same zero count, so they preserve the edge count and thermal multiplier. They do not affect the all-zero word and hence preserve the distance. The weighted sum of the four tail matrices, multiplied on the right by $\mathbf D$, is
+\[
+ \begin{pmatrix}
+ 304626366720&-728454355200\\
+ 119886741000&-286685685000
+ \end{pmatrix}
+ =\begin{pmatrix}13244624640\\5212467000\end{pmatrix}(23,-55).
+\]
+This matrix annihilates $(55,23)^T$, so left multiplication by the prefix matrix preserves the positive mass eigenvector and its eigenvalue. Since the changed allocation still defines an admissible graph, that eigenvalue remains the Perron root.
+
+The trace change of the two-dimensional block is
+\[
+ \frac{(23,-55)\mathbf K^{337}\mathbf J^{83}
+       (13244624640,5212467000)^T}{16^{425}}<0.
+\]
+Indeed, $(23,-55)\mathbf K^5=(-4444644,-17343936)$, and all entries of $\mathbf K$, $\mathbf J$ and the right-hand column are positive. The scalar thermal eigenvalue is unchanged, so the trace change of the full three-state matrix equals that of its two-dimensional block. The original rule and its two opposite perturbations have three different traces, although all four growth multipliers agree. Their spectra are therefore different.
+\end{proof}

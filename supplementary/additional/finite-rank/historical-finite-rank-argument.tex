@@ -1,0 +1,165 @@
+% Historical argument from Overleaf da0741fc7b1695fa44f4feeb387fe8d99779a48c.
+% Omitted from the current paper. This upload is archival, not a new proof audit.
+% The accompanying program verifies finite constants only, not the full theorem.
+% Uses manuscript macros and cross-references; not standalone.
+\subsection{Arbitrarily many independent scales}
+The preceding class has infinitely many pairwise incommensurate scales, but the logarithms of the displayed scales lie in the two-dimensional space spanned by $\log19$ and $\log661$. We now show that there is no uniform finite bound on this dimension across universality classes. The required extension is an exact realisation result for the same Wheatstone construction.
+
+\begin{lemma}\label{lem:wheatstone-open-realisation}
+There is a neighbourhood of
+\[
+ \left(\sqrt2,\sqrt5,\sqrt{\frac{95+\sqrt{2617}}{32}},\sqrt{\frac{13}{8}}\right)
+\]
+such that, for every sufficiently large $n\equiv0\pmod8$ and all positive integers $L,V,U,T\equiv1\pmod{480}$ satisfying
+\[
+ \left(\frac{L}{2^n},\frac{V}{5^n},
+ \frac{U}{((95+\sqrt{2617})/32)^n},\frac{T}{(13/8)^n}\right)
+ \quad\text{in this neighbourhood},
+\]
+some allocation $R(n,x)$ has
+\[
+ (\ell_{R(n,x)},m_{R(n,x)},\rho(\mathbf M_{\mathfrak C_{R(n,x)}}),
+ \varphi_{R(n,x)}'(1/2))=(L,V,U,T).
+\]
+Its critical mass matrix has positive eigenvector $(55,46,23)^T$.
+\end{lemma}
+\begin{proof}
+We first solve the allocation equations over the reals with a uniform margin from both capacity bounds. We then make the allocation integral without changing the prescribed multipliers.
+
+\emph{Real allocations.}
+For each word, regard $x_\omega/2^{z(\omega)}$ as its upgrade fraction. The capacity-weighted volume and pivotal contributions have zero-count distributions
+\[
+ \binom nz\frac{4^z}{5^n},\qquad
+ \binom nz\frac{12^z}{13^n},
+\]
+concentrated respectively at $z/n=4/5$ and $12/13$. The corresponding mass generating matrix is $(2p\mathbf K+\mathbf J)/16$, whose Perron root is
+\[
+ \frac{80p+15+\sqrt{1504p^2+960p+153}}{32}.
+\]
+Its logarithmic derivative at $p=1$ equals
+\[
+ \frac{40+992/\sqrt{2617}}{(95+\sqrt{2617})/2}\in(0.81,0.82).
+\]
+The three concentration points are distinct. For mass, this assertion follows directly from positivity: the sum of coefficients with $z\ge an$ is bounded entrywise by $p^{-an}((2p\mathbf K+\mathbf J)/16)^n$ for $p>1$. If $a$ exceeds the displayed logarithmic derivative, choosing $p$ sufficiently close to one gives exponential decay after division by $((95+\sqrt{2617})/32)^n$. The lower tail follows with $p<1$. The scalar distributions satisfy the same estimates.
+
+Use the disjoint windows $(0.79,0.805)$, $(0.81,0.82)$ and $(0.92,0.93)$ for volume, mass and pivotal response. Set the upgrade fraction to $1/2$ outside them. Within the volume and pivotal windows use one adjustable fraction each; within the mass window use two, according to the first letter of the word. Finally prescribe $x_{1^n}:=0$ and $x_{0^n}:=L-2^n$. This gives four controls for the volume, pivotal response and two mass coordinates.
+
+Let $\mathbf P$ be the Perron projection of $(2\mathbf K+\mathbf J)/16$. After normalisation, the four-control matrix converges to a block diagonal matrix. Its scalar blocks are $4$ and $5/8$, and its two mass columns are
+\[
+ \left(1-\frac{32}{95+\sqrt{2617}}\right)
+ \frac{\mathbf K}{8}\mathbf P\begin{pmatrix}55\\23\end{pmatrix},
+ \qquad
+ \left(1-\frac{32}{95+\sqrt{2617}}\right)
+ \frac{\mathbf J}{16}\mathbf P\begin{pmatrix}55\\23\end{pmatrix}.
+\]
+These columns are independent. Otherwise their positive sum, which is a multiple of $\mathbf P(55,23)^T$, would make that vector a common eigenvector of $\mathbf K$ and $\mathbf J$, contradicting the invertibility of their commutator. The normalised baseline mass converges to $\mathbf P(55,23)^T$. The limiting mass equation has target vector
+\[
+ \sqrt{\frac{95+\sqrt{2617}}{32}}\begin{pmatrix}55\\23\end{pmatrix},
+\]
+rather than its Perron projection. Solving the limiting system gives the four fractions, to four decimal places,
+\[
+ 0.3090,\qquad0.4396,\qquad0.3161,\qquad0.3304.
+\]
+Each lies strictly between $1/5$ and $4/5$. These strict inequalities can be checked by rational interval arithmetic using $51.1566<\sqrt{2617}<51.1567$ and the explicit two-dimensional Perron projection; \path{certificates/verify_rank_constants.py} supplies tighter integer-square-root bounds and all four interval checks.
+
+Shrink the target neighbourhood to have compact closure and first coordinate strictly between one and two. The extreme words have exponentially negligible normalised contributions, uniformly on this closure: their volume and pivotal weights are bounded by multiples of $(4/5)^n$ and $(12/13)^n$, while positivity gives
+$\rho(\mathbf K/8),\rho(\mathbf J/16)<(95+\sqrt{2617})/32$.
+The finite control matrices therefore converge to an invertible matrix, with uniformly bounded inverses. After one further shrinking of the neighbourhood, their exact solutions have all non-extreme fractions in $(1/5,4/5)$ for every sufficiently large depth. The original equations have rational coefficients for integer targets, so these solutions can be taken rational. This proves exact finite-depth feasibility, rather than approximate matching of the multipliers.
+
+\emph{Integral zero-count totals.}
+Let $N_z:=\sum_{z(\omega)=z}x_\omega$. Keep $N_0=0$ and $N_n=L-2^n$ fixed. The two scalar columns satisfy
+\[
+ (6^z,2^z)-8(6^{z-1},2^{z-1})+12(6^{z-2},2^{z-2})=(0,0).
+\]
+Round the other totals to integers in descending order, using this identity to transfer each rounding error to the next two coordinates. Each total changes by at most $21/2$. The target volume sum $(V-5^n)/4$ is divisible by $8$, and the target pivotal sum $(8^{n+1}T-8\cdot13^n)/5$ is divisible by $24$; these divisibilities follow from the stated congruences and are preserved on subtracting the fixed extreme contribution. Hence the final two totals, obtained by solving the columns $(6,2)$ and $(36,4)$, are integers. Their initial margins are at least $\binom nz2^z/5$, so all these operations are legal for sufficiently large $n$.
+
+We also need a mass congruence. For this calculation only, put each integer total $N_z$ on the single word $0^z1^{n-z}$, without imposing its individual capacity. The residual between its mass numerator and the target
+$16^{n+1}U(55,23)^T$ belongs to $6\mathbb Z\times3\mathbb Z$. To see this, $\mathbf D(55,23)^T=(3139,1313)^T$, every mixed word contains the factor $3$ from $\mathbf J$, and its first row is even; moreover, $N_n=L-2^n$ is divisible by three. The baseline and target have the same required residues since $U\equiv1\pmod3$ and $n$ is even.
+Change $(N_{n-1},N_{n-2},N_{n-3})$ by an integer multiple of $(1,-8,12)$. This preserves both scalar sums and changes the first mass coordinate by $6$ modulo $18$, and the second by $0$ modulo $3$. Indeed, $\mathbf J^2$ is divisible by $9$, the first row of $\mathbf K^q$ modulo $9$ is $(4^q,0)$, and $(\mathbf J\mathbf D(55,23)^T)_1=44007\equiv6\pmod9$. Choosing the multiple from $\{-1,0,1\}$ puts the residual in $18\mathbb Z\times3\mathbb Z$.
+
+The total displacement of each aggregate is at most $45/2$. Distribute it equally over the words in its group. Each real count changes by at most $45/(2\binom nz)$, so a fixed relative margin, for example $1/10$, remains. No further exact real mass solution is required.
+
+\emph{Integral words and exact mass correction.}
+Round the individual counts by floor or ceiling within each group, preserving its integer total. For the finitely many early correction packets whose zero counts are too small to guarantee a unit of room on both sides, first fix their words at the half-capacity integers $2^{z-1}$. Their numbers and zero counts are bounded independently of $n$. The other words in each affected group can absorb these changes, since both its total and unused capacity grow as a fixed positive multiple of $\binom nz2^z$. Thus the resulting integer allocation differs from the original real one by a uniformly bounded amount at each word. Its mass residual is consequently
+\[
+ O\!\left(\rho(\mathbf K+\mathbf J)^n\right)=O(44^n),
+ \qquad \rho(\mathbf K+\mathbf J)=\frac{55+\sqrt{1009}}2<44.
+\]
+It remains in $18\mathbb Z\times3\mathbb Z$. Indeed, $\mathbf K$ and $\mathbf J$ preserve both this lattice and the lattice of integer vectors whose coordinate sum is divisible by three. Their commutator sends the latter lattice into the former. Adjacent exchanges of letters therefore change mass by an element of $18\mathbb Z\times3\mathbb Z$, so all integer allocations with the same totals have the same residue as the formal allocation above.
+
+Apply the disjoint packets already described, at levels $0\le t<n/4$, with prefix length $2t+1$ pairs and suffix length $n-4t-2$. To verify that their coefficients can always be chosen, transform a mass residual $\mathbf r\in18\mathbb Z\times3\mathbb Z$ to
+$\mathbf y:=(\mathbf K\mathbf J-\mathbf J\mathbf K)\mathbf r/18$,
+and use its integral coordinates $(y_1,(y_1+y_2)/3)$. A packet now contributes $18^t$ times the transformed tail column. At a suffix length $q\ge2$, the two low-zero tails $1^q,01^{q-1}$ give columns congruent to $(1,0),(0,1)$ modulo two. This follows from
+$\mathbf J\equiv\left(\begin{smallmatrix}1&0\\1&0\end{smallmatrix}\right)$,
+$\mathbf K\equiv\left(\begin{smallmatrix}0&0\\1&0\end{smallmatrix}\right)$ and
+$\mathbf D(55,23)^T\equiv(1,1)^T$ modulo two. Coefficients zero or one remove the parity residual.
+
+The other two tail columns are even, and their halves form an invertible matrix modulo nine. In fact, for $\mathbf u:=\mathbf K^{q-1}(3139,1313)^T$, the determinant of those two columns in the transformed coordinates is
+\[
+ 7u_1^2-12u_1u_2-36u_2^2.
+\]
+Here $\mathbf u\equiv(1,2)^T\pmod3$, so this determinant is a unit modulo three. Dividing both columns by two therefore gives a determinant invertible modulo nine. Choose their two coefficients in the required residue classes modulo nine nearest to the real solution, with errors at most $9/2$. The corrected residual is divisible by eighteen and the procedure continues at the next level.
+
+The coefficients also satisfy every capacity bound. For $\mathbf u=\mathbf K^{q-1}(3139,1313)^T$, the ratio $u_1/u_2$ stays in $[2,5/2]$, its second coordinate grows by factors between $28$ and $31$, and
+\[
+ |7(u_1/u_2)^2-12u_1/u_2-36|\ge89/4.
+\]
+Thus the inverse of the high-zero column matrix is $O(28^{-q})$. At the first level its coefficients are $O((44/28)^n)$, whereas the available capacities are comparable with $2^n$. At every later nonfinal level, nearest-residue rounding at the preceding level leaves a residual $O(31^{q+4})$, so the high-zero coefficients are $O((31/28)^q)$. Their minimum zero count is $(n+q)/2-1$, and
+\[
+ \frac{(31/28)^q}{2^{(n+q)/2}}
+ =2^{-n/2}\left(\frac{31}{28\sqrt2}\right)^q\le2^{-n/2}.
+\]
+These bounds are uniform over all levels. Low-zero coefficients are zero or one; the early ones fit by the reservation just made, and the later ones fit by the fixed relative margin.
+
+The last suffix has length two. Its four columns in the integral coordinates are
+\[
+ \begin{pmatrix}
+ 2747146&1306176&603603&1279464\\
+ 1306176&606742&279798&603603
+ \end{pmatrix}.
+\]
+Their $2\times2$ minors have greatest common divisor one. Thus a fixed integer right inverse solves every final residual exactly. This residual is bounded independently of $n$, because the preceding suffix length is six; the required final coefficients are therefore bounded, while their capacities grow at least as a fixed multiple of $2^{n/2}$. Packet supports are disjoint, so these bounds do not accumulate. The telescoping residual is zero, all scalar totals remain fixed, and every count is an integer within its capacity. Equations~\eqref{eq:allocation-length}--\eqref{eq:allocation-mass} now give a genuine finite rule graph with the required multipliers. The positive three-state eigenvector identifies $U$ as its Perron root.
+\end{proof}
+
+\begin{theorem}\label{thm:arbitrary-scale-rank}
+For every positive integer $r$, there is a critical-exponent universality class with rational critical dimensions containing $r$ classical EIGS hierarchical lattices whose scale logarithms are linearly independent over $\mathbb Q$.
+\end{theorem}
+\begin{proof}
+Choose $b_1:=6241$ and recursively
+$b_{i+1}:=1+6240\prod_{j\le i}b_j$ for $i<r$.
+These integers are pairwise coprime and congruent to one modulo $6240$, hence coprime to $2,5,13$. The numbers
+\[
+ 1,\quad \log_2 5,\quad
+ \log_2\!\left(\frac{95+\sqrt{2617}}{32}\right),\quad
+ \log_2(13/8),\quad
+ \frac{\log_2 b_1}{8},\ldots,\frac{\log_2 b_r}{8}
+\]
+are linearly independent over $\mathbb Q$. After clearing denominators, a relation would make an integer power of $(95+\sqrt{2617})/32$ rational. Its two algebraic conjugates are distinct and positive, so this exponent must be zero. Prime valuations at $2,5,13$ and at primes dividing the pairwise coprime $b_i$ then remove every other coefficient.
+
+Kronecker's simultaneous approximation theorem therefore gives arbitrarily large positive integers $k$ and positive integers $a,b,c,n_1,\ldots,n_r$, with each $n_i\equiv0\pmod8$, for which
+\begin{gather*}
+ k\log_2 5-a,\qquad
+ k\log_2\!\left(\frac{95+\sqrt{2617}}{32}\right)-b,\qquad
+ k\log_2(13/8)-c
+\end{gather*}
+are arbitrarily small, simultaneously with
+$k\log_2 b_i-n_i-1/2$ for all $i$.
+Consequently the normalised targets
+\[
+ \left(\frac{b_i^k}{2^{n_i}},\frac{b_i^a}{5^{n_i}},
+ \frac{b_i^b}{((95+\sqrt{2617})/32)^{n_i}},
+ \frac{b_i^c}{(13/8)^{n_i}}\right)
+\]
+can all be placed in the fixed neighbourhood of Lemma~\ref{lem:wheatstone-open-realisation}, with every depth beyond its uniform threshold. For example,
+\[
+ a\log_2 b_i-n_i\log_2 5
+ =(a-k\log_2 5)\log_2 b_i
+ +(k\log_2 b_i-n_i)\log_2 5,
+\]
+which can be made arbitrarily close to $\tfrac12\log_2 5$; the other coordinates follow in the same way. There are only finitely many fixed bases, so all errors can be controlled simultaneously.
+
+All four target integers are one modulo $480$. The lemma gives rules $R_i$ with multipliers $(b_i^k,b_i^a,b_i^b,b_i^c)$ and common critical point $1/2$. Their dimensions are exactly $(a/k,b/k,c/k)$, so Theorem~\ref{thm:exponent-class-dimensions} places them in one class. Their scales $b_i^k$ have rationally independent logarithms by pairwise coprimality.
+\end{proof}
+
+The class in Theorem~\ref{thm:arbitrary-scale-rank} may depend on $r$. Thus no fixed finite bound on scale rank holds across all classes. The theorem does not assert that one class has infinite rank.
+

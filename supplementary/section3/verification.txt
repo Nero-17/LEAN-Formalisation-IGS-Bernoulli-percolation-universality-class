@@ -1,0 +1,1 @@
+Exact enumeration verified: 32 and 8192 configurations; crossing probabilities, derivatives, both mass blocks, and trace difference -1521/4194304

@@ -1,0 +1,69 @@
+{
+  "mass_zero_fraction": [
+    0.8127093788134744,
+    0.8127093788134744
+  ],
+  "volume_fraction": [
+    0.30901699437494745,
+    0.30901699437494745
+  ],
+  "thermal_fraction": [
+    0.4396078054371139,
+    0.4396078054371139
+  ],
+  "mass_prefix_K_fraction": [
+    0.3160706105501268,
+    0.3160706105501268
+  ],
+  "mass_prefix_J_fraction": [
+    0.33043556203733915,
+    0.33043556203733915
+  ],
+  "all_four_fractions_strictly_in": [
+    "1/5",
+    "4/5"
+  ],
+  "aggregate_preserving_prefix_KC_JC_determinant": [
+    -826.4463462050688,
+    -826.4463462050688
+  ],
+  "arithmetic": "Exact rational interval arithmetic with integer square-root enclosures",
+  "commutator_square_18I": true,
+  "adjacent_swap_mass_lattice_inclusion": "18Z x 3Z",
+  "scalar_kernel_mod18_correction_checked": true,
+  "high_ratio_interval_invariant": true,
+  "last_packet_columns": [
+    [
+      2747146,
+      1306176
+    ],
+    [
+      1306176,
+      606742
+    ],
+    [
+      603603,
+      279798
+    ],
+    [
+      1279464,
+      603603
+    ]
+  ],
+  "last_packet_minors": [
+    -39286884644,
+    -19765795620,
+    -13019602626,
+    -765858978,
+    12107205840,
+    6345113337
+  ],
+  "last_packet_minors_gcd": 1,
+  "raw_word_sum_PF_less_than_44": true,
+  "high_packet_inverse_ratio_interval": [
+    "2",
+    "5/2"
+  ],
+  "high_packet_determinant_bound": "abs(7r^2-12r-36)>=89/4 for 2<=r<=5/2",
+  "high_packet_uniform_capacity_ratio_less_than_one": true
+}

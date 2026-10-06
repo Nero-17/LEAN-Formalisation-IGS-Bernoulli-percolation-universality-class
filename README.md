@@ -2,6 +2,11 @@
 
 This project formalises *Iterated Graph Systems (II):
 Bernoulli percolation and universality class on hierarchical lattices*.
+
+The manuscript's [supplementary materials](supplementary/README.md) include
+reproducible Python calculations, exact construction certificates, and preserved
+additional arguments. Their verification scope is separate from Lean coverage.
+
 It is an independent local project; the Overleaf manuscript was not modified.
 
 Manuscript baseline: Overleaf project `69b4d5f8e9e9b26ffd015f17`.

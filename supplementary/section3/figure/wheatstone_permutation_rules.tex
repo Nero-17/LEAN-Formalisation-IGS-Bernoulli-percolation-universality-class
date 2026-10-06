@@ -1,0 +1,49 @@
+% The two rule graphs in Lemma 3.17. Red marks the substituted edges/copies.
+\begin{tikzpicture}[
+  x=1cm,y=1cm,line cap=round,line join=round,
+  edge/.style={line width=.75pt},
+  replaced/.style={draw=red!45!black,line width=.9pt},
+  vertex/.style={circle,fill=black,inner sep=1.65pt},
+  terminal/.style={circle,fill=black,inner sep=2.5pt},
+  newvertex/.style={circle,fill=red!45!black,inner sep=1.65pt},
+  every node/.style={font=\small}
+]
+% A = W: highlight the opposite edges su and vt.
+\begin{scope}
+  \coordinate (s) at (-1.8,0);
+  \coordinate (u) at (0,1.4);
+  \coordinate (t) at (1.8,0);
+  \coordinate (v) at (0,-1.4);
+  \draw[edge] (u)--(t) (s)--(v) (u)--(v);
+  \draw[replaced] (s)--(u) (v)--(t);
+  \node[terminal,label=left:$s$] at (s) {};
+  \node[terminal,label=right:$t$] at (t) {};
+  \node[vertex,label=above:$u$] at (u) {};
+  \node[vertex,label=below:$v$] at (v) {};
+  \node at (0,-2.05) {$A=W$};
+\end{scope}
+% Replace each of the two marked edges by a fresh Wheatstone graph.
+\draw[-{Stealth[length=2mm,width=1.6mm]},black!55,line width=.65pt]
+  (2.45,0)--node[above=5pt,text=black]{$su,vt\mapsto W$}(4.35,0);
+% B: the two red copies have disjoint new internal vertices.
+\begin{scope}[xshift=6.8cm]
+  \coordinate (s) at (-1.8,0);
+  \coordinate (u) at (0,1.4);
+  \coordinate (t) at (1.8,0);
+  \coordinate (v) at (0,-1.4);
+  \coordinate (su1) at (-1.25,1.15);
+  \coordinate (su2) at (-.55,.25);
+  \coordinate (vt1) at (.55,-.25);
+  \coordinate (vt2) at (1.25,-1.15);
+  \draw[edge] (u)--(t) (s)--(v) (u)--(v);
+  \draw[replaced] (s)--(su1)--(u)--(su2)--(s) (su1)--(su2);
+  \draw[replaced] (v)--(vt1)--(t)--(vt2)--(v) (vt1)--(vt2);
+  \foreach \p in {su1,su2,vt1,vt2}
+    \node[newvertex] at (\p) {};
+  \node[terminal,label=left:$s$] at (s) {};
+  \node[terminal,label=right:$t$] at (t) {};
+  \node[vertex,label=above:$u$] at (u) {};
+  \node[vertex,label=below:$v$] at (v) {};
+  \node at (0,-2.05) {$B$};
+\end{scope}
+\end{tikzpicture}

@@ -1,0 +1,39 @@
+% Archival fragment from Overleaf 9e64b5bb1b22311f67fa8104b9d98219138bc822.
+% Uses manuscript macros and references; not standalone.
+\begin{lemma}\label{lem:permutation-obstruction}
+There exist admissible rules $A,B$ such that $B\circ A\circ B\circ A$ and $B\circ B\circ A\circ A$ have the same ambient and pivotal dimensions but different critical mass dimensions.
+\end{lemma}
+\begin{proof}
+Let $A:=W$ be the Wheatstone rule shown on the left in Figure~\ref{fig:wheatstone-permutation-rules}, with terminals $s,t$.
+Obtain $B$ by replacing the two highlighted opposite edges $su,vt$ by fresh copies of $W$, as shown on the right.
+\begin{figure}[tbp]
+\centering
+\input{figure/wheatstone_permutation_rules.tex}
+\caption{The rules $A=W$ and $B$.}
+\label{fig:wheatstone-permutation-rules}
+\end{figure}
+Both are simple, canonical and terminal symmetric, have terminal distance at least two and have two edge-disjoint terminal paths. Their critical points are $1/2$: the five independent child crossings in the latter rule are fair bits, just as for $W$. Their data are
+\[
+ (\ell_A,m_A,\varphi_A'(1/2))=(2,5,13/8),\qquad
+ (\ell_B,m_B,\varphi_B'(1/2))=(3,13,67/32).
+\]
+For the last thermal value, the opposite outer pair containing $W$ has total derivative weight $3/4$, the other outer pair has weight $3/4$, and the centre has weight $1/8$. Thus it is $(3/4)(13/8)+3/4+1/8=67/32$.
+Enumerating the thirty-two configurations of $A$ and the $8192$ configurations of $B$ under the conditional state rule gives
+\[
+ \mathbf B_A(1/2)=\frac1{16}\begin{pmatrix}53&48\\13&42\end{pmatrix},
+ \qquad
+ \mathbf B_B(1/2)=\frac1{256}\begin{pmatrix}1896&2292\\627&1380\end{pmatrix}.
+\]
+
+Compare the fourfold substitutions $B\circ A\circ B\circ A$ and $B\circ B\circ A\circ A$. Admissibility is preserved by substitution, and both have scale $2^2 3^2=36$. Both have $5^2 13^2=4225$ edges and critical point $1/2$.
+Their critical derivatives are both $(\frac{13}{8}\frac{67}{32})^2$, so their ambient and pivotal dimensions agree.
+
+At their common critical point, restrict~\eqref{eq:substitution-responses} to the common invariant plane from Theorem~\ref{thm:three-state-block}.
+Their positive mass blocks are respectively $\mathbf B_A\mathbf B_B\mathbf B_A\mathbf B_B$ and $\mathbf B_A^2\mathbf B_B^2$. Their determinants agree. Exact multiplication gives
+\[
+ \operatorname{tr}(\mathbf B_A^2\mathbf B_B^2)
+ -\operatorname{tr}(\mathbf B_A\mathbf B_B\mathbf B_A\mathbf B_B)
+ =-\frac{1521}{4194304}\ne0.
+\]
+If their Perron roots agreed, equality of their nonzero determinants would force their other eigenvalues to agree as well, and hence their traces to agree, a contradiction. They therefore have different Perron roots at the same scale. Their critical mass dimensions therefore differ.
+\end{proof}

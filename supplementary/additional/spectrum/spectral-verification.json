@@ -1,0 +1,7 @@
+{
+  "spectral_perturbation": "PASS",
+  "allocation_capacity": "PASS",
+  "trace_sign": "strictly negative",
+  "noncommuting_witness": "PASS",
+  "trace_difference": "-1521/4194304"
+}
