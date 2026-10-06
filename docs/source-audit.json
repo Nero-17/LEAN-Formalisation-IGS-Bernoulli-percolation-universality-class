@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "module_count": 709,
+  "module_count": 752,
   "certificate_batch_count": 136,
-  "milestone_axiom_audit_count": 610,
-  "kernel_axiom_output_count": 610,
+  "milestone_axiom_audit_count": 698,
+  "kernel_axiom_output_count": 698,
   "kernel_axioms": [
     "Classical.choice",
     "Quot.sound",
@@ -2840,12 +2840,184 @@
       "source_sha256": "f7a9b91b87dd4d0670695a87626f74395353fe0def45ccb446d85d53e2c32b1a"
     },
     {
+      "module": "Universality/Analysis/GeometricSumLogRate.lean",
+      "source_sha256": "bee8b57a75b9e98166571d0c3c835ed6b390d0a6f95c00f5d88195a59b8bf252"
+    },
+    {
+      "module": "Universality/Analysis/StoppedGeometricPowerBounds.lean",
+      "source_sha256": "214ec0e06b73a032839eecaebec6e4e0a6efe7e3e3ad40427725f7e38cffdd4a"
+    },
+    {
+      "module": "Universality/Percolation/MomentExitTendsto.lean",
+      "source_sha256": "274d8e871d2bc18a1fe47189ac65643f4fca2b8551d26d1e780386c981fa8470"
+    },
+    {
+      "module": "Universality/Percolation/NearCriticalMomentPowerBounds.lean",
+      "source_sha256": "3e855535849b125d7ccee6608d9a999006e4ba240a879b22918ed21789b19bf2"
+    },
+    {
+      "module": "Universality/Percolation/ActualMomentPowerBounds.lean",
+      "source_sha256": "dc9eb4f4c8efa97a5d3c8c6f21726bf8666fe5ae83a9b463ec46c78bb8a0f411"
+    },
+    {
+      "module": "Universality/Analysis/WindowRatioBounds.lean",
+      "source_sha256": "9515b4134e4c0ca1cb3788245029e5c1e6bcdbe5bbbd99137d171e86211d7db0"
+    },
+    {
+      "module": "Universality/Percolation/WindowPairExpectation.lean",
+      "source_sha256": "70d0b4d8e593998cddc59a2903a8c70baee638bd305fb70e99e02e7e9c8e3d52"
+    },
+    {
+      "module": "Universality/Percolation/CriticalWindowAtCells.lean",
+      "source_sha256": "c3473e6d60ee5c861c397ee02afcbd682e5c6167f6ee3f95954aa0aaefd41570"
+    },
+    {
+      "module": "Universality/Percolation/CriticalWindowConnectivity.lean",
+      "source_sha256": "94d4c9adf3674a3ba6b0e096518c1d2900f7b0c5742eacc6c5e935c611b89d0e"
+    },
+    {
+      "module": "Universality/Percolation/AveragedConnectivityExponent.lean",
+      "source_sha256": "6cbd4ca22ab3cd7de2c11a548d03b95a935c23b48e07e02d2ca87dc6c2ac54b2"
+    },
+    {
+      "module": "Universality/Examples/DiamondRadiusGeometry.lean",
+      "source_sha256": "d05405a527b12ae575b53f1bfb851f982686a60b0273b9105e67a7f18d5bfb8d"
+    },
+    {
+      "module": "Universality/Examples/DiamondOpenGeodesic.lean",
+      "source_sha256": "b3f8f1f6fe45d28e6425a9fddefe5a870b180653553edadfb2c63c12a50d2136"
+    },
+    {
+      "module": "Universality/Examples/DiamondBranchDistance.lean",
+      "source_sha256": "e7a2a963c8b895772a72dfe590d5f5f470a66c30e8587315912d3051d129d6e9"
+    },
+    {
+      "module": "Universality/Graph/GenerationTerminalEmbedding.lean",
+      "source_sha256": "300d94f05cfc53d5d3d3df2a476f379c8dd9a739ba9301480a99dab8cd53287a"
+    },
+    {
+      "module": "Universality/Graph/AncestralStageRootLaw.lean",
+      "source_sha256": "060c9f2ed5d2d768e299a68d183666a079eb61d8c1f79773d4d90eedc811892f"
+    },
+    {
+      "module": "Universality/Graph/AncestralStageJointLaw.lean",
+      "source_sha256": "eaa6763c423916e61475c978b69835983f2dbffef87558e06a03ddb61fbdaf48"
+    },
+    {
+      "module": "Universality/Graph/CountableAgeMixture.lean",
+      "source_sha256": "840e0117b31403140d3322228321f6dfed41d87bccd811d4cece1f302b8538ed"
+    },
+    {
+      "module": "Universality/Graph/UniformRootProbabilitySpace.lean",
+      "source_sha256": "968925a76455e5356708271e7c915309aa23fe3fcf9e0c17ed6618606c7cf750"
+    },
+    {
+      "module": "Universality/Graph/FiniteBernoulliMeasure.lean",
+      "source_sha256": "ccf8ce2d8367b35fe0f46f48c7791a382852b9f4ad6d437c0a107855a677396a"
+    },
+    {
+      "module": "Universality/Analysis/RadiusBlockProbability.lean",
+      "source_sha256": "d64a9f66283921db0fbc79ca05e63aa35b59b3118d46c3dcd1d28031ecfbeaf6"
+    },
+    {
+      "module": "Universality/Analysis/GeometricTailDifferences.lean",
+      "source_sha256": "6c024f63585b55ea7afba7d61c9c4fc9abfd80af4aef30f9fd0c3ce544718ee9"
+    },
+    {
+      "module": "Universality/Analysis/RadiusPointExponentUpper.lean",
+      "source_sha256": "f9f9d73d13036f4b7a265d71b3b76f77b093f09a7615415f6ae069066909b943"
+    },
+    {
+      "module": "Universality/Analysis/RadiusPointExponentLower.lean",
+      "source_sha256": "2f3bc7df1e3c761c433abf41e81c0e8fa68efca684774a8bd08c36264da2a1ba"
+    },
+    {
+      "module": "Universality/Analysis/RadiusPointExponent.lean",
+      "source_sha256": "62ff73dddd4cfff52e2067399763ae515cce4cfd08689f39bd8ebbf2982529dd"
+    },
+    {
+      "module": "Universality/Analysis/RadiusPointNonexistence.lean",
+      "source_sha256": "ac38fc90411825064b6a64fe0f25e08cbda180a3a013a8ad0e29ff573baab3a2"
+    },
+    {
+      "module": "Universality/Percolation/CriticalRadiusPointExponent.lean",
+      "source_sha256": "2f2fc7349bc99529aa86e87d4c70121a2bba00678cda9a411be121a4c94e3744"
+    },
+    {
+      "module": "Universality/Percolation/CriticalRadiusPointValue.lean",
+      "source_sha256": "728177906f9c3b82b93968933f748340111d6d88f5b78d3afc6def3d4ded3e7d"
+    },
+    {
+      "module": "Universality/Percolation/RadiusPointCounts.lean",
+      "source_sha256": "71e316c50987754c7a4d2c21a3646e8eec73e6ca90b813492579e9a16facaf65"
+    },
+    {
+      "module": "Universality/Percolation/RadiusPointTransfer.lean",
+      "source_sha256": "e22e2875c3ffd8f3fa5e628c25e9e59ee15f3d64863defa2a51b469a26e21188"
+    },
+    {
+      "module": "Universality/Percolation/RadiusPointEquivalence.lean",
+      "source_sha256": "5e13d8ef7140addf5261d9cea3b5f354ae1c3f873212755473dc1886ff41ffcb"
+    },
+    {
+      "module": "Universality/Graph/FiniteAgeDisintegration.lean",
+      "source_sha256": "866d90105ebe4c1e5ce46af9b608baf31f18a91fb9e703e74afef7890b2b340b"
+    },
+    {
+      "module": "Universality/Graph/FiniteAgeBounds.lean",
+      "source_sha256": "49a979aa844b95d80ccf964c2d49b0eb6069ef07c0ced30e187c13dc0b75b170"
+    },
+    {
+      "module": "Universality/Graph/UniformRootSizeIdentification.lean",
+      "source_sha256": "87d31714f11f8ca3ed77242eea351e2b4c99c4c726f04d93d31a78270debe759"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalObservables.lean",
+      "source_sha256": "0d91b968f876736d284e01476f20c954a000677b6be36541c5eb604f1a055c59"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalCriticalExponents.lean",
+      "source_sha256": "8501fe95e59e0eb513e6af6367f9325921a4b2b7210507caf6d20c670b97891c"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalExponentDefinition.lean",
+      "source_sha256": "3c275529167554f6e5f3762701525e212b57c13cdbf04c9a78d7eb2948c8699a"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalExponentDimensions.lean",
+      "source_sha256": "d05b36c65b7865dbf09cd2acb444fd43a25d0ef9afba3c29e48ec46d5e4f89f0"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalExponentClass.lean",
+      "source_sha256": "357ea677eeec1893a03f1ecb6bce824a265d1e6e719b62406e2242e58be1b4b7"
+    },
+    {
+      "module": "Universality/Analysis/StoppedMomentLogRate.lean",
+      "source_sha256": "49d06490e5c4dd51d4d9e6ef29c0ba97a0bf974fa31f0f2dac6715975cc17b2e"
+    },
+    {
+      "module": "Universality/Percolation/NearCriticalMomentLogRate.lean",
+      "source_sha256": "712df0bfa683ec944a9c8e3274b535467c314fb3118d5525a3c1f3e7695dfc45"
+    },
+    {
+      "module": "Universality/Percolation/ActualMomentLogRate.lean",
+      "source_sha256": "0534e234e758cde04050eadd9ec1965d0231b9921381150c51f1cf1c79824d5f"
+    },
+    {
+      "module": "Universality/Percolation/MomentRatioLogRate.lean",
+      "source_sha256": "236b8ebcd1970e07601c34aa969de13b5eb4f3beb1ff531d845e5ec6acf180fc"
+    },
+    {
+      "module": "Universality/Examples/PhysicalClassCounterexample.lean",
+      "source_sha256": "c2a668fc9a51dfb8136ac78a2b3d248424fb03177d715454957b2fdbd72fce80"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "3734fa12c9efc177451e00e4e89805d78da8164c278a8dba70d073d16d589604"
+      "source_sha256": "ccbceed266bf166eaef8668b2c2687ae0ea4c7eb5f41438f029dfb3af8a721d0"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "4f1bf9aa9e6fd6da3f664528b7450476f0ed02bb531fac83ddb7933c678e877a"
+      "source_sha256": "9643b68c258a63c759d89a1677a49e78bfae1bad77246b22dbad485082cb7bbb"
     }
   ]
 }
