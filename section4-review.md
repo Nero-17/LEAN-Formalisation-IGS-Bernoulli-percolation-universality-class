@@ -226,3 +226,5 @@ This supersedes the historical 95/100 checkpoint. The lead's final dependency-cl
 ## Lead final integration verification
 
 2026-10-06 15:56:57 UTC: PASS. The final 289-module closure rebuilt 28 modules and reused 261 only after recursive source/object/environment validation. All 3046 kernel declarations originating in 287 project modules passed the five-item axiom allowlist. The final source/object hashes and actual compiler/package environment were rechecked. This supersedes all historical pending-build dispositions above; the stated Section 3 and Section 5 scope boundaries remain.
+
+Final publication: draft PR https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/pull/1 on codex/section4-independent was verified at proof commit c6adbe81800628942bb07ba933321c8481e2c8bf. All mathematical and integrated-build pending items above are closed; subsequent record-only updates do not alter Lean sources.
