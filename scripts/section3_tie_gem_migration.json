@@ -1,0 +1,19 @@
+{
+  "modules": {
+    "TieGemData": "Examples/TieGemData",
+    "TieGemSimilarity": "Examples/TieGemSimilarity"
+  },
+  "prior_imports": {},
+  "audits": [
+    "Universality.tie_reliability",
+    "Universality.gem_reliability",
+    "Universality.tie_gem_edges",
+    "Universality.tie_gem_distance",
+    "Universality.tie_gem_fixed_point",
+    "Universality.tie_gem_response",
+    "Universality.tie_gem_spectralRadius",
+    "Universality.twoEdgePath_massMatrix",
+    "Universality.twoEdgePath_massMatrix_det",
+    "Universality.tie_gem_explicit_similarity"
+  ]
+}

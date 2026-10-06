@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "module_count": 639,
+  "module_count": 663,
   "certificate_batch_count": 136,
-  "milestone_axiom_audit_count": 464,
-  "kernel_axiom_output_count": 464,
+  "milestone_axiom_audit_count": 517,
+  "kernel_axiom_output_count": 517,
   "kernel_axioms": [
     "Classical.choice",
     "Quot.sound",
@@ -2560,12 +2560,108 @@
       "source_sha256": "688ef84a552ad46b5b101a792758c128712309e299bfd3b566b14725f20b8040"
     },
     {
+      "module": "Universality/Probability/ShiftedPowerFourier.lean",
+      "source_sha256": "8ca42016331b69ac9fe1400164660fc24d644d5fa9c6013895332a1d669c9a78"
+    },
+    {
+      "module": "Universality/Probability/PositivePowerDensity.lean",
+      "source_sha256": "87b8043d61ba0bd0f13c8d6a9034ac245fdd82808596839ad13a9fa6b194083c"
+    },
+    {
+      "module": "Universality/Percolation/AllClosedBirthCharacteristic.lean",
+      "source_sha256": "e1ed77b9beaaaa022bae39160d31b6abdc259e721095c374a648a78b6e954af4"
+    },
+    {
+      "module": "Universality/Percolation/ActualBirthPointLower.lean",
+      "source_sha256": "c7a8365e642e62d047f2035a05474fa6b54d9497f279a3f2df4c4972343a2b9c"
+    },
+    {
+      "module": "Universality/Graph/FiniteClusterEvent.lean",
+      "source_sha256": "d0b231517c21dfc0da72d37476200ef8a7dbb327d827f6b42e6bab8b46ecce5d"
+    },
+    {
+      "module": "Universality/Graph/BirthAgeCounting.lean",
+      "source_sha256": "7c2a1ad69e5093b8d87911562b486457738ac411e2e9c2e356f6ebe5f7974950"
+    },
+    {
+      "module": "Universality/Graph/OriginCoordinate.lean",
+      "source_sha256": "82a537f203c1fd413af2939185b48db8fddfb7d239882923c3387394b4aa10e6"
+    },
+    {
+      "module": "Universality/Graph/StageProductLaw.lean",
+      "source_sha256": "d09839245646099ebfbdc5841a5d42b44048b0ea795b20030aa9e0f1186b497d"
+    },
+    {
+      "module": "Universality/Percolation/NearCriticalPointwiseBounds.lean",
+      "source_sha256": "e04824d1a5b520ba43acb5b1ab0c16680a466960266dbef28b827be4c49a557b"
+    },
+    {
+      "module": "Universality/Percolation/ActualExitPointwise.lean",
+      "source_sha256": "ff74682d4522e1b1bcb2cde67e2fd571730de7fc0a3fed922770544d8673c969"
+    },
+    {
+      "module": "Universality/Percolation/DiscountedPostexitPower.lean",
+      "source_sha256": "364e5d0d59a348437166cc309bfe2388b1558dc6f4279f1985440641353f2d17"
+    },
+    {
+      "module": "Universality/Analysis/StoppedSequenceDomination.lean",
+      "source_sha256": "8e723ae1acec478ed35ed109fa71590cc08fe40264685e0a93925d22a4fc0de2"
+    },
+    {
+      "module": "Universality/Graph/RuleWord.lean",
+      "source_sha256": "a3e00fda32757fef09948e040b63128eb4aa9ef8383c15f0578fa9eb7c8de725"
+    },
+    {
+      "module": "Universality/Percolation/MassMatrixEquivalence.lean",
+      "source_sha256": "589300295ae27d6634b86e207086b1365d14f446f5b61378533537ad91fcfac6"
+    },
+    {
+      "module": "Universality/Graph/CyclicRuleWord.lean",
+      "source_sha256": "4495c09197fe1cece770d384ad51c87a35e629ce789019c55d6ae6fe2d3670eb"
+    },
+    {
+      "module": "Universality/Graph/InternalCellNeighborhood.lean",
+      "source_sha256": "68ec7c333386ca4392b02e75bfbc69ff80b4523dc8ad975df6eba9b4932a539d"
+    },
+    {
+      "module": "Universality/Graph/GenerationInternalNeighborhood.lean",
+      "source_sha256": "d52abb00d06e04517ad15246a1064aa9e860bff1b7f414917d8fe1252344cf53"
+    },
+    {
+      "module": "Universality/Percolation/NearCriticalBirthDomination.lean",
+      "source_sha256": "d91f7712eb4bba8a27eb0ff83c9ba6bdbf9db1b4bfa98d012eb72d5609dd359d"
+    },
+    {
+      "module": "Universality/Percolation/ActualBirthDomination.lean",
+      "source_sha256": "637c9e7353a52d4b04f7a5e9420b4d457d7897e2f2339ccd8aa0c2e8fa1fae02"
+    },
+    {
+      "module": "Universality/Graph/GeodesicEdgeLevels.lean",
+      "source_sha256": "7889cf7e9b4b9532ed6ceee0b307a1228f2167ee970e175ab7313ad2e2805e9d"
+    },
+    {
+      "module": "Universality/Percolation/FarConnectedPairs.lean",
+      "source_sha256": "de0e9ccff880aa874fd29d3e1c3deecd2608a042548bbf26563bd84bf0b3cc6d"
+    },
+    {
+      "module": "Universality/Percolation/FarPairGrowth.lean",
+      "source_sha256": "58bed7aac96e26b4692306a4e119c06c5c7fea16631fe8f82f4bfad14f8c9f20"
+    },
+    {
+      "module": "Universality/Examples/TieGemData.lean",
+      "source_sha256": "b5fb8628ce04979f84f58ef2c6c1f8206ab484e81acd0bf4072534e584def943"
+    },
+    {
+      "module": "Universality/Examples/TieGemSimilarity.lean",
+      "source_sha256": "4ebf5fb0b6f7243f4b8e2d33c8cdd3d8a8921313490bcee6457753eead556b43"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "1fd2bf2dc6a260ecfe4f5cc1b105997b74c81ef63f76176002961f6e06eddaa2"
+      "source_sha256": "452da042d1b9de456a77a71d7623c7bbc910465b0088febd18da0b56d665a689"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "72ebcddb41ac19eaa78e4889af03583f8683a6a198c25b8c2fa1355b8abea024"
+      "source_sha256": "32655ee82d8ce5f58a0edfd7661ec3bf09c2c9a63ffdfb5cdf336c40e88009ea"
     }
   ]
 }

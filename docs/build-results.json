@@ -4660,17 +4660,185 @@
     "checked_at_utc": "2026-10-06T15:05:27.0402743Z"
   },
   {
+    "module": "Universality/Probability/ShiftedPowerFourier.lean",
+    "exit_code": 0,
+    "seconds": 45.7816706,
+    "source_sha256": "8ca42016331b69ac9fe1400164660fc24d644d5fa9c6013895332a1d669c9a78",
+    "checked_at_utc": "2026-10-06T15:41:15.7103812Z"
+  },
+  {
+    "module": "Universality/Probability/PositivePowerDensity.lean",
+    "exit_code": 0,
+    "seconds": 84.3586594,
+    "source_sha256": "87b8043d61ba0bd0f13c8d6a9034ac245fdd82808596839ad13a9fa6b194083c",
+    "checked_at_utc": "2026-10-06T15:42:40.1687344Z"
+  },
+  {
+    "module": "Universality/Percolation/AllClosedBirthCharacteristic.lean",
+    "exit_code": 0,
+    "seconds": 97.8222184,
+    "source_sha256": "e1ed77b9beaaaa022bae39160d31b6abdc259e721095c374a648a78b6e954af4",
+    "checked_at_utc": "2026-10-06T15:44:18.0778252Z"
+  },
+  {
+    "module": "Universality/Percolation/ActualBirthPointLower.lean",
+    "exit_code": 0,
+    "seconds": 75.180719,
+    "source_sha256": "c7a8365e642e62d047f2035a05474fa6b54d9497f279a3f2df4c4972343a2b9c",
+    "checked_at_utc": "2026-10-06T15:45:33.4112034Z"
+  },
+  {
+    "module": "Universality/Graph/FiniteClusterEvent.lean",
+    "exit_code": 0,
+    "seconds": 65.1091109,
+    "source_sha256": "d0b231517c21dfc0da72d37476200ef8a7dbb327d827f6b42e6bab8b46ecce5d",
+    "checked_at_utc": "2026-10-06T15:46:38.6447990Z"
+  },
+  {
+    "module": "Universality/Graph/BirthAgeCounting.lean",
+    "exit_code": 0,
+    "seconds": 53.8117894,
+    "source_sha256": "7c2a1ad69e5093b8d87911562b486457738ac411e2e9c2e356f6ebe5f7974950",
+    "checked_at_utc": "2026-10-06T15:47:32.5182212Z"
+  },
+  {
+    "module": "Universality/Graph/OriginCoordinate.lean",
+    "exit_code": 0,
+    "seconds": 47.1560052,
+    "source_sha256": "82a537f203c1fd413af2939185b48db8fddfb7d239882923c3387394b4aa10e6",
+    "checked_at_utc": "2026-10-06T15:48:19.7169670Z"
+  },
+  {
+    "module": "Universality/Graph/StageProductLaw.lean",
+    "exit_code": 0,
+    "seconds": 72.6961034,
+    "source_sha256": "d09839245646099ebfbdc5841a5d42b44048b0ea795b20030aa9e0f1186b497d",
+    "checked_at_utc": "2026-10-06T15:49:32.4488946Z"
+  },
+  {
+    "module": "Universality/Percolation/NearCriticalPointwiseBounds.lean",
+    "exit_code": 0,
+    "seconds": 25.5887714,
+    "source_sha256": "e04824d1a5b520ba43acb5b1ab0c16680a466960266dbef28b827be4c49a557b",
+    "checked_at_utc": "2026-10-06T15:49:58.0731575Z"
+  },
+  {
+    "module": "Universality/Percolation/ActualExitPointwise.lean",
+    "exit_code": 0,
+    "seconds": 49.4055307,
+    "source_sha256": "ff74682d4522e1b1bcb2cde67e2fd571730de7fc0a3fed922770544d8673c969",
+    "checked_at_utc": "2026-10-06T15:50:47.4951981Z"
+  },
+  {
+    "module": "Universality/Percolation/DiscountedPostexitPower.lean",
+    "exit_code": 0,
+    "seconds": 52.6420382,
+    "source_sha256": "364e5d0d59a348437166cc309bfe2388b1558dc6f4279f1985440641353f2d17",
+    "checked_at_utc": "2026-10-06T15:51:40.1626217Z"
+  },
+  {
+    "module": "Universality/Analysis/StoppedSequenceDomination.lean",
+    "exit_code": 0,
+    "seconds": 21.7119794,
+    "source_sha256": "8e723ae1acec478ed35ed109fa71590cc08fe40264685e0a93925d22a4fc0de2",
+    "checked_at_utc": "2026-10-06T15:52:01.8988305Z"
+  },
+  {
+    "module": "Universality/Graph/RuleWord.lean",
+    "exit_code": 0,
+    "seconds": 31.8066981,
+    "source_sha256": "a3e00fda32757fef09948e040b63128eb4aa9ef8383c15f0578fa9eb7c8de725",
+    "checked_at_utc": "2026-10-06T15:52:33.7209999Z"
+  },
+  {
+    "module": "Universality/Percolation/MassMatrixEquivalence.lean",
+    "exit_code": 0,
+    "seconds": 54.1623247,
+    "source_sha256": "589300295ae27d6634b86e207086b1365d14f446f5b61378533537ad91fcfac6",
+    "checked_at_utc": "2026-10-06T15:53:27.9113176Z"
+  },
+  {
+    "module": "Universality/Graph/CyclicRuleWord.lean",
+    "exit_code": 0,
+    "seconds": 27.2254003,
+    "source_sha256": "4495c09197fe1cece770d384ad51c87a35e629ce789019c55d6ae6fe2d3670eb",
+    "checked_at_utc": "2026-10-06T15:53:55.1593492Z"
+  },
+  {
+    "module": "Universality/Graph/InternalCellNeighborhood.lean",
+    "exit_code": 0,
+    "seconds": 28.1517164,
+    "source_sha256": "68ec7c333386ca4392b02e75bfbc69ff80b4523dc8ad975df6eba9b4932a539d",
+    "checked_at_utc": "2026-10-06T15:54:23.3315894Z"
+  },
+  {
+    "module": "Universality/Graph/GenerationInternalNeighborhood.lean",
+    "exit_code": 0,
+    "seconds": 53.3913998,
+    "source_sha256": "d52abb00d06e04517ad15246a1064aa9e860bff1b7f414917d8fe1252344cf53",
+    "checked_at_utc": "2026-10-06T15:55:16.7549401Z"
+  },
+  {
+    "module": "Universality/Percolation/NearCriticalBirthDomination.lean",
+    "exit_code": 0,
+    "seconds": 70.6222775,
+    "source_sha256": "d91f7712eb4bba8a27eb0ff83c9ba6bdbf9db1b4bfa98d012eb72d5609dd359d",
+    "checked_at_utc": "2026-10-06T15:56:27.4068573Z"
+  },
+  {
+    "module": "Universality/Percolation/ActualBirthDomination.lean",
+    "exit_code": 0,
+    "seconds": 101.3018169,
+    "source_sha256": "637c9e7353a52d4b04f7a5e9420b4d457d7897e2f2339ccd8aa0c2e8fa1fae02",
+    "checked_at_utc": "2026-10-06T15:58:08.9168961Z"
+  },
+  {
+    "module": "Universality/Graph/GeodesicEdgeLevels.lean",
+    "exit_code": 0,
+    "seconds": 85.8774377,
+    "source_sha256": "7889cf7e9b4b9532ed6ceee0b307a1228f2167ee970e175ab7313ad2e2805e9d",
+    "checked_at_utc": "2026-10-06T15:59:35.3564018Z"
+  },
+  {
+    "module": "Universality/Percolation/FarConnectedPairs.lean",
+    "exit_code": 0,
+    "seconds": 152.1453963,
+    "source_sha256": "de0e9ccff880aa874fd29d3e1c3deecd2608a042548bbf26563bd84bf0b3cc6d",
+    "checked_at_utc": "2026-10-06T16:02:07.6152012Z"
+  },
+  {
+    "module": "Universality/Percolation/FarPairGrowth.lean",
+    "exit_code": 0,
+    "seconds": 111.1236538,
+    "source_sha256": "58bed7aac96e26b4692306a4e119c06c5c7fea16631fe8f82f4bfad14f8c9f20",
+    "checked_at_utc": "2026-10-06T16:03:58.8212465Z"
+  },
+  {
+    "module": "Universality/Examples/TieGemData.lean",
+    "exit_code": 0,
+    "seconds": 75.0946946,
+    "source_sha256": "b5fb8628ce04979f84f58ef2c6c1f8206ab484e81acd0bf4072534e584def943",
+    "checked_at_utc": "2026-10-06T16:05:14.0245239Z"
+  },
+  {
+    "module": "Universality/Examples/TieGemSimilarity.lean",
+    "exit_code": 0,
+    "seconds": 91.5866719,
+    "source_sha256": "4ebf5fb0b6f7243f4b8e2d33c8cdd3d8a8921313490bcee6457753eead556b43",
+    "checked_at_utc": "2026-10-06T16:06:45.6735180Z"
+  },
+  {
     "module": "Universality.lean",
     "exit_code": 0,
-    "seconds": 23.74979,
-    "source_sha256": "1fd2bf2dc6a260ecfe4f5cc1b105997b74c81ef63f76176002961f6e06eddaa2",
-    "checked_at_utc": "2026-10-06T15:05:50.9432508Z"
+    "seconds": 124.8830498,
+    "source_sha256": "452da042d1b9de456a77a71d7623c7bbc910465b0088febd18da0b56d665a689",
+    "checked_at_utc": "2026-10-06T16:08:51.2539602Z"
   },
   {
     "module": "Audit.lean",
     "exit_code": 0,
-    "seconds": 25.2324664,
-    "source_sha256": "72ebcddb41ac19eaa78e4889af03583f8683a6a198c25b8c2fa1355b8abea024",
-    "checked_at_utc": "2026-10-06T15:09:35.4682384Z"
+    "seconds": 158.4739058,
+    "source_sha256": "32655ee82d8ce5f58a0edfd7661ec3bf09c2c9a63ffdfb5cdf336c40e88009ea",
+    "checked_at_utc": "2026-10-06T16:11:29.8585420Z"
   }
 ]
