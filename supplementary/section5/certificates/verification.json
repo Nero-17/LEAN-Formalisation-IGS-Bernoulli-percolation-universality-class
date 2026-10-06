@@ -1,0 +1,110 @@
+[
+  {
+    "status": "ROOT INDEPENDENT INTEGER-ONLY CERTIFICATE PASS",
+    "base": 19,
+    "n": 424,
+    "mass_definition": "original three-state, re-enumerated from 32 configurations",
+    "input_files": [
+      "word_base.json",
+      "packet_repair.json"
+    ],
+    "rational_center_read": false,
+    "full_PF_vector": [
+      55,
+      46,
+      23
+    ],
+    "exponents": [
+      100,
+      232,
+      219,
+      70
+    ],
+    "thermal_pivotal_numerators_reenumerated": [
+      6,
+      6,
+      6,
+      6,
+      2
+    ],
+    "thermal_pivotal_denominator": 16,
+    "explicitly_checked_exception_words": 4,
+    "hashes": {
+      "word_base.json": "ffc55aceb341791e0b5cab26cb376766148532c991ba86f9c31ac594fc696e13",
+      "packet_repair.json": "c213fbb0fab70c959852603a1f03b1b865742fe7bed6d1e8fe9bc6d70253e362"
+    },
+    "seconds": 3.577999999994063
+  },
+  {
+    "status": "ROOT INDEPENDENT INTEGER-ONLY CERTIFICATE PASS",
+    "base": 661,
+    "n": 936,
+    "mass_definition": "original three-state, re-enumerated from 32 configurations",
+    "input_files": [
+      "word_base.json",
+      "packet_repair.json"
+    ],
+    "rational_center_read": false,
+    "full_PF_vector": [
+      55,
+      46,
+      23
+    ],
+    "exponents": [
+      100,
+      232,
+      219,
+      70
+    ],
+    "thermal_pivotal_numerators_reenumerated": [
+      6,
+      6,
+      6,
+      6,
+      2
+    ],
+    "thermal_pivotal_denominator": 16,
+    "explicitly_checked_exception_words": 12,
+    "hashes": {
+      "word_base.json": "8e05965df05f955a41bae8b23e7213cfeec8566f59497637f825d5c2d18f946f",
+      "packet_repair.json": "bc372fc7fe1e93fa5113212364082049092f82ed46eac0f8f9215daaf093f7bb"
+    },
+    "seconds": 36.34300000000076
+  },
+  {
+    "status": "ROOT INDEPENDENT INTEGER-ONLY CERTIFICATE PASS",
+    "base": 739,
+    "n": 952,
+    "mass_definition": "original three-state, re-enumerated from 32 configurations",
+    "input_files": [
+      "word_base.json",
+      "packet_repair.json"
+    ],
+    "rational_center_read": false,
+    "full_PF_vector": [
+      55,
+      46,
+      23
+    ],
+    "exponents": [
+      100,
+      232,
+      219,
+      70
+    ],
+    "thermal_pivotal_numerators_reenumerated": [
+      6,
+      6,
+      6,
+      6,
+      2
+    ],
+    "thermal_pivotal_denominator": 16,
+    "explicitly_checked_exception_words": 20,
+    "hashes": {
+      "word_base.json": "ace83b8a5caf8777913fb5ef46455b8ca7c8c3a9ea88ad00aa5928b00eea3dcf",
+      "packet_repair.json": "e3690ba890f60da5c59f25816eb60fff003ad4da95047cd565b98168711c17e1"
+    },
+    "seconds": 48.61000000000058
+  }
+]
