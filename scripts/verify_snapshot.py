@@ -79,11 +79,34 @@ unreachable = sorted(all_modules - visited)
 if unreachable:
     errors.append("Source modules outside Audit import closure: " + ", ".join(unreachable))
 
+# Check the actual output of the last kernel audit, not only source spellings.
+audit_source = (root / "Audit.lean").read_text(encoding="utf-8-sig")
+expected_audits = re.findall(r"^#print axioms ([A-Za-z0-9_'.]+)\s*$", audit_source, re.M)
+audit_log = root / "logs/section3-continuation-build.log"
+if not audit_log.exists():
+    audit_log = root / "build-evidence/section3-continuation-build.log"
+actual_audits = []
+observed_axioms = set()
+if audit_log.exists():
+    last_audit = audit_log.read_text(encoding="utf-8-sig").rsplit("Checking Audit.lean", 1)[-1]
+    for match in re.finditer(r"'([^']+)' (?:depends on axioms:\s*\[([^\]]*)\]|does not depend on any axioms)", last_audit):
+        actual_audits.append(match[1])
+        if match[2]:
+            observed_axioms.update(item.strip() for item in match[2].split(","))
+    if actual_audits != expected_audits:
+        errors.append("Actual kernel axiom-audit output differs from the complete ordered Audit.lean list")
+    if observed_axioms - {"propext", "Classical.choice", "Quot.sound"}:
+        errors.append("Unexpected kernel axioms: " + ", ".join(sorted(observed_axioms)))
+else:
+    errors.append("Missing kernel axiom-audit log")
+
 result = {
     "ok": not errors,
     "module_count": len(order),
     "certificate_batch_count": sum("/Opposite/Batch" in p or "/Opposite/Crossing" in p or "/CentralWheatstoneCertificates/Batch" in p for p in order),
     "milestone_axiom_audit_count": (root / "Audit.lean").read_text(encoding="utf-8-sig").count("#print axioms"),
+    "kernel_axiom_output_count": len(actual_audits),
+    "kernel_axioms": sorted(observed_axioms),
     "errors": errors,
     "sources": checked,
 }

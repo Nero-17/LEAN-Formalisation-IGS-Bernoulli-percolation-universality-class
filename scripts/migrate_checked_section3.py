@@ -4,7 +4,8 @@ import json
 import re
 import sys
 root=Path(__file__).resolve().parents[1]
-spec=json.loads((root/'scripts/section3_checked_migration.json').read_text())
+spec_path = sys.argv[sys.argv.index('--spec') + 1] if '--spec' in sys.argv else 'scripts/section3_checked_migration.json'
+spec=json.loads((root/spec_path).read_text())
 modules=spec['modules']
 replacements={'scratch.'+k.replace('/','.'): 'Universality.'+v.replace('/','.') for k,v in (spec['prior_imports'] | modules).items()}
 prepared=[]

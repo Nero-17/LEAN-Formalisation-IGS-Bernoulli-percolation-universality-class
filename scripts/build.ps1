@@ -37,6 +37,20 @@ foreach ($module in $taskOrder) {
         }
     }
     $taskObject = Join-Path $taskRoot ('.lake/build/lib/lean/' + [IO.Path]::ChangeExtension($module, '.olean'))
+    # A dependency may have been rebuilt before an interrupted invocation.
+    # Its newer object must invalidate this module even if this invocation reused it.
+    if (Test-Path -LiteralPath $taskObject) {
+        $taskObjectTime = (Get-Item -LiteralPath $taskObject).LastWriteTimeUtc
+        foreach ($line in Get-Content -LiteralPath (Join-Path $taskRoot $module)) {
+            if ($line -match '^import (Universality(?:\.[A-Za-z0-9_]+)*)\s*$') {
+                $taskDependencyObject = Join-Path $taskRoot ('.lake/build/lib/lean/' + $Matches[1].Replace('.', '/') + '.olean')
+                if ((Test-Path -LiteralPath $taskDependencyObject) -and
+                    (Get-Item -LiteralPath $taskDependencyObject).LastWriteTimeUtc -gt $taskObjectTime) {
+                    $taskDependencyRebuilt = $true
+                }
+            }
+        }
+    }
     $taskPrior = $taskPrevious[$module]
     if ($ReuseVerified -and $taskPrior -and $taskPrior.exit_code -eq 0 -and
         $taskPrior.source_sha256 -eq $taskHash -and -not $taskDependencyRebuilt -and

@@ -4359,17 +4359,318 @@
     "checked_at_utc": "2026-10-06T14:18:42.1454692Z"
   },
   {
+    "module": "Universality/Percolation/ConditionalMassObservable.lean",
+    "exit_code": 0,
+    "seconds": 30.0813202,
+    "source_sha256": "13c088584b9eb604a4d4e87fc89d7726ccafee5c75286a89d655ca26deedc29b",
+    "checked_at_utc": "2026-10-06T14:45:34.8949477Z"
+  },
+  {
+    "module": "Universality/Percolation/InternalMassPointPowerRecursion.lean",
+    "exit_code": 0,
+    "seconds": 38.8946833,
+    "source_sha256": "8152e80739481fcd018d213b67eda354e7140eeb34ab65c4fadf58aaeafe6479",
+    "checked_at_utc": "2026-10-06T14:46:13.8767108Z"
+  },
+  {
+    "module": "Universality/Probability/PolynomialPointTail.lean",
+    "exit_code": 0,
+    "seconds": 29.853055,
+    "source_sha256": "bb4225db5172f986e34d8932aa914c45ccbe87b05ea1d056ecb3b04715c50b0b",
+    "checked_at_utc": "2026-10-06T14:46:43.7502424Z"
+  },
+  {
+    "module": "Universality/Percolation/InternalMassPointTail.lean",
+    "exit_code": 0,
+    "seconds": 27.4861854,
+    "source_sha256": "7f93d5c0b5bebf58e0a865fddd19187c60d70568271fbea45390940e4c4c442f",
+    "checked_at_utc": "2026-10-06T14:47:11.2536791Z"
+  },
+  {
+    "module": "Universality/Percolation/MomentExitWideCompact.lean",
+    "exit_code": 0,
+    "seconds": 28.4932962,
+    "source_sha256": "76bc9af0d9e1e701ab6ad28e1e7b5d7caedeb430260ffbc2c7e7a844f65174ea",
+    "checked_at_utc": "2026-10-06T14:47:39.7592265Z"
+  },
+  {
+    "module": "Universality/Percolation/ActualExitTail.lean",
+    "exit_code": 0,
+    "seconds": 34.8354648,
+    "source_sha256": "ab9d9623e171cd55e9cc5856956a93602f077c9979b430eb2f0719c5c80aee2a",
+    "checked_at_utc": "2026-10-06T14:48:14.6218604Z"
+  },
+  {
+    "module": "Universality/Analysis/StoppedSeriesComparison.lean",
+    "exit_code": 0,
+    "seconds": 18.3274274,
+    "source_sha256": "42d585102e7ef5a5e2127326649c43b166d94b8ad4ebaabc9e763911877a4295",
+    "checked_at_utc": "2026-10-06T14:48:32.9621318Z"
+  },
+  {
+    "module": "Universality/Percolation/BirthSeriesScaling.lean",
+    "exit_code": 0,
+    "seconds": 22.3299673,
+    "source_sha256": "63ec82ba96d0535eac50a16c00534898c3ac436e85a509dbd135eff34014129a",
+    "checked_at_utc": "2026-10-06T14:48:55.3186223Z"
+  },
+  {
+    "module": "Universality/Percolation/RealAnnealedMoment.lean",
+    "exit_code": 0,
+    "seconds": 21.3969734,
+    "source_sha256": "7961e7a92e804271f2c9503e9d51a9c76f98f045f775831e08efc935b8773b69",
+    "checked_at_utc": "2026-10-06T14:49:16.7273246Z"
+  },
+  {
+    "module": "Universality/Percolation/NearCriticalBirthSeries.lean",
+    "exit_code": 0,
+    "seconds": 25.6063838,
+    "source_sha256": "e33a7b268481e9a32a8639302ba08c4f5eb1f10dc67e7ec3fefaae0f28a5d180",
+    "checked_at_utc": "2026-10-06T14:49:42.3458447Z"
+  },
+  {
+    "module": "Universality/Percolation/ActualBirthSeriesComparison.lean",
+    "exit_code": 0,
+    "seconds": 23.8488853,
+    "source_sha256": "0283039d4723ab30af79f5eb6b2276f12b43233b27f1e78c9740bd8d3afaad04",
+    "checked_at_utc": "2026-10-06T14:50:06.2137349Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstoneHalfDynamics.lean",
+    "exit_code": 0,
+    "seconds": 21.7525801,
+    "source_sha256": "eb5b621fc91a4c187fe1db0144c3c0b7eba1f31b29ee2ae7d38ced83c9b00cd8",
+    "checked_at_utc": "2026-10-06T14:50:27.978454Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstonePowerResponse.lean",
+    "exit_code": 0,
+    "seconds": 22.0355827,
+    "source_sha256": "9e9de1d7b968cd2c244c71458c778386fd2d1dda61df7cc5fc965538e183bd3f",
+    "checked_at_utc": "2026-10-06T14:50:50.0247677Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstoneRightExponent.lean",
+    "exit_code": 0,
+    "seconds": 23.6028633,
+    "source_sha256": "e88fe60b311e53d616ab06b39d406455f6240b819d011209b50b079c9402532a",
+    "checked_at_utc": "2026-10-06T14:51:13.6385349Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstoneRawAlpha.lean",
+    "exit_code": 0,
+    "seconds": 36.5217735,
+    "source_sha256": "df696a5841da1bfffc81e387769d3407fd8b89168036086bdb7a475edf473476",
+    "checked_at_utc": "2026-10-06T14:51:50.1824297Z"
+  },
+  {
+    "module": "Universality/Percolation/ActualReliabilityExitLogBound.lean",
+    "exit_code": 0,
+    "seconds": 27.1451839,
+    "source_sha256": "2e0bcc101199e3a4ea8452a6d535cdacc0e15f425fa6c5b75d71d654844c985f",
+    "checked_at_utc": "2026-10-06T14:52:17.3422164Z"
+  },
+  {
+    "module": "Universality/Graph/InternalIncidentEdges.lean",
+    "exit_code": 0,
+    "seconds": 26.7850958,
+    "source_sha256": "6a73658431f7d962c264fdf45a4c4159cff446b76aa21ed6e752c4ebc845d835",
+    "checked_at_utc": "2026-10-06T14:52:44.1413412Z"
+  },
+  {
+    "module": "Universality/Percolation/NearCriticalRootMoment.lean",
+    "exit_code": 0,
+    "seconds": 65.3604316,
+    "source_sha256": "cb5a973922b0b2c19fd98b6c6e00371a9cff73aecadcdfe505b0592313208268",
+    "checked_at_utc": "2026-10-06T14:53:49.5173494Z"
+  },
+  {
+    "module": "Universality/Graph/NetworkEmbedding.lean",
+    "exit_code": 0,
+    "seconds": 33.5955045,
+    "source_sha256": "02eabd99f976b5480129dfc07b757126865b6b634f2f1f44ce08c2966f2a71af",
+    "checked_at_utc": "2026-10-06T14:54:23.128748Z"
+  },
+  {
+    "module": "Universality/Graph/GenerationCellEmbedding.lean",
+    "exit_code": 0,
+    "seconds": 21.7384701,
+    "source_sha256": "265fb8e84545ac819772289dbcd1167e1a6594c2001ae3e80e2c55dada368463",
+    "checked_at_utc": "2026-10-06T14:54:44.8788825Z"
+  },
+  {
+    "module": "Universality/Graph/NetworkTower.lean",
+    "exit_code": 0,
+    "seconds": 20.7229517,
+    "source_sha256": "c1249fd20cf7049c2147a434f2691de66a456636fe418cbf9b8426cfeec5a385",
+    "checked_at_utc": "2026-10-06T14:55:05.6145617Z"
+  },
+  {
+    "module": "Universality/Graph/DirectLimitGraph.lean",
+    "exit_code": 0,
+    "seconds": 24.1941813,
+    "source_sha256": "4f9f0a2f2c30fd5dc02ff867f87f6c04749526a85e2d6fea6283280f60d0d088",
+    "checked_at_utc": "2026-10-06T14:55:29.8245875Z"
+  },
+  {
+    "module": "Universality/Graph/NetworkTowerConfiguration.lean",
+    "exit_code": 0,
+    "seconds": 22.0958039,
+    "source_sha256": "91b53fe1c8e2d081b1cd674137ac3d67df63e199b30e17a83853460c0be02069",
+    "checked_at_utc": "2026-10-06T14:55:51.9327073Z"
+  },
+  {
+    "module": "Universality/Percolation/CoarseRootMass.lean",
+    "exit_code": 0,
+    "seconds": 36.3130584,
+    "source_sha256": "3cbbc22a7abf58d908816f6094e3e7b15f27fc5e2a6b6fe0068c07cdff92e120",
+    "checked_at_utc": "2026-10-06T14:56:28.2591598Z"
+  },
+  {
+    "module": "Universality/Percolation/CoarseRootLaw.lean",
+    "exit_code": 0,
+    "seconds": 26.3975243,
+    "source_sha256": "49f657fb6c7917f1704f82cd1119b4667d7018796fbc267f08ec65a5d541d15e",
+    "checked_at_utc": "2026-10-06T14:56:54.6735592Z"
+  },
+  {
+    "module": "Universality/Percolation/CoarseRootMoments.lean",
+    "exit_code": 0,
+    "seconds": 23.4226144,
+    "source_sha256": "14b0170be05fbaeb1f798da2909a3e7327bcd77247eca07882d6646f39452d1e",
+    "checked_at_utc": "2026-10-06T14:57:18.1136547Z"
+  },
+  {
+    "module": "Universality/Percolation/CoarseRootPointRecursion.lean",
+    "exit_code": 0,
+    "seconds": 24.0540342,
+    "source_sha256": "41461b879d21d31ef714709e79415f5c2ce99d365c14ed015387d39596ae0932",
+    "checked_at_utc": "2026-10-06T14:57:42.1795751Z"
+  },
+  {
+    "module": "Universality/Percolation/BirthRootPointBounds.lean",
+    "exit_code": 0,
+    "seconds": 27.7850168,
+    "source_sha256": "1905103d5f33c098633f659fd71e544b853f5478bade646a9f82c56db19a8355",
+    "checked_at_utc": "2026-10-06T14:58:09.9790414Z"
+  },
+  {
+    "module": "Universality/Percolation/BirthInteriorPointBounds.lean",
+    "exit_code": 0,
+    "seconds": 28.283984,
+    "source_sha256": "fb12bebe04ab548e6a732f941d9ce9b626144f4e3cdb778d2de901888289ffea",
+    "checked_at_utc": "2026-10-06T14:58:38.2770795Z"
+  },
+  {
+    "module": "Universality/Percolation/CoarseRootPointTail.lean",
+    "exit_code": 0,
+    "seconds": 27.5443461,
+    "source_sha256": "5dc40cbde5388dc61b2787a30bbcce819a8ae8f643715e9f9c7375e808299c24",
+    "checked_at_utc": "2026-10-06T14:59:05.837048Z"
+  },
+  {
+    "module": "Universality/Percolation/CappedNearCriticalBirthSeries.lean",
+    "exit_code": 0,
+    "seconds": 22.1128511,
+    "source_sha256": "24744e724e4d9e69c8c9e816cefab10ebc6c47c026e6e69aebfde9db34288deb",
+    "checked_at_utc": "2026-10-06T14:59:27.9627646Z"
+  },
+  {
+    "module": "Universality/Percolation/CappedActualBirthSeriesComparison.lean",
+    "exit_code": 0,
+    "seconds": 29.7902804,
+    "source_sha256": "2ea8a8ee62af2296b50b5049a2cd99a64f81f3638586fe8f922503f564034e67",
+    "checked_at_utc": "2026-10-06T14:59:57.7683192Z"
+  },
+  {
+    "module": "Universality/Percolation/CappedNearCriticalRootMoment.lean",
+    "exit_code": 0,
+    "seconds": 70.1210351,
+    "source_sha256": "593f7e5d745d15a5187593541fa04195eac6fae1028094a775d17184b46079a0",
+    "checked_at_utc": "2026-10-06T15:01:07.9054591Z"
+  },
+  {
+    "module": "Universality/Percolation/BoundaryDensityComparison.lean",
+    "exit_code": 0,
+    "seconds": 22.6343795,
+    "source_sha256": "498fed7c80e034d20af07b4c379f4c0c00d4a0f728f7e5eaf886e6fbaf9bd90f",
+    "checked_at_utc": "2026-10-06T15:01:30.5517356Z"
+  },
+  {
+    "module": "Universality/Percolation/PostexitEscapingMassComparison.lean",
+    "exit_code": 0,
+    "seconds": 36.1663698,
+    "source_sha256": "9f99d4e7f144a8f1e240b23870832b05f14227aa22e9a9a9be3a810671800b0f",
+    "checked_at_utc": "2026-10-06T15:02:06.7312812Z"
+  },
+  {
+    "module": "Universality/Percolation/ExitFirstMomentLower.lean",
+    "exit_code": 0,
+    "seconds": 21.3461701,
+    "source_sha256": "dfcc8d5fd22897da2613cdff4f601a5ed02867f6cef3a2564a27d86e88f5f7e3",
+    "checked_at_utc": "2026-10-06T15:02:28.0947565Z"
+  },
+  {
+    "module": "Universality/Analysis/StoppedGeometricLogBound.lean",
+    "exit_code": 0,
+    "seconds": 18.694689,
+    "source_sha256": "502cca99dcd7307a993019f3a0120d0c230d09cd41b1e7381c0d5f521ba8d6b2",
+    "checked_at_utc": "2026-10-06T15:02:46.8037759Z"
+  },
+  {
+    "module": "Universality/Percolation/EscapingRootMassExitBounds.lean",
+    "exit_code": 0,
+    "seconds": 31.2441326,
+    "source_sha256": "c085def58e4fc53d051d436cd095759d52d5c9b42a4a772b11f3b5639f43fe25",
+    "checked_at_utc": "2026-10-06T15:03:18.0618338Z"
+  },
+  {
+    "module": "Universality/Percolation/EscapingRootMassExponent.lean",
+    "exit_code": 0,
+    "seconds": 34.0734684,
+    "source_sha256": "a2e811f29b0539f7ec4dea7a2524c9f0258e97b65a2434a191efc86a695b51f8",
+    "checked_at_utc": "2026-10-06T15:03:52.1459729Z"
+  },
+  {
+    "module": "Universality/Graph/StageReachability.lean",
+    "exit_code": 0,
+    "seconds": 39.7846345,
+    "source_sha256": "3aee0b5338c232252c77a79445cb1a2d899a48932b731501669436d4a2cee0c1",
+    "checked_at_utc": "2026-10-06T15:04:31.9471358Z"
+  },
+  {
+    "module": "Universality/Graph/RootClusterUnion.lean",
+    "exit_code": 0,
+    "seconds": 18.9797044,
+    "source_sha256": "c3bcc9fef927e74ee649a0aad150e18460efe5a19e4eb0f3f374ff51b550e68c",
+    "checked_at_utc": "2026-10-06T15:04:50.9404108Z"
+  },
+  {
+    "module": "Universality/Graph/InteriorDecomposition.lean",
+    "exit_code": 0,
+    "seconds": 17.781215,
+    "source_sha256": "a0b78c07bbb45b174a37619940a7d14ba7ea2753f1651c919f4ec22f2148bb84",
+    "checked_at_utc": "2026-10-06T15:05:08.7312723Z"
+  },
+  {
+    "module": "Universality/Graph/BirthAddress.lean",
+    "exit_code": 0,
+    "seconds": 18.2958468,
+    "source_sha256": "688ef84a552ad46b5b101a792758c128712309e299bfd3b566b14725f20b8040",
+    "checked_at_utc": "2026-10-06T15:05:27.0402743Z"
+  },
+  {
     "module": "Universality.lean",
     "exit_code": 0,
-    "seconds": 31.634624,
-    "source_sha256": "3e0a40ff6f9ee769c7253a674963d677a17513a4079e70e24cbe9c99d67e3761",
-    "checked_at_utc": "2026-10-06T14:19:13.8058330Z"
+    "seconds": 23.74979,
+    "source_sha256": "1fd2bf2dc6a260ecfe4f5cc1b105997b74c81ef63f76176002961f6e06eddaa2",
+    "checked_at_utc": "2026-10-06T15:05:50.9432508Z"
   },
   {
     "module": "Audit.lean",
     "exit_code": 0,
-    "seconds": 35.1555905,
-    "source_sha256": "39066f43bcbf743813acb9040c8b74ce3133ed361c0e3b0af8df546f1f8828e7",
-    "checked_at_utc": "2026-10-06T14:19:48.9787264Z"
+    "seconds": 25.2324664,
+    "source_sha256": "72ebcddb41ac19eaa78e4889af03583f8683a6a198c25b8c2fa1355b8abea024",
+    "checked_at_utc": "2026-10-06T15:09:35.4682384Z"
   }
 ]

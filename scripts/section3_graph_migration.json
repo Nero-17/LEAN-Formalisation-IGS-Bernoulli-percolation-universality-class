@@ -1,0 +1,20 @@
+{
+  "modules": {
+    "UniformRootGraph/StageReachability": "Graph/StageReachability",
+    "UniformRootGraph/RootClusterUnion": "Graph/RootClusterUnion",
+    "UniformRootGraph/InteriorDecomposition": "Graph/InteriorDecomposition",
+    "UniformRootGraph/BirthAddress": "Graph/BirthAddress"
+  },
+  "prior_imports": {
+    "UniformRootGraph/DirectLimitGraph": "Graph/DirectLimitGraph",
+    "UniformRootGraph/GenerationCellEmbedding": "Graph/GenerationCellEmbedding"
+  },
+  "audits": [
+    "Universality.NetworkTower.reachable_from_stage",
+    "Universality.NetworkTower.rooted_reachable_iff",
+    "Universality.NetworkTower.actual_root_cluster_eq_iUnion",
+    "Universality.NetworkTower.rootClusterStage_monotone",
+    "Universality.Rule.generationInteriorAddressEquiv",
+    "Universality.Rule.interiorVertexAge_le"
+  ]
+}
