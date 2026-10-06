@@ -9,7 +9,8 @@ R071 used Git `6270a59`; the R072 Section 2 snapshot includes the additional
 pivotal-response bound in Git `fccfba64`.
 Lean **4.32.1**, mathlib **520045ab14e26149ee970e2e617ca04b09bde5d6**.
 The complete Chinese record and its precise limits are in
-[R071](docs/R071_完整研究记录.md) and [R072](docs/R072_完整研究记录.md).
+[R071](docs/R071_完整研究记录.md), [R072](docs/R072_完整研究记录.md), and
+[R074](docs/R074_完整研究记录.md).
 
 ## Section 3 start (R073)
 
@@ -23,9 +24,19 @@ power, from the classical geometric hypotheses. Exact finite-volume vertex
 counts are also proved. The complete scope and remaining obligations are in
 [the Section 3 map](docs/SECTION3_COVERAGE.md).
 
-Section 3 as a whole is **not yet formalised**: higher moments, the birth-cluster
-series, the local limit theorem, infinite-volume observables and the physical
-critical-exponent theorems remain open formalisation tasks.
+R074 adds all integer mass-moment bounds, `2 ≤ d_R < ρ < m`, the size-resolved
+birth series and its actual finite-volume limit, and normalization and total
+variation convergence of the critical uniform-root size law. It proves the
+actual crossing-length limit and its critical exponent ν, including the
+repelling fixed-point escape estimate. The cluster-number volume limit,
+functional equation, uniqueness, continuity and two exact forcing polynomials
+are proved. Full classical substitution closure and the resulting classical
+noncommutative counterexample are also proved.
+
+Section 3 as a whole is **not yet formalised**. The infinite branching local
+limit theorem, uniformly rooted infinite graph identification, β/δ/averaged η,
+near-critical moments, cluster-number higher regularity and singular response,
+radius laws, and remaining cyclic-list/example details are still open.
 
 ## Section 2 continuation (R072)
 
@@ -69,8 +80,8 @@ formulas are derived, rather than used as replacement definitions.
 | Mass dimension | `Rule.Classical.mass_dimension` | Limit of log expected open-cluster edge count divided by log actual terminal distance |
 | Pivotal dimension | `Rule.Classical.pivotal_dimension`; `pivotal_mass_inequalities` | Actual pivotal growth and `0 < dim_P < dim_M` |
 | Three-state structure | `pivotal_left_eigenvector`; `massMatrix_real_diagonalization`; `exact_conditional_cluster_mass` | Off-critical left eigenvalue, invariant plane, critical 2+1 decomposition, real diagonalisation, exact mass expansion |
-| Noncommutative obstruction | `no_classification_by_admissible_multiplicative_observations` | Actual finite-rule counterexample and annealed mass-growth limits, with multiplicativity required only on the mass-admissible domain; not yet a physical-exponent classification theorem |
-| Cyclic substitution | `Rule.cyclic_substitution_spectralRadius`; `cyclic_substitution_response` | Actual reversed substitutions preserve edge count, distance, response and mass spectral radius at the corresponding fixed points; requires terminal symmetry for mass |
+| Noncommutative obstruction | `no_classification_by_classical_multiplicative_observations` | Actual classical rules and annealed mass-growth limits; multiplicativity required only on the classical domain; conversion to different physical-exponent classes remains separate |
+| Cyclic substitution | `Rule.cyclic_substitution_real_similarity`; `cyclic_substitution_response` | Full real similarity for two-factor cyclic composites, including repeated response/secondary eigenvalues; actual edge counts and distances agree |
 | Exponent/dimension inversion | `four_exponent_formulas_eq_iff_dimensions_eq` | Algebraic equivalence of the displayed fractions only; physical existence and formula theorems remain separate |
 | Commensurability arithmetic | `commensurate_iff_rational_log_ratio`; `explicit_scales_pairwise_incommensurate` | Positive integer blocking and the explicit scale family |
 | Large counterexample data | `Certificates.certificate*_integer_moments`; `signed_wheatstone_packet` | Four integer datasets, word expansions, capacity allocation and commutator algebra; full graph realisation still missing |
@@ -104,9 +115,9 @@ of scalar substitution-multiplicative observations agrees on the two rules.
   substitutions when the initial single edge is numbered zero.
 * Connectivity is undirected; edge indices remain distinct for independent
   Bernoulli states. `Rule.Classical.simple` separately excludes parallel edges.
-* `Rule.MassAdmissible` is weaker than `Rule.Classical`. Its substitution closure
-  is proved, as is preservation of full vertex connectivity. Full classical closure is not yet proved; the former cannot silently
-  stand in for the latter's canonicality or simplicity requirements.
+* `Rule.MassAdmissible` is weaker than `Rule.Classical`. Substitution closure
+  is proved for both. The classical proof explicitly preserves simplicity,
+  canonical terminal paths and an involutive terminal exchange.
 * Mass dimension means the annealed finite-generation expected edge-growth
   limit. Ambient edge growth is not called Hausdorff dimension without a proof
   of the metric-limit correspondence.
@@ -150,15 +161,14 @@ requires the original certificate JSON files, whose hashes are recorded in `docs
    criticality with bulk infinite-cluster criticality. The compatible
    contractive geometric limit in Section 2 is proved, but is not identified
    with a random Hausdorff mass dimension or a physical scaling limit.
-2. Existence and formulas for the four selected physical critical exponents,
-   the other four exponent classifications, and exponent/dimension equivalence.
-3. Full preservation of the classical rule category under arbitrary substitution.
-4. The six exponentials theorem and the global arithmetic rigidity theorem.
-5. Full mass repair, finite rule realisation and infinite families for the large
+2. The selected physical exponents β, δ and averaged η; the other four exponent
+   classifications; and full exponent/dimension equivalence. The physical
+   crossing exponent ν is proved in `Classical.crossing_length_exponent`.
+3. The six exponentials theorem and the global arithmetic rigidity theorem.
+4. Full mass repair, finite rule realisation and infinite families for the large
    Section 5 certificates. Integer moments alone do not prove those claims.
 
-Beyond Section 2: full classical substitution closure and the analytic
-estimates needed for the physical exponent definitions remain separate
-theorem obligations, not bundled assumptions. Rounded decimal illustrations
+The remaining analytic estimates needed for the physical exponent definitions
+are separate theorem obligations, not bundled assumptions. Rounded decimal illustrations
 in the manuscript are not certified error intervals; the diamond formulas
 themselves are exact Lean theorems.

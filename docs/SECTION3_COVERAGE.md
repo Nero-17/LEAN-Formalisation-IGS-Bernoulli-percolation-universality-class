@@ -24,13 +24,15 @@ formulas is not counted as a proof of physical exponent existence.
 | All integer higher-moment bounds | `Rule.Classical.internal_vertex_moment_bounds` | All orders, actual conditional internal-vertex masses, constants uniform in state and generation; derived by strong induction without assuming higher-moment bounds |
 | Birth series by size | `generation_finiteClusterDensity_tendsto` | Exact pathwise decomposition, Bernoulli expectation, convergent birth series and actual vertex normalization; every parameter in [0,1] |
 | Critical limiting cluster-size mass | `Classical.critical_cluster_size_mass_hasSum` | The pointwise limits of actual uniform-root size probabilities sum to one; derived by nonnegative double-series interchange and vanishing boundary mass |
+| Critical size-law convergence | `Classical.critical_cluster_size_total_variation` | Actual finite uniform-root cluster-size laws converge in total variation to the normalized birth-series law; infinite rooted graph identification remains separate |
 | Full degree and spectral inequalities | `Classical.terminal_degree_spectral_bounds` | Actual graph degree satisfies `2 ≤ d_R < ρ < m`; valid for all interior percolation parameters |
 | `lem:conditional-mass-moments`: remaining identification | Not yet | Identification of the normalized limiting size law with percolation on the uniformly rooted infinite graph |
 | `lem:conditional-mass-local-limit` | Not yet | Infinite branching limit, smooth densities, local limit, full positive support and uniform pointwise tails |
 | Finite uniform-root cluster law | `uniformVertexClusterMassProbability_eq`, `sum_uniformVertexClusterMassProbability` | Actual finite law, root/cluster counting identity and normalization; infinite-volume local law still missing |
 | `def:physical-observables`: infinite volume | Partial | Individual limiting cluster densities and uniform-root size probabilities proved; construction of the uniformly rooted infinite graph and identification of percolation on it still missing |
-| `thm:critical-exponents-dimensions`, `thm:delta-eta-dimensions` | Not yet | Actual ν, β, δ, averaged η; existing algebraic fractions do not discharge these |
-| Crossing correlation length before its critical exponent | `Classical.crossing_length_limit`, `continuous_inverseCrossingLength`, `inverseCrossingLength_iterate` | Actual normalized log-crossing limit exists and is finite and strictly positive below criticality; continuity and exact iteration scaling proved; critical escape estimates and ν limit still missing |
+| `thm:critical-exponents-dimensions`: ν | `Classical.crossing_length_exponent` | Actual normalized log-crossing limit and its critical logarithmic exponent; polynomial repelling fixed-point escape estimate and compact exit-interval control are proved |
+| `thm:critical-exponents-dimensions`: β; `thm:delta-eta-dimensions` | Not yet | Actual β, δ, averaged η; existing algebraic fractions do not discharge these |
+| Crossing correlation length and scaling | `Classical.crossing_length_limit`, `continuous_inverseCrossingLength`, `inverseCrossingLength_iterate` | Actual normalized log-crossing limit exists and is finite and strictly positive below criticality; continuity and exact iteration scaling proved |
 | `prop:annealed-moments` | Not yet | Susceptibility and higher-moment exponent classification |
 | `prop:cluster-number-response`: physical limit and functional equation | `Rule.Classical.cluster_number_density` | Actual expected cluster count/volume converges to the unique bounded solution of the paper's equation |
 | Cluster-number continuity | `FiniteNetwork.continuous_clusterNumberSeries` | Continuous on the entire closed parameter interval |
@@ -40,7 +42,8 @@ formulas is not counted as a proof of physical exponent existence.
 | `prop:annealed-radius-tail` | Not yet | Cumulative radius tails and diamond point-probability nonexistence |
 | `thm:exponent-class-dimensions` | Algebra only from previous rounds | Physical theorem depends on the unfinished exponent results |
 | `lem:transposition-invariance`: two-factor step | `Rule.cyclic_substitution_real_similarity` plus existing spectral/response results | Full real similarity for actual matrices, even with response/secondary eigenvalue coincidence; composites mass-admissible, factors terminal-symmetric; list-rotation wrapper and tie–gem data still missing |
-| `lem:permutation-obstruction`, `thm:no-multiplicative-classification` | Mass-admissible obstruction from previous rounds | Classical substitution closure and link to physical exponent classes still needed |
+| Classical substitution closure | `Rule.Classical.mul`, `Rule.Classical.generation` | All six actual rule conditions: full connectivity, simple edges, every edge on a terminal simple path, scale, cut, and involutive terminal exchange |
+| `lem:permutation-obstruction`, `thm:no-multiplicative-classification` | `groupedRule_classical`, `alternatingRule_classical`, `no_classification_by_classical_multiplicative_observations`, `reordered_classical_multiplicative_dimensions` | Actual classical counterexample and arbitrary families of measurements multiplicative only on the classical domain; exact common distance and different actual mass-growth limits; conversion to different critical-exponent classes still depends on the remaining exponent results |
 
 ## Index convention
 

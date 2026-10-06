@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "module_count": 336,
+  "module_count": 353,
   "certificate_batch_count": 128,
-  "milestone_axiom_audit_count": 195,
+  "milestone_axiom_audit_count": 210,
   "errors": [],
   "sources": [
     {
@@ -1342,12 +1342,80 @@
       "source_sha256": "a02c12ab35a6c9b77650cae5ccc86d9f7d89579bee907649fe558097c695e282"
     },
     {
+      "module": "Universality/Analysis/FiniteEscapeEstimate.lean",
+      "source_sha256": "8f375d57fdca16680a4b88746cb4449ddc24ee8b208bd27eb096ef0d4a564408"
+    },
+    {
+      "module": "Universality/Analysis/PolynomialEscapeBounds.lean",
+      "source_sha256": "73ab9d3598eb61bec7c4b63d92c52d809e04dd6e61660100ffa56aa70905aad3"
+    },
+    {
+      "module": "Universality/Percolation/CriticalEscapeLocal.lean",
+      "source_sha256": "832b53ced0ab5f36b629597f06088507b316a123d27ed429d2e530cf1f8dfad9"
+    },
+    {
+      "module": "Universality/Analysis/FirstPassage.lean",
+      "source_sha256": "d3a0158b4c29187dc264a7a78cdd44032b63b993bc4b130ec659bd6107d200d6"
+    },
+    {
+      "module": "Universality/Percolation/CriticalEscapeTime.lean",
+      "source_sha256": "2b98a30f02ca8fa89e4a92f26c166729cecac2706a24bf162bfe9da40c5d9199"
+    },
+    {
+      "module": "Universality/Percolation/CrossingLengthCriticalBound.lean",
+      "source_sha256": "8bf89ced8b8344d1e7d2d173c3bed46342098bdd162290189689d9d70b6cd4fa"
+    },
+    {
+      "module": "Universality/Analysis/BoundedLogError.lean",
+      "source_sha256": "c28e6787c84a1fccef7d0cd822253cc5935003a390b5beb7b71b7c0eb4159d2e"
+    },
+    {
+      "module": "Universality/Percolation/CrossingExponent.lean",
+      "source_sha256": "b822aa86145962744e0b79b3562bd1352a88a9f4ec114b89596613cd03f073e2"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionSimple.lean",
+      "source_sha256": "60c9b3d0749e5e4c76a228b9d6fffd6a8035e09f68b92b5f7800d5305826fd3d"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionInvolution.lean",
+      "source_sha256": "97a345398ac4c5f2ade9977e746754a9abff78af6f9299c69fbbe94a7a9ffdb3"
+    },
+    {
+      "module": "Universality/Graph/PathEdgeMinimality.lean",
+      "source_sha256": "2cbfb321b261b6ce029986ff62eb4910c3f9f6faa04625e27439be5ebed0920d"
+    },
+    {
+      "module": "Universality/Graph/CanonicalPivotal.lean",
+      "source_sha256": "f294642088b29508699938d355fad58a1548a174eddeaf30271bda19add0f676"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionPivotal.lean",
+      "source_sha256": "b60a1a827879a7894e86d052a66432a4a7da1c226d494c9b949f6db5d4e467b0"
+    },
+    {
+      "module": "Universality/Graph/ClassicalSubstitution.lean",
+      "source_sha256": "0364f9c871093c105ec23a219a236fba7b97f17981cb6406e4816834654c995b"
+    },
+    {
+      "module": "Universality/Examples/ClassicalNoncommutativity.lean",
+      "source_sha256": "a899c74ab8941fd9f0ec09f9cc43911031da71828923c87fa9e18fe67871035d"
+    },
+    {
+      "module": "Universality/Probability/DiscreteTotalVariation.lean",
+      "source_sha256": "af2bbf87ed1f38fd957c1b5715a54627b01b02704474e6b83bd06214b2338a7f"
+    },
+    {
+      "module": "Universality/Percolation/CriticalSizeTotalVariation.lean",
+      "source_sha256": "7c538a843916bc70214da35fce3c2a7510af54689bb34ea833f7897ee415a664"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "38d0236799d53492cde209bf3cc3a9b5226f269245dc1fb4abf2821d4a8e6332"
+      "source_sha256": "01ee54df96ee8e24af77b16d6b9de08a23754677c5b1f681f6ced498e2eb24bf"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "2247c0b5167d7768694e92d4af6d686457ab42ae1f71a5a71b27751582a9623e"
+      "source_sha256": "b4e5a5528fff6b9267f6edcecc1d6073d8539efa5bceea8ecf074cb69ad61058"
     }
   ]
 }

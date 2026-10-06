@@ -80,3 +80,6 @@ import Universality.Percolation.CriticalBirthMass
 import Universality.Percolation.MassSpectralLowerBound
 import Universality.Percolation.CrossingLengthLimit
 import Universality.Percolation.CrossingLengthContinuity
+import Universality.Percolation.CrossingExponent
+import Universality.Examples.ClassicalNoncommutativity
+import Universality.Percolation.CriticalSizeTotalVariation
