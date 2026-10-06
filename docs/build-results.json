@@ -2457,17 +2457,136 @@
     "checked_at_utc": "2026-10-06T07:42:44.2260041Z"
   },
   {
+    "module": "Universality/Probability/FiniteWeightMeasure.lean",
+    "exit_code": 0,
+    "seconds": 14.4038727,
+    "source_sha256": "1cb2e4f0d10aa87157ae8ea5379baf70ea3b6e78e234c9daea581cb7dd368c12",
+    "checked_at_utc": "2026-10-06T08:16:07.1013405Z"
+  },
+  {
+    "module": "Universality/Percolation/HistoryTransition.lean",
+    "exit_code": 0,
+    "seconds": 12.9172764,
+    "source_sha256": "fb543ad102b8ed52c1f081453eb54629796bbf113ae1419ebb849a759eb24933",
+    "checked_at_utc": "2026-10-06T08:16:20.0275646Z"
+  },
+  {
+    "module": "Universality/Percolation/RefinementMean.lean",
+    "exit_code": 0,
+    "seconds": 13.0623885,
+    "source_sha256": "b872c318c32dedb5dd915d0225b5ceaefffb0a7686d4aa690802204d1429e808",
+    "checked_at_utc": "2026-10-06T08:16:33.0913481Z"
+  },
+  {
+    "module": "Universality/Probability/MarkovTrajectory.lean",
+    "exit_code": 0,
+    "seconds": 23.9051714,
+    "source_sha256": "6cd1934cbdad453154d633c096699f320c33b9b8b596b487afe87c451312134e",
+    "checked_at_utc": "2026-10-06T08:16:56.9981137Z"
+  },
+  {
+    "module": "Universality/Percolation/InfiniteConfigurationLaw.lean",
+    "exit_code": 0,
+    "seconds": 16.2322659,
+    "source_sha256": "b5f0fcee180e76c6c06e073a371772ad5d036cb2e5c810b07025af5e715d2cbf",
+    "checked_at_utc": "2026-10-06T08:17:13.2326266Z"
+  },
+  {
+    "module": "Universality/Percolation/InfiniteObservables.lean",
+    "exit_code": 0,
+    "seconds": 16.4353572,
+    "source_sha256": "4664350611d1872a70b9484e0dcb27c950ab840438a81a5cfd7ac2a7e888ed37",
+    "checked_at_utc": "2026-10-06T08:17:29.6692623Z"
+  },
+  {
+    "module": "Universality/Percolation/InfiniteMassMoments.lean",
+    "exit_code": 0,
+    "seconds": 17.2278974,
+    "source_sha256": "4003006b1db6fe74ca4798593822f4edbc782e104edd047370e8288e607e8d57",
+    "checked_at_utc": "2026-10-06T08:17:46.8991188Z"
+  },
+  {
+    "module": "Universality/Probability/TrajectoryConditionalExpectation.lean",
+    "exit_code": 0,
+    "seconds": 17.4284139,
+    "source_sha256": "b561a924e428bc345ee1a619ffee523a7b285c5ffa04877e4a8dd927efba40b8",
+    "checked_at_utc": "2026-10-06T08:18:04.3310747Z"
+  },
+  {
+    "module": "Universality/Percolation/HistoryConditionalExpectation.lean",
+    "exit_code": 0,
+    "seconds": 14.4726778,
+    "source_sha256": "89907dc97a0cd700cff21c5ee8b01ce32b9a09c0d5d03fc00d6c1f481666dfd0",
+    "checked_at_utc": "2026-10-06T08:34:34.543427Z"
+  },
+  {
+    "module": "Universality/Percolation/PopulationMartingale.lean",
+    "exit_code": 0,
+    "seconds": 14.5452333,
+    "source_sha256": "1641b45aeefc9b8162b7a1ab29e5789efa979959a38d83341a0135fdec21aa7e",
+    "checked_at_utc": "2026-10-06T08:34:49.096834Z"
+  },
+  {
+    "module": "Universality/Percolation/RefinementVertexMean.lean",
+    "exit_code": 0,
+    "seconds": 14.8824778,
+    "source_sha256": "b4069766b318f467b9db4ab6f7d84d05973916f41eb45c14f2232ace6b1ee3ee",
+    "checked_at_utc": "2026-10-06T08:18:48.7623695Z"
+  },
+  {
+    "module": "Universality/Probability/FiniteWeightSquare.lean",
+    "exit_code": 0,
+    "seconds": 10.4734213,
+    "source_sha256": "20ff56df37eac242646ff860afa21a9e1f19dbe563df858ec04014441f66f1f4",
+    "checked_at_utc": "2026-10-06T08:34:59.5729494Z"
+  },
+  {
+    "module": "Universality/Percolation/PopulationSquareBound.lean",
+    "exit_code": 0,
+    "seconds": 14.538428,
+    "source_sha256": "32ce75f2e38151dd76d2326a9aee53a847577d0f848f3e3568412155d4190708",
+    "checked_at_utc": "2026-10-06T08:35:14.1144185Z"
+  },
+  {
+    "module": "Universality/Probability/FourthMomentConvergence.lean",
+    "exit_code": 0,
+    "seconds": 14.7903616,
+    "source_sha256": "3d12ffca9d98b134581059d61bec000175aac1754b700e7ac020bb34d480010a",
+    "checked_at_utc": "2026-10-06T08:35:28.9064517Z"
+  },
+  {
+    "module": "Universality/Percolation/PopulationConvergence.lean",
+    "exit_code": 0,
+    "seconds": 13.190903,
+    "source_sha256": "53813ccf8e5d4282554cb930d37830308eb6d79aeede8a848f3048bf4fbbe909",
+    "checked_at_utc": "2026-10-06T08:35:42.0985867Z"
+  },
+  {
+    "module": "Universality/Percolation/PopulationLimitMean.lean",
+    "exit_code": 0,
+    "seconds": 17.351139,
+    "source_sha256": "d1e278a3ebc3ba7bad07eda45b8feece0b228a5bdd5548f8af3439394e0b71cb",
+    "checked_at_utc": "2026-10-06T08:35:59.4513932Z"
+  },
+  {
+    "module": "Universality/Percolation/VertexMassPlane.lean",
+    "exit_code": 0,
+    "seconds": 15.2536028,
+    "source_sha256": "0088c5f1331761c0f601598a9b273fa4e6e2d951aa41dde6f3ffc502af796d07",
+    "checked_at_utc": "2026-10-06T08:37:27.9066293Z"
+  },
+  {
     "module": "Universality.lean",
     "exit_code": 0,
-    "seconds": 11.8620582,
-    "source_sha256": "01ee54df96ee8e24af77b16d6b9de08a23754677c5b1f681f6ced498e2eb24bf",
-    "checked_at_utc": "2026-10-06T07:42:56.0914111Z"
+    "seconds": 14.6935831,
+    "source_sha256": "5b13991f79ca2a18ca6886a2c083553645f09dbd90da9494f4cad8a04ec88678",
+    "checked_at_utc": "2026-10-06T08:37:42.6148744Z"
   },
   {
     "module": "Audit.lean",
     "exit_code": 0,
-    "seconds": 12.8167014,
-    "source_sha256": "b4e5a5528fff6b9267f6edcecc1d6073d8539efa5bceea8ecf074cb69ad61058",
-    "checked_at_utc": "2026-10-06T07:43:08.9106578Z"
+    "seconds": 14.7123141,
+    "source_sha256": "4594e1096a5f9907df39cc421efe27eb61805a05e126fa5298cefafab7ba5135",
+    "checked_at_utc": "2026-10-06T08:37:57.3292708Z"
   }
 ]

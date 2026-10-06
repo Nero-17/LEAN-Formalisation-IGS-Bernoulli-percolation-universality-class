@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "module_count": 353,
+  "module_count": 370,
   "certificate_batch_count": 128,
-  "milestone_axiom_audit_count": 210,
+  "milestone_axiom_audit_count": 228,
   "errors": [],
   "sources": [
     {
@@ -1410,12 +1410,80 @@
       "source_sha256": "7c538a843916bc70214da35fce3c2a7510af54689bb34ea833f7897ee415a664"
     },
     {
+      "module": "Universality/Probability/FiniteWeightMeasure.lean",
+      "source_sha256": "1cb2e4f0d10aa87157ae8ea5379baf70ea3b6e78e234c9daea581cb7dd368c12"
+    },
+    {
+      "module": "Universality/Percolation/HistoryTransition.lean",
+      "source_sha256": "fb543ad102b8ed52c1f081453eb54629796bbf113ae1419ebb849a759eb24933"
+    },
+    {
+      "module": "Universality/Percolation/RefinementMean.lean",
+      "source_sha256": "b872c318c32dedb5dd915d0225b5ceaefffb0a7686d4aa690802204d1429e808"
+    },
+    {
+      "module": "Universality/Probability/MarkovTrajectory.lean",
+      "source_sha256": "6cd1934cbdad453154d633c096699f320c33b9b8b596b487afe87c451312134e"
+    },
+    {
+      "module": "Universality/Percolation/InfiniteConfigurationLaw.lean",
+      "source_sha256": "b5f0fcee180e76c6c06e073a371772ad5d036cb2e5c810b07025af5e715d2cbf"
+    },
+    {
+      "module": "Universality/Percolation/InfiniteObservables.lean",
+      "source_sha256": "4664350611d1872a70b9484e0dcb27c950ab840438a81a5cfd7ac2a7e888ed37"
+    },
+    {
+      "module": "Universality/Percolation/InfiniteMassMoments.lean",
+      "source_sha256": "4003006b1db6fe74ca4798593822f4edbc782e104edd047370e8288e607e8d57"
+    },
+    {
+      "module": "Universality/Probability/TrajectoryConditionalExpectation.lean",
+      "source_sha256": "b561a924e428bc345ee1a619ffee523a7b285c5ffa04877e4a8dd927efba40b8"
+    },
+    {
+      "module": "Universality/Percolation/HistoryConditionalExpectation.lean",
+      "source_sha256": "89907dc97a0cd700cff21c5ee8b01ce32b9a09c0d5d03fc00d6c1f481666dfd0"
+    },
+    {
+      "module": "Universality/Percolation/PopulationMartingale.lean",
+      "source_sha256": "1641b45aeefc9b8162b7a1ab29e5789efa979959a38d83341a0135fdec21aa7e"
+    },
+    {
+      "module": "Universality/Percolation/RefinementVertexMean.lean",
+      "source_sha256": "b4069766b318f467b9db4ab6f7d84d05973916f41eb45c14f2232ace6b1ee3ee"
+    },
+    {
+      "module": "Universality/Probability/FiniteWeightSquare.lean",
+      "source_sha256": "20ff56df37eac242646ff860afa21a9e1f19dbe563df858ec04014441f66f1f4"
+    },
+    {
+      "module": "Universality/Percolation/PopulationSquareBound.lean",
+      "source_sha256": "32ce75f2e38151dd76d2326a9aee53a847577d0f848f3e3568412155d4190708"
+    },
+    {
+      "module": "Universality/Probability/FourthMomentConvergence.lean",
+      "source_sha256": "3d12ffca9d98b134581059d61bec000175aac1754b700e7ac020bb34d480010a"
+    },
+    {
+      "module": "Universality/Percolation/PopulationConvergence.lean",
+      "source_sha256": "53813ccf8e5d4282554cb930d37830308eb6d79aeede8a848f3048bf4fbbe909"
+    },
+    {
+      "module": "Universality/Percolation/PopulationLimitMean.lean",
+      "source_sha256": "d1e278a3ebc3ba7bad07eda45b8feece0b228a5bdd5548f8af3439394e0b71cb"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassPlane.lean",
+      "source_sha256": "0088c5f1331761c0f601598a9b273fa4e6e2d951aa41dde6f3ffc502af796d07"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "01ee54df96ee8e24af77b16d6b9de08a23754677c5b1f681f6ced498e2eb24bf"
+      "source_sha256": "5b13991f79ca2a18ca6886a2c083553645f09dbd90da9494f4cad8a04ec88678"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "b4e5a5528fff6b9267f6edcecc1d6073d8539efa5bceea8ecf074cb69ad61058"
+      "source_sha256": "4594e1096a5f9907df39cc421efe27eb61805a05e126fa5298cefafab7ba5135"
     }
   ]
 }

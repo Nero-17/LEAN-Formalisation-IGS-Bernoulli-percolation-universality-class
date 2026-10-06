@@ -1,4 +1,4 @@
-# Section 3 coverage — R074 (work in progress)
+# Section 3 coverage — R075 (work in progress)
 
 Source: `section3-20261006.tex`, frozen from manuscript commit
 `fccfba64fd345f8b0cbaafd94abec48420c0c6fa`.
@@ -27,7 +27,10 @@ formulas is not counted as a proof of physical exponent existence.
 | Critical size-law convergence | `Classical.critical_cluster_size_total_variation` | Actual finite uniform-root cluster-size laws converge in total variation to the normalized birth-series law; infinite rooted graph identification remains separate |
 | Full degree and spectral inequalities | `Classical.terminal_degree_spectral_bounds` | Actual graph degree satisfies `2 ≤ d_R < ρ < m`; valid for all interior percolation parameters |
 | `lem:conditional-mass-moments`: remaining identification | Not yet | Identification of the normalized limiting size law with percolation on the uniformly rooted infinite graph |
-| `lem:conditional-mass-local-limit` | Not yet | Infinite branching limit, smooth densities, local limit, full positive support and uniform pointwise tails |
+| Common infinite configuration space | `ConfigurationHistory.infiniteLaw_history_atom`, `infiniteLaw_coarsens`, `infinite_randomEIGS_joint_law` | Actual conditional Bernoulli history laws, simultaneous almost-sure coarsening consistency, complete finite labelled observables; this is not the uniformly rooted infinite graph |
+| Perron population martingale | `Classical.exists_population_martingale`, `ConfigurationHistory.infiniteLaw_condExp` | Actual graph-derived weighted live-cell population, conditioned on the whole past; strictly positive eigenweights and actual spectral radius |
+| Population limit | `Classical.exists_nonzero_population_L2_limit`, `ConfigurationHistory.population_L2_limit_mean` | Almost-sure and L² convergence, exact preserved positive mean; all normalized integer moments uniformly bounded |
+| `lem:conditional-mass-local-limit` | Partial prerequisites | Population limit proved; normalized accumulated vertex-mass identification, smoothing equation, smooth densities, local limit, full positive support and uniform pointwise tails still missing |
 | Finite uniform-root cluster law | `uniformVertexClusterMassProbability_eq`, `sum_uniformVertexClusterMassProbability` | Actual finite law, root/cluster counting identity and normalization; infinite-volume local law still missing |
 | `def:physical-observables`: infinite volume | Partial | Individual limiting cluster densities and uniform-root size probabilities proved; construction of the uniformly rooted infinite graph and identification of percolation on it still missing |
 | `thm:critical-exponents-dimensions`: ν | `Classical.crossing_length_exponent` | Actual normalized log-crossing limit and its critical logarithmic exponent; polynomial repelling fixed-point escape estimate and compact exit-interval control are proved |

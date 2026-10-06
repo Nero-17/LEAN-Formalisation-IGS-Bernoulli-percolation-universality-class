@@ -10,7 +10,7 @@ pivotal-response bound in Git `fccfba64`.
 Lean **4.32.1**, mathlib **520045ab14e26149ee970e2e617ca04b09bde5d6**.
 The complete Chinese record and its precise limits are in
 [R071](docs/R071_完整研究记录.md), [R072](docs/R072_完整研究记录.md), and
-[R074](docs/R074_完整研究记录.md).
+[R074](docs/R074_完整研究记录.md), and [R075](docs/R075_完整研究记录.md).
 
 ## Section 3 start (R073)
 
@@ -32,6 +32,15 @@ repelling fixed-point escape estimate. The cluster-number volume limit,
 functional equation, uniqueness, continuity and two exact forcing polynomials
 are proved. Full classical substitution closure and the resulting classical
 noncommutative counterexample are also proved.
+
+R075 constructs a common infinite probability space with exactly the actual
+conditional Bernoulli history laws, simultaneous coarsening consistency,
+and the full labelled EIGS law. The actual Perron-weighted population is a
+martingale for the complete past, has uniformly bounded normalized moments
+of every integer order, and converges almost surely and in L² to a limit
+with strictly positive preserved mean. This is a population limit; the
+identification with normalized accumulated vertex mass and the local limit
+theorem remain separate obligations.
 
 Section 3 as a whole is **not yet formalised**. The infinite branching local
 limit theorem, uniformly rooted infinite graph identification, β/δ/averaged η,
@@ -58,9 +67,10 @@ is applied; sibling labels within one rule are not assumed independent.
 realisation of whole-rule choices. It proves a nonempty compact limit,
 address coding, the graph-directed set equation and the precise Hausdorff
 bound using the maximum diameter of the finitely many type spaces. Finite
-rule laws are normalised. An infinite product probability space is not
-constructed as an additional object; the stochastic statement is represented
-by its finite-dimensional laws and the pathwise geometric theorem.
+rule laws are normalised. R075 additionally constructs the infinite
+conditional configuration-history measure and identifies all its finite
+labelled marginals with the actual percolation law. Identification with
+percolation on a uniformly rooted infinite graph remains open.
 
 ## What is actually proved
 
