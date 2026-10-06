@@ -42,6 +42,14 @@ with strictly positive preserved mean. This is a population limit; the
 identification with normalized accumulated vertex mass and the local limit
 theorem remain separate obligations.
 
+The actual normalized vertex means converge to a strictly positive Perron
+eigenvector. The centered reward from one actual refinement has second moment
+at most `C * ρ^n`; the accumulated centered rewards divided by `ρ^n` converge
+to zero in L². These estimates use the conditional cell product law, without
+assuming independence between a cell's reward and its offspring types.
+The non-Perron population contribution still needs control to identify the
+accumulated vertex-mass limit with the population martingale limit.
+
 Section 3 as a whole is **not yet formalised**. The infinite branching local
 limit theorem, uniformly rooted infinite graph identification, β/δ/averaged η,
 near-critical moments, cluster-number higher regularity and singular response,

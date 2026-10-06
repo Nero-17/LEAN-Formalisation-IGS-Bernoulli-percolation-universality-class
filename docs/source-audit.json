@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "module_count": 370,
+  "module_count": 381,
   "certificate_batch_count": 128,
-  "milestone_axiom_audit_count": 228,
+  "milestone_axiom_audit_count": 238,
   "errors": [],
   "sources": [
     {
@@ -1478,12 +1478,56 @@
       "source_sha256": "0088c5f1331761c0f601598a9b273fa4e6e2d951aa41dde6f3ffc502af796d07"
     },
     {
+      "module": "Universality/Matrix/PerronProjection.lean",
+      "source_sha256": "70340b7a36d39a2448443e782405c5f53a98a1dfd4dff54395b8d7f26902ef88"
+    },
+    {
+      "module": "Universality/Analysis/NormalizedGeometricSum.lean",
+      "source_sha256": "17a16ddc9638613e7baeda8fcced9b0c229507bdd744afcefe6d005511c063b7"
+    },
+    {
+      "module": "Universality/Matrix/PerronPowerLimit.lean",
+      "source_sha256": "f319027255a8b7c7bafdc15668059f86a24c6ff40c97c0a4acbecfaf02aea968"
+    },
+    {
+      "module": "Universality/Matrix/MassPlaneLimit.lean",
+      "source_sha256": "60960e07c6b73b98d493871a3d2a04757770ce16c7af2cb73c64976f0880c052"
+    },
+    {
+      "module": "Universality/Percolation/VertexMeanLimit.lean",
+      "source_sha256": "1414114ee35f71e5c3e4b452d3c3aea618d53eb556406880806570e6ac6b29c7"
+    },
+    {
+      "module": "Universality/Probability/FiniteProductVariance.lean",
+      "source_sha256": "bdd42f5251c39eb056880b16d3f4b4e43b2a32f18bceab8cf1eca2ca76511629"
+    },
+    {
+      "module": "Universality/Percolation/RefinementVertexVariance.lean",
+      "source_sha256": "8a6a86b2ac09914f839b8274000ca8f07c60d2f76097a2bc0a9a3a8fc1030354"
+    },
+    {
+      "module": "Universality/Percolation/VertexRewardCompensation.lean",
+      "source_sha256": "03b03eb53e83c5d758111eceb34a17c5dbd54a61916f0da3e461128af5f3f551"
+    },
+    {
+      "module": "Universality/Percolation/VertexInnovation.lean",
+      "source_sha256": "7de074b0ab611aacdab2d1b11f491474718ec64ff24db154a44f133681c2d589"
+    },
+    {
+      "module": "Universality/Probability/GeometricL2Sum.lean",
+      "source_sha256": "dc88c61e2ca3149ed8b5553516471c5cca88c8d12423c674da215ce218a43318"
+    },
+    {
+      "module": "Universality/Percolation/VertexNoiseLimit.lean",
+      "source_sha256": "341b307d2112b80ce08e0cafcf76e73255ef60f83c55e9d86a969b0a3c794d85"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "5b13991f79ca2a18ca6886a2c083553645f09dbd90da9494f4cad8a04ec88678"
+      "source_sha256": "0460a253abdbaf24e6a015a0b7a015798cbc1bd544d02f32b5732c0f06e00518"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "4594e1096a5f9907df39cc421efe27eb61805a05e126fa5298cefafab7ba5135"
+      "source_sha256": "24d2b23ff7707968e2dc33436646a1704f71193a85b280e7ab04d4999e8fbbd1"
     }
   ]
 }

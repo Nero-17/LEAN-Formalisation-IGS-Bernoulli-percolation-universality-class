@@ -228,3 +228,13 @@ import Universality
 #print axioms Universality.Rule.ConfigurationHistory.population_L2_limit_mean
 #print axioms Universality.Rule.Classical.exists_nonzero_population_L2_limit
 #print axioms Universality.FiniteNetwork.conditionalVertexMass_in_massPlane
+#print axioms Universality.positive_matrix_power_decomposition
+#print axioms Universality.positive_matrix_affine_sum_limit
+#print axioms Universality.Rule.Classical.internal_vertex_mean_limit
+#print axioms Universality.Rule.ConfigurationHistory.vertexMass_predictablePart
+#print axioms Universality.Rule.ConfigurationHistory.vertexMass_martingalePart
+#print axioms Universality.finite_product_centered_sum_sq
+#print axioms Universality.FiniteNetwork.refinement_vertexMass_variance_le
+#print axioms Universality.Rule.Classical.vertex_innovation_second_moment_bound
+#print axioms Universality.geometric_second_moment_sum_tendsto_zero
+#print axioms Universality.Rule.Classical.vertex_reward_compensation_L2_zero

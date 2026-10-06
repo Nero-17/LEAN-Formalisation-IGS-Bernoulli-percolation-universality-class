@@ -88,3 +88,6 @@ import Universality.Percolation.RefinementVertexMean
 import Universality.Probability.FiniteWeightSquare
 import Universality.Percolation.PopulationLimitMean
 import Universality.Percolation.VertexMassPlane
+import Universality.Percolation.VertexMeanLimit
+import Universality.Percolation.VertexInnovation
+import Universality.Percolation.VertexNoiseLimit
