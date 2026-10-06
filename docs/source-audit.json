@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "module_count": 238,
+  "module_count": 259,
   "certificate_batch_count": 128,
-  "milestone_axiom_audit_count": 98,
+  "milestone_axiom_audit_count": 142,
   "errors": [],
   "sources": [
     {
@@ -950,12 +950,96 @@
       "source_sha256": "ae9e9d502991a3b28cbaf42780eb302b7d5a4da6a7781cd1b075f58a2b50dd15"
     },
     {
+      "module": "Universality/Percolation/JointDisintegration.lean",
+      "source_sha256": "7086aafb644b88348065cdd1da942d91230e470b869e7c2a93c0a3989b208cde"
+    },
+    {
+      "module": "Universality/Percolation/MultilevelLaw.lean",
+      "source_sha256": "f0f8d6166559a87de96369ad603d27c155291018d1fdd7ba422ea85d9117487b"
+    },
+    {
+      "module": "Universality/Percolation/OrientedStates.lean",
+      "source_sha256": "4c435f518ce63271b30fc3ca5b9c0bcc86a86deef26b62aa736040b8373b01b7"
+    },
+    {
+      "module": "Universality/Percolation/CountingPolynomials.lean",
+      "source_sha256": "88bef47ca9f2d0571b84b8e8ee44ce1c677add277808e4ca68cd75f291ba0b95"
+    },
+    {
+      "module": "Universality/Percolation/CriticalField.lean",
+      "source_sha256": "b2ce64a16cd683e00664231f39765ce7edebfc5aa24921789d2a1c294fd8b6a2"
+    },
+    {
+      "module": "Universality/Matrix/CriticalCharacteristic.lean",
+      "source_sha256": "1e796fd3d1cb65e289e2ea3dc74ea88230e30913fcd714741400e7ddbc595471"
+    },
+    {
+      "module": "Universality/Geometry/CompactCellTree.lean",
+      "source_sha256": "dc6d2a7691becafbda9c6e48fe46356437676e8e7239edaf193c51fdae78aaa2"
+    },
+    {
+      "module": "Universality/Geometry/GraphDirectedEquation.lean",
+      "source_sha256": "e2817fdec47d8a9bc63e62fc9c289521d84bc08bc8b46f9b0a7dc2a3231dd11c"
+    },
+    {
+      "module": "Universality/Geometry/ContractiveRealisation.lean",
+      "source_sha256": "3c5230d12a2809103fb46f38c31dd06aca62292ad31cfb8edc8ed28b1c4ced9e"
+    },
+    {
+      "module": "Universality/Percolation/RandomEIGS.lean",
+      "source_sha256": "c3c9978d1f31d997f962c4b705041856cb5df2e43fc655dca5baf23d07dc61e6"
+    },
+    {
+      "module": "Universality/Geometry/GraphRealisation.lean",
+      "source_sha256": "7a04402d178e0955d30dd1cd1bd3e4ed817ba3cd0f031129078d311ce6a766cf"
+    },
+    {
+      "module": "Universality/Geometry/FiniteTypeDiameter.lean",
+      "source_sha256": "0d95eb06580b76b47063c7f4f950ebd1e1cba1a16eb769e09dcdcb9c855e721a"
+    },
+    {
+      "module": "Universality/Geometry/GraphDirectedLimit.lean",
+      "source_sha256": "ee22f22264dca5490e341a45387160ab2aa98a50215e4ef779fe695a50980de6"
+    },
+    {
+      "module": "Universality/Geometry/RuleFamilies.lean",
+      "source_sha256": "c744255d6e188812582dddddf51e43afdab2d1043309acae9a3319d04b304600"
+    },
+    {
+      "module": "Universality/Geometry/TypedGraphRealisation.lean",
+      "source_sha256": "b2227795edb831884ef773e653f6497c925718631d70d511b67d3fbc299f358c"
+    },
+    {
+      "module": "Universality/Percolation/LocalLabelLaw.lean",
+      "source_sha256": "9a9d11d22fce0e5c5faefa992eca2ca20e3dabebc493bb7958872a04fafc9fce"
+    },
+    {
+      "module": "Universality/Matrix/ThreeStatePowers.lean",
+      "source_sha256": "bb3658f5d464d6a40dd5a0c198967d41a2b8a13e98f473236fd328f540a5dee3"
+    },
+    {
+      "module": "Universality/Examples/Diamond.lean",
+      "source_sha256": "f15c63188066b382f3fbb89dbf6cd285e9376e682bfd8dd6b877fdbef992095e"
+    },
+    {
+      "module": "Universality/Examples/DiamondCritical.lean",
+      "source_sha256": "e9e2cd3b1b7852e5567b9cd7544f4b41c55b5c06f4276897967cb4b6e7fb16ed"
+    },
+    {
+      "module": "Universality/Examples/DiamondClassical.lean",
+      "source_sha256": "c939589bb1302d57138a7cf270d9c3013e80fcdf0ede3e929cdce0d1e6853428"
+    },
+    {
+      "module": "Universality/Percolation/PivotalResponseBound.lean",
+      "source_sha256": "d887f6a25291d1f55995b38a07ebf256d2ab8ca5f2132fb7e263a82eeb3708f3"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "7b076759772d7d99f7830a1be1727701def281aa2aeb4792624640e0d54b4ecf"
+      "source_sha256": "b2457c5b1ff792079811781770d74bb5128382556485b96fa6971ae664455e40"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "0b369e8f8ba55ce35f57efe77e327153d204a3c4197004483a724feb0d1c61ad"
+      "source_sha256": "308d19be564908018690bd17dde6eb8aa2879b1ffdc976dc88ebcf14f874d352"
     }
   ]
 }

@@ -1652,17 +1652,164 @@
     "checked_at_utc": "2026-10-05T23:10:37.1519567Z"
   },
   {
+    "module": "Universality/Percolation/JointDisintegration.lean",
+    "exit_code": 0,
+    "seconds": 7.6126828,
+    "source_sha256": "7086aafb644b88348065cdd1da942d91230e470b869e7c2a93c0a3989b208cde",
+    "checked_at_utc": "2026-10-06T03:26:00.7666688Z"
+  },
+  {
+    "module": "Universality/Percolation/MultilevelLaw.lean",
+    "exit_code": 0,
+    "seconds": 10.3905,
+    "source_sha256": "f0f8d6166559a87de96369ad603d27c155291018d1fdd7ba422ea85d9117487b",
+    "checked_at_utc": "2026-10-06T03:26:11.1692877Z"
+  },
+  {
+    "module": "Universality/Percolation/OrientedStates.lean",
+    "exit_code": 0,
+    "seconds": 16.3838974,
+    "source_sha256": "4c435f518ce63271b30fc3ca5b9c0bcc86a86deef26b62aa736040b8373b01b7",
+    "checked_at_utc": "2026-10-06T03:58:10.5430561Z"
+  },
+  {
+    "module": "Universality/Percolation/CountingPolynomials.lean",
+    "exit_code": 0,
+    "seconds": 7.9267689,
+    "source_sha256": "88bef47ca9f2d0571b84b8e8ee44ce1c677add277808e4ca68cd75f291ba0b95",
+    "checked_at_utc": "2026-10-06T03:26:29.5427558Z"
+  },
+  {
+    "module": "Universality/Percolation/CriticalField.lean",
+    "exit_code": 0,
+    "seconds": 9.9513491,
+    "source_sha256": "b2ce64a16cd683e00664231f39765ce7edebfc5aa24921789d2a1c294fd8b6a2",
+    "checked_at_utc": "2026-10-06T03:26:39.4952285Z"
+  },
+  {
+    "module": "Universality/Matrix/CriticalCharacteristic.lean",
+    "exit_code": 0,
+    "seconds": 10.3549077,
+    "source_sha256": "1e796fd3d1cb65e289e2ea3dc74ea88230e30913fcd714741400e7ddbc595471",
+    "checked_at_utc": "2026-10-06T03:26:49.8512736Z"
+  },
+  {
+    "module": "Universality/Geometry/CompactCellTree.lean",
+    "exit_code": 0,
+    "seconds": 8.6622974,
+    "source_sha256": "dc6d2a7691becafbda9c6e48fe46356437676e8e7239edaf193c51fdae78aaa2",
+    "checked_at_utc": "2026-10-06T03:26:58.5150385Z"
+  },
+  {
+    "module": "Universality/Geometry/GraphDirectedEquation.lean",
+    "exit_code": 0,
+    "seconds": 11.7933452,
+    "source_sha256": "e2817fdec47d8a9bc63e62fc9c289521d84bc08bc8b46f9b0a7dc2a3231dd11c",
+    "checked_at_utc": "2026-10-06T03:27:10.3096694Z"
+  },
+  {
+    "module": "Universality/Geometry/ContractiveRealisation.lean",
+    "exit_code": 0,
+    "seconds": 8.2126977,
+    "source_sha256": "3c5230d12a2809103fb46f38c31dd06aca62292ad31cfb8edc8ed28b1c4ced9e",
+    "checked_at_utc": "2026-10-06T03:28:36.8227885Z"
+  },
+  {
+    "module": "Universality/Percolation/RandomEIGS.lean",
+    "exit_code": 0,
+    "seconds": 17.6775323,
+    "source_sha256": "c3c9978d1f31d997f962c4b705041856cb5df2e43fc655dca5baf23d07dc61e6",
+    "checked_at_utc": "2026-10-06T03:58:28.2425638Z"
+  },
+  {
+    "module": "Universality/Geometry/GraphRealisation.lean",
+    "exit_code": 0,
+    "seconds": 13.6587335,
+    "source_sha256": "7a04402d178e0955d30dd1cd1bd3e4ed817ba3cd0f031129078d311ce6a766cf",
+    "checked_at_utc": "2026-10-06T03:58:41.9034665Z"
+  },
+  {
+    "module": "Universality/Geometry/FiniteTypeDiameter.lean",
+    "exit_code": 0,
+    "seconds": 11.8384421,
+    "source_sha256": "0d95eb06580b76b47063c7f4f950ebd1e1cba1a16eb769e09dcdcb9c855e721a",
+    "checked_at_utc": "2026-10-06T03:58:53.7465276Z"
+  },
+  {
+    "module": "Universality/Geometry/GraphDirectedLimit.lean",
+    "exit_code": 0,
+    "seconds": 14.2290861,
+    "source_sha256": "ee22f22264dca5490e341a45387160ab2aa98a50215e4ef779fe695a50980de6",
+    "checked_at_utc": "2026-10-06T03:59:07.980545Z"
+  },
+  {
+    "module": "Universality/Geometry/RuleFamilies.lean",
+    "exit_code": 0,
+    "seconds": 15.3157035,
+    "source_sha256": "c744255d6e188812582dddddf51e43afdab2d1043309acae9a3319d04b304600",
+    "checked_at_utc": "2026-10-06T03:59:23.2978081Z"
+  },
+  {
+    "module": "Universality/Geometry/TypedGraphRealisation.lean",
+    "exit_code": 0,
+    "seconds": 14.4550618,
+    "source_sha256": "b2227795edb831884ef773e653f6497c925718631d70d511b67d3fbc299f358c",
+    "checked_at_utc": "2026-10-06T03:59:37.7554477Z"
+  },
+  {
+    "module": "Universality/Percolation/LocalLabelLaw.lean",
+    "exit_code": 0,
+    "seconds": 16.1916036,
+    "source_sha256": "9a9d11d22fce0e5c5faefa992eca2ca20e3dabebc493bb7958872a04fafc9fce",
+    "checked_at_utc": "2026-10-06T03:59:53.9486335Z"
+  },
+  {
+    "module": "Universality/Matrix/ThreeStatePowers.lean",
+    "exit_code": 0,
+    "seconds": 15.1885543,
+    "source_sha256": "bb3658f5d464d6a40dd5a0c198967d41a2b8a13e98f473236fd328f540a5dee3",
+    "checked_at_utc": "2026-10-06T04:00:09.138906Z"
+  },
+  {
+    "module": "Universality/Examples/Diamond.lean",
+    "exit_code": 0,
+    "seconds": 25.75243,
+    "source_sha256": "f15c63188066b382f3fbb89dbf6cd285e9376e682bfd8dd6b877fdbef992095e",
+    "checked_at_utc": "2026-10-06T04:00:34.8930248Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondCritical.lean",
+    "exit_code": 0,
+    "seconds": 18.1392343,
+    "source_sha256": "e9e2cd3b1b7852e5567b9cd7544f4b41c55b5c06f4276897967cb4b6e7fb16ed",
+    "checked_at_utc": "2026-10-06T04:00:53.0337956Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondClassical.lean",
+    "exit_code": 0,
+    "seconds": 15.1753223,
+    "source_sha256": "c939589bb1302d57138a7cf270d9c3013e80fcdf0ede3e929cdce0d1e6853428",
+    "checked_at_utc": "2026-10-06T04:01:08.2106423Z"
+  },
+  {
+    "module": "Universality/Percolation/PivotalResponseBound.lean",
+    "exit_code": 0,
+    "seconds": 14.9255643,
+    "source_sha256": "d887f6a25291d1f55995b38a07ebf256d2ab8ca5f2132fb7e263a82eeb3708f3",
+    "checked_at_utc": "2026-10-06T04:02:21.3677481Z"
+  },
+  {
     "module": "Universality.lean",
     "exit_code": 0,
-    "seconds": 10.3918627,
-    "source_sha256": "7b076759772d7d99f7830a1be1727701def281aa2aeb4792624640e0d54b4ecf",
-    "checked_at_utc": "2026-10-05T23:10:47.5537730Z"
+    "seconds": 17.8461585,
+    "source_sha256": "b2457c5b1ff792079811781770d74bb5128382556485b96fa6971ae664455e40",
+    "checked_at_utc": "2026-10-06T04:02:39.2227925Z"
   },
   {
     "module": "Audit.lean",
     "exit_code": 0,
-    "seconds": 9.140207,
-    "source_sha256": "0b369e8f8ba55ce35f57efe77e327153d204a3c4197004483a724feb0d1c61ad",
-    "checked_at_utc": "2026-10-05T23:10:56.6951270Z"
+    "seconds": 13.6705176,
+    "source_sha256": "308d19be564908018690bd17dde6eb8aa2879b1ffdc976dc88ebcf14f874d352",
+    "checked_at_utc": "2026-10-06T04:02:52.8951453Z"
   }
 ]

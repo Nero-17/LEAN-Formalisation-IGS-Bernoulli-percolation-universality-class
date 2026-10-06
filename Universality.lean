@@ -51,3 +51,15 @@ import Universality.Graph.CyclicSubstitution
 import Universality.Graph.TerminalEdgeConnectivity
 import Universality.Examples.AdmissibleObservations
 import Universality.Graph.SubstitutionFullConnectivity
+import Universality.Percolation.OrientedStates
+import Universality.Percolation.CountingPolynomials
+import Universality.Matrix.CriticalCharacteristic
+import Universality.Geometry.GraphDirectedEquation
+import Universality.Geometry.ContractiveRealisation
+import Universality.Percolation.RandomEIGS
+import Universality.Geometry.GraphRealisation
+import Universality.Geometry.TypedGraphRealisation
+import Universality.Percolation.LocalLabelLaw
+import Universality.Matrix.ThreeStatePowers
+import Universality.Examples.DiamondClassical
+import Universality.Percolation.PivotalResponseBound
