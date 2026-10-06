@@ -45,6 +45,8 @@ input files specify finite graphs exactly.
 Outputs are `certificates/verification.json` and
 `certificates/transcendental-verification.json`. They include the checked
 identities, coverage information, and SHA-256 hashes of the inputs.
+The local `.gitattributes` preserves the input JSON bytes across checkouts,
+so Git line-ending conversion cannot change these input hashes.
 
 ## Provenance and limits
 
