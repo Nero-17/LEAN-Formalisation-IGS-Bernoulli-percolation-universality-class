@@ -1,0 +1,4 @@
+'Universality.Rule.Classical.augmented_cycle_through_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.terminalAugmentedGraph_preconnected_delete_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

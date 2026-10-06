@@ -1,4 +1,32 @@
-import Universality.Arithmetic.ScaleBlocking
+import Universality.Arithmetic.Section4
+import Section4KernelAudit
 
-#print axioms Universality.Section4.normalized_log_pow
-#print axioms Universality.Section4.aligned_log_dimensions_iff
+/-! Independent Section 4 audit. It checks every declaration originating in
+project modules and prints the principal theorem dependencies for review. -/
+
+#audit_section4_axioms
+
+#print axioms Universality.Rule.Classical.commensurate_of_criticalDimension_rank
+#print axioms Universality.Rule.Classical.common_primitive_base_of_criticalDimension_rank
+#print axioms Universality.Rule.Classical.scale_log_rank_le_two_of_irrational_criticalDimension
+#print axioms Universality.Rule.Classical.iterated_responses
+#print axioms Universality.Rule.Classical.aligned_criticalDimensions_iff
+#print axioms Universality.Rule.Classical.scale_power_two_of_wheatstone_dimensions
+#print axioms Universality.Rule.Classical.two_edge_configuration_parity
+#print axioms Universality.Rule.Classical.fixedPointPolynomial_mod_prime_nonconstant
+#print axioms Universality.Section4.IndexedNetwork.normalizedCoefficient_pos
+#print axioms Universality.Rule.Classical.integerReliabilityPolynomial_natDegree
+#print axioms Universality.Rule.Classical.integerFixedPointPolynomial_degree
+#print axioms Universality.Section4.simple_root_lift_of_adicComplete
+#print axioms Universality.Section4.fixedPoint_integer_power_is_perfect_power
+#print axioms Universality.Rule.Classical.irreducible_thermal_no_integer_power
+#print axioms Universality.Rule.Classical.nonsplit_mass_integer_power_not_mem
+#print axioms Universality.Rule.Classical.irreducible_criticalDimensions_independent
+#print axioms Universality.Rule.Classical.commensurate_of_irreducible_fixedPoint
+#print axioms Universality.Rule.Classical.common_primitive_base_of_irreducible_fixedPoint
+#print axioms Universality.Rule.Classical.irreducible_pivotal_dimension_transcendental
+#print axioms Universality.Rule.Classical.not_irreducible_fixedPoint_of_rational_pivotal_dimension
+#print axioms Universality.diamond_actual_fixedPoint_irreducible
+#print axioms Universality.diamond_actual_mass_nonsplit
+#print axioms Universality.diamond_actual_criticalDimensions_independent
+#print axioms Universality.Rule.Classical.scale_power_two_of_diamond_dimensions

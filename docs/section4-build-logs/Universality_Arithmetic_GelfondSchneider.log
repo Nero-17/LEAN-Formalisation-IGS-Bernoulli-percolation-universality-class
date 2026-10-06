@@ -1,0 +1,4 @@
+'Universality.Section4.logarithmic_dimension_transcendental' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.gelfond_schneider_real]

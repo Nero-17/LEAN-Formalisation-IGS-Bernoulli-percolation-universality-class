@@ -1,0 +1,9 @@
+'Universality.Rule.Classical.irreducible_pivotal_dimension_irrational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.not_irreducible_fixedPoint_of_rational_pivotal_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.not_irreducible_fixedPoint_of_pivotal_dimension_mem_rat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -12,6 +12,23 @@ The complete Chinese record and its precise limits are in
 [R071](docs/R071_完整研究记录.md), [R072](docs/R072_完整研究记录.md), and
 [R074](docs/R074_完整研究记录.md), and [R075](docs/R075_完整研究记录.md).
 
+## Section 4 independent development (R078)
+
+Section 4 finite-rule arithmetic is formalised independently of the concurrent Section 3 work.
+The actual algebraicity, rank/common-base alternatives, iteration/alignment,
+Wheatstone arithmetic, integer fixed-point quotient, Hensel/Witt arithmetic,
+and complete actual irreducible commensurability criterion are implemented,
+including graph parity, both whole-class examples, and the exact polynomial degree proved by deletion/contraction. The final dependency closure passed for 289 modules; all 3046 project kernel declarations passed the axiom audit.
+See the [precise coverage table](docs/SECTION4_COVERAGE.md) and
+[complete R078 record](docs/R078_完整研究记录.md).
+
+The user explicitly authorizes two external mathematical theorems:
+`Universality.External.six_exponentials` and
+`Universality.External.gelfond_schneider_real`. All other Section 4 mathematics
+must be proved. `Section4Audit.lean` and `scripts/check-section4.ps1` audit
+this separate closure and expose exactly which results use those two inputs. Import `Universality.Arithmetic.Section4` to use its results. Run `./scripts/check-section4.ps1` for the dedicated check; it always reruns the all-project-declaration kernel axiom audit and binds cached results to the measured compiler and clean pinned dependencies.
+The earlier Section 2/3 axiom statements below describe their own audit closure.
+
 ## Section 3 start (R073)
 
 The first tranche proves the actual internal-vertex mass recursion, its full
@@ -107,7 +124,7 @@ formulas are derived, rather than used as replacement definitions.
 
 Strict instability follows from a finite-product variance inequality. Uniqueness
 follows because the difference of crossing and occupation log odds is strictly
-increasing on `(0,1)`. No transcendence or percolation theorem was added as an axiom.
+increasing on `(0,1)`. No transcendence or percolation theorem was added as an axiom to that Section 2/3 proof chain; the separately authorized Section 4 inputs are documented above.
 
 ## The graph counterexample
 
@@ -167,7 +184,7 @@ was also checked successfully using the same installed dependencies. On this
 shared Windows cache, Git ownership exceptions were limited to the exact package
 directories in that one process; no global Git configuration was changed.
 
-The checked library contains no `sorry`, `admit`, `native_decide`, or added
+The original Section 2/3 audit closure contains no `sorry`, `admit`, `native_decide`, or added
 mathematical axioms. The audit reports only `propext`, `Classical.choice` and
 `Quot.sound`; some finite certificates need only `propext`. Finite computations
 use proof-producing tactics checked by Lean's kernel. All literals needed for
@@ -183,7 +200,7 @@ requires the original certificate JSON files, whose hashes are recorded in `docs
 2. The selected physical exponents β, δ and averaged η; the other four exponent
    classifications; and full exponent/dimension equivalence. The physical
    crossing exponent ν is proved in `Classical.crossing_length_exponent`.
-3. The six exponentials theorem and the global arithmetic rigidity theorem.
+3. The global unconditional arithmetic rigidity conjecture. Section 4 proves its rank and irreducibility criteria; six exponentials and Gelfond–Schneider are explicitly accepted external inputs.
 4. Full mass repair, finite rule realisation and infinite families for the large
    Section 5 certificates. Integer moments alone do not prove those claims.
 

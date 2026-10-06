@@ -1,0 +1,3 @@
+'Universality.Section4.irreducible_fixedPoint_no_integer_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'Universality.Section4.IndexedNetwork.linked_iff_reachable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Section4.IndexedNetwork.contractHead_loopless' depends on axioms: [propext]

@@ -1,0 +1,4 @@
+'Universality.FiniteNetwork.fixed_point_isAlgebraic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.FiniteNetwork.fixed_point_responses_algebraic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.critical_responses_algebraic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.mass_spectralRadius_isAlgebraic' depends on axioms: [propext, Classical.choice, Quot.sound]

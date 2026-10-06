@@ -1,0 +1,12 @@
+'Universality.FiniteNetwork.integerReliabilityPolynomial_coeff_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.integerComplementReliabilityPolynomial_coeff_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.integerFixedPointPolynomial_mod_two_nonconstant_of_parity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.integerFixedPointPolynomial_mod_prime_nonconstant_of_mod_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

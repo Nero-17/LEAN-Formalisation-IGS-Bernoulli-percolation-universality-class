@@ -1,0 +1,3 @@
+'Universality.Section4.IndexedNetwork.normalizedCoefficient_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

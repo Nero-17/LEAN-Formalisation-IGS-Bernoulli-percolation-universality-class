@@ -1,0 +1,67 @@
+SECTION4_KERNEL_AXIOM_AUDIT_OK declarations=3046 modules=287 codegenOnly=75935
+'Universality.Rule.Classical.commensurate_of_criticalDimension_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.common_primitive_base_of_criticalDimension_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.scale_log_rank_le_two_of_irrational_criticalDimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.iterated_responses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.aligned_criticalDimensions_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.scale_power_two_of_wheatstone_dimensions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.two_edge_configuration_parity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.fixedPointPolynomial_mod_prime_nonconstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Section4.IndexedNetwork.normalizedCoefficient_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.integerReliabilityPolynomial_natDegree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.integerFixedPointPolynomial_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Section4.simple_root_lift_of_adicComplete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Section4.fixedPoint_integer_power_is_perfect_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.irreducible_thermal_no_integer_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.nonsplit_mass_integer_power_not_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.irreducible_criticalDimensions_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.commensurate_of_irreducible_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.common_primitive_base_of_irreducible_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.irreducible_pivotal_dimension_transcendental' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.gelfond_schneider_real]
+'Universality.Rule.Classical.not_irreducible_fixedPoint_of_rational_pivotal_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.diamond_actual_fixedPoint_irreducible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.diamond_actual_mass_nonsplit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.diamond_actual_criticalDimensions_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.scale_power_two_of_diamond_dimensions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]

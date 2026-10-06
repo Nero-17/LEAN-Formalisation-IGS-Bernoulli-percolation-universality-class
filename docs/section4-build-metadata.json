@@ -1,0 +1,20 @@
+{
+  "target": "Section4Audit.lean",
+  "module_count": 289,
+  "rebuilt_count": 28,
+  "kernel_axiom_audit": {
+    "declarations": 3046,
+    "modules": 287
+  },
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound",
+    "Universality.External.six_exponentials",
+    "Universality.External.gelfond_schneider_real"
+  ],
+  "lean_version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)",
+  "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
+  "mathlib_revision": "520045ab14e26149ee970e2e617ca04b09bde5d6",
+  "completed_at_utc": "2026-10-06T15:56:57.3582464Z"
+}

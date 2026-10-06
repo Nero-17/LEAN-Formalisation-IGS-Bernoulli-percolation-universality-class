@@ -7,3 +7,6 @@ logs/
 *.olean.private
 __pycache__/
 
+
+# Local proof-development scratch; complete R078 evidence is archived separately.
+work/

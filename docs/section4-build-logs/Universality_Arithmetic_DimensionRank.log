@@ -1,0 +1,4 @@
+'Universality.Section4.commensurate_of_dimension_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
