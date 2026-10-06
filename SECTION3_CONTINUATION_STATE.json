@@ -1,0 +1,13 @@
+{
+  "project": "universality_class",
+  "round": "R074",
+  "round_status": "assigned_and_uploaded",
+  "start_utc": "2026-10-06T04:52:19Z",
+  "start_shanghai": "2026-10-06T12:52:19+08:00",
+  "status": "in_progress",
+  "archive_file_id": "1k7rGWCKjYBFTRNagUF1GJ5l6BmDTrM5-",
+  "objective": "Complete all of manuscript Section 3 without placeholder proofs or assumed analytic conclusions",
+  "baseline_commit": "2b35af9b74092ec9a0cc82a9edb0fd93048afe5f",
+  "previous_round": "R073",
+  "working_thread": "01a0e83b-cb9d-70e2-ba1b-01b517d2b775"
+}
