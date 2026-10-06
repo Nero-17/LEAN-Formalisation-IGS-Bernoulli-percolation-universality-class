@@ -385,3 +385,14 @@ import Universality.Graph.ConnectedConductance
 import Universality.Examples.TieGemResistance
 import Universality.Graph.ResistanceObservation
 import Universality.Percolation.GeometricPhysicalClass
+import Universality.Examples.TieGemCriticalBounds
+import Universality.Examples.TieGemResponseBounds
+import Universality.Examples.TriangleMassFormula
+import Universality.Matrix.PositiveRootTestRatio
+import Universality.Examples.GemMassBlock
+import Universality.Examples.GemMassBlockBounds
+import Universality.Examples.TieGemSpectralBounds
+import Universality.Examples.TieGemCommonSpectrum
+import Universality.Examples.DiamondSusceptibilityNumerical
+import Universality.Examples.WheatstoneAlphaNumerical
+import Universality.Section3
