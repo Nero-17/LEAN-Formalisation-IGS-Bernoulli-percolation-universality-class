@@ -1,0 +1,3 @@
+# Preserve the exact bytes bound to the completed Lean build receipts.
+*.lean -text
+build-evidence/section3-continuation-build.log -text

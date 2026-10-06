@@ -1,0 +1,26 @@
+{
+  "modules": {
+    "RuleWord": "Graph/RuleWord",
+    "MassMatrixEquivalence": "Percolation/MassMatrixEquivalence",
+    "CyclicRuleWord": "Graph/CyclicRuleWord",
+    "InternalCellNeighborhood": "Graph/InternalCellNeighborhood",
+    "GenerationInternalNeighborhood": "Graph/GenerationInternalNeighborhood"
+  },
+  "prior_imports": {},
+  "audits": [
+    "Universality.Rule.wordAppendEquivalence",
+    "Universality.Rule.wordRotateEquivalence",
+    "Universality.FiniteNetwork.NetworkEquivalence.massMatrix",
+    "Universality.Rule.cyclic_word_fixed_point",
+    "Universality.Rule.cyclic_word_response",
+    "Universality.Rule.cyclic_word_edges",
+    "Universality.Rule.cyclic_word_distance",
+    "Universality.Rule.cyclic_word_spectralRadius",
+    "Universality.Rule.cyclic_word_real_similarity",
+    "Universality.FiniteNetwork.cell_internal_incident_edge",
+    "Universality.FiniteNetwork.cell_internal_neighbor",
+    "Universality.Rule.generationCellEmbedding_internal",
+    "Universality.Rule.generationCellEmbedding_internal_incident",
+    "Universality.Rule.generationCellEmbedding_internal_neighbor"
+  ]
+}

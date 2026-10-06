@@ -37,6 +37,20 @@ foreach ($module in $taskOrder) {
         }
     }
     $taskObject = Join-Path $taskRoot ('.lake/build/lib/lean/' + [IO.Path]::ChangeExtension($module, '.olean'))
+    # A dependency may have been rebuilt before an interrupted invocation.
+    # Its newer object must invalidate this module even if this invocation reused it.
+    if (Test-Path -LiteralPath $taskObject) {
+        $taskObjectTime = (Get-Item -LiteralPath $taskObject).LastWriteTimeUtc
+        foreach ($line in Get-Content -LiteralPath (Join-Path $taskRoot $module)) {
+            if ($line -match '^import (Universality(?:\.[A-Za-z0-9_]+)*)\s*$') {
+                $taskDependencyObject = Join-Path $taskRoot ('.lake/build/lib/lean/' + $Matches[1].Replace('.', '/') + '.olean')
+                if ((Test-Path -LiteralPath $taskDependencyObject) -and
+                    (Get-Item -LiteralPath $taskDependencyObject).LastWriteTimeUtc -gt $taskObjectTime) {
+                    $taskDependencyRebuilt = $true
+                }
+            }
+        }
+    }
     $taskPrior = $taskPrevious[$module]
     if ($ReuseVerified -and $taskPrior -and $taskPrior.exit_code -eq 0 -and
         $taskPrior.source_sha256 -eq $taskHash -and -not $taskDependencyRebuilt -and
@@ -52,6 +66,11 @@ foreach ($module in $taskOrder) {
     $taskSeconds = ((Get-Date) - $taskStarted).TotalSeconds
     $taskResults += [pscustomobject]@{module=$module; exit_code=$taskExitCode; seconds=$taskSeconds; source_sha256=$taskHash; checked_at_utc=(Get-Date).ToUniversalTime().ToString('o')}
     if ($taskExitCode -ne 0) { throw "Lean rejected $module with exit code $taskExitCode" }
+    # Persist each successful result so interruption cannot erase completed checks.
+    $taskPrevious[$module] = $taskResults[-1]
+    $taskProgress = Join-Path $taskRoot 'docs/build-results.partial.json'
+    @($taskPrevious.Values) | ConvertTo-Json | Set-Content -LiteralPath $taskProgress -Encoding utf8
+    Move-Item -LiteralPath $taskProgress -Destination $taskManifest -Force
     [void]$taskRebuilt.Add($module)
 }
 $taskResults | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $taskRoot 'docs/build-results.json') -Encoding utf8

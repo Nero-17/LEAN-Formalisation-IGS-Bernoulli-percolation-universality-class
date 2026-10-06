@@ -12,5 +12,7 @@ $taskPaths = @($taskBuild) + @(Get-ChildItem -LiteralPath $PackageCache -Directo
 $env:LEAN_PATH = $taskPaths -join ';'
 $taskOutput = Join-Path $taskBuild ([IO.Path]::ChangeExtension($Module, '.olean'))
 New-Item -ItemType Directory -Path (Split-Path $taskOutput -Parent) -Force | Out-Null
-& (Join-Path $LeanBin 'lean.exe') '-o' $taskOutput $Module
+$taskLeanRoot = $taskRoot.Replace('\', '/')
+$taskLeanInput = (Join-Path $taskRoot $Module).Replace('\', '/')
+& (Join-Path $LeanBin 'lean.exe') '--root' $taskLeanRoot '-o' $taskOutput $taskLeanInput
 exit $LASTEXITCODE

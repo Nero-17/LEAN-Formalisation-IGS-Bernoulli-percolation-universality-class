@@ -1,150 +1,117 @@
 # Hierarchical-percolation universality in Lean
 
-This project formalises *Iterated Graph Systems (II):
-Bernoulli percolation and universality class on hierarchical lattices*.
 
-The manuscript's [supplementary materials](supplementary/README.md) include
-reproducible Python calculations, exact construction certificates, and preserved
-additional arguments. Their verification scope is separate from Lean coverage.
+This project formalises *Iterated Graph Systems (II): Bernoulli percolation and
+universality class on hierarchical lattices*. The Overleaf manuscript was not
+modified in this formalisation round.
 
-It is an independent local project; the Overleaf manuscript was not modified.
+Lean **4.32.1**; mathlib **520045ab14e26149ee970e2e617ca04b09bde5d6**.
+Manuscript source: Overleaf `69b4d5f8e9e9b26ffd015f17`, frozen Section 3 at
+commit `fccfba64fd345f8b0cbaafd94abec48420c0c6fa`.
 
-Manuscript baseline: Overleaf project `69b4d5f8e9e9b26ffd015f17`.
-R071 used Git `6270a59`; the R072 Section 2 snapshot includes the additional
-pivotal-response bound in Git `fccfba64`.
-Lean **4.32.1**, mathlib **520045ab14e26149ee970e2e617ca04b09bde5d6**.
-The complete Chinese record and its precise limits are in
-[R071](docs/R071_完整研究记录.md), [R072](docs/R072_完整研究记录.md), and
-[R074](docs/R074_完整研究记录.md), and [R075](docs/R075_完整研究记录.md).
+## Project progress, 7 October 2026
 
-## Section 3 start (R073)
+See the [consolidated progress report (中文)](docs/FORMALISATION_PROGRESS.md)
+for the chapter map, precise external dependencies, source commits and remaining
+integration work. This main branch now includes the completed R077 Section 3
+source and its original build evidence, as well as all previously published
+[manuscript supplementary materials](supplementary/README.md).
 
-The first tranche proves the actual internal-vertex mass recursion, its full
-finite probability-generating-function recursion (retaining the dependence
-between the top-level reward and the offspring states), terminal-swap
-invariance, and the resulting affine three-state expectation recursion.
-`Rule.Classical.internal_vertex_mass_bounds` proves uniform positive lower
-and upper multiples of the genuine mass spectral radius to the generation
-power, from the classical geometric hypotheses. Exact finite-volume vertex
-counts are also proved. The complete scope and remaining obligations are in
-[the Section 3 map](docs/SECTION3_COVERAGE.md).
+| Part | Verified scope | Location |
+| --- | --- | --- |
+| Section 2 | Named mathematical conclusions; see the R072 scope and later R075 probability-space extension | [R072](docs/R072_完整研究记录.md), [R075](docs/R075_完整研究记录.md) |
+| Section 3 + the four additional exponents moved to the appendix | Completed R077 statement map; 863-module closure, 956 selected axiom outputs | [Entry](Universality/Section3.lean), [coverage](docs/SECTION3_COVERAGE.md) |
+| Section 4 | Completed R080 statement map; 647-module closure, 5740 project declarations; six exponentials and Gelfond–Schneider are explicit external inputs | [Frozen coverage](https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/blob/919e8735cc28374000c6ca9554ebb0a6887e751f/docs/SECTION4_COVERAGE.md), [draft PR #1](https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/pull/1) |
+| Section 5 | Separate ongoing work; not accepted or merged by this progress review | [Existing computational supplements](supplementary/section5/README.md) |
 
-R074 adds all integer mass-moment bounds, `2 ≤ d_R < ρ < m`, the size-resolved
-birth series and its actual finite-volume limit, and normalization and total
-variation convergence of the critical uniform-root size law. It proves the
-actual crossing-length limit and its critical exponent ν, including the
-repelling fixed-point escape estimate. The cluster-number volume limit,
-functional equation, uniqueness, continuity and two exact forcing polynomials
-are proved. Full classical substitution closure and the resulting classical
-noncommutative counterexample are also proved.
+Section 4 remains on its independently verified branch. Its dependency closure
+overlaps Section 3, and its declaration audit uses a different counting method;
+the counts must not be added. No combined Sections 2–5 build or fresh-machine
+Lake build is claimed. The Section 4 opening conjecture is not a proved theorem.
 
-R075 constructs a common infinite probability space with exactly the actual
-conditional Bernoulli history laws, simultaneous coarsening consistency,
-and the full labelled EIGS law. The actual Perron-weighted population is a
-martingale for the complete past, has uniformly bounded normalized moments
-of every integer order, and converges almost surely and in L² to a limit
-with strictly positive preserved mean. The actual accumulated internal
-vertex mass also has an L² limit, with strictly positive mean.
+## Section 3 verification status
 
-The actual normalized vertex means converge to a strictly positive Perron
-eigenvector. The centered reward from one actual refinement has second moment
-at most `C * ρ^n`; the accumulated centered rewards divided by `ρ^n` converge
-to zero in L². These estimates use the conditional cell product law, without
-assuming independence between a cell's reward and its offspring types.
-The complementary reward population and its accumulated sum vanish in L²
-at the spectral scale. An exact telescoping identity identifies the vertex
-limit with a positive scalar multiple of a Perron population limit. The
-smoothing equation and local limit theorem remain separate obligations.
+**The original Section 3 is formalized and verified**, including its additional
+four-exponent material later moved to an appendix. The complete build passed
+**863 modules / 956 ordered kernel axiom outputs / 136 certificate batches**
+at 2026-10-06T20:05:04.0560222Z. Source/build verification reports zero errors and
+only the standard logical axioms for this main-branch closure. Code commit: `5b80bbe96fd5d55e4ce2ee03e3576665d5e37eb6`.
 
-Section 3 as a whole is **not yet formalised**. The infinite branching local
-limit theorem, uniformly rooted infinite graph identification, β/δ/averaged η,
-near-critical moments, cluster-number higher regularity and singular response,
-radius laws, and remaining cyclic-list/example details are still open.
+Start with [Universality/Section3.lean](Universality/Section3.lean), the complete
+[statement coverage map](docs/SECTION3_COVERAGE.md), or the single continuous
+[R077 report](docs/R077_完整研究记录.md). Post-build source/object/dependency
+fingerprints are in `docs/section3-final-integrity.json`. Historical Section 2
+and earlier Section 3 evidence remains in the R071/R072/R074/R075 reports.
 
-## Section 2 continuation (R072)
+## Section 3 scope
 
-The Section 2 proof chain now includes the full finite-dimensional joint law
-of the critical random EIGS, its actual cluster extraction, the geometric
-limit under compatible contractions, the exact counting polynomials and
-critical characteristic polynomial, and the four-edge diamond example.
-The added strict bound `deriv reliability p ^ 2 < edges` is proved from the
-actual Bernoulli covariance. The statement-by-statement coverage table,
-assumptions and current verification evidence are in the R072 report.
+The definitions use actual finite edge-indexed graphs, independent Bernoulli
+configurations, graph reachability, and uniform-vertex sampling. Matrix and
+birth-series identities are derived from these observables.
 
-`Rule.critical_randomEIGS_joint_law` concerns arbitrary observables of every
-generation's labels, rather than only their first moments.
-`offspring_labels_conditionally_independent` supplies the state-dependent
-joint rule kernels. Single-terminal orientation is retained until symmetry
-is applied; sibling labels within one rule are not assumed independent.
+- Actual internal-vertex mass recursion and all integer moment bounds; a common
+  coherent history probability space and the actual mass L² limit; smoothing,
+  nonlattice limits, smooth normalized densities, strict single-state positive
+  support, all-integer uniform local limits and arbitrary-order point bounds.
+- An actual age-mixture rooted direct-limit graph, finite-stage Bernoulli laws,
+  almost-sure local finiteness, full rooted-ball local weak convergence, and
+  identification of its finite/infinite component probabilities.
+- The four physical exponents beta, crossing nu, point-size delta and averaged
+  eta: existence, uniqueness, formulas, and classification by three explicit
+  dimensions. Eta uses every fixed ambient-distance window 0<a<b<1.
+- Finite-cluster moments at fixed and near-critical parameters, exact thresholds
+  including equality, power/logarithmic bounds, subthreshold continuity,
+  susceptibility and adjacent-moment gap exponents, and the common-gap criterion.
+- Actual cluster-number density as the sum of finite-cluster probabilities
+  divided by size; the functional equation, uniqueness, analytic extension,
+  critical regularity and raw-alpha criterion; diamond, central-Wheatstone and
+  Wheatstone alpha examples, including a strong Wheatstone third-response bound.
+- Actual ambient-radius tail and point events, critical power tails, the
+  necessary point exponent value, and a genuine diamond spike construction
+  proving that its point logarithmic exponent does not exist.
+- Arbitrary cyclic substitution words, actual noncommutative classical models
+  with different physical classes, and failure of arbitrary multiplicative
+  observations to classify. Connected unit resistances multiply under
+  substitution; Tie/Gem have resistance 4/3.
 
-`Geometry.TypedGraphRealisation.geometric_limit` is pathwise for every fixed
-realisation of whole-rule choices. It proves a nonempty compact limit,
-address coding, the graph-directed set equation and the precise Hausdorff
-bound using the maximum diameter of the finitely many type spaces. Finite
-rule laws are normalised. R075 additionally constructs the infinite
-conditional configuration-history measure and identifies all its finite
-labelled marginals with the actual percolation law. Identification with
-percolation on a uniformly rooted infinite graph remains open.
+The newest graph/radius, cluster-number, LLT normalization and electrical
+bridges are all included in the successful complete build, with the numerical examples.
+The ambient Hausdorff theorem is reused from the separate completed R080
+geometry work: 22 frozen new source modules, with 117 shared identical
+project dependencies, have been recompiled and verified here. No upstream object files or
+arithmetic external axioms are imported. New classification wrappers use the
+Hausdorff dimension of the actual compact generation metric space directly.
 
-## What is actually proved
+## Precise conventions and boundaries
 
-The core objects are actual edge-indexed finite graphs, Bernoulli configurations,
-graph reachability, and conditional open-cluster edge counts. Their matrix
-formulas are derived, rather than used as replacement definitions.
-
-| Manuscript argument | Principal Lean entry points | Coverage |
-|---|---|---|
-| Finite classical rules | `Rule.Classical`; `wheatstoneRule_classical`; `oppositeWheatstoneRule_classical` | Connected simple rule, canonical paths, distance, single-edge cuts, involutive terminal swap; both seeds certified |
-| Reliability under substitution | `FiniteNetwork.substitute_reliability`; `Rule.generation_reliability_iterate` | Actual glued graphs, independent child crossings and composition |
-| Nontrivial crossing transition | `Rule.Classical.finite_crossing_transition` | Existence, uniqueness, strict instability, actual finite-generation crossing probabilities tending to 0 or 1 |
-| Edge-cut criterion | `FiniteNetwork.interior_fixed_point_iff_terminalEdgeConnectivity` | The minimum cardinality of an actual terminal cut is at least two exactly when an interior fixed point exists, for connected rules of terminal distance at least two |
-| Bernoulli response | `FiniteNetwork.russo_formula`; `strict_bernoulli_poincare` | Direct finite-product proofs and fixed-point derivative greater than 1 |
-| Conditional mass recursion | `FiniteNetwork.substitutedMassMatrix_eq_mul`; `Rule.generation_massMatrix` | Actual conditional probabilities and local states, with terminal symmetry |
-| Primitive mass matrix | `FiniteNetwork.massMatrix_fourth_power_pos` | Every entry of the actual fourth power is positive |
-| Mass dimension | `Rule.Classical.mass_dimension` | Limit of log expected open-cluster edge count divided by log actual terminal distance |
-| Pivotal dimension | `Rule.Classical.pivotal_dimension`; `pivotal_mass_inequalities` | Actual pivotal growth and `0 < dim_P < dim_M` |
-| Three-state structure | `pivotal_left_eigenvector`; `massMatrix_real_diagonalization`; `exact_conditional_cluster_mass` | Off-critical left eigenvalue, invariant plane, critical 2+1 decomposition, real diagonalisation, exact mass expansion |
-| Noncommutative obstruction | `no_classification_by_classical_multiplicative_observations` | Actual classical rules and annealed mass-growth limits; multiplicativity required only on the classical domain; conversion to different physical-exponent classes remains separate |
-| Cyclic substitution | `Rule.cyclic_substitution_real_similarity`; `cyclic_substitution_response` | Full real similarity for two-factor cyclic composites, including repeated response/secondary eigenvalues; actual edge counts and distances agree |
-| Exponent/dimension inversion | `four_exponent_formulas_eq_iff_dimensions_eq` | Algebraic equivalence of the displayed fractions only; physical existence and formula theorems remain separate |
-| Commensurability arithmetic | `commensurate_iff_rational_log_ratio`; `explicit_scales_pairwise_incommensurate` | Positive integer blocking and the explicit scale family |
-| Large counterexample data | `Certificates.certificate*_integer_moments`; `signed_wheatstone_packet` | Four integer datasets, word expansions, capacity allocation and commutator algebra; full graph realisation still missing |
-
-Strict instability follows from a finite-product variance inequality. Uniqueness
-follows because the difference of crossing and occupation log odds is strictly
-increasing on `(0,1)`. No transcendence or percolation theorem was added as an axiom.
-
-## The graph counterexample
-
-The five-edge Wheatstone graph has conditional mass block
-`[[53,48],[13,42]]/16`, fixed point `1/2`, derivative `13/8`, and distance 2.
-The thirteen-edge opposite-pair replacement graph has block
-`[[1896,2292],[627,1380]]/256`, fixed point `1/2`, derivative `67/32`, and distance 3.
-
-All 8192 configurations of the second graph are checked. Python supplies
-candidate component certificates; Lean checks their validity, coverage,
-conditional counts and reliability histogram using ordinary kernel `decide`.
-An externally computed count is never assumed to be correct.
-
-The actual AABB and ABAB rules both have 4225 edges, terminal distance 36, fixed
-point `1/2`, and derivative `(871/256)^2`. Their mass spectral radii and actual
-iterated conditional cluster-mass growth rates differ, although every family
-of scalar substitution-multiplicative observations agrees on the two rules.
-
-## Conventions that matter
-
-* `outer * inner` replaces each edge of `outer` by `inner`. In the manuscript's
-  convention this is **`inner ∘ outer`**, not `outer ∘ inner`.
-* `rule.generation 0` is the first rule graph. Generation `n` means **`n+1`**
-  substitutions when the initial single edge is numbered zero.
-* Connectivity is undirected; edge indices remain distinct for independent
-  Bernoulli states. `Rule.Classical.simple` separately excludes parallel edges.
-* `Rule.MassAdmissible` is weaker than `Rule.Classical`. Substitution closure
-  is proved for both. The classical proof explicitly preserves simplicity,
-  canonical terminal paths and an involutive terminal exchange.
-* Mass dimension means the annealed finite-generation expected edge-growth
-  limit. Ambient edge growth is not called Hausdorff dimension without a proof
-  of the metric-limit correspondence.
+- `outer * inner` replaces each edge of `outer` by `inner`, corresponding to
+  manuscript `inner ∘ outer`.
+- `generation n` is manuscript depth `n+1`. The exact paper LLT wrapper uses
+  `rho^(n+1)`, density `rho * w(rho*x)`, and the same history limit divided by
+  `rho`; this is a proved density/law transformation, not an absorbed constant.
+- The actual accumulated vertex mass has L² convergence. Its full-sequence
+  almost-sure convergence is not claimed. The associated population martingale
+  has its separately proved almost-sure convergence.
+- Rooted local weak convergence is expressed by probabilities of every finite
+  rooted-ball isomorphism event. No unlabelled graph quotient topology is
+  introduced. Exact-radius events mean that the ambient maximum is attained
+  at the specified integer; their definition is not a birth series.
+- At p=0 the positive-subcritical moment divergence criterion does not apply.
+  For p=1 all finite-cluster moments are finite. Infinite ENNReal moments are
+  not interpreted through their real coercion as finite quantities.
+- Physical kappa is defined on probabilities p in [0,1]. Its auxiliary real
+  zero extension is not asserted to be analytic across endpoints; the precise
+  endpoint statement is interval analyticity or existence of an analytic
+  extension equal to the observable on [0,1].
+- The cluster-number regularity proposition has a different verified proof.
+  Its proof's optional linearizing coordinate, log-periodic amplitude and
+  resonant display formulas are not separately formalized claims here.
+- Real reciprocal resistance is physically interpreted only for connected
+  networks. All Classical uses are connected and have positive conductance;
+  the totalized zero value at a disconnected network is not physical infinity.
+- Section 4 and Section 5 are developed in separate worktrees/rounds. Their
+  completion status is not inferred from this repository's partial arithmetic
+  or integer-certificate files. R077 did not modify their worktrees.
 
 ## Build and trust
 
@@ -178,21 +145,3 @@ mathematical axioms. The audit reports only `propext`, `Classical.choice` and
 use proof-producing tactics checked by Lean's kernel. All literals needed for
 compilation are already in the source. Regenerating manuscript integer inputs
 requires the original certificate JSON files, whose hashes are recorded in `docs/`.
-
-## What is not formalised
-
-1. A bulk infinite-volume percolation graph and identification of crossing
-   criticality with bulk infinite-cluster criticality. The compatible
-   contractive geometric limit in Section 2 is proved, but is not identified
-   with a random Hausdorff mass dimension or a physical scaling limit.
-2. The selected physical exponents β, δ and averaged η; the other four exponent
-   classifications; and full exponent/dimension equivalence. The physical
-   crossing exponent ν is proved in `Classical.crossing_length_exponent`.
-3. The six exponentials theorem and the global arithmetic rigidity theorem.
-4. Full mass repair, finite rule realisation and infinite families for the large
-   Section 5 certificates. Integer moments alone do not prove those claims.
-
-The remaining analytic estimates needed for the physical exponent definitions
-are separate theorem obligations, not bundled assumptions. Rounded decimal illustrations
-in the manuscript are not certified error intervals; the diamond formulas
-themselves are exact Lean theorems.

@@ -1,75 +1,193 @@
-# Section 3 coverage — R075 (work in progress)
+# Section 3 — verified final coverage
 
-Source: `section3-20261006.tex`, frozen from manuscript commit
-`fccfba64fd345f8b0cbaafd94abec48420c0c6fa`.
 
-This table distinguishes exact finite-model results from the still missing
-infinite-volume and analytic arguments. A proof of displayed algebraic
-formulas is not counted as a proof of physical exponent existence.
+Project: universality_class / R077. Source: [section3-20261006.tex](section3-20261006.tex).
+This map follows the frozen original Section 3, including the four additional
+exponents now placed in an appendix of the local manuscript. It supersedes
+the former accumulating checkpoint table. Historical evidence remains in
+the single R077 complete report.
 
-| Manuscript item | Lean result | Scope |
-|---|---|---|
-| Internal masses, excluding both planting vertices | `FiniteNetwork.internalSelectedMass`, `conditionalVertexMass` | Defined by graph reachability and actual conditional Bernoulli weights |
-| `eq:conditional-mass-recursion` | `internalSelectedMass_substitute` | Exact identity for every configuration of an actual glued graph |
-| Conditional decomposition used in its proof | `conditional_substitution_observable` | Joint conditional law for arbitrary observables; valid off criticality |
-| Finite law of the mass | `conditionalInternalPGF_substitute` | Exact generating-function recursion; reward remains jointly distributed with child states |
-| Reduction of oriented types to three types | `NetworkSymmetry.conditionalInternalPGF_swap`, `conditionalVertexMass_substitute` | Explicit terminal symmetry, connected-state identification, inactive state |
-| Critical first-moment iteration | `Rule.generation_conditionalVertexMass` | Actual mean equals the sum of matrix powers applied to the one-cell mean |
-| `lem:conditional-mass-moments`: first-moment comparison | `Rule.Classical.internal_vertex_mass_bounds` | Uniform in generation and state; actual complex spectral radius, classical rule, interior fixed point |
-| Consequent logarithmic growth | `Rule.Classical.internal_vertex_mass_logarithmic_growth` | Limit of log actual internal-vertex expectation divided by generation |
-| Vertex normalisation | `Rule.generation_vertices`, `generation_volume_formula`, `generation_volume_ratio_tendsto` | Exact finite-volume counts and limiting vertex/edge ratio |
-| `lem:conditional-mass-moments`: spectral upper bound | `Rule.Classical.mass_spectralRadius_lt_edges` | Strict `ρ < m`, from an actual deficit in the single-state row and strict positivity of the fourth matrix power |
-| Conditional boundary mass/volume vanishes | `Rule.Classical.conditional_boundary_mass_density_tendsto_zero` | All three actual conditional masses; infinite-volume `θ(pc)=0` still requires additional arguments |
-| Higher-moment expansion | `conditionalInternalMoment_substitute`, `generation_conditionalVertexMoment` | Exact actual conditional recursion; graph associativity connects bottom-up generation to top-level cells |
-| All integer higher-moment bounds | `Rule.Classical.internal_vertex_moment_bounds` | All orders, actual conditional internal-vertex masses, constants uniform in state and generation; derived by strong induction without assuming higher-moment bounds |
-| Birth series by size | `generation_finiteClusterDensity_tendsto` | Exact pathwise decomposition, Bernoulli expectation, convergent birth series and actual vertex normalization; every parameter in [0,1] |
-| Critical limiting cluster-size mass | `Classical.critical_cluster_size_mass_hasSum` | The pointwise limits of actual uniform-root size probabilities sum to one; derived by nonnegative double-series interchange and vanishing boundary mass |
-| Critical size-law convergence | `Classical.critical_cluster_size_total_variation` | Actual finite uniform-root cluster-size laws converge in total variation to the normalized birth-series law; infinite rooted graph identification remains separate |
-| Full degree and spectral inequalities | `Classical.terminal_degree_spectral_bounds` | Actual graph degree satisfies `2 ≤ d_R < ρ < m`; valid for all interior percolation parameters |
-| `lem:conditional-mass-moments`: remaining identification | Not yet | Identification of the normalized limiting size law with percolation on the uniformly rooted infinite graph |
-| Common infinite configuration space | `ConfigurationHistory.infiniteLaw_history_atom`, `infiniteLaw_coarsens`, `infinite_randomEIGS_joint_law` | Actual conditional Bernoulli history laws, simultaneous almost-sure coarsening consistency, complete finite labelled observables; this is not the uniformly rooted infinite graph |
-| Perron population martingale | `Classical.exists_population_martingale`, `ConfigurationHistory.infiniteLaw_condExp` | Actual graph-derived weighted live-cell population, conditioned on the whole past; strictly positive eigenweights and actual spectral radius |
-| Population limit | `Classical.exists_nonzero_population_L2_limit`, `ConfigurationHistory.population_L2_limit_mean` | Almost-sure and L² convergence, exact preserved positive mean; all normalized integer moments uniformly bounded |
-| Exact normalized vertex-mean limit | `Classical.internal_vertex_mean_limit` | Actual affine mass recursion; strictly positive limiting vector in the genuine Perron eigenspace |
-| Actual centered vertex reward | `Classical.vertex_innovation_second_moment_bound`, `Classical.vertex_reward_compensation_L2_zero` | Conditional independence proves a `C * ρ^n` innovation second-moment bound; cumulative centered reward divided by `ρ^n` vanishes in L² |
-| Complementary reward population | `Classical.subcritical_population_L2_zero`, `Classical.subcritical_population_sum_L2_zero`, `Classical.vertex_reward_spectral_split` | Arbitrary real eigenweights; both population and accumulated contribution vanish at the spectral scale; exact split of the true reward into positive Perron and complementary components |
-| Actual accumulated vertex-mass limit | `Classical.internal_vertex_mass_L2_limit`, `Classical.nonnegative_internal_vertex_mass_L2_limit` | Actual graph-derived internal mass converges in L² on the coherent history space to an almost surely nonnegative limit with strictly positive mean |
-| `lem:conditional-mass-local-limit` | Partial prerequisites | Actual vertex-mass L² limit proved; smoothing equation, nonconstancy, smooth densities, local limit, full positive support and uniform pointwise tails still missing |
-| Finite uniform-root cluster law | `uniformVertexClusterMassProbability_eq`, `sum_uniformVertexClusterMassProbability` | Actual finite law, root/cluster counting identity and normalization; infinite-volume local law still missing |
-| `def:physical-observables`: infinite volume | Partial | Individual limiting cluster densities and uniform-root size probabilities proved; construction of the uniformly rooted infinite graph and identification of percolation on it still missing |
-| `thm:critical-exponents-dimensions`: ν | `Classical.crossing_length_exponent` | Actual normalized log-crossing limit and its critical logarithmic exponent; polynomial repelling fixed-point escape estimate and compact exit-interval control are proved |
-| `thm:critical-exponents-dimensions`: β; `thm:delta-eta-dimensions` | Not yet | Actual β, δ, averaged η; existing algebraic fractions do not discharge these |
-| Crossing correlation length and scaling | `Classical.crossing_length_limit`, `continuous_inverseCrossingLength`, `inverseCrossingLength_iterate` | Actual normalized log-crossing limit exists and is finite and strictly positive below criticality; continuity and exact iteration scaling proved |
-| `prop:annealed-moments` | Not yet | Susceptibility and higher-moment exponent classification |
-| `prop:cluster-number-response`: physical limit and functional equation | `Rule.Classical.cluster_number_density` | Actual expected cluster count/volume converges to the unique bounded solution of the paper's equation |
-| Cluster-number continuity | `FiniteNetwork.continuous_clusterNumberSeries` | Continuous on the entire closed parameter interval |
-| Cluster-number forcing | `internalClusterPolynomial_eval` | True internal-cluster expectation is an explicitly defined integer polynomial |
-| Two exact cluster-number forcing examples | `diamond_expectedInternalClusterNumber`, `wheatstone_expectedInternalClusterNumber` | Complete component certificates and exact integer polynomials checked in the kernel; this does not yet prove their raw α values |
-| `prop:cluster-number-response`: remaining regularity and examples | Not yet | Off-critical analyticity, critical `C^j`, singular response, raw α criteria, and the nine-edge example |
-| `prop:annealed-radius-tail` | Not yet | Cumulative radius tails and diamond point-probability nonexistence |
-| `thm:exponent-class-dimensions` | Algebra only from previous rounds | Physical theorem depends on the unfinished exponent results |
-| `lem:transposition-invariance`: two-factor step | `Rule.cyclic_substitution_real_similarity` plus existing spectral/response results | Full real similarity for actual matrices, even with response/secondary eigenvalue coincidence; composites mass-admissible, factors terminal-symmetric; list-rotation wrapper and tie–gem data still missing |
-| Classical substitution closure | `Rule.Classical.mul`, `Rule.Classical.generation` | All six actual rule conditions: full connectivity, simple edges, every edge on a terminal simple path, scale, cut, and involutive terminal exchange |
-| `lem:permutation-obstruction`, `thm:no-multiplicative-classification` | `groupedRule_classical`, `alternatingRule_classical`, `no_classification_by_classical_multiplicative_observations`, `reordered_classical_multiplicative_dimensions` | Actual classical counterexample and arbitrary families of measurements multiplicative only on the classical domain; exact common distance and different actual mass-growth limits; conversion to different critical-exponent classes still depends on the remaining exponent results |
+## Acceptance status
 
-## Index convention
+**Section 3 accepted.** The complete canonical import closure passed at
+2026-10-06T20:05:04.0560222Z: **863 modules / 956 ordered kernel axiom outputs /
+136 finite-certificate batches**. Independent source/build verification has
+zero errors; observed axioms are only propext, Classical.choice and Quot.sound.
+Code commit: `5b80bbe96fd5d55e4ce2ee03e3576665d5e37eb6`. Post-build source/object hashes, recursive project
+dependency fingerprints and the Lean binary hash are sealed in
+`section3-final-integrity.json`.
 
-`rule.generation 0` is the first rule graph. Thus Lean index `n` corresponds
-to the manuscript's `n+1` substitution levels. The exact first-moment formula
-is `Σ k = 0,...,n, M^k * mean(rule)`; the comparison with `ρ^n` absorbs one
-fixed power of `ρ` into its positive constants. There is no omitted terminal
-contribution: the mass explicitly excludes the two outer terminals.
+The scope is the original manuscript's **12 independent theorem/lemma/
+proposition/corollary statements, five definitions and three examples**,
+including the four additional exponents later moved to an appendix. All
+Tie/Gem numerical claims, the additional gamma/alpha intervals, electrical
+examples and actual Hausdorff classification wrappers are now in this build.
+The focused entry is `Universality.Section3`. Proof-display boundaries below
+remain explicit; completion concerns the stated conclusions and examples.
 
-## Assumptions and verification
+## Scope, definitions and conditions
 
-The pathwise recursion requires only finite loopless two-terminal networks.
-The conditional tower needs a nonzero crossing and noncrossing probability
-for the inner cell. The three-state reduction additionally needs a terminal
-swap automorphism. The final first-moment theorem uses `Rule.Classical` and
-an interior reliability fixed point; no desired mass-growth conclusion is
-assumed. Positivity of the initial reward is proved using an actual internal
-vertex adjacent to the source.
+The source has **12 theorem/lemma/proposition/corollary environments**, five
+definition environments, and three example environments. The second label
+def:static-class belongs to thm:exponent-class-dimensions; it is not an
+additional theorem. Both physical-observable definition labels name the same
+definition.
 
-Verification is the Lean kernel build of the entire `Audit.lean` import
-closure followed by `scripts/verify_snapshot.py`; see `source-audit.json`
-and `build-results.json` for the final source hashes and results.
+Rule.Classical records the actual finite loopless simple two-terminal rule,
+full connectivity, every edge on a terminal simple path, terminal distance
+at least two, survival of every single-edge deletion, and involutive terminal
+exchange. No desired mass, exponent, or density conclusion is a field of this
+structure. At criticality, theorem parameters are 0<pc<1 and reliability(pc)=pc;
+the existence and uniqueness of that interior critical point are proved
+elsewhere in the formal chain.
+
+Unless explicitly stated otherwise, probabilities use the physical parameter
+interval [0,1]. Physical observables outside it have an artificial zero
+extension; no physical assertion for p<0 or p>1 is intended.
+
+| Manuscript definition | Formal interpretation and conditions |
+| --- | --- |
+| def:physical-observables; def:annealed-percolation | Graph.UniformRootProbabilitySpace constructs the actual age-mixture rooted graph with independent Bernoulli edge bits. Graph.UniformRootLocalLimit proves convergence of every fixed-radius full rooted-ball isomorphism event from uniform finite vertices. Graph.UniformRootLocalFiniteness proves almost-sure finite neighbor sets. Finite/infinite cluster probabilities are identified by UniformRootSizeIdentification and PhysicalObservables. For size>0, n_s is physicalFiniteClusterProbability/s and equals the actual cluster-count density limit; size zero contributes zero. The graph/local-limit bridge is verified in the final full build. |
+| def:four-exponents | Rule.HasCriticalExponents in PhysicalExponentDefinition uses actual physical infinite-cluster probability, actual crossingCorrelationLength, actual physical finite-cluster point probability, and finite averagedWindowConnectivity. The point law is eventually positive. The eta statement covers every fixed 0<a<b<1, ordered vertex pairs, deterministic ambient distance, and connecting paths inside the finite graph. |
+| def:other-exponents | physicalFiniteClusterMoment is an ENNReal finite-cluster moment, assigning zero to infinite clusters. physicalClusterNumberDensity is the sum of physical probability/size. Actual infinite ambient-radius tail/point events are in UniformRootRadiusIdentification and UniformRootRadiusPointLaw. Susceptibility and gap conclusions retain side and moment-order conditions; raw alpha requires eventual nonvanishing; radius logarithms are along positive integer radii. |
+| def:general-class | SameCriticalExponentUniversalityClass means existence of common actual beta, nu, delta and eta limits. It does not require equality or existence of all eight exponents. Existence and uniqueness of the selected four are separate proved results. |
+| def:multiplicative-dimension | The arbitrary-index-family multiplicative observation/dimension theorems include every positive scalar functional satisfying the stated admissible-composition law. They apply simultaneously to all such functionals, hence in particular to finite families. Effective resistance is an actual variational example on connected rules. |
+
+### Actual ambient geometry
+
+The map no longer treats the ambient Hausdorff formula as only an external
+citation or a definition of a logarithmic number.
+Rule.GenerationMetricSpace is the completion of the actual directed union of
+rescaled generation graph metrics. GenerationCompletion, GenerationCompactness,
+GenerationMetricSpace and GenerationMetricCells establish its metric,
+compactness, finite-generation inclusions and cell similarities.
+Rule.generationMetricSpace_dimH_eq in Geometry.GenerationHausdorffDimension
+proves
+
+    dimH (univ : Set (GenerationMetricSpace h))
+      = ENNReal.ofReal (log(rule.edges) / log(terminal distance)).
+
+The lower bound uses separated interior cell copies; no bounded-degree
+assumption or desired Hausdorff-dimension equality is postulated. This new
+geometry chain is formal, with upstream R08022 verification; its first local
+recompilation and the previously untested GeometricPhysicalClass wrappers
+have passed the integrated full audit.
+
+## Complete original statement map
+
+Names below are in Universality or its Rule/Classical and FiniteNetwork
+namespaces. Module paths remove ambiguity without repeating every prefix.
+
+| Original label (source line) | Full mathematical scope | Formal declarations / modules and acceptance boundary |
+| --- | --- | --- |
+| lem:conditional-mass-moments (109) | All live states, actual internal vertices excluding both outer terminals; 2<=d<rho<m; first moment comparable to rho^n; every integer r>=1 upper bound; birth series for every 0<p<1 and s>=1; theta(pc)=0. | terminal_degree_spectral_bounds; internal_vertex_mass_bounds; internal_vertex_moment_bounds; generation_finiteClusterDensity_tendsto; critical_cluster_size_mass_hasSum; critical_escapingRootMass_zero. PhysicalObservables transfers the size/infinite law. Actual model bounds and birth series are in the last full snapshot; the full rooted-graph-law bridge is included in the verified final build. |
+| lem:conditional-mass-local-limit (164) | Smooth probability density on [0,infinity) for every live state; uniform over all integer sizes; single-state density strictly positive on (0,infinity); all integer-order spatial point tails. | internal_mass_smooth_positive_integer_local_limit and internal_mass_polynomial_point_tail already checked in the full source chain. internal_mass_paper_normalization adds the exact original depth convention with the same law, normalized rescaled density, and error identity; its three-module chain is verified in the final full audit. |
+| thm:critical-exponents-dimensions (281) | Actual beta and nu exist for every Classical rule and have the stated dimension fractions. | PhysicalCriticalExponents.physical_beta_exponent; CrossingExponent.crossing_length_exponent; PhysicalExponentDefinition.hasCriticalExponents. The actual crossing limit, positivity, supercritical order parameter and log rates are proved. GenerationHausdorffDimension now supplies the actual ambient dimH identification. |
+| thm:delta-eta-dimensions (342) | Actual finite-cluster point-law delta and averaged-connectivity eta exist; any fixed 0<a<b<1 window has the same eta. | physical_delta_exponent; CriticalRootSizePowerBounds, CriticalRootSizeExponent and birth point upper/lower chains; AveragedConnectivityExponent.averaged_connectivity_exponent; PhysicalExponentDefinition.hasCriticalExponents. The size conclusion uses point probabilities, not just cumulative tails. Eta uses actual finite ordered-pair expectations and window normalization. |
+| prop:annealed-moments (448) | For every k>=1, finiteness for pc<p<=1; for 0<p<pc, iff d^(k+1)<m; nearcritical comparison with sum from 1 through N(p) on each finite side; finite positive critical limit below the rho threshold. | physical_supercritical_moment_ne_top; physical_subcritical_moment_finite_iff; NearCriticalRootMoment.supercritical_nearcritical_root_moment_comparison and subcritical counterpart; ActualMomentPowerBounds; ActualRootMomentContinuity; CriticalMomentPositive; physicalFiniteClusterMoment_eq. Equality at the degree threshold diverges. The actual initial birth level is included. No target moment estimate is assumed. |
+| prop:cluster-number-response (602) | Kappa is the unique bounded solution on [0,1] of the stated equation, analytic off pc, C^j at pc when thermal^j<m, always C2, and raw alpha=2-j under the stated vanishing/leading-jet hypotheses. | PhysicalClusterNumber.physicalClusterNumberDensity_eq plus ClassicalClusterNumber.cluster_number_density; PhysicalClusterNumberAnalyticity; physical_cluster_number_contDiffAt; pivotal_response_sq_lt_edges; physical_cluster_number_raw_alpha_criterion. The true sum of physical size densities is identified at every p in [0,1]. Endpoint analyticity is within [0,1] or via an actual analytic extension. This seven-module physical-kappa chain is verified in the final full audit. |
+| prop:annealed-radius-tail (756) | Actual critical ambient-radius cumulative two-constant power law for every Classical rule; if a finite point exponent exists, its necessary value; ordinary diamond point exponent does not exist. | Graph.PhysicalRadiusExponents.uniformRoot_critical_radius_power_bounds; uniformRoot_critical_radius_point_exponent_value; diamond_uniformRoot_radius_point_log_limit_nonexistent. UniformRootRadiusIdentification/PointLaw identify actual infinite ambient-radius probabilities with the proved thermodynamic tail/point laws. The diamond input is the actual isolated-cell exact-radius spike event, not an assumed spike. New physical radius bridges are verified in the final full audit. |
+| thm:exponent-class-dimensions; def:static-class (833) | Same actual four-exponent class iff all three critical dimensions agree. | PhysicalExponentClass.Classical.same_critical_exponent_class_iff_dimensions; GeometricPhysicalClass.Classical.same_critical_exponent_class_iff_geometric_dimensions; PhysicalExponentDefinition existence/uniqueness; Algebra.ExponentRecovery. Both directions use actual observable limits. The geometric wrapper directly uses actual metric dimH and has passed its first complete canonical check and final audit. |
+| lem:transposition-invariance (1026) | Every cyclic rotation of every finite word of at least two terminal-symmetric factors, with admissible cyclic composites, preserves all three dimensions and gives real similarity of the critical three-state matrices. | Graph.ArbitraryCyclicWord.cyclic_block_word_fixed_point, response, edges, distance, spectralRadius, real_similarity and three_growth_values; Percolation.CyclicPhysicalClass.cyclic_block_word_physical_exponent_class. The factor conditions permit path/triangle factors of scale or cut one; admissibility is on the composites. The mapped critical parameter is explicit. This is arbitrary cuts, not only two fixed sample matrices. |
+| lem:permutation-obstruction (1070) | Two actual admissible rules whose alternating and grouped fourfold composites have equal ambient and pivotal dimensions but different mass dimensions. | Examples.ClassicalSeeds, GraphNoncommutativity and ClassicalNoncommutativity; reordered_rules_edge_counts, fixed_points, terminal_distances and response; reordered_graph_mass_spectralRadii_ne. The actual Wheatstone/opposite-Wheatstone graph data and rational trace obstruction are kernel-certified, including finite configuration certificates. |
+| thm:no-multiplicative-classification (1127) | No finite family can classify the three dimensions; the same pair defeats all positive substitution-multiplicative dimensions simultaneously. | no_multiplicative_classification_of_graph_mass; reordered_classical_multiplicative_dimensions; multiplicative_observations_fail_physical_classification; multiplicative_dimensions_fail_physical_classification. The actual unequal mass Perron roots are part of the witness, not merely unequal labels for a class. Arbitrary index families strengthen the finite-family assertion. |
+| cor:ambient-does-not-classify (1142) | Equal ambient dimension need not imply equal critical-exponent class. | Examples.PhysicalClassCounterexample.ambient_dimension_does_not_classify_physical_exponents; reordered_physical_exponent_classes_differ; GeometricPhysicalClass.hausdorff_dimension_does_not_classify_physical_exponents. The last theorem directly states equal actual metric dimH and has passed the final full audit. |
+
+## Additional stated conclusions and examples
+
+These claims are kept separate from the 12 labelled theorem environments so
+that examples and proof displays are not accidentally double-counted.
+
+| Original item | Coverage |
+| --- | --- |
+| Susceptibility paragraph after prop:annealed-moments | ActualMomentPowerBounds gives true power bounds and equality-case logarithmic bounds; ActualRootMomentContinuity and CriticalMomentPositive give the finite positive critical limit. PhysicalMomentExponents gives both permitted-side gamma formulas. The supercritical side is always finite; the subcritical side requires d^2<m. |
+| Moment-ratio paragraph | PhysicalMomentExponents gives the exact positive-part difference for every order, the subcritical requirement d^(k+2)<m, eventual common high-order gap, and the all-k>=1 common-gap iff rho^2>=m. physical_subcritical_eventually_moment_eq_top proves that the original subcritical ratios cannot all remain finite. |
+| ex:dhl-four-exponents (404) | Examples.DiamondFourPhysicalExponents.diamond_four_physical_exponents and diamond_four_exponent_decimal_bounds give actual four-exponent values and rigorous intervals supporting the displayed decimals. |
+| ex:cluster-number-responses (671), including eq:wheatstone-third-response | Examples.PhysicalRawAlphaExamples gives actual kappa raw alpha -1 for diamond, -2 for central Wheatstone, and 2-log(5)/log(13/8) for Wheatstone. wheatstone_physical_third_response_two_sided_power_bounds proves the strong two-constant fractional-power bound for the actual third derivative on (0,1) except 1/2. The physical wrappers are included in the verified final build; the underlying forcing certificates and strong bounds are proved. |
+| ex:tie-gem-similarity (859): exact graph, reliability, critical-parameter relations and common class | TieGemData, TieGemSimilarity, TieGemClassical and TieGemPhysicalClass prove six edges, terminal distance two, both reliability formulas, the exact relation between critical parameters, equality of thermal and mass spectral data, explicit real similarity, and the same actual physical exponent class. These exact statements are not conditional on decimal experiments. |
+| ex:tie-gem-similarity: resistance 4/3 | Graph.DirichletEnergy, SubstitutionEnergy, ConductanceMultiplicativity and ConnectedConductance plus Examples.TieGemResistance: path conductance 1/2, triangle conductance 3/2, hence Tie/Gem conductance 3/4 and connected effective resistance 4/3. Six electrical modules are individually checked and verified in the final full audit. |
+| ex:tie-gem-similarity, tab:tie-gem-detail, and the three approximate eigenvalues | Eight canonical Examples/Matrix modules through TieGemCommonSpectrum certify critical points, thermal response, the actual Perron interval (5.708705,5.708725), and a common actual full-spectrum third eigenvalue in (1.42005,1.42015). All included in the final full audit. |
+| Diamond gamma+ approximately 2.9412 and Wheatstone raw alpha approximately -1.3150 | **Included in the verified final build.** DiamondSusceptibilityNumerical and WheatstoneAlphaNumerical give the explicit rounding intervals stated above. The diamond module also directly proves physicalFiniteClusterMoment p 1=top for every 0<p<pc. |
+| Effective-resistance multiplicative dimension after def:multiplicative-dimension | Graph.ResistanceObservation.effectiveResistance_mul; Classical.effectiveResistance_pos; equal_resistance_dimension_does_not_classify. The variational definition is actual unit-edge resistance on connected rules, and the physical classification counterexample applies. |
+
+## Proof identities and normalization
+
+The principal displayed identities needed to connect the observables are
+present, rather than assumed:
+
+- eq:conditional-mass-recursion: internalSelectedMass_substitute and the
+  actual conditional-substitution observable/PGF law. Reward and child types
+  retain their joint coarse dependence.
+- eq:birth-cluster-series and eq:birth-moment-series: exact birth decomposition,
+  vertex normalization and nonnegative series interchange, including infinite
+  moments.
+- eq:mass-smoothing: actual mass_limit_distribution_smoothing, with independent
+  child laws conditional on the coarse configuration.
+- eq:conditional-mass-llt and eq:conditional-mass-point-bound: smooth positive
+  integer LLT, exact paper normalization, and all-order actual point tails.
+- eq:critical-escape-time, eq:near-critical-moment-sum and
+  eq:pre-exit-birth-moment: actual first-exit time, bounded logarithmic
+  distortion, uniform pre-exit moments and complete post-exit series control.
+- eq:annealed-mass-point-law: actual birth point upper and lower estimates,
+  geometric summation and the physical size-law bridge.
+- eq:cluster-number-functional and eq:cluster-number-series: actual finite
+  cluster-count recursion and the bounded discounted series, now identified
+  with physical kappa on [0,1].
+- eq:diamond-radius-spikes: actual finite graph metric geometry, compatible
+  positive-probability event, exact-radius root count and transfer to the
+  thermodynamic point law; then the actual infinite-radius identification.
+- eq:substitution-responses: actual edge/distance multiplication, crossing
+  composition and three-state matrix product under the terminal-symmetry
+  conditions.
+
+Lean generation 0 is the first rule graph, so generation n is paper depth
+n+1. The LLT uses the exact change W_paper=W_Lean/rho and
+w_paper(x)=rho*w_Lean(rho*x), with error multiplied by rho. The actual
+pushforward law, integral one and support are preserved by the checked
+normalization chain. Fixed one-level shifts in inequalities with unspecified
+positive constants and in logarithmic exponents have their usual harmless
+constant/index adjustments; this observation was not used as a substitute
+for density rescaling.
+
+The proof-level actual mass limit is L2, with a positive mean and an almost
+surely nonnegative limit. The paper does not assert almost-sure convergence
+of these normalized masses. The final LLT bundle should not be described as
+an a.s. convergence theorem merely because it contains MemLp and a density law.
+
+## Explicit scope boundaries
+
+1. The new actual metric Hausdorff result, full rooted-ball convergence and
+   infinite ambient-radius identification are present in formal source;
+   older notes treating them as missing or only externally cited are obsolete.
+   Their complete canonical integration and final audit have passed.
+2. The periodic/resonant representation eq:cluster-number-log-periodic and its
+   analytic linearizing-coordinate construction have not been separately
+   formalized. The original proposition's analyticity, C^j and raw-alpha
+   conclusions have alternate checked proofs. Likewise, the LLT uses
+   sufficiently strong polynomial Fourier domination rather than separately
+   asserting the proof's exact stretched-exponential display.
+3. Kappa endpoint analyticity means an analytic extension agreeing on [0,1],
+   or AnalyticWithinAt there. The physical function's zero extension outside
+   [0,1] is not claimed analytic at the endpoints.
+4. Radius means ambient deterministic graph distance, not intrinsic open-path
+   distance. The point exponent requires eventual positive probabilities;
+   zeros do not become a fictitious finite exponent through Lean's totalized
+   real logarithm.
+5. Effective resistance is physically interpreted on connected terminal
+   pairs. The all-Rule real reciprocal convention assigns 0 to conductance
+   zero, not the infinite resistance of a disconnected circuit. All
+   Classical rules and all examples used in the classification result are
+   connected with positive conductance.
+6. Concrete finite enumeration is kernel-certified. Decimal illustrations
+   require proved interval bounds; all Tie/Gem and additional numerical modules are included in the final full build.
+
+## Final acceptance evidence
+
+All canonical modules are reachable from Audit.lean. The full Lean build,
+ordered axiom output, source SHA256 verification, and post-build source/object/
+dependency integrity check passed. The final archive is the existing R077 ZIP,
+not a new checkpoint file. The project progress index uses its existing ID.
+
+DiamondSusceptibilityNumerical certifies gamma+ in [2.94115,2.94125] and the
+actual infinite subcritical susceptibility. WheatstoneAlphaNumerical certifies
+raw alpha in [-1.31505,-1.31495]. These canonical modules are included in 863.

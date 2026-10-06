@@ -1,0 +1,31 @@
+{
+  "verified_at_utc": "2026-10-06T22:24:56.825034+00:00",
+  "kind": "post-build source/object integrity and publication review; not a new Lean compilation",
+  "section3": {
+    "source_commit": "7d3f92416baeaa3c26e50b06830457926e9c6c5b",
+    "source_object_pairs_rechecked": 863,
+    "integrity_manifest_sha256": "0054a161f5b70d491303600cf9ef2409b91bf7cef729388134954a83bc91c118",
+    "original_build_log_sha256": "ee2f8c89d175b9aab8a03cdb8a930ddb504b73fb0e9bc9ebe008a4e242bc0eb9",
+    "published_sources_match_certified_bytes": true,
+    "staged_source_blobs_match_certified_bytes": true,
+    "snapshot_verifier": {
+      "ok": true,
+      "module_count": 863,
+      "kernel_axiom_output_count": 956,
+      "kernel_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "errors": []
+    }
+  },
+  "section4": {
+    "source_commit": "919e8735cc28374000c6ca9554ebb0a6887e751f",
+    "branch": "codex/section4-independent",
+    "source_object_pairs_rechecked": 647,
+    "build_results_sha256": "b77bf47fcd17fc1b403129c9c630bcd2b03f196290bf008ca57ac827dcfdb675",
+    "merged_into_main": false
+  },
+  "errors": []
+}

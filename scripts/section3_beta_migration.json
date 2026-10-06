@@ -1,0 +1,27 @@
+{
+  "modules": {
+    "BoundaryDensityComparison": "Percolation/BoundaryDensityComparison",
+    "PostexitEscapingMassComparison": "Percolation/PostexitEscapingMassComparison",
+    "ExitFirstMomentLower": "Percolation/ExitFirstMomentLower",
+    "StoppedGeometricLogBound": "Analysis/StoppedGeometricLogBound",
+    "EscapingRootMassExitBounds": "Percolation/EscapingRootMassExitBounds",
+    "EscapingRootMassExponent": "Percolation/EscapingRootMassExponent"
+  },
+  "prior_imports": {
+    "BetaMomentExitWideCompact": "Percolation/MomentExitWideCompact",
+    "BetaActualReliabilityExitLogBound": "Percolation/ActualReliabilityExitLogBound"
+  },
+  "audits": [
+    "Universality.Rule.generation_boundary_mass_edge_density_limit",
+    "Universality.Rule.escapingRootMass_le_of_shifted_boundary_bound",
+    "Universality.Rule.escapingRootMass_ge_of_shifted_boundary_bound",
+    "Universality.Rule.Classical.postexit_escaping_mass_lower",
+    "Universality.Rule.Classical.postexit_escaping_mass_upper",
+    "Universality.Rule.Classical.next_vertex_mass_uniform_lower",
+    "Universality.Rule.Classical.exit_first_moment_uniform_lower",
+    "Universality.log_error_of_geometric_comparison",
+    "Universality.stopped_geometric_log_error",
+    "Universality.Rule.Classical.escaping_root_mass_exit_bounds",
+    "Universality.Rule.Classical.escaping_root_mass_exponent"
+  ]
+}

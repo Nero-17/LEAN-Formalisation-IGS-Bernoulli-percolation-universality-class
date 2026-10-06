@@ -31,7 +31,23 @@ def build(module):
             build(match.group(1))
     output.parent.mkdir(parents=True, exist_ok=True)
     print(f'Compiling pinned dependency {module}', flush=True)
-    subprocess.run([args.lean, '-o', str(output), str(relative.with_suffix('.lean'))],
-                   cwd=root, env=env, check=True)
+    # Match the elaboration options in the pinned mathlib lakefile.
+    command = [args.lean, '-DautoImplicit=false', '-DmaxSynthPendingDepth=3',
+               '-o', str(output), str(relative.with_suffix('.lean'))]
+    while True:
+        result = subprocess.run(command, cwd=root, env=env, text=True,
+                                encoding='utf-8', errors='replace', capture_output=True)
+        diagnostic = result.stdout + result.stderr
+        if result.returncode == 0:
+            print(diagnostic, end='', flush=True)
+            break
+        # Cached direct imports can still lack a transitive object file.
+        missing = re.search(r"of module (Mathlib[.\w]*) does not exist", diagnostic)
+        if missing and missing.group(1) not in visited:
+            print(f'Repairing missing transitive dependency {missing.group(1)}', flush=True)
+            build(missing.group(1))
+            continue
+        print(diagnostic, end='', flush=True)
+        raise subprocess.CalledProcessError(result.returncode, command)
 
 build(args.module)
