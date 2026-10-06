@@ -23,18 +23,18 @@
     }
   ],
   "sha256": {
-    "section3/figure/wheatstone_permutation_rules.tex": "eb06d4e4f518df8576b33a98a4f66af11f1c02fb500678937643d7a07d7a8176",
-    "section3/noncommuting-witness.tex": "ef22f13b503da42831450961a5139a69dddc018a04be88a18939a3fceb078b9b",
-    "section3/README.md": "51415ce130ce53c08a9910f41ecb49121e245cbf1ea9e15c093f1c09bd1be9a0",
-    "section3/verification.txt": "5e0856f3200adfff131766ee9d1309ee969c5efb8e3db282eb142277381d0b97",
-    "section3/verify_permutation.py": "5d9ac2ef14db100ff510b60e8da7e5e1cdba5742e9f60f0fb101e956b74b8c01",
-    "additional/finite-rank/historical-finite-rank-argument.tex": "b4069c31a742ba00b1a8fdc5a26b502d39fe69268fb0d374f940ea5810dd8e88",
-    "additional/finite-rank/README.md": "06f83fd62f1b41dae3da4e53584966afabecf216df22865fa30ce28eaeb8279f",
-    "additional/finite-rank/verify_rank_constants.json": "8b65a9be2cdd2e8663584dd40a662a2d28b813dddab01c2782df4e3e7e41e758",
-    "additional/finite-rank/verify_rank_constants.py": "dec5b52a056926cbcfe068b536347142b49da1651066460924ce5f4d606987a1",
-    "additional/spectrum/README.md": "44850566d40ad56086913d43d24d718536aeb7a1acf25205347074c9a2f9d0fd",
-    "additional/spectrum/spectral-perturbation.tex": "f51074679f2a8f2069a2b9b92101b872584a086109ab893dfadaa6e6910e8222",
-    "additional/spectrum/spectral-verification.json": "94a4d01978235b7e73489de01166dad0b1fe5e21d93944f539e9d165b33db6d1",
-    "additional/spectrum/verify_spectral.py": "bcf97c43d0c2ada2e6543ab040dff8432c9ffc56f1499849ed2570e3c21cf02a"
+    "section3/figure/wheatstone_permutation_rules.tex": "0644f77b6fbeace210160702c40bf4052f172a36ccddc294b038193fa360fc45",
+    "section3/noncommuting-witness.tex": "301d14f597e08d2a50e3887957a64f6ef074024aa16a0c5a713dbb289810fda8",
+    "section3/README.md": "830a96f91b03b3e18f66285892fb8d58723180504a846389d774cae4d81a67d7",
+    "section3/verification.txt": "387fdfe69cdeff5a4e7a6c9c907596105915a62ce94ae174488285d8eb487b47",
+    "section3/verify_permutation.py": "c00c584efca9992aca295a7df2cd6d6cc75e49a39528aebbf31d5386fa84d1a5",
+    "additional/finite-rank/historical-finite-rank-argument.tex": "a9e3758e26d69b4b9faf35867883f14a6fd7fd7e756a227f4fba4ed92e5292f1",
+    "additional/finite-rank/README.md": "5d4f261db0e6b81b63a8e30aa4a09ce872f42a054fbc97353f441ee84161d6f2",
+    "additional/finite-rank/verify_rank_constants.json": "5e2e5cb8f5039a3272e7bffe64804086e60d4dcc20b8b3197dde3150dcd429e0",
+    "additional/finite-rank/verify_rank_constants.py": "0507062d8797dfad59d1065e60158272a0dfd88ffa33c9900315f0559a98021d",
+    "additional/spectrum/README.md": "d523be234c641b1aa1d783a0be1d21b68417b631f2c33fd88b555740dd7210bf",
+    "additional/spectrum/spectral-perturbation.tex": "0dab551b9f70d4464f6eae80c4fe15ae44408af46a7be958506993996c52e0f8",
+    "additional/spectrum/spectral-verification.json": "943276eb5b1a391be5839ad6b3ceb615671f34591ef42a644a5f3baad348e6ae",
+    "additional/spectrum/verify_spectral.py": "5786c72b582bd62f5ae2a450403b6c24066c41977ffd99eb8aa4f19b558cd608"
   }
 }
