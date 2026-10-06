@@ -142,3 +142,15 @@ import Universality
 #print axioms Universality.twoByTwo_mass_coefficients_positive
 #print axioms Universality.FiniteNetwork.crossing_openEdgeSum_covariance
 #print axioms Universality.FiniteNetwork.pivotal_response_sq_lt_edges
+#print axioms Universality.FiniteNetwork.internalSelectedMass_substitute
+#print axioms Universality.FiniteNetwork.conditional_substitution_observable
+#print axioms Universality.FiniteNetwork.conditionalInternalMean_substitute
+#print axioms Universality.FiniteNetwork.conditionalInternalPGF_substitute
+#print axioms Universality.FiniteNetwork.NetworkSymmetry.conditionalInternalPGF_swap
+#print axioms Universality.FiniteNetwork.conditionalVertexMass_substitute
+#print axioms Universality.FiniteNetwork.conditionalVertexMass_pos
+#print axioms Universality.Rule.generation_conditionalVertexMass
+#print axioms Universality.affine_matrix_sum_bounds
+#print axioms Universality.Rule.Classical.internal_vertex_mass_bounds
+#print axioms Universality.Rule.Classical.internal_vertex_mass_logarithmic_growth
+#print axioms Universality.Rule.generation_volume_formula

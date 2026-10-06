@@ -11,6 +11,22 @@ Lean **4.32.1**, mathlib **520045ab14e26149ee970e2e617ca04b09bde5d6**.
 The complete Chinese record and its precise limits are in
 [R071](docs/R071_完整研究记录.md) and [R072](docs/R072_完整研究记录.md).
 
+## Section 3 start (R073)
+
+The first tranche proves the actual internal-vertex mass recursion, its full
+finite probability-generating-function recursion (retaining the dependence
+between the top-level reward and the offspring states), terminal-swap
+invariance, and the resulting affine three-state expectation recursion.
+`Rule.Classical.internal_vertex_mass_bounds` proves uniform positive lower
+and upper multiples of the genuine mass spectral radius to the generation
+power, from the classical geometric hypotheses. Exact finite-volume vertex
+counts are also proved. The complete scope and remaining obligations are in
+[the Section 3 map](docs/SECTION3_COVERAGE.md).
+
+Section 3 as a whole is **not yet formalised**: higher moments, the birth-cluster
+series, the local limit theorem, infinite-volume observables and the physical
+critical-exponent theorems remain open formalisation tasks.
+
 ## Section 2 continuation (R072)
 
 The Section 2 proof chain now includes the full finite-dimensional joint law

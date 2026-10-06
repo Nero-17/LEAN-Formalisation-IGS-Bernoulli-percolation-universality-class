@@ -1,0 +1,1162 @@
+\section{Why multiplicative dimensions cannot classify}\label{sec:universality}\label{sec:converse-rigidity}\label{sec:three-dimensions}
+
+
+
+Let us first recall the three dimensions used in this section.
+First, the Hausdorff dimension of the ambient metric scaling limit, denoted by $\dimhaus(\Xi)$, is given by~\cite{neroli2024fractal}*{Theorem~2.1}:
+\[
+ \dimhaus(\Xi)=\frac{\log m}{\log\ell}.
+\]
+We call this the \emph{ambient dimension}.
+Second, Theorem~\ref{thm:critical-mass-dimension} gives the expected mass dimension of the critical cluster:
+\[
+ \dimmass(\mathfrak C)=\frac{\log\rho(\mathbf M_{\mathfrak C})}{\log\ell}.
+\]
+Third, Theorem~\ref{thm:pivotal-dimension} gives its pivotal dimension:
+\[
+ \dim_{\mathrm P}(\mathfrak C)=\frac{\log\varphi_R'(p_c)}{\log\ell}.
+\]
+We refer to these as the \emph{three critical dimensions}.
+
+
+在第~\ref{sec:static-class} 小节中，我们先考察八个临界指数，并选取其中四个在本文观测约定下对所有经典 EIGS 层级晶格均存在的指数来定义临界指数普适类。随后证明，两个晶格属于同一类，当且仅当它们的三个临界维数分别相等。
+
+在第~\ref{sec:noncommuting} 小节中，我们则证明，任何有限族替代乘法型维数都不能完全决定这一临界指数普适类。
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Eight critical exponents and universality classes}\label{sec:static-class}
+
+
+不同文献定义普适类时，所采用的临界指数及其观测约定可能有所不同。
+为了明确本文的研究对象，我们从 Grimmett~\cite{grimmett2014criticality}*{Table~2.1} 列出的八个渗流临界指数出发。
+Table~\ref{tab:eight-exponents} records their status for classical EIGS hierarchical lattices under the observation conventions specified below.
+Four exponents have a uniform interpretation throughout this class; the remaining four require attention to the side of the transition, the order of the moment, or the distinction between point probabilities and cumulative probabilities.
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.7cm}*{4}{>{\centering\arraybackslash}X}|*{4}{>{\centering\arraybackslash}X}@{}}
+\toprule
+Exponent & $\beta$ & $\nu$ & $\delta$ & $\eta_{\mathrm{av}}$ & $\gamma$ & $\Delta$ & $\alpha$ & $\rho$\\
+\midrule
+Observable & Infinite-cluster density & Crossing length & Cluster mass & Averaged connectivity & Finite-cluster size & Moment ratios & Cluster-number response & Cluster radius\\
+Scope & All rules & All rules & All rules & All rules & Side dependent & Order dependent & Extra criteria & Point law may fail\\
+Result & Power law & Power law & Point law & Cell average & Three regimes & High-order stability & Explicit sufficient criteria & Cumulative law for all rules\\
+Class definition & Yes & Yes & Yes & Yes & --- & --- & --- & ---\\
+\bottomrule
+\end{tabularx}
+\caption{Eight critical exponents.}
+\label{tab:eight-exponents}
+\end{table}
+
+\subsubsection*{Annealed observables}
+The lattice is not spatially homogeneous, so a uniformly sampled vertex and a distinguished terminal need not see the same cluster law.
+We use volume sampling for bulk observables and specify the crossing and two-point observations separately.
+
+\begin{definition}\label{def:physical-observables}\label{def:annealed-percolation}
+Choose a vertex $U_n$ uniformly from $V(\Xi^n)$, independently of the percolation configuration, and let $(G,o)$ have the uniformly rooted local-limit law of $(\Xi^n,U_n)$.
+Conditional on $(G,o)$, declare its edges independently open with probability $p$.
+The resulting probability and expectation, denoted by $\mathbb P_p^{\mathrm{ann}}$ and $\mathbb E_p^{\mathrm{ann}}$, average over both the rooted graph and the open edges.
+Write $C(o)$ for the open cluster of the root and define
+\[
+ n_s(p):=\frac1s\mathbb P_p^{\mathrm{ann}}(|C(o)|=s),\qquad
+ \theta(p):=\mathbb P_p^{\mathrm{ann}}(|C(o)|=\infty)
+ =1-\sum_{s\ge1}s n_s(p).
+\]
+The density $n_s(p)$ is also the limit of the expected number of size-$s$ clusters in $\Xi^n$, divided by $|V(\Xi^n)|$.
+All infinite-volume bulk probabilities below refer to this law, with the volume limit taken before the critical or large-cluster limit.
+\end{definition}
+
+The uniformly rooted construction and its percolation interpretation are discussed in~\cite{alves2026percolation}.
+In particular, $n_s$ counts clusters, whereas $s n_s$ is the mass distribution seen from a uniformly sampled vertex.
+The law in Definition~\ref{def:annealed-percolation} is unconditioned; it differs from the terminal-connected cluster law used to define $\dimmass(\mathfrak C)$ in Definition~\ref{def:critical-mass-dimension}.
+The relation between their growth rates is a result of the percolation analysis.
+
+For $p<p_c$, the crossing correlation length is
+\[
+ \xi(p)^{-1}:=-\lim_{n\to\infty}\ell^{-n}
+ \log\varphi_R^{\circ n}(p).
+\]
+For the two-point observable, let
+\[
+ \mathcal P_n:=\bigl\{(x,y)\in V(\Xi^n)^2:
+ \ell^n/4\le\dist_{\Xi^n}(x,y)\le\ell^n/2\bigr\},\qquad
+ G_n:=\frac1{|\mathcal P_n|}\sum_{(x,y)\in\mathcal P_n}
+ \mathbb P_{p_c}^{\Xi^n}(x\leftrightarrow y).
+\]
+Distances are measured in the deterministic graph, and the connecting path in this definition lies in $\Xi^n$.
+Thus $G_n$ averages over pairs separated on the scale of a cell.
+The fixed fractions $1/4$ and $1/2$ may be replaced by any fixed $0<a<b<1$ without changing the exponent.
+This averaging convention is part of the definition of $\eta_{\mathrm{av}}$; no equivalence with a fixed-root pointwise or an infinite-volume spherical-shell definition is assumed.
+
+The proofs use the conditional boundary masses and the levels at which internal clusters appear.
+Write $d_R:=\deg_R(\beta^+)=\deg_R(\beta^-)$.
+For $\sigma\in\{c,b,u\}$, let $X_{\sigma,n}$ count the internal vertices in the active boundary cluster or union of clusters of a depth-$n$ cell, under its state-$\sigma$ conditional law at $p_c$; neither outer terminal is counted.
+Let $\mathcal J_n$ be the set of open clusters in $\Xi^n$ which avoid its two terminals but contain at least one internal vertex of its top-level copy of $R$.
+Expectations involving $\mathcal J_n$ are unconditioned.
+
+\begin{lemma}\label{lem:conditional-mass-moments}
+For every fixed integer $r\ge1$ and every live state $\sigma$,
+\[
+ 2\le d_R<\rho(\mathbf M_{\mathfrak C})<m,\qquad
+ \mathbb E X_{\sigma,n}\asymp\rho(\mathbf M_{\mathfrak C})^n,
+ \qquad
+ \mathbb E X_{\sigma,n}^{r}\le C_r\rho(\mathbf M_{\mathfrak C})^{rn}
+ \quad(n\ge1).
+\]
+Moreover, for every $p\in(0,1)$ and every $s\ge1$,
+\begin{equation}\label{eq:birth-cluster-series}
+ n_s(p)=\frac{m-1}{|V(R)|-2}
+ \sum_{n\ge1}m^{-n}\mathbb E_p
+ \#\{C\in\mathcal J_n:|C|=s\}.
+\end{equation}
+In particular, $\theta(p_c)=0$.
+\end{lemma}
+\begin{proof}
+Condition on the crossing indicators of the child cells of a state-$\sigma$ cell.
+If $J_\sigma$ is the number of active internal vertices of the top-level rule, the conditional construction in Theorem~\ref{thm:percolation-random-eigs} gives the exact recursion
+\begin{equation}\label{eq:conditional-mass-recursion}
+ X_{\sigma,n+1}=J_\sigma+
+ \sum_{e\text{ live}}X_{\tau(e),n}^{(e)}.
+\end{equation}
+Here $0\le J_\sigma\le |V(R)|-2$, and, given this finite configuration, the summands are independent with the indicated state laws.
+The reward $J_\sigma$ and the offspring types need not be independent.
+Every parent has at least $d_R$ live children, since every edge incident to an active terminal is live.
+The states $c,b$ have at least $2d_R$ children because the terminals are not adjacent.
+Every parent has at most $m$ children, whereas an all-closed state-$u$ configuration has exactly $d_R<m$.
+Primitivity and the strict Perron--Frobenius comparison therefore give $d_R<\rho(\mathbf M_{\mathfrak C})<m$.
+
+Taking expectations in~\eqref{eq:conditional-mass-recursion} and summing the resulting matrix geometric series proves the first-moment estimate: the reward vector is nonnegative and nonzero, and both Perron vectors are strictly positive.
+For the $r$th moment, expand the $r$th power conditionally on the finite configuration.
+The terms with all $r$ factors in one child give $\mathbf M_{\mathfrak C}$ applied to the vector of $r$th moments.
+Every remaining term contains only lower-order moments and bounded rewards.
+Induction on $r$ bounds their sum by $C_r\rho(\mathbf M_{\mathfrak C})^{rn}$.
+Iteration of the linear term gives the asserted bound, since $\rho(\mathbf M_{\mathfrak C})^r>\rho(\mathbf M_{\mathfrak C})$ for $r>1$.
+
+Let $I_{n,s}$ count the size-$s$ clusters of $\Xi^n$ avoiding its terminals.
+Such a cluster either lies inside one child cell and avoids its endpoints, or belongs to $\mathcal J_n$.
+Consequently,
+\[
+ \mathbb E_p I_{n,s}=m\mathbb E_p I_{n-1,s}
+ +\mathbb E_p\#\{C\in\mathcal J_n:|C|=s\}.
+\]
+Iterate this equality, divide by
+$|V(\Xi^n)|=2+(|V(R)|-2)(m^n-1)/(m-1)$, and take the volume limit.
+At most two additional clusters touch the outer terminals, so they do not affect the cluster density.
+This proves~\eqref{eq:birth-cluster-series}; its nonnegative terms also allow summation against any nonnegative function of $s$.
+At criticality the expected total mass touching the outer terminals is $O(\rho(\mathbf M_{\mathfrak C})^n)=o(m^n)$.
+The same decomposition, now counting vertices, therefore gives $\sum_{s\ge1}s n_s(p_c)=1$, as required.
+\end{proof}
+
+The next lemma supplies a local estimate, rather than a cumulative tail estimate, for the mass exponent.
+
+\begin{lemma}\label{lem:conditional-mass-local-limit}
+For each live state $\sigma$, there is a smooth probability density $w_\sigma$ on $[0,\infty)$ such that
+\begin{equation}\label{eq:conditional-mass-llt}
+ \lim_{n\to\infty}\sup_{s\in\mathbb Z}
+ \left|\rho(\mathbf M_{\mathfrak C})^n
+ \mathbb P(X_{\sigma,n}=s)
+ -w_\sigma\!\left(\frac{s}{\rho(\mathbf M_{\mathfrak C})^n}\right)\right|=0.
+\end{equation}
+The density $w_u$ is strictly positive on $(0,\infty)$.
+For every fixed integer $r\ge1$,
+\begin{equation}\label{eq:conditional-mass-point-bound}
+ \mathbb P(X_{\sigma,n}=s)\le
+ C_r\rho(\mathbf M_{\mathfrak C})^{-n}
+ \left(1+\frac{s}{\rho(\mathbf M_{\mathfrak C})^n}\right)^{-r}
+ \qquad(s\ge0).
+\end{equation}
+\end{lemma}
+\begin{proof}
+\emph{The branching limit.}
+The live cells form a finite-type Galton--Watson process with bounded offspring and primitive mean matrix $\mathbf M_{\mathfrak C}$.
+Weighting the generation-$n$ population by a positive right Perron vector and dividing by $\rho(\mathbf M_{\mathfrak C})^n$ gives a martingale.
+The expectations of its successive conditional variances are bounded by $C\rho(\mathbf M_{\mathfrak C})^{-n}$, so it converges in $L^2$.
+The usual vector version follows by decomposing the mean matrix into its Perron projection and its complementary invariant subspace: the latter has strictly smaller spectral radius, and the centred offspring increments have second moment $O(\rho(\mathbf M_{\mathfrak C})^n)$.
+Thus the normalised type populations converge in $L^2$ to a scalar limit times a fixed positive left Perron vector.
+
+Sum the rewards in~\eqref{eq:conditional-mass-recursion} by generation.
+Their conditional means are linear functions of the type populations, while their centred sums are martingale differences whose variances are $O(\rho(\mathbf M_{\mathfrak C})^n)$ in generation $n$.
+After division by $\rho(\mathbf M_{\mathfrak C})^n$, the centred total tends to zero in $L^2$.
+For the conditional means, the last finitely many generations converge by the population limit, and the earlier generations are bounded by a geometric tail in $L^2$.
+It follows that $\rho(\mathbf M_{\mathfrak C})^{-n}X_{\sigma,n}$ has an $L^2$ limit $W_\sigma$ of positive mean.
+These limits satisfy
+\begin{equation}\label{eq:mass-smoothing}
+ W_\sigma\overset{\mathrm d}=
+ \frac1{\rho(\mathbf M_{\mathfrak C})}
+ \sum_{e\text{ live}}W_{\tau(e)}^{(e)},
+\end{equation}
+with conditional independence on the right.
+The variable $W_u$ is nonconstant: otherwise the all-closed state-$u$ configuration would force $\rho(\mathbf M_{\mathfrak C})=d_R$.
+Primitivity then makes every $W_\sigma$ nonconstant, since each type can produce a type-$u$ descendant with positive probability.
+
+\emph{Fourier inversion.}
+If the characteristic function of $W_u$ had modulus one at a nonzero frequency $t$, the all-closed configuration in~\eqref{eq:mass-smoothing} would force the same at $t/\rho(\mathbf M_{\mathfrak C})$, and then at arbitrarily small nonzero frequencies.
+This contradicts its finite, strictly positive variance.
+For the other types, a finite offspring configuration leading to type $u$ gives the same conclusion.
+The integer variables $X_{\sigma,1}$ have span one.
+For $u,b$, opening no edges or just one edge incident to a terminal gives masses $0,1$.
+For $c$, open a shortest terminal path and then add one adjacent vertex outside that path.
+Such a vertex exists: a shortest path containing every vertex would leave no possible extra edge in a simple graph without shortening the path, contrary to terminal edge-connectivity at least two.
+These two configurations again have consecutive masses.
+
+Put $\psi_{\sigma,n}(t):=\mathbb E\exp(itX_{\sigma,n})$.
+Conditional independence and at least $d_R$ live children give
+\[
+ \max_\sigma|\psi_{\sigma,n+1}(t)|
+ \le\bigl(\max_\sigma|\psi_{\sigma,n}(t)|\bigr)^{d_R}.
+\]
+The $L^2$ limit gives uniform convergence of the normalised characteristic functions on compact frequency intervals.
+On a fixed annulus $a\le |t|\le a\rho(\mathbf M_{\mathfrak C})$, their moduli are therefore bounded by a constant strictly below one for all sufficiently large depths.
+For a normalised frequency with $|t|\le\pi\rho(\mathbf M_{\mathfrak C})^n$, choose the intermediate depth at which it enters this annulus, and iterate the preceding inequality through the remaining generations.
+If this intermediate depth is bounded, the span-one property bounds the unnormalised characteristic functions strictly below one on the remaining compact subset of $[-\pi,\pi]\setminus\{0\}$.
+Both bounds give, uniformly in $n$ and this entire frequency range,
+\[
+ \left|\psi_{\sigma,n}\!\left(\frac{t}{\rho(\mathbf M_{\mathfrak C})^n}\right)\right|
+ \le C\exp\left\{-c|t|^{\log d_R/\log\rho(\mathbf M_{\mathfrak C})}\right\}.
+\]
+The bound remains integrable after multiplication by any power of $|t|$.
+Fourier inversion and dominated convergence prove smoothness of the limiting densities and~\eqref{eq:conditional-mass-llt}, uniformly in the lattice point.
+They also give $\sup_s\mathbb P(X_{\sigma,n}=s)\le C\rho(\mathbf M_{\mathfrak C})^{-n}$.
+
+\emph{Positivity and the pointwise bound.}
+We first show that every $x>0$ belongs to the support of $W_u$.
+In $\Xi^n$, delete the inactive terminal; the remaining graph is connected by canonicality.
+Starting at the active terminal, grow a connected vertex set along a spanning tree of this graph, one vertex at a time.
+Open its tree edges and close all other edges.
+Each resulting state-$u$ configuration has positive probability and specifies the live types at depth $n$ in~\eqref{eq:mass-smoothing}.
+The conditional mean of $W_u$ initially has order $(d_R/\rho(\mathbf M_{\mathfrak C}))^n$ and finally has order $(m/\rho(\mathbf M_{\mathfrak C}))^n$.
+The maximum degree of $\Xi^n$ is at most $C_Rd_R^n$; adding one vertex therefore changes that conditional mean by at most $C_R(d_R/\rho(\mathbf M_{\mathfrak C}))^n$.
+At the first crossing of $x$, the mean tends to $x$.
+There are then $O(\rho(\mathbf M_{\mathfrak C})^n)$ live descendants, because their mean masses are bounded below by a positive constant.
+Conditional independence makes the variance at most $C\rho(\mathbf M_{\mathfrak C})^{-n}$.
+Every neighbourhood of $x$ consequently has positive probability.
+
+Since $w_u$ is continuous and has full support, its positivity set is open and dense in $(0,\infty)$.
+For every $x>0$, this set and its reflection about $x/2$ intersect inside $(0,x)$, so $(w_u*w_u)(x)>0$.
+All higher convolution powers are positive there as well.
+The all-closed state-$u$ configuration in~\eqref{eq:mass-smoothing} implies
+\[
+ w_u(x)\ge c\rho(\mathbf M_{\mathfrak C})
+ w_u^{*d_R}\bigl(\rho(\mathbf M_{\mathfrak C})x\bigr)>0.
+\]
+Finally, condition on one generation in~\eqref{eq:conditional-mass-recursion} and split its live children into two nonempty groups.
+Their mass sums are independent, and each has maximum point probability at most $C\rho(\mathbf M_{\mathfrak C})^{-n}$.
+If their sum plus the bounded reward equals $s$, one group has mass at least half of $s-J_\sigma$.
+Apply the $r$th-moment bound of Lemma~\ref{lem:conditional-mass-moments} to that group and the maximum point-probability bound to the other.
+For $s$ below a fixed multiple of $\rho(\mathbf M_{\mathfrak C})^n$, use the latter bound alone.
+This proves~\eqref{eq:conditional-mass-point-bound}.
+\end{proof}
+
+
+\subsubsection*{Four exponents valid for every rule}
+\begin{definition}\label{def:four-exponents}
+The order-parameter, crossing-length, cluster-mass and averaged-connectivity exponents are defined, when the limits exist, by
+\begin{align*}
+ \beta&:=\lim_{p\downarrow p_c}\frac{\log\theta(p)}{\log(p-p_c)},&
+ \nu&:=-\lim_{p\uparrow p_c}\frac{\log\xi(p)}{\log(p_c-p)},\\
+ \frac1\delta&:=-1-\lim_{s\to\infty}
+ \frac{\log\mathbb P_{p_c}^{\mathrm{ann}}(|C(o)|=s)}{\log s},&
+ \eta_{\mathrm{av}}&:=2-\dimhaus(\Xi)
+ -\lim_{n\to\infty}\frac{\log G_n}{n\log\ell}.
+\end{align*}
+\end{definition}
+The normalisation of $\eta_{\mathrm{av}}$ corresponds to the conventional connectivity law
+\[
+ G_n=(\ell^n)^{2-\dimhaus-\eta_{\mathrm{av}}+o(1)}.
+\]
+Logarithmic definitions permit bounded multiplicative oscillations associated with discrete changes of scale; a limiting prefactor is not required.
+
+\begin{theorem}[Also see \cite{alves2026percolation}]\label{thm:critical-exponents-dimensions}
+For every classical EIGS hierarchical lattice, the exponents $\nu$ and $\beta$ in Definition~\ref{def:four-exponents} exist and satisfy
+\[
+ \nu=\frac1{\dim_{\mathrm P}(\mathfrak C)},
+ \qquad
+ \beta=\frac{\dimhaus(\Xi)-\dimmass(\mathfrak C)}{\dim_{\mathrm P}(\mathfrak C)}.
+\]
+\end{theorem}
+\begin{proof}
+Fix a sufficiently small $\varepsilon>0$ and let $N(p)$ be the first iteration at which $\varphi_R^{\circ N(p)}(p)$ leaves $(p_c-\varepsilon,p_c+\varepsilon)$.
+Since $\varphi_R'(p_c)>1$, Taylor's formula on this interval gives
+\[
+ \log\frac{|\varphi_R(q)-p_c|}{|q-p_c|}
+ =\log\varphi_R'(p_c)+O(|q-p_c|).
+\]
+The deviations from $p_c$ grow at least geometrically until exit, so their sum is bounded uniformly in $p$.
+Summing the displayed identity yields
+\begin{equation}\label{eq:critical-escape-time}
+ N(p)=\frac{-\log|p-p_c|}{\log\varphi_R'(p_c)}+O(1).
+\end{equation}
+
+The shortest terminal paths have length $\ell$, so $\varphi_R(q)/q^\ell$ extends to a strictly positive continuous function on $[0,p_c]$.
+Telescoping gives
+\[
+ -\ell^{-n}\log\varphi_R^{\circ n}(p)
+ =-\log p-\sum_{j=0}^{n-1}\ell^{-j-1}
+ \log\frac{\varphi_R(\varphi_R^{\circ j}(p))}
+ {(\varphi_R^{\circ j}(p))^\ell}.
+\]
+The series converges uniformly on compact subsets of $(0,p_c)$, with a uniformly bounded correction to $-\log p$.
+Its limit is positive for small $p$ and satisfies $\xi(\varphi_R(p))=\xi(p)/\ell$.
+Every subcritical orbit eventually reaches the small-$p$ region, so the limit is positive throughout $(0,p_c)$.
+The exit points $\varphi_R^{\circ N(p)}(p)$ lie in a fixed compact subinterval of $(0,p_c)$.
+It follows that $\xi(p)\asymp\ell^{N(p)}$, proving the formula for $\nu$.
+
+For $\beta$, we use the annealed edge-rooted order-parameter theorem of Alves, Baldasso, Moreira and Teixeira~\cite{alves2026percolation}*{Theorems~7.1 and~8.1}.
+Their critical boundary-mass growth factor is $\rho(\mathbf M_{\mathfrak C})$: the expected number of edges incident to the terminal clusters is
+$(p_c,1-p_c,0)\mathbf M_{\mathfrak C}^{,n}(1,1,1)^{\mathsf T}$,
+and the Perron--Frobenius theorem identifies its exponential rate.
+Their edge-rooted infinite-cluster probability thus satisfies
+\[
+ \Theta_E(p)\asymp
+ (p-p_c)^{\log(m/\rho(\mathbf M_{\mathfrak C}))/\log\varphi_R'(p_c)}.
+\]
+We verify that uniform vertex sampling has the same exponent.
+Let $D_R$ be the largest degree of an internal vertex of $R$.
+Every final-level edge of $\Xi^n$ has a newly introduced endpoint of degree at most $D_R$.
+For a connected open cluster with $s$ vertices, its number of open edges is between $s-1$ and $D_Rs$.
+For each edge, the event that an endpoint belongs to a cluster of size at least $s$ is increasing.
+Harris' inequality compares its probability with the probability that the edge is also open by factors between $p$ and $1$.
+Sum over edges and vertices, take the volume limit first and then let $s$ tend to infinity.
+Since $|V(\Xi^n)|/|E(\Xi^n)|$ tends to $(|V(R)|-2)/(m-1)$, this gives
+\[
+ \frac{|V(R)|-2}{m-1}\theta(p)
+ \le\Theta_E(p)
+ \le\frac{D_R(|V(R)|-2)}{p(m-1)}\theta(p).
+\]
+The comparison constants stay bounded above and away from zero near $p_c$.
+Thus $\theta$ has the same logarithmic exponent as $\Theta_E$, which is the stated value of $\beta$.
+\end{proof}
+
+\begin{theorem}\label{thm:delta-eta-dimensions}
+For every classical EIGS hierarchical lattice, the exponents $\delta$ and $\eta_{\mathrm{av}}$ in Definition~\ref{def:four-exponents} exist and satisfy
+\[
+ \delta=\frac{\dimmass(\mathfrak C)}{\dimhaus(\Xi)-\dimmass(\mathfrak C)},
+ \qquad
+ \eta_{\mathrm{av}}=2+\dimhaus(\Xi)-2\dimmass(\mathfrak C).
+\]
+\end{theorem}
+\begin{proof}
+Condition on the top-level configuration of a cluster in $\mathcal J_n$.
+Its mass is a bounded integer plus the sum of a bounded number of independent conditional child masses.
+There are at least two live children, because every internal vertex of a canonical rule has degree at least two.
+The proof of~\eqref{eq:conditional-mass-point-bound} therefore applies to each such cluster.
+Since $|\mathcal J_n|\le |V(R)|-2$, equation~\eqref{eq:birth-cluster-series} gives, for any fixed integer $r>1+\log m/\log\rho(\mathbf M_{\mathfrak C})$,
+\[
+ n_s(p_c)\le C_r\sum_{n\ge1}
+ m^{-n}\rho(\mathbf M_{\mathfrak C})^{-n}
+ \left(1+\frac{s}{\rho(\mathbf M_{\mathfrak C})^n}\right)^{-r}.
+\]
+Split this geometric sum where $\rho(\mathbf M_{\mathfrak C})^n$ first exceeds $s$.
+This gives
+\[
+ n_s(p_c)\le Cs^{-1-\log m/\log\rho(\mathbf M_{\mathfrak C})}.
+\]
+For the reverse bound, close every top-level coarse edge and fix an internal vertex of $R$.
+Its cluster has mass one plus the sum of $\deg_R(v)$ independent state-$u$ child masses.
+This coarse event has probability independent of $n$ and strictly positive.
+Lemma~\ref{lem:conditional-mass-local-limit} and convolution give a local limit density strictly positive on $(0,\infty)$.
+Choose $n$ so that $s/\rho(\mathbf M_{\mathfrak C})^{n-1}$ lies in $[1,\rho(\mathbf M_{\mathfrak C})]$.
+The corresponding term in~\eqref{eq:birth-cluster-series} is at least $cm^{-n}\rho(\mathbf M_{\mathfrak C})^{-n}$, uniformly for large $s$.
+Consequently,
+\begin{equation}\label{eq:annealed-mass-point-law}
+ \mathbb P_{p_c}^{\mathrm{ann}}(|C(o)|=s)
+ =s n_s(p_c)\asymp s^{-\log m/\log\rho(\mathbf M_{\mathfrak C})}.
+\end{equation}
+Taking logarithms proves the formula for $\delta$.
+
+We next estimate $G_n$, allowing any fixed distance window $[a\ell^n,b\ell^n]$ with $0<a<b<1$.
+The deterministic cell has diameter at most $C_R\ell^n$.
+Indeed, its maximum distance to either specified terminal is at most that at depth $n-1$ plus $\operatorname{diam}(R)\ell^{n-1}$; summing this recurrence proves the claim.
+Distances between coarse vertices are multiplied by $\ell$ at each substitution.
+A cell is also isometrically embedded: any excursion outside it between its two terminals is no shorter than an internal terminal geodesic and can be replaced by one.
+
+Choose a fixed $k$ sufficiently large that depth-$(n-k)$ cells have diameter less than $a\ell^n$.
+A connected pair in the distance window must lie in different such cells, and each vertex must connect inside its own cell to a boundary vertex.
+Coarse vertices themselves may be assigned to any incident cell.
+The number of connected pairs is therefore at most the square of the sum of the boundary-cluster masses of these $m^k$ cells, including their endpoints.
+Lemma~\ref{lem:conditional-mass-moments} and Cauchy--Schwarz bound its expectation by $C_k\rho(\mathbf M_{\mathfrak C})^{2n}$.
+
+For a lower bound, increase $k$ if necessary and choose two coarse edges near two points of a terminal geodesic separated by $(a+b)\ell^n/2$.
+The diameter bound ensures that every pair of internal vertices in their depth-$(n-k)$ cells lies in the prescribed distance window.
+This also proves $|\mathcal P_n|\asymp m^{2n}$.
+Require all $m^k$ coarse cells to connect; this has probability $p_c^{m^k}>0$.
+The two chosen conditional connected clusters are independent, are joined through the coarse graph, and each has expected internal mass at least $c\rho(\mathbf M_{\mathfrak C})^{n-k}$.
+Their cross pairs give the reverse numerator bound.
+Thus
+\[
+ G_n\asymp\left(\frac{\rho(\mathbf M_{\mathfrak C})}{m}\right)^{2n},
+\]
+which gives the stated $\eta_{\mathrm{av}}$ and proves independence of the fixed window.
+\end{proof}
+
+\begin{example}\label{ex:dhl-four-exponents}
+For the diamond data in Example~\ref{ex:dhl-dimensions}, the formulas give
+\[
+ \beta=\frac{\log(4/\rho(\mathbf M_{\mathfrak C}))}{\log(6-2\sqrt5)}\approx0.1647,
+ \qquad
+ \nu=\frac{\log2}{\log(6-2\sqrt5)}\approx1.6353,
+\]
+\[
+ \delta=\frac{\log\rho(\mathbf M_{\mathfrak C})}{\log(4/\rho(\mathbf M_{\mathfrak C}))}\approx18.8585,
+ \qquad
+ \eta_{\mathrm{av}}=4-\frac{2\log\rho(\mathbf M_{\mathfrak C})}{\log2}\approx0.2014.
+\]
+\end{example}
+
+\subsubsection*{The other four exponents}
+The finite-cluster moments and cluster-number density are
+\[
+ \chi_k^{\mathrm f}(p):=\mathbb E_p^{\mathrm{ann}}
+ [|C(o)|^k\mathbf1_{\{|C(o)|<\infty\}}]
+ =\sum_{s\ge1}s^{k+1}n_s(p),\qquad
+ \kappa(p):=\sum_{s\ge1}n_s(p),
+\]
+where $k\ge1$, and the integrand defining $\chi_k^{\mathrm f}$ is assigned value zero on infinite clusters.
+Write $\operatorname{rad}C(o):=\sup\{\dist_G(o,x):x\in C(o)\}$ for the radius in the ambient graph distance.
+
+\begin{definition}\label{def:other-exponents}
+Whenever the observables are finite in the relevant punctured neighbourhood and the limits exist, define
+\begin{align*}
+ \gamma_\pm&:=-\lim_{p\to p_c^\pm}
+ \frac{\log\chi_1^{\mathrm f}(p)}{\log|p-p_c|},\\
+ \Delta_{k,\pm}&:=-\lim_{p\to p_c^\pm}
+ \frac{\log(\chi_{k+1}^{\mathrm f}(p)/\chi_k^{\mathrm f}(p))}{\log|p-p_c|},\\
+ \alpha_\pm&:=-1-\lim_{p\to p_c^\pm}
+ \frac{\log|\kappa'''(p)|}{\log|p-p_c|},\\
+ \frac1\rho&:=-1-\lim_{r\to\infty}
+ \frac{\log\mathbb P_{p_c}^{\mathrm{ann}}(\operatorname{rad}C(o)=r)}{\log r}.
+\end{align*}
+The last limit is along positive integers.
+A common gap exponent $\Delta_\pm$ means that $\Delta_{k,\pm}$ has the same value for every $k\ge1$.
+For $\alpha_\pm$ we use the full cluster-number density, with no analytic background subtracted, and require $\kappa'''$ to be nonzero sufficiently close to $p_c$ on the chosen side.
+\end{definition}
+
+The following estimate determines both susceptibility and the moment ratios.
+
+\begin{proposition}\label{prop:annealed-moments}
+For $k\ge1$, the moment $\chi_k^{\mathrm f}(p)$ is finite for every $p>p_c$.
+For $0<p<p_c$, it is finite if and only if $d_R^{k+1}<m$.
+On each side on which it is finite, as $p$ approaches $p_c$,
+\begin{equation}\label{eq:near-critical-moment-sum}
+ \chi_k^{\mathrm f}(p)\asymp
+ \sum_{n=1}^{N(p)}
+ \left(\frac{\rho(\mathbf M_{\mathfrak C})^{k+1}}m\right)^n,
+\end{equation}
+where $N(p)$ is the exit time in~\eqref{eq:critical-escape-time}.
+If $\rho(\mathbf M_{\mathfrak C})^{k+1}<m$, the moment converges to its finite critical value on each such side.
+\end{proposition}
+\begin{proof}
+Summing~\eqref{eq:birth-cluster-series} against $s^{k+1}$ gives the nonnegative identity
+\begin{equation}\label{eq:birth-moment-series}
+ \chi_k^{\mathrm f}(p)=\frac{m-1}{|V(R)|-2}
+ \sum_{n\ge1}m^{-n}\mathbb E_p
+ \sum_{C\in\mathcal J_n}|C|^{k+1}.
+\end{equation}
+In this proof, $r\ge2$ denotes the moment order of a cluster counted once, so that $r=k+1$.
+
+\emph{Fixed parameters.}
+For $p>p_c$, the probability $1-\varphi_R^{\circ n}(p)$ decreases faster than any exponential in $n$, because a failure to cross requires at least two failed child crossings near $p=1$.
+If every top-level cell crosses, $\mathcal J_n$ is empty.
+Since all cluster masses are at most $C_Rm^n$,
+\[
+ \mathbb E_p\sum_{C\in\mathcal J_n}|C|^r
+ \le C_rm^{rn}\bigl(1-\varphi_R^{\circ(n-1)}(p)\bigr).
+\]
+This is summable after multiplication by $m^{-n}$.
+
+For $p<p_c$, let $A_n$ count all edges of $\Xi^n$ incident to the open cluster of a specified terminal, including closed edges.
+When every top-level cell fails to cross, only the $d_R$ cells incident to that terminal contribute.
+On the complementary event, use $A_{n+1}\le m^{n+1}$ and a union bound.
+Minkowski's inequality gives
+\[
+ \|A_{n+1}\|_r\le d_R\|A_n\|_r
+ +m^{n+1}\bigl(m\varphi_R^{\circ n}(p)\bigr)^{1/r}.
+\]
+The last term decreases faster than any exponential, since $\ell\ge2$ and $\varphi_R^{\circ n}(p)$ tends to zero.
+Iteration yields $\mathbb E_p A_n^r\le C_rd_R^{rn}$.
+Every cluster in $\mathcal J_n$ contains a top-level internal vertex, and its mass is bounded by one plus the number of incident edges of that vertex's cluster.
+Applying the same bound in the finitely many cells incident to those vertices gives
+\[
+ \mathbb E_p\sum_{C\in\mathcal J_n}|C|^r\le C_rd_R^{rn}.
+\]
+These estimates are uniform when $p$ ranges in a compact subinterval of $(0,p_c)$.
+
+For a matching lower bound, fix an internal vertex $v$ of the top-level rule.
+Its degree in $\Xi^n$ is $\deg_R(v)d_R^{n-1}$.
+Let $D_{v,n}$ count its open incident edges, and let $E_n$ be the event that every top-level cell fails to cross.
+The graph is simple, so $D_{v,n}$ counts distinct neighbours in the cluster of $v$.
+Moreover,
+\[
+ \mathbb E_p[D_{v,n}\mathbf1_{E_n}]
+ \ge\deg_R(v)d_R^{n-1}
+ \bigl(p-m\varphi_R^{\circ(n-1)}(p)\bigr)
+ \ge c_pd_R^n
+\]
+for all sufficiently large $n$.
+On $E_n$ this cluster belongs to $\mathcal J_n$.
+Jensen's inequality gives the reverse $r$th-moment bound $c_{p,r}d_R^{rn}$.
+The series~\eqref{eq:birth-moment-series} is therefore finite exactly when $d_R^r<m$, including divergence in the equality case.
+
+\emph{Uniform estimates up to the exit time.}
+Write $p_j:=\varphi_R^{\circ j}(p)$.
+Every nonzero entry of $\mathbf M_{\mathfrak C}(q)$ is strictly positive and analytic near $p_c$, and its zero pattern is fixed there.
+Consequently its entries lie between the corresponding entries of $\mathbf M_{\mathfrak C}$ multiplied by $\exp(-C|q-p_c|)$ and by $\exp(C|q-p_c|)$.
+As in the proof of~\eqref{eq:critical-escape-time},
+$\sum_{j<N(p)}|p_j-p_c|\le C\varepsilon$.
+Every product of consecutive matrices along this part of the orbit is thus bounded above and below, entrywise, by constant multiples of the corresponding power of $\mathbf M_{\mathfrak C}$.
+The reward recursion~\eqref{eq:conditional-mass-recursion}, now with its level-dependent conditional laws, gives uniformly for $n\le N(p)$
+\[
+ \mathbb E_p X_{\sigma,n}\asymp\rho(\mathbf M_{\mathfrak C})^n,
+ \qquad
+ \mathbb E_p X_{\sigma,n}^r\le C_r\rho(\mathbf M_{\mathfrak C})^{rn}.
+\]
+Here $X_{\sigma,n}$ denotes the same conditional mass at parameter $p$.
+For the higher moments, expand one generation as in Lemma~\ref{lem:conditional-mass-moments} and iterate the linear term using the matrix-product bound; induction bounds all mixed terms by the asserted lower-order moment products.
+The bound also applies to any consecutive segment of the orbit.
+Conditioning all top-level cells to fail, and using the mass attached to one internal vertex, gives a matching lower bound by Jensen's inequality.
+The probability of this finite configuration stays bounded away from zero.
+Hence
+\begin{equation}\label{eq:pre-exit-birth-moment}
+ \mathbb E_p\sum_{C\in\mathcal J_n}|C|^r
+ \asymp\rho(\mathbf M_{\mathfrak C})^{rn}
+ \qquad(1\le n\le N(p)).
+\end{equation}
+
+It remains to control all later birth levels.
+Coarsen depth-$N(p)$ cells to edges with parameter $p_{N(p)}$, which lies in a fixed compact interval strictly on the chosen side of $p_c$.
+For a coarse cluster $C$, let $A(C)$ be the number of coarse edges incident to it.
+Its lifted mass is at most its coarse vertex count plus a sum of at most $A(C)$ conditional depth-$N(p)$ boundary masses.
+Conditioning on the coarse configuration and using
+$(\sum_{i=1}^a x_i)^r\le a^{r-1}\sum_{i=1}^a x_i^r$ bounds the expected $r$th power by
+$C_r\rho(\mathbf M_{\mathfrak C})^{rN(p)}(1+A(C))^r$.
+For coarse clusters born at level $j$, the preceding fixed-parameter arguments bound the expected sum of $(1+A(C))^r$ by
+\[
+ \begin{cases}
+ C_rd_R^{rj},&p<p_c,\\
+ C_rm^{rj}\bigl(1-\varphi_R^{\circ(j-1)}(p_{N(p)})\bigr),&p>p_c.
+ \end{cases}
+\]
+The constants are uniform over the exit interval.
+Their sums against $m^{-j}$ are finite in precisely the regimes already specified.
+It follows that the part of~\eqref{eq:birth-moment-series} after $N(p)$ is at most
+\[
+ C_r\left(\frac{\rho(\mathbf M_{\mathfrak C})^r}{m}\right)^{N(p)}.
+\]
+Together with~\eqref{eq:pre-exit-birth-moment}, this proves~\eqref{eq:near-critical-moment-sum}.
+When $\rho(\mathbf M_{\mathfrak C})^r<m$, the same estimates make the tail after any fixed birth level uniformly small as $p$ approaches $p_c$.
+Each finite initial sum is continuous in $p$.
+The moment therefore converges to its finite, positive critical value.
+\end{proof}
+
+
+\paragraph{Susceptibility.}
+Proposition~\ref{prop:annealed-moments} with $k=1$ shows that $\chi_1^{\mathrm f}(p)$ is finite for every fixed $p>p_c$.
+For $0<p<p_c$, it is finite if and only if $d_R^2<m$.
+Evaluating the geometric sum in~\eqref{eq:near-critical-moment-sum} and using~\eqref{eq:critical-escape-time} gives three regimes on either side where it is finite:
+\[
+ \begin{array}{c|c}
+ 2\dimmass(\mathfrak C)>\dimhaus(\Xi)
+ &\chi_1^{\mathrm f}(p)\asymp
+ |p-p_c|^{-(2\dimmass(\mathfrak C)-\dimhaus(\Xi))/\dim_{\mathrm P}(\mathfrak C)}\\[2pt]
+ 2\dimmass(\mathfrak C)=\dimhaus(\Xi)
+ &\chi_1^{\mathrm f}(p)\asymp\log(1/|p-p_c|)\\[2pt]
+ 2\dimmass(\mathfrak C)<\dimhaus(\Xi)
+ &\displaystyle\lim_{p\to p_c^\pm}\chi_1^{\mathrm f}(p)=\chi_1^{\mathrm f}(p_c)\in(0,\infty).
+ \end{array}
+\]
+In particular, $\gamma_+$ always has the logarithmic value
+$\max\{2\dimmass(\mathfrak C)-\dimhaus(\Xi),0\}/\dim_{\mathrm P}(\mathfrak C)$.
+The value zero includes both a logarithmic divergence and a finite limit; it does not assert a positive power-law singularity.
+The ordinary diamond has $d_R^2=m=4$, so its annealed subcritical susceptibility is infinite throughout $(0,p_c)$, although $\gamma_+\approx2.9412$.
+
+\paragraph{Moment ratios.}
+More generally, $\chi_k^{\mathrm f}(p)$ is finite for every $p>p_c$, whereas for $0<p<p_c$ it is finite exactly when $d_R^{k+1}<m$.
+Taking logarithms in~\eqref{eq:near-critical-moment-sum} and subtracting successive moment orders gives, with $(x)_+:=\max\{x,0\}$,
+\[
+ \Delta_{k,+}=
+ \frac{((k+2)\dimmass(\mathfrak C)-\dimhaus(\Xi))_+
+ -((k+1)\dimmass(\mathfrak C)-\dimhaus(\Xi))_+}
+ {\dim_{\mathrm P}(\mathfrak C)}.
+\]
+All sufficiently high orders have the common value $\dimmass(\mathfrak C)/\dim_{\mathrm P}(\mathfrak C)$.
+The same value holds for every $k\ge1$ precisely when $2\dimmass(\mathfrak C)\ge\dimhaus(\Xi)$.
+On the subcritical side, the $k$th ratio requires $d_R^{k+2}<m$, and then has the same formula.
+Since $d_R\ge2$, the original ratios cannot all be finite on that side.
+
+\paragraph{Cluster-number response.}
+Let $h_R(p)$ be the expected number of clusters in the rule graph touching neither terminal.
+This is a polynomial obtained by summing over the finitely many open-edge configurations of $R$.
+
+\begin{proposition}\label{prop:cluster-number-response}
+The cluster-number density is the unique bounded solution on $[0,1]$ of
+\begin{equation}\label{eq:cluster-number-functional}
+ m\kappa(p)-\kappa(\varphi_R(p))
+ =\frac{m-1}{|V(R)|-2}h_R(p).
+\end{equation}
+It is analytic away from $p_c$, and is $C^j$ at $p_c$ whenever $j$ is a nonnegative integer with $\varphi_R'(p_c)^j<m$.
+In particular it is always $C^2$.
+If $j\ge3$, $\varphi_R'(p_c)^j<m$, the derivatives of orders $3,\ldots,j-1$ vanish at $p_c$, and $\kappa^{(j)}(p_c)\ne0$, then
+\[
+ \alpha_- =\alpha_+=2-j.
+\]
+\end{proposition}
+\begin{proof}
+Let $K_n(p)$ count all clusters in $\Xi^n$.
+Each last-level cell contributes its internal clusters; the remaining clusters correspond exactly to those of the coarse graph with parameter $\varphi_R(p)$.
+Thus $\mathbb E K_n(p)=m^{n-1}h_R(p)+\mathbb E K_{n-1}(\varphi_R(p))$.
+Iteration and volume normalisation yield the uniformly convergent series
+\begin{equation}\label{eq:cluster-number-series}
+ \kappa(p)=\frac{m-1}{|V(R)|-2}
+ \sum_{n\ge0}m^{-n-1}h_R(\varphi_R^{\circ n}(p)),
+\end{equation}
+and hence~\eqref{eq:cluster-number-functional}.
+The difference of two bounded solutions is at most $Cm^{-n}$ after $n$ iterations, proving uniqueness.
+For a real point other than $p_c$, a complex neighbourhood is mapped after finitely many iterations into an attracting neighbourhood of $0$ or $1$.
+The series converges locally uniformly there, proving analyticity, also at the two endpoints.
+
+Take an analytic local coordinate $t$ with $t(p_c)=0$, $t'(p_c)=1$ and
+$t(\varphi_R(p))=\varphi_R'(p_c)t(p)$.
+It can be constructed by multiplying the local inverse iterates by $\varphi_R'(p_c)^n$; their quadratic errors form a uniformly convergent series in a sufficiently small complex neighbourhood.
+In this coordinate, the coefficient of degree $i$ of an analytic particular solution of~\eqref{eq:cluster-number-functional} is obtained by dividing the corresponding coefficient of its right-hand side by $m-\varphi_R'(p_c)^i$.
+Apart from a possible single zero denominator, these coefficients define a convergent series, since the denominators grow exponentially at high orders.
+The remaining homogeneous solution on either side is
+\begin{equation}\label{eq:cluster-number-log-periodic}
+ |t(p)|^{\log m/\log\varphi_R'(p_c)}
+ H_\pm\!\left(\frac{\log|t(p)|}{\log\varphi_R'(p_c)}\right),
+\end{equation}
+where $H_\pm$ are smooth one-periodic functions.
+Indeed, define them on one fundamental scale interval using the already proved analyticity away from $p_c$; the homogeneous equation matches all derivatives at its endpoints.
+If $m=\varphi_R'(p_c)^i$ for an integer $i$, a multiple of $t^i\log|t|$ supplies the resonant coefficient, and the same construction applies to the rest.
+There is no assertion that the periodic or resonant coefficient is nonzero.
+All derivatives through order $j$ of these nonanalytic terms tend to zero when $\varphi_R'(p_c)^j<m$.
+The two sides therefore share the same Taylor polynomial through that order, proving $C^j$ regularity.
+Lemma~\ref{lem:pivotal-response-bound} gives $[\varphi_R'(p_c)]^2<m$, so $\kappa$ is always $C^2$ at $p_c$.
+
+Under the last hypotheses of the proposition, Taylor's formula gives
+\[
+ \kappa'''(p)=\frac{\kappa^{(j)}(p_c)}{(j-3)!}(p-p_c)^{j-3}
+ +o(|p-p_c|^{j-3}).
+\]
+Its leading coefficient is nonzero, so the required punctured neighbourhoods contain no zeros and the two logarithmic exponents equal $2-j$.
+\end{proof}
+
+The characteristic order in~\eqref{eq:cluster-number-log-periodic} is $\dimhaus(\Xi)/\dim_{\mathrm P}(\mathfrak C)$.
+The analytic background and a possibly vanishing periodic amplitude prevent automatic identification of the full-response exponent with $2-\dimhaus(\Xi)/\dim_{\mathrm P}(\mathfrak C)$.
+The derivatives in Proposition~\ref{prop:cluster-number-response} are determined by finite differentiation of~\eqref{eq:cluster-number-functional}.
+For example, whenever $\varphi_R'(p_c)^3<m$,
+\begin{align*}
+ (m-\varphi_R'(p_c))\kappa'(p_c)
+ &=\frac{m-1}{|V(R)|-2}h_R'(p_c),\\
+ (m-\varphi_R'(p_c)^2)\kappa''(p_c)
+ &=\frac{m-1}{|V(R)|-2}h_R''(p_c)
+   +\kappa'(p_c)\varphi_R''(p_c),\\
+ (m-\varphi_R'(p_c)^3)\kappa'''(p_c)
+ &=\frac{m-1}{|V(R)|-2}h_R'''(p_c)
+   +\kappa'(p_c)\varphi_R'''(p_c)\\
+ &\quad+3\kappa''(p_c)\varphi_R'(p_c)\varphi_R''(p_c).
+\end{align*}
+
+\begin{example}\label{ex:cluster-number-responses}
+The ordinary diamond has $\alpha_\pm=-1$; Wheatstone has
+$\alpha_\pm=2-\log5/\log(13/8)\approx-1.3150$; replacing the central edge of Wheatstone by another Wheatstone gives $\alpha_\pm=-2$.
+\end{example}
+\begin{proof}
+For the diamond, $h_R(p)=2(1-p)^2$, $m=4$ and $\varphi_R(p)=2p^2-p^4$.
+Here $p_c=(\sqrt5-1)/2$ and $\varphi_R'(p_c)=6-2\sqrt5$, whose cube is less than $4$.
+The derivative identities give $\kappa'''(p_c)=(171+99p_c)/31>0$.
+Proposition~\ref{prop:cluster-number-response} with $j=3$ proves the first assertion.
+
+For Wheatstone, direct enumeration of its $32$ configurations gives
+\begin{align*}
+ \varphi_R(p)&=2p^2+2p^3-5p^4+2p^5,\\
+ 2h_R(p)&=4-10p+4p^2+8p^3-8p^4+2p^5.
+\end{align*}
+Here $p_c=1/2$, $m=5$ and $\varphi_R'(p_c)=13/8$.
+The identities
+\[
+ \varphi_R(1-p)=1-\varphi_R(p),\qquad
+ 2h_R(p)-2h_R(1-p)=4-10p+2\varphi_R(p)
+\]
+and uniqueness in~\eqref{eq:cluster-number-functional} imply
+$\kappa(p)-\kappa(1-p)=1-2p$.
+We also need convexity: on any finite graph the cluster count is the vertex count minus the graphic-matroid rank, so its second mixed edge differences are nonnegative by rank submodularity.
+Its Bernoulli expectation is convex, and volume limits preserve convexity.
+The rule has no bridge, hence $h_R(p)=O((1-p)^2)$, and~\eqref{eq:cluster-number-functional} gives $\kappa'(1)=0$.
+Together with reflection this yields
+$-1\le\kappa'(p)\le0$ and $\kappa''(p)\ge0$ for $1/2\le p\le1$.
+
+For $p=1/2+q$, $0\le q\le1/2$, the explicit polynomials give
+\[
+ \varphi_R''(p)=-2q(9-20q^2)\le0,\qquad
+ (2h_R)'''(p)\le-18,\qquad
+ (2h_R-\varphi_R)'''(p)=-72q.
+\]
+Differentiating~\eqref{eq:cluster-number-functional} three times gives
+\begin{align}\label{eq:wheatstone-third-response}
+ 5\kappa'''(p)
+ &=\varphi_R'(p)^3\kappa'''(\varphi_R(p))
+   +3\kappa''(\varphi_R(p))\varphi_R'(p)\varphi_R''(p)\notag\\
+ &\quad+\kappa'(\varphi_R(p))\varphi_R'''(p)+2h_R'''(p).
+\end{align}
+The last three terms have a strictly negative sum for $p>1/2$.
+If $\varphi_R'''(p)\ge0$, use $\kappa'\le0$ and $(2h_R)'''\le-18$; if $\varphi_R'''(p)<0$, use $\kappa'\ge-1$ and $(2h_R-\varphi_R)'''=-72q$.
+Their sum is bounded above by $-36q$.
+It has absolute value at most $Cq$ near $q=0$: it vanishes at $p_c$ by the reflection identity, $\kappa$ is $C^2$, and $\varphi_R''(p_c)=0$.
+Iterating~\eqref{eq:wheatstone-third-response} towards $1$ shows $\kappa'''(p)<0$ for $p>1/2$; the remaining derivative term tends to zero since $\varphi_R'(1)=0$ and $\kappa$ is analytic there.
+
+Stop instead at the exit time $N(1/2+q)$ of a fixed small neighbourhood of $1/2$.
+The orbit deviations are comparable to $(13/8)^j q$ up to that time, and the derivative products are comparable to $(13/8)^j$ by the summable-distortion argument used in~\eqref{eq:critical-escape-time}.
+On the compact exit interval $-\kappa'''$ has a positive minimum.
+Iteration of~\eqref{eq:wheatstone-third-response} therefore gives
+\[
+ -\kappa'''(1/2+q)\asymp
+ \left(\frac{(13/8)^3}{5}\right)^{N(1/2+q)}
+ +q\sum_{j<N(1/2+q)}\left(\frac{(13/8)^4}{5}\right)^j
+ \asymp q^{\log5/\log(13/8)-3}.
+\]
+Here $(13/8)^3<5<(13/8)^4$.
+Reflection gives the same absolute-value estimate below $p_c$, proving the second assertion.
+
+For the last rule, take terminals $0,1$ and edges
+$02,21,03,31,24,43,25,53,45$.
+Enumeration of its $512$ configurations gives
+\begin{align*}
+ \varphi_R(p)&=2p^2+3p^4-4p^5-14p^6+28p^7-18p^8+4p^9,\\
+ 2h_R(p)&=8-18p+4p^2+4p^3+18p^4-2p^5\\
+ &\quad-52p^6+60p^7-26p^8+4p^9.
+\end{align*}
+The rule has $m=9$, $p_c=1/2$ and $\varphi_R'(p_c)=109/64$.
+Since $(109/64)^4<9$, fourth differentiation of~\eqref{eq:cluster-number-functional} is legitimate.
+It gives
+\[
+ \kappa'''(1/2)=0,\qquad
+ \kappa''''(1/2)=-\frac{72900157636608}{35107478527}<0.
+\]
+Proposition~\ref{prop:cluster-number-response} with $j=4$ completes the proof.
+\end{proof}
+
+These criteria and examples establish the stated exponents without classifying all possible periodic amplitudes in~\eqref{eq:cluster-number-log-periodic}.
+
+
+\paragraph{Cluster radius.}
+The cumulative radius distribution has a uniform law, but its point probabilities need not have a logarithmic exponent.
+
+\begin{proposition}\label{prop:annealed-radius-tail}
+For every classical rule,
+\[
+ \mathbb P_{p_c}^{\mathrm{ann}}(\operatorname{rad}C(o)\ge r)
+ \asymp r^{-(\dimhaus(\Xi)-\dimmass(\mathfrak C))}.
+\]
+If the finite point-probability exponent $\rho$ in Definition~\ref{def:other-exponents} exists, then
+$\rho=1/(\dimhaus(\Xi)-\dimmass(\mathfrak C))$.
+For the ordinary diamond this point-probability exponent does not exist.
+\end{proposition}
+\begin{proof}
+Every depth-$n$ cell has diameter at most $C_R\ell^n$ and is isometrically embedded, as established in the proof of Theorem~\ref{thm:delta-eta-dimensions}.
+A finite cluster first counted in such a cell has no larger ambient radius.
+The birth decomposition counts its vertices with weight proportional to $m^{-n}$, and Lemma~\ref{lem:conditional-mass-moments} gives
+$\mathbb E_{p_c}\sum_{C\in\mathcal J_n}|C|\le C\rho(\mathbf M_{\mathfrak C})^n$.
+Since $\theta(p_c)=0$, all root mass is accounted for.
+Thus
+\[
+ \mathbb P_{p_c}^{\mathrm{ann}}(\operatorname{rad}C(o)\ge r)
+ \le C\sum_{C_R\ell^n\ge r}
+ \left(\frac{\rho(\mathbf M_{\mathfrak C})}{m}\right)^n
+ \le Cr^{-(\dimhaus(\Xi)-\dimmass(\mathfrak C))}.
+\]
+For a lower bound, choose a fixed coarse depth $k$ containing an edge whose two endpoints are internal to the coarse cell.
+Require this edge's depth-$n$ cell to cross and every other edge's depth-$n$ cell to fail to cross.
+This event has a fixed positive probability, independent of $n$.
+The resulting cluster avoids the enclosing cell's terminals, contains two vertices at distance $\ell^n$, and has expected mass at least $c\rho(\mathbf M_{\mathfrak C})^n$.
+Every root in that cluster has radius at least $\ell^n/2$ by the triangle inequality.
+Tile large substitution networks by depth-$(n+k)$ cells and count their internal roots.
+After volume normalisation this yields a lower bound $c(\rho(\mathbf M_{\mathfrak C})/m)^n$ at radius $\ell^n/2$.
+Choosing successive powers of $\ell$ proves the cumulative claim for all large $r$.
+If the point-probability logarithmic limit exists, compare its probabilities with $r^{-1-1/\rho\pm\varepsilon}$ and sum them from $r$ to infinity.
+The cumulative upper bound first forces $1+1/\rho>1$; these comparisons then identify $1/\rho=\dimhaus(\Xi)-\dimmass(\mathfrak C)$.
+
+For the diamond, a depth-$n$ cell has terminal distance and diameter $L:=2^n$.
+Every vertex has a layer coordinate $x$ with terminal distances $x,L-x$.
+For vertices in different top-level parallel branches, their distance is
+$\min\{x+y,2L-x-y\}$.
+These facts follow by induction from the two parallel length-two paths; in particular, every crossing contains an open terminal geodesic.
+
+Inside a depth-$(n+2)$ cell, choose a depth-$n$ subcell whose two terminals are internal, and call it the main cell.
+Require all its $16$ depth-$(n-2)$ grandchildren to cross.
+Require every other depth-$n$ cell of the enclosing two-level coarse graph to fail to cross.
+For each such cell incident to a main-cell terminal, require all its $16$ depth-$(n-2)$ grandchildren to fail to cross as well.
+These requirements are compatible and have probability bounded below independently of $n$, because $p_c$ is the crossing fixed point.
+The main cluster is isolated from the enclosing terminals, and every attachment outside the main cell stays within distance $L/4$ of its attachment terminal.
+
+Choose a main-cell grandchild lying in one parallel branch with layer interval $[L/4,L/2]$.
+Its connected cluster has expected internal mass at least $c\rho(\mathbf M_{\mathfrak C})^{n-2}$.
+For each of its vertices with coordinate $x$, the other parallel branch contains an open geodesic and hence a cluster vertex of coordinate $L-x$, at distance exactly $L$.
+All main-cell vertices are at distance at most $L$, while each outside attachment is at distance at most
+$\max\{x,L-x\}+L/4\le L$.
+Every one of these roots therefore has radius exactly $L$.
+Tiling by the enclosing cells and passing to the volume limit gives
+\begin{equation}\label{eq:diamond-radius-spikes}
+ \mathbb P_{p_c}^{\mathrm{ann}}(\operatorname{rad}C(o)=2^n)
+ \ge c\left(\frac{\rho(\mathbf M_{\mathfrak C})}{4}\right)^n.
+\end{equation}
+On the other hand, the cumulative upper bound implies that among the $L$ integers in $[L,2L)$ there is some $r_L$ with
+\[
+ \mathbb P_{p_c}^{\mathrm{ann}}(\operatorname{rad}C(o)=r_L)
+ \le CL^{-1-(\dimhaus(\Xi)-\dimmass(\mathfrak C))}.
+\]
+The logarithmic slopes along $L=2^n$ and along these $r_L$ differ by at least one in the limit; a zero point probability only strengthens the failure.
+Thus the point-probability exponent does not exist, despite the cumulative law.
+\end{proof}
+
+
+\subsubsection*{Universality classes}
+The preceding discussion gives the four exponents $\beta,\nu,\delta,\eta_{\mathrm{av}}$ a common interpretation throughout the model class, under the observation conventions specified above.
+The other four require additional qualifications concerning existence, the side of the transition or the observable being measured.
+We therefore use the former four to define the universality class; this choice does not assert that all eight existence conditions are determined by three dimensions.
+
+\begin{definition}\label{def:general-class}
+Two classical EIGS hierarchical lattices belong to the same \emph{critical-exponent universality class} if their four exponents $(\beta,\nu,\delta,\eta_{\mathrm{av}})$ agree.
+\end{definition}
+
+\begin{theorem}\label{thm:exponent-class-dimensions}\label{def:static-class}
+Two classical EIGS hierarchical lattices belong to the same critical-exponent universality class if and only if their ambient, critical mass and pivotal dimensions agree.
+\end{theorem}
+\begin{proof}
+The forward formulas are given by Theorems~\ref{thm:critical-exponents-dimensions} and~\ref{thm:delta-eta-dimensions}.
+Conversely,
+\[
+ \dim_{\mathrm P}(\mathfrak C)=\frac1\nu,\qquad
+ \dimmass(\mathfrak C)=\frac{\beta\delta}{\nu},\qquad
+ \dimhaus(\Xi)=\frac{\beta(\delta+1)}{\nu}.
+\]
+Thus equality of the four exponents recovers all three dimensions.
+\end{proof}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{The noncommutative obstruction}\label{sec:noncommuting}\label{sec:forward}
+
+
+本小节是文章的一个核心：围绕 Hauser 和 Saxena 在 1986 年提出的普适性疑问，我们考察替代乘法型维数是否足以完全决定临界指数普适类。
+
+
+为了回答这个问题，我们回到引言中的 Tie 和 Gem 规则，认真考察为什么它们的图不同，却属于同一个普适类。
+Their agreement comes from reversing two edge substitutions, as Figure~\ref{fig:terminal-symmetric-rules-detail} shows.
+The question is how much freedom we have to rearrange substitutions without changing the class.
+
+\begin{example}\label{ex:tie-gem-similarity}
+Let $\twoedgepath$ be the two-edge path and let $\triangle$ be a triangle with two designated terminals.
+Write $A\circ B$ for the rule obtained by replacing every edge of $B$ by a copy of $A$; compositions are read from right to left.
+The tie consists of two triangles in series, while the gem consists of two parallel paths of lengths two and four:
+\[
+ R_{\mathrm{tie}}=\triangle\circ \twoedgepath,\qquad
+ R_{\mathrm{gem}}=\twoedgepath\circ\triangle.
+\]
+In the figure, $S_1$ replaces an edge by $\twoedgepath$ and $S_2$ replaces an edge by $\triangle$.
+
+\begin{figure}[tbp]
+\centering
+\resizebox{0.96\textwidth}{!}{%
+\begin{tikzpicture}[
+    x=1cm,y=1cm,
+    vertex/.style={circle,fill=black,inner sep=1.55pt},
+    terminal/.style={circle,fill=black,inner sep=2.3pt},
+    factorvertex/.style={circle,fill=red!45!black,inner sep=1.45pt},
+    factorline/.style={draw=red!45!black,line width=0.75pt,line cap=round},
+    line/.style={line width=0.7pt,line cap=round},
+    repl/.style={-{Stealth[length=2.2mm,width=1.8mm]},line width=0.7pt},
+    ilabel/.style={font=\scriptsize,inner sep=1pt},
+    rulelabel/.style={font=\normalsize}
+]
+% Tie rule
+\begin{scope}[xshift=0cm,yshift=0cm]
+  \node[rulelabel,anchor=east] at (-0.10,0) {Tie:};
+  \draw[line] (0.20,0) -- (0.92,0);
+  \node[vertex] at (0.20,0) {};
+  \node[vertex] at (0.92,0) {};
+  \draw[repl] (1.24,0) -- (1.88,0);
+
+  \coordinate (bp) at (2.45,0);
+  \coordinate (mid) at (3.70,0);
+  \coordinate (bm) at (4.95,0);
+  \coordinate (up) at (3.08,0.72);
+  \coordinate (down) at (4.32,-0.72);
+
+  \draw[line] (bp)--(up)--(mid)--(bp);
+  \draw[line] (mid)--(down)--(bm)--(mid);
+
+  \foreach \p in {bp,mid,bm,up,down}
+    \node[vertex] at (\p) {};
+
+  \node[ilabel,anchor=north east] at (bp) {$\beta^+$};
+  \node[ilabel,anchor=north west] at (bm) {$\beta^-$};
+  \node[terminal] at (bp) {};
+  \node[terminal] at (bm) {};
+
+  % S_2 after S_1: replace each edge of the two-edge path by a triangle.
+  \draw[factorline] (2.25,-2.15)--(2.70,-1.55)--(3.15,-2.15)--cycle;
+  \foreach \x/\y in {2.25/-2.15,2.70/-1.55,3.15/-2.15}
+    \node[factorvertex] at (\x,\y) {};
+  \node[text=red!45!black] at (2.70,-2.48) {$S_2$};
+  \node[text=red!45!black] at (3.65,-1.95) {$\circ$};
+  \draw[factorline] (4.10,-1.95)--(5.30,-1.95);
+  \foreach \x in {4.10,4.70,5.30}
+    \node[factorvertex] at (\x,-1.95) {};
+  \node[text=red!45!black] at (4.70,-2.48) {$S_1$};
+  \draw[repl,draw=red!45!black]
+    (5.58,-1.78) .. controls (5.72,-1.25) and (5.42,-0.87) .. (5.08,-0.67);
+
+\end{scope}
+
+% Gem rule
+\begin{scope}[xshift=7.00cm,yshift=0cm]
+  \node[rulelabel,anchor=east] at (-0.10,0) {Gem:};
+  \draw[line] (0.20,0) -- (0.92,0);
+  \node[vertex] at (0.20,0) {};
+  \node[vertex] at (0.92,0) {};
+  \draw[repl] (1.24,0) -- (1.88,0);
+
+  \coordinate (bp) at (2.35,0);
+  \coordinate (bm) at (5.05,0);
+  \coordinate (top) at (3.70,0.82);
+  \coordinate (b1) at (3.02,-0.72);
+  \coordinate (b2) at (3.70,-0.72);
+  \coordinate (b3) at (4.38,-0.72);
+
+  \draw[line] (bp)--(top)--(bm);
+  \draw[line] (bp)--(b1)--(b2)--(b3)--(bm);
+
+  \foreach \p in {bp,bm,top,b1,b2,b3}
+    \node[vertex] at (\p) {};
+
+  \node[ilabel,anchor=north east] at (bp) {$\beta^+$};
+  \node[ilabel,anchor=north west] at (bm) {$\beta^-$};
+  \node[terminal] at (bp) {};
+  \node[terminal] at (bm) {};
+
+  % S_1 after S_2: subdivide each edge of the triangle into two edges.
+  \draw[factorline] (2.25,-1.95)--(3.45,-1.95);
+  \foreach \x in {2.25,2.85,3.45}
+    \node[factorvertex] at (\x,-1.95) {};
+  \node[text=red!45!black] at (2.85,-2.48) {$S_1$};
+  \node[text=red!45!black] at (3.95,-1.95) {$\circ$};
+  \draw[factorline] (4.45,-2.15)--(4.90,-1.55)--(5.35,-2.15)--cycle;
+  \foreach \x/\y in {4.45/-2.15,4.90/-1.55,5.35/-2.15}
+    \node[factorvertex] at (\x,\y) {};
+  \node[text=red!45!black] at (4.90,-2.48) {$S_2$};
+  \draw[repl,draw=red!45!black]
+    (5.66,-1.60) .. controls (5.80,-1.18) and (5.55,-0.87) .. (5.23,-0.66);
+
+\end{scope}
+\end{tikzpicture}}
+
+
+\caption{The substitution orders $S_2\circ S_1$ (tie) and $S_1\circ S_2$ (gem).}
+\label{fig:terminal-symmetric-rules-detail}
+\end{figure}
+
+Both rules have six edges and terminal distance two.
+Their unit-edge effective resistances also agree, with value $4/3$.
+Their reliability functions are
+\[
+ \varphi_{\mathrm{tie}}(p)=(p+p^2-p^3)^2,\qquad
+ \varphi_{\mathrm{gem}}(p)=p^2+p^4-p^6.
+\]
+The critical points differ, but satisfy
+\[
+ p_{c,\mathrm{tie}}=p_{c,\mathrm{gem}}^2,\qquad
+ \varphi_{\triangle}(p_{c,\mathrm{tie}})=p_{c,\mathrm{gem}}.
+\]
+Table~\ref{tab:tie-gem-detail} records the resulting dimension values.
+Their exact agreement is the two-factor case of Lemma~\ref{lem:transposition-invariance} below.
+
+\begin{table}[H]
+\centering\scriptsize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.25}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|cc|cccc|ccc}
+\toprule
+ & $\varphi(p)$ & $p_c$ & $\ell$ & $m$
+ & $\rho(\mathbf M_{\mathfrak C})$ & $\varphi'(p_c)$
+ & $\dimhaus(\Xi)$ & $\dimmass(\mathfrak C)$ & $\dim_{\mathrm P}(\mathfrak C)$\\
+\midrule
+Tie & $(p+p^2-p^3)^2$ & $0.6710$ & $2$ & $6$
+ & $5.7087$ & $1.6239$
+ & $\dfrac{\log6}{\log2}$ & $\approx\dfrac{\log5.7087}{\log2}$ & $\approx\dfrac{\log1.6239}{\log2}$\\
+Gem & $p^2+p^4-p^6$ & $0.8192$ & $2$ & $6$
+ & $5.7087$ & $1.6239$
+ & $\dfrac{\log6}{\log2}$ & $\approx\dfrac{\log5.7087}{\log2}$ & $\approx\dfrac{\log1.6239}{\log2}$\\
+\bottomrule
+\end{tabular}}
+\caption{Tie and gem have the same three critical dimensions.}
+\label{tab:tie-gem-detail}
+\end{table}
+\end{example}
+
+For terminal-symmetric two-terminal factors, we use $\mathbf M_A$ for the conditional mass matrix associated with $A$.
+Factors may individually have terminal distance or minimum cut one, provided their interior conditional laws are defined; this includes $\twoedgepath$ and $\triangle$.
+For these factors,
+\begin{align}
+ m_{A\circ B}&=m_A m_B,&\ell_{A\circ B}&=\ell_A\ell_B,\notag\\
+ \varphi_{A\circ B}(p)&=\varphi_B(\varphi_A(p)),&
+ \mathbf M_{A\circ B}(p)&=\mathbf M_B(\varphi_A(p))\mathbf M_A(p).\label{eq:substitution-responses}
+\end{align}
+Each coarse edge contributes $m_A$ fine edges.
+A terminal path projects to a coarse terminal walk, and every traversal of a fine cell between its terminals requires at least $\ell_A$ edges.
+A shortest coarse path refined by shortest fine paths attains the lower bound $\ell_A\ell_B$.
+The fine-cell crossing events are independent with probability $\varphi_A(p)$, giving the reliability composition.
+Conditioning on these events and the coarse live states gives the conditional laws of the fine cells; a black cell contributes no live descendants.
+The tower property for the expected numbers of child states then gives the displayed matrix product.
+
+
+
+\begin{lemma}\label{lem:transposition-invariance}
+Let $k\ge2$ and let $A_1,\ldots,A_k$ be terminal-symmetric two-terminal rule graphs whose cyclic composites are admissible.
+All cyclic rotations of $A_1\circ A_2\circ\cdots\circ A_k$ have the same three critical dimensions and similar critical three-state matrices over $\mathbb R$.
+\end{lemma}
+\begin{proof}
+It suffices to compare $A\circ B$ and $B\circ A$, where either factor may itself be a composite.
+Let $p_c$ be the critical point of $A\circ B$ and put $q_c:=\varphi_A(p_c)$.
+Then $\varphi_B(q_c)=p_c$, so $q_c$ is the critical point of $B\circ A$.
+The two multipliers are the same product $\varphi_B'(q_c)\varphi_A'(p_c)$.
+Their edge counts and terminal distances are the same products by~\eqref{eq:substitution-responses}.
+Their critical matrices are
+\[
+ \mathbf M_B(q_c)\mathbf M_A(p_c),\qquad
+ \mathbf M_A(p_c)\mathbf M_B(q_c).
+\]
+The identity $\det(tI-XY)=\det(tI-YX)$ for square matrices gives equality of their characteristic polynomials, hence of their Perron roots.
+This proves equality of the three critical dimensions.
+Theorem~\ref{thm:three-state-block} shows that both full matrices are diagonalizable over $\mathbb R$, so their equal characteristic polynomials also give real similarity.
+Apply this argument with $A=A_1$ and $B=A_2\circ\cdots\circ A_k$, then repeat to obtain every cyclic rotation.
+\end{proof}
+
+In particular, the two orders in the tie--gem example have exactly the same critical dimensions and hence belong to the same universality class.
+For an explicit similarity, enumeration of the four configurations of $\twoedgepath$ gives
+\[
+ \mathbf M_{\twoedgepath}(p)=
+ \begin{pmatrix}
+ 2&0&0\\
+ \dfrac{2p}{1+p}&\dfrac{2p}{1+p}&\dfrac{2(1-p)}{1+p}\\[3pt]
+ \dfrac{p}{1+p}&0&1
+ \end{pmatrix},
+ \qquad \det\mathbf M_{\twoedgepath}(p)=\frac{4p}{1+p}>0.
+\]
+The composition identities therefore yield
+\[
+ \mathbf M_{\mathrm{gem}}(p_{c,\mathrm{gem}})
+ =\mathbf M_{\twoedgepath}(p_{c,\mathrm{gem}})^{-1}
+ \mathbf M_{\mathrm{tie}}(p_{c,\mathrm{tie}})
+ \mathbf M_{\twoedgepath}(p_{c,\mathrm{gem}}).
+\]
+Their common spectrum is approximately $5.7087,1.6239,1.4201$.
+
+Cyclic invariance does not extend to arbitrary permutations.
+The next construction preserves both the ambient and pivotal dimensions, while changing the critical mass dimension.
+
+\begin{lemma}\label{lem:permutation-obstruction}
+There exist admissible rules $A,B$ such that $B\circ A\circ B\circ A$ and $B\circ B\circ A\circ A$ have the same ambient and pivotal dimensions but different critical mass dimensions.
+\end{lemma}
+\begin{proof}
+Let $A:=W$ be the Wheatstone rule shown on the left in Figure~\ref{fig:wheatstone-permutation-rules}, with terminals $s,t$.
+Obtain $B$ by replacing the two highlighted opposite edges $su,vt$ by fresh copies of $W$, as shown on the right.
+\begin{figure}[tbp]
+\centering
+\input{figure/wheatstone_permutation_rules.tex}
+\caption{The rules $A=W$ and $B$.}
+\label{fig:wheatstone-permutation-rules}
+\end{figure}
+Both are simple, canonical and terminal symmetric, have terminal distance at least two and have two edge-disjoint terminal paths. Their critical points are $1/2$: the five independent child crossings in the latter rule are fair bits, just as for $W$. Their data are
+\[
+ (\ell_A,m_A,\varphi_A'(1/2))=(2,5,13/8),\qquad
+ (\ell_B,m_B,\varphi_B'(1/2))=(3,13,67/32).
+\]
+For the last thermal value, the opposite outer pair containing $W$ has total derivative weight $3/4$, the other outer pair has weight $3/4$, and the centre has weight $1/8$. Thus it is $(3/4)(13/8)+3/4+1/8=67/32$.
+Enumerating the thirty-two configurations of $A$ and the $8192$ configurations of $B$ under the conditional state rule gives
+\[
+ \mathbf B_A(1/2)=\frac1{16}\begin{pmatrix}53&48\\13&42\end{pmatrix},
+ \qquad
+ \mathbf B_B(1/2)=\frac1{256}\begin{pmatrix}1896&2292\\627&1380\end{pmatrix}.
+\]
+
+Compare the fourfold substitutions $B\circ A\circ B\circ A$ and $B\circ B\circ A\circ A$. Admissibility is preserved by substitution, and both have scale $2^2 3^2=36$. Both have $5^2 13^2=4225$ edges and critical point $1/2$.
+Their critical derivatives are both $(\frac{13}{8}\frac{67}{32})^2$, so their ambient and pivotal dimensions agree.
+
+At their common critical point, restrict~\eqref{eq:substitution-responses} to the common invariant plane from Theorem~\ref{thm:three-state-block}.
+Their positive mass blocks are respectively $\mathbf B_A\mathbf B_B\mathbf B_A\mathbf B_B$ and $\mathbf B_A^2\mathbf B_B^2$. Their determinants agree. Exact multiplication gives
+\[
+ \operatorname{tr}(\mathbf B_A^2\mathbf B_B^2)
+ -\operatorname{tr}(\mathbf B_A\mathbf B_B\mathbf B_A\mathbf B_B)
+ =-\frac{1521}{4194304}\ne0.
+\]
+If their Perron roots agreed, equality of their nonzero determinants would force their other eigenvalues to agree as well, and hence their traces to agree, a contradiction. They therefore have different Perron roots at the same scale. Their critical mass dimensions $\dimmass$ therefore differ.
+\end{proof}
+
+
+The two composites in this proof have
+\[
+ \dimhaus=\frac{\log4225}{\log36},\qquad
+ \dim_{\mathrm P}=\frac{2\log(871/256)}{\log36}.
+\]
+Only their mass growth distinguishes the two classes.
+Scalar multiplicative measurements cannot detect the rearrangement: their values depend on the factors and their multiplicities, but not on their order.
+We use the term \emph{dimension-based critical-exponent universality class} when membership in a critical-exponent universality class is determined by a specified family of dimensions.
+Here we ask whether substitution-multiplicative dimensions can provide such a classification.
+
+\begin{definition}\label{def:multiplicative-dimension}
+A positive functional $\Lambda$ on rule graphs is substitution-multiplicative if $\Lambda(A\circ B)=\Lambda(A)\Lambda(B)$ whenever the indicated rules and their composite are admissible. Its associated dimension is
+\[
+ \delta_\Lambda(R):=\frac{\log\Lambda(R)}{\log\ell_R}.
+\]
+\end{definition}
+For example, the effective resistance of $A\circ B$, with unit resistances on its final edges, is the resistance of $B$ multiplied by that of $A$: each child cell can be electrically reduced to one resistor, and a uniform multiplication of the resistances multiplies the effective resistance by the same factor. Thus its logarithmic ratio belongs to this family, irrespective of whether it helps determine the three critical dimensions.
+
+\begin{theorem}\label{thm:no-multiplicative-classification}
+No finite family of substitution-multiplicative dimensions completely determines $\dimhaus$, $\dimmass$ and $\dim_{\mathrm P}$. In fact, there are two admissible rule graphs on which every such dimension agrees, while their live-mass dimensions differ.
+\end{theorem}
+
+\begin{proof}
+Take the two composites from Lemma~\ref{lem:permutation-obstruction}.
+For every positive substitution-multiplicative functional $\Lambda$, both values equal $\Lambda(A)^2\Lambda(B)^2$.
+The terminal scales also agree, so every associated dimension agrees.
+Their critical mass dimensions differ by the lemma, proving the assertion.
+\end{proof}
+
+The same pair defeats every substitution-multiplicative dimension simultaneously, so the obstruction also applies to an infinite family of these dimensions.
+It does not contradict classification by the three critical dimensions: the mass Perron root is not generally multiplicative under substitution.
+By Theorem~\ref{thm:exponent-class-dimensions}, the two rules belong to different critical-exponent universality classes despite agreement of every such multiplicative measurement.
+
+\begin{corollary}\label{cor:ambient-does-not-classify}
+The ambient dimension alone does not determine the critical-exponent universality class of a classical EIGS hierarchical lattice.
+\end{corollary}
+\begin{proof}
+The two lattices constructed in Lemma~\ref{lem:permutation-obstruction} have the same ambient dimension but different critical mass dimensions, so Theorem~\ref{thm:exponent-class-dimensions} places them in different critical-exponent universality classes.
+\end{proof}
+
+This confirms Hauser and Saxena's 1986 conclusion~\cite{hauser1986geometrical} that ambient dimension alone cannot determine the percolation universality class on hierarchical lattices.
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "module_count": 259,
+  "module_count": 269,
   "certificate_batch_count": 128,
-  "milestone_axiom_audit_count": 142,
+  "milestone_axiom_audit_count": 154,
   "errors": [],
   "sources": [
     {
@@ -1034,12 +1034,52 @@
       "source_sha256": "d887f6a25291d1f55995b38a07ebf256d2ab8ca5f2132fb7e263a82eeb3708f3"
     },
     {
+      "module": "Universality/Percolation/InternalVertexMass.lean",
+      "source_sha256": "ba3389975ac9d9f5993bed843eb97cc3c7f1f87e80885a450ec4fc46b2931228"
+    },
+    {
+      "module": "Universality/Graph/FiniteVolume.lean",
+      "source_sha256": "39eb4f13400dda4f64220e5150551052e6ce7ac31c525889211de4f33bbb87e6"
+    },
+    {
+      "module": "Universality/Percolation/ConditionalSubstitutionLaw.lean",
+      "source_sha256": "84c7b0bd8373c21008adc64afb40dc7be6358813a1021041283e52527c2b967c"
+    },
+    {
+      "module": "Universality/Percolation/InternalMassLaw.lean",
+      "source_sha256": "3a2df0c9cf365bc1afb3c3db4b4ba297e482d064b7a7ce931023af8830f1c12f"
+    },
+    {
+      "module": "Universality/Percolation/InternalMassSymmetry.lean",
+      "source_sha256": "fdc845d0679ba3d6196feee0d3f26ced4c70c43e0c3cdf37630cc4e94921bc53"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassResponse.lean",
+      "source_sha256": "c86bbe4249f87660d33556251a1112643a66bb3c56a72cdc1db2f083c822c365"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassIteration.lean",
+      "source_sha256": "535691d21293f63d9daeb64a8ab1ff25d0cc7c2d47001c63c08222bbe5de2f3d"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassPositivity.lean",
+      "source_sha256": "9a5787a2ebe377563a23dcf711febf326def2c5681b185c2eea728ce619e88a7"
+    },
+    {
+      "module": "Universality/Matrix/AffineGrowth.lean",
+      "source_sha256": "04f7af23f1cf82f5b549532ed03dbd5c486b099d50d3df22386648617219b059"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassGrowth.lean",
+      "source_sha256": "03889f9157cadb73de1400c4dd6b122e622d1569adeb5332b5f471fb92f35174"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "b2457c5b1ff792079811781770d74bb5128382556485b96fa6971ae664455e40"
+      "source_sha256": "02c6199ca92f753444c69690036e0c13a75fa42125f9502c12b63a26ed3a609b"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "308d19be564908018690bd17dde6eb8aa2879b1ffdc976dc88ebcf14f874d352"
+      "source_sha256": "aa5e487f9a7dd9b7f8984e42366203c28262cb51ed8de5996c62f3132aa6ea74"
     }
   ]
 }
