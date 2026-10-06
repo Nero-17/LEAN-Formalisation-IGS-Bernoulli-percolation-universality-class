@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "module_count": 752,
+  "module_count": 863,
   "certificate_batch_count": 136,
-  "milestone_axiom_audit_count": 698,
-  "kernel_axiom_output_count": 698,
+  "milestone_axiom_audit_count": 956,
+  "kernel_axiom_output_count": 956,
   "kernel_axioms": [
     "Classical.choice",
     "Quot.sound",
@@ -3012,12 +3012,456 @@
       "source_sha256": "c2a668fc9a51dfb8136ac78a2b3d248424fb03177d715454957b2fdbd72fce80"
     },
     {
+      "module": "Universality/Percolation/CyclicPhysicalClass.lean",
+      "source_sha256": "c573aba9536222c5a29d3964e0e0b6aba07530693f9086c7dd12557a330f0f69"
+    },
+    {
+      "module": "Universality/Examples/TieGemPhysicalClass.lean",
+      "source_sha256": "8223d741071a36797cbf5c3dbf02b1bc46db12b73083b217f4b3a97f2e2a1bbb"
+    },
+    {
+      "module": "Universality/Analysis/CompactEscapeUpperBound.lean",
+      "source_sha256": "13f707971fcc6dd8651f4948deaef772d290b42a59c73adfd0600cc5f679e535"
+    },
+    {
+      "module": "Universality/Analysis/AffineCriticalCorrections.lean",
+      "source_sha256": "61ad155a6125017abcabc140d924587514615a8e86a202ee90a8b44188bc60f8"
+    },
+    {
+      "module": "Universality/Analysis/CompactCriticalResponse.lean",
+      "source_sha256": "7f1258b7e361c030617a8b05c525af297b65b9310847ba5d05eddec037288c7c"
+    },
+    {
+      "module": "Universality/Examples/WheatstoneCriticalCoefficient.lean",
+      "source_sha256": "2f11e7fca6914bc4e4f657bc862707048d3fe3644ef369c68decd38c5fd68419"
+    },
+    {
+      "module": "Universality/Examples/WheatstoneNormalizedResponseData.lean",
+      "source_sha256": "ce9a552c54fa17e0379b46bddc5aa67c895210561aef8f46ee513822489f8612"
+    },
+    {
+      "module": "Universality/Examples/WheatstoneSharpPowerBounds.lean",
+      "source_sha256": "7dc450ac3ac683418a96d5535ea517d7ae20fa9d5f55c50e6e97d87fa548821b"
+    },
+    {
+      "module": "Universality/Examples/WheatstoneTwoSidedPowerBounds.lean",
+      "source_sha256": "22390036e60c5fe1fed8c302d6cf0b4be986d2244c7ecee1c0ac71d15436e273"
+    },
+    {
+      "module": "Universality/Graph/TerminalPortCounting.lean",
+      "source_sha256": "81e8c5efc21f59a59e59fa88e97e8e498cd2f25b6970d2b785c66d9115aea6a2"
+    },
+    {
+      "module": "Universality/Graph/TerminalPrefixCounting.lean",
+      "source_sha256": "e6f8b6985c15969b52c6d598acc8083a654a4a10b2da06a87ee39c859cebe3d9"
+    },
+    {
+      "module": "Universality/Graph/TerminalSpineProbability.lean",
+      "source_sha256": "2f593d69e176044380ded77a8326c4327282e1887575a423bf9678e71675744d"
+    },
+    {
+      "module": "Universality/Graph/TerminalSpineEscape.lean",
+      "source_sha256": "40ab6742c33ef974ebb03b5657d03de8b9fb68d43b032d88732dc9d3e0d76082"
+    },
+    {
+      "module": "Universality/Graph/FrozenTowerNeighborhood.lean",
+      "source_sha256": "f87a802aef27ed28f88a28e5f41f52ae8d23b3ab31b037b8dba86bc20a730242"
+    },
+    {
+      "module": "Universality/Graph/AncestralInternalNeighborhood.lean",
+      "source_sha256": "31fd48d8311c0c0a3b899ea5c6fdef7dfa63197d8ed79c731718912062a600c9"
+    },
+    {
+      "module": "Universality/Graph/TowerWalkLift.lean",
+      "source_sha256": "0227f66ead233ac34fac12ffb1ab005cb83c33d396170057fa6ae443be54b670"
+    },
+    {
+      "module": "Universality/Graph/TowerDistance.lean",
+      "source_sha256": "a1d0e0f663ef1c88679ff442a5ccda734ff74694a5f40b3d8c25e1c84e363db8"
+    },
+    {
+      "module": "Universality/Graph/TowerTail.lean",
+      "source_sha256": "32fd1d8e7992e302600c3f7b83815c30d07a070fc3187951b0caf30117912907"
+    },
+    {
+      "module": "Universality/Graph/AncestralTowerTail.lean",
+      "source_sha256": "d5bd85d39a0cbd0298effc761eac169354879b6a16f1ada0e169ae36cbe8441b"
+    },
+    {
+      "module": "Universality/Graph/AncestralTowerIsometry.lean",
+      "source_sha256": "70e60bd2a76282089da46a324517a43bf47cf112ef2042271e71dd9cecfdd70f"
+    },
+    {
+      "module": "Universality/Graph/AncestralLocalFiniteness.lean",
+      "source_sha256": "154f4d0ee562319dd4e014142bb3a0439a5e725295819e9abf83b9c349806d2b"
+    },
+    {
+      "module": "Universality/Percolation/ClosedCoarseRadius.lean",
+      "source_sha256": "d568b49ea629e01f4ddca3ec4cad81e58601a9841b81435ff7194af4f4983818"
+    },
+    {
+      "module": "Universality/Percolation/IsolatedCellRadius.lean",
+      "source_sha256": "ec9178be2fc0705d3699acd23319e9834efdc912ed9509e84b8b23a9385e6ec0"
+    },
+    {
+      "module": "Universality/Examples/DiamondOppositeWitness.lean",
+      "source_sha256": "5e2ab92494dcda572cb0ef5a5eb167efe90461c3d8871962471c469bc9d17560"
+    },
+    {
+      "module": "Universality/Examples/DiamondQuarterCell.lean",
+      "source_sha256": "77a931ed05519439b871013f7ae91bde853c05acf224c916849705e8d5cd13b5"
+    },
+    {
+      "module": "Universality/Percolation/IsolatedCellPointCount.lean",
+      "source_sha256": "84cbc5210bc421ca09a53fda67bc4acbe6f2fbe4cd947a984e0c89dcf41dc84d"
+    },
+    {
+      "module": "Universality/Examples/DiamondQuarterWitness.lean",
+      "source_sha256": "e9943482f77ffec74ff091d7f22238a66b31d5ab43e763ea037e90e031522749"
+    },
+    {
+      "module": "Universality/Examples/DoubleClosedAttachments.lean",
+      "source_sha256": "e2ca44dcb7cec8dd630ef4ed1badeed5d8ae4f1b4d217e18dcfeec1b9fad817f"
+    },
+    {
+      "module": "Universality/Examples/DiamondSpikeFiniteEvent.lean",
+      "source_sha256": "6402de7fa3224492fd4935ec042111e63df126981aeb9122abe49685c1079f1c"
+    },
+    {
+      "module": "Universality/Probability/ThreeLevelProductLaw.lean",
+      "source_sha256": "41afa1b84e4c8e77f88912709d958a3574d31bb5651dfbe669d365e9deeec187"
+    },
+    {
+      "module": "Universality/Percolation/NestedConfigurationLaw.lean",
+      "source_sha256": "d44e1b3c327d8a04ef87ac230a3872a1282cb8e024d2f55c56c73ea2ff490e76"
+    },
+    {
+      "module": "Universality/Examples/DiamondSpikeExpectation.lean",
+      "source_sha256": "7624ceb159a41a81efcd5737a202a265acd60315c386cc11e49f908e1f9327b6"
+    },
+    {
+      "module": "Universality/Examples/DiamondActualSpikes.lean",
+      "source_sha256": "9c17ee002c7471516318287cff7db8a07a284da3d2209dceb97dbb12c93e7199"
+    },
+    {
+      "module": "Universality/Examples/DiamondRadiusNonexistence.lean",
+      "source_sha256": "83854c6223c39c0e1df2a9e4554d2770510923782ebccb383fa62127792c64db"
+    },
+    {
+      "module": "Universality/Analysis/MomentGapAlgebra.lean",
+      "source_sha256": "b63543ae724b6b034f046ce184fcb12ac51ef93cb7ae92ee9146c17730e30e25"
+    },
+    {
+      "module": "Universality/Analysis/MomentGapProfile.lean",
+      "source_sha256": "1f1f8c5928fc66915b6acecd2c7776e281c0f74875c69c735e2e858309dbfc83"
+    },
+    {
+      "module": "Universality/Percolation/ActualMomentGap.lean",
+      "source_sha256": "b573c512b969e7a33d0007bc094350beb230068f3682a5f11deefd1a6194933a"
+    },
+    {
+      "module": "Universality/Percolation/SubcriticalHighMomentDivergence.lean",
+      "source_sha256": "ee26cf51be5d03c02938ec89cd1e5da4a524973faaf1f2bcfee580c3bf8c6892"
+    },
+    {
+      "module": "Universality/Percolation/ActualSusceptibilityExponent.lean",
+      "source_sha256": "ba7ec6746b225aeac8b4a74dc220cfc40f62e8af8178369f22cef1e4023f232a"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalMomentExponents.lean",
+      "source_sha256": "42c74ebf16ba0bf28f0eb190a951d24cb52481a91427150362ba2f40b5f2a965"
+    },
+    {
+      "module": "Universality/Analysis/LogarithmRationalBounds.lean",
+      "source_sha256": "8874bc6ee49f2a055399ed143bdbe4d06d532b460f59b18d1d161b5c49a3abda"
+    },
+    {
+      "module": "Universality/Examples/DiamondNumericalBounds.lean",
+      "source_sha256": "fcdc6a3f98ff82e992085ad0461af4dd5a974eb17ad6ce9ae1fb6d7d708c554e"
+    },
+    {
+      "module": "Universality/Examples/DiamondFourPhysicalExponents.lean",
+      "source_sha256": "28f6acdd168c45e0809bf634816ff1c41c8cf6163029e87bba5329b468367605"
+    },
+    {
+      "module": "Universality/Graph/UniformRootLocalFiniteness.lean",
+      "source_sha256": "7c6cf425007a3fa522959479b7c11d69bea3ca263e89b654f637d936a7a8beb1"
+    },
+    {
+      "module": "Universality/Graph/FiniteWalkBalls.lean",
+      "source_sha256": "7e27a27067ff280b7171f2a275f08c7aebdcdb724e6deb0e28b41fad319aafaf"
+    },
+    {
+      "module": "Universality/Graph/FiniteStageSupport.lean",
+      "source_sha256": "accc85901cb0c5067c00984837aa172a8145a7b1f482e58e90384044878bef5b"
+    },
+    {
+      "module": "Universality/Graph/AncestralInfiniteVertices.lean",
+      "source_sha256": "5fdcf0f24d9bbc28a6156bdb89c7455c5eeea2ccb4a22bf3eb157475b7cbcf51"
+    },
+    {
+      "module": "Universality/Graph/FiniteAgeEventDisintegration.lean",
+      "source_sha256": "90a0eaec8fbfaa2b2a3349636ff7936da1a786d4854c7a68e70cab36a2c8a95e"
+    },
+    {
+      "module": "Universality/Graph/FiniteAgeEventBounds.lean",
+      "source_sha256": "2aba1970fadcfdbfcd4ee64f93b8b50eba43a57c6d26bc3b9842f5a29cbf82e6"
+    },
+    {
+      "module": "Universality/Graph/UniformRootEventConvergence.lean",
+      "source_sha256": "1c993c03b30e25dae96a7d420b89ad18fc1aa1909ca668b1ddadfc558f16f338"
+    },
+    {
+      "module": "Universality/Graph/UniformRootEventIdentification.lean",
+      "source_sha256": "d4663a422e8bcfbd32400bdd6110f66512fa7bac049f57c4db9e2b15aca33003"
+    },
+    {
+      "module": "Universality/Graph/TowerRootedBallIsomorphism.lean",
+      "source_sha256": "310286009f64e9ebf3afb18cc5d170447e8d9b60577bf70b9dc7d1d4c354a8ac"
+    },
+    {
+      "module": "Universality/Graph/AncestralBallShapes.lean",
+      "source_sha256": "5562a844ed9dcb25edf50ef7504149063d74fdc9a2f84f46067a6aa984ca0a2b"
+    },
+    {
+      "module": "Universality/Graph/FullBallShapeEvents.lean",
+      "source_sha256": "30e0633b7b31e9ba1128e8f549c3c66e9f7936abc3465569cf601b15baa8e61b"
+    },
+    {
+      "module": "Universality/Graph/UniformRootLocalLimit.lean",
+      "source_sha256": "2861c4899de2851bb58a9e69a4e879241c92e20b0d6abcd76f08f23fa470a85e"
+    },
+    {
+      "module": "Universality/Graph/TowerRadiusEvents.lean",
+      "source_sha256": "710ba4bbcc757d6093acedb491f8fc3165816d6b0aa332513ea6c1d487458642"
+    },
+    {
+      "module": "Universality/Graph/AncestralRadiusEvents.lean",
+      "source_sha256": "6c2957de8380179546b461e23de4781213186eebc4e88903997b95916268099f"
+    },
+    {
+      "module": "Universality/Graph/UniformRootRadiusIdentification.lean",
+      "source_sha256": "074eeada213153bb602eb5dc522ae10aa8da0a6b902e83d6be25eb587b73ea26"
+    },
+    {
+      "module": "Universality/Graph/UniformRootRadiusPointLaw.lean",
+      "source_sha256": "b78553482e62d25ac616c988be1141ec2d5d25361d304160db36503de4a221a8"
+    },
+    {
+      "module": "Universality/Graph/UniformRootCriticalFiniteness.lean",
+      "source_sha256": "68d7e2e24b08e22408b4cbd4fb449cbd57b0e0059f0714e9ca54114ebdffa275"
+    },
+    {
+      "module": "Universality/Graph/PhysicalRadiusExponents.lean",
+      "source_sha256": "0758d716450839c55dc267e3171c2b191063a9f412d26ddd496229e563c3f5ee"
+    },
+    {
+      "module": "Universality/Analysis/UniformCountTailLimit.lean",
+      "source_sha256": "6960bc4b7a166820e66c2078160c6f90de33efb0842f4af339251f1a9a697e42"
+    },
+    {
+      "module": "Universality/Percolation/ClusterCountCutoff.lean",
+      "source_sha256": "01349f4891bfb5c7a217ab1b3401577e30de6b1a1e0e645fa7539946c531b9cf"
+    },
+    {
+      "module": "Universality/Percolation/ClusterNumberSizeSum.lean",
+      "source_sha256": "96d87bf24d85cd1cd8ae58ad9283cf0b7f5f0fad502697d8e12a5c07195ce7e5"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalClusterNumber.lean",
+      "source_sha256": "7c61b664e20beea396a1f899c079b72e4af75fc7fd935972904b787f3d6ab649"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalClusterNumberResponses.lean",
+      "source_sha256": "5c73b38f557738700db96e89331eee40bc40f688855999dcc763728bd664f0fb"
+    },
+    {
+      "module": "Universality/Examples/PhysicalRawAlphaExamples.lean",
+      "source_sha256": "435a4592cc2e032bbd95a4210dc8cc8064262b2d1447fceb60520844aba70663"
+    },
+    {
+      "module": "Universality/Percolation/PhysicalClusterNumberAnalyticity.lean",
+      "source_sha256": "6fe893a59bdc34c936e6625e859b269e7d3307010fe5e3ab4b05fb756a5787d0"
+    },
+    {
+      "module": "Universality/Geometry/MetricDirectLimit.lean",
+      "source_sha256": "4cf3e72d0af2d74519bcbd9078b04c3a06c0346d575428ed179e61660b1e8a97"
+    },
+    {
+      "module": "Universality/Geometry/ScaledGenerationMetric.lean",
+      "source_sha256": "6f431dd2665c9dcab94af0273c9d16c63d952ab7c8f3929ae5033e1577efbee1"
+    },
+    {
+      "module": "Universality/Geometry/IsometricSequence.lean",
+      "source_sha256": "d0b6f72e8c0361675557e0636aef094f4581510cce060e8ce45fd7d8ef90c0de"
+    },
+    {
+      "module": "Universality/Geometry/GenerationCompletion.lean",
+      "source_sha256": "5664f93b588da729e12126cc71419b0f87f71b143007097bfd278097ab2407b8"
+    },
+    {
+      "module": "Universality/Geometry/GenerationNet.lean",
+      "source_sha256": "81f0668109e55d5778acf68d0f76f1d936ac5cd92bef1acf0a70928592b3c399"
+    },
+    {
+      "module": "Universality/Geometry/GeometricNets.lean",
+      "source_sha256": "f7da27558078a662b5f17bddda409030864ba4dab041a710c6bfb59bc4052933"
+    },
+    {
+      "module": "Universality/Geometry/GenerationCompactness.lean",
+      "source_sha256": "70d10926011b84cc81e97de8db05d5fbc5f6f29a4ff1e9a8d4f399cc9f9aa32a"
+    },
+    {
+      "module": "Universality/Geometry/GeometricCovers.lean",
+      "source_sha256": "20aa3ab07b352e9329e5fbe3e4c56921c523a5d2499cf33e9b87fbf3f9a59661"
+    },
+    {
+      "module": "Universality/Geometry/FiniteCoverHausdorffBound.lean",
+      "source_sha256": "b57335253c4fd6010b190f521e4130d6bf2a9e67763a89d539a915006b699dda"
+    },
+    {
+      "module": "Universality/Geometry/GenerationHausdorffUpperBound.lean",
+      "source_sha256": "6a29911ddb9eab4669672d2578c872befd9b47fd23b8faa3ca1138076452acbd"
+    },
+    {
+      "module": "Universality/Geometry/GenerationMetricSpace.lean",
+      "source_sha256": "455008ae98517d5411ff5dc3115491900714ab209ec3de4855617b00e6ad329f"
+    },
+    {
+      "module": "Universality/Geometry/CellBoundaryPotential.lean",
+      "source_sha256": "c68c15d01a919f0153dedc9a4a37a4869f08f9dd1ed78ca20d2bc21cc8ea6c99"
+    },
+    {
+      "module": "Universality/Geometry/GenerationCellMetric.lean",
+      "source_sha256": "3ed10c8b47ce63b681dcfe43b01962608278059324a1f0d4e63a303fa7423dd1"
+    },
+    {
+      "module": "Universality/Geometry/GenerationCellBoundary.lean",
+      "source_sha256": "38e8e814ca4e29db0d98558dbcff058fdae25defa1e1c97573766c52a65da78a"
+    },
+    {
+      "module": "Universality/Geometry/SequenceSimilarity.lean",
+      "source_sha256": "cf8a0a64a4c48dad6855ef00ca0b29921a2b6bafd108d5379a83d5480280e66f"
+    },
+    {
+      "module": "Universality/Geometry/GenerationMetricCells.lean",
+      "source_sha256": "c816c74082d66d3698c741b702bdff63493744efd13fed7084681993079d372b"
+    },
+    {
+      "module": "Universality/Geometry/InternalSimilarity.lean",
+      "source_sha256": "433fd399577c03f4ab6469d08fc4195625f279dac19a5deb710b032bca717dca"
+    },
+    {
+      "module": "Universality/Geometry/SymbolicHausdorffLowerBound.lean",
+      "source_sha256": "bc79d4ff8d4517e0ae81085aa61d0035c39d68c800cd9abfa3bf42539f202bab"
+    },
+    {
+      "module": "Universality/Geometry/SeparatedSimilarities.lean",
+      "source_sha256": "c88b49e8fd06fd8f46274a8c9c9ef69c091d7958aee9925e62a453e544df7c0d"
+    },
+    {
+      "module": "Universality/Geometry/BlockDimensionLimit.lean",
+      "source_sha256": "65e036188e4f148c16b55343304caf51e4b2c3fe4f666794afca1ff1ac882884"
+    },
+    {
+      "module": "Universality/Geometry/SeparatedBlocks.lean",
+      "source_sha256": "3b3460ad0b0ac31621ad9762d9e6fb3e53851e171919b3828b12420480d2c753"
+    },
+    {
+      "module": "Universality/Geometry/GenerationHausdorffDimension.lean",
+      "source_sha256": "f78ad851bc4074cf314bbbbdbde44586895df9f647f44e0172f472c46a68c164"
+    },
+    {
+      "module": "Universality/Probability/LocalLimitDepthShift.lean",
+      "source_sha256": "6530c2e7f52c7f51b9f417f2a4f79258c8feb4d659fff70445aedef93b22c9e6"
+    },
+    {
+      "module": "Universality/Probability/DensityDivision.lean",
+      "source_sha256": "654b0033b151e51d92f1cc623164301c3d8eb680e5bbcce83997ffedb4d5a1e4"
+    },
+    {
+      "module": "Universality/Percolation/InternalMassPaperNormalization.lean",
+      "source_sha256": "885ff31a7af7d3e8792d2b82d9ee227a4f1c49d09afcc4beead155567d3f15ac"
+    },
+    {
+      "module": "Universality/Graph/DirichletEnergy.lean",
+      "source_sha256": "bb92312f6204e6654627bcdd505f3a574a30a98f95db9bd5c0dfe2ef4d4ab27b"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionEnergy.lean",
+      "source_sha256": "4d756fdf269bc9f625b1367ab2e39f02ea592af02feef3f378906b4114fc75c0"
+    },
+    {
+      "module": "Universality/Graph/ConductanceMultiplicativity.lean",
+      "source_sha256": "3055735da1e1eb431b9f2ef825391290d98915a25f7bffa9b7d0a8a057cce936"
+    },
+    {
+      "module": "Universality/Graph/ConnectedConductance.lean",
+      "source_sha256": "36af809c92d7d51b8fc967a97536cee101a4637ee80280e9df997c405490fea9"
+    },
+    {
+      "module": "Universality/Examples/TieGemResistance.lean",
+      "source_sha256": "b5ae476d5107ff66afbe05ebe6eacca04a8666a2b2328faf465ff419ed7c8137"
+    },
+    {
+      "module": "Universality/Graph/ResistanceObservation.lean",
+      "source_sha256": "827600a5f60fa0e037c685af6fbf9531e49ca747d792a7e9b6a7cd8d2b15148c"
+    },
+    {
+      "module": "Universality/Percolation/GeometricPhysicalClass.lean",
+      "source_sha256": "c441770584565b145e71259943a3bd3af1ee91c33d575484dfc20e4c438e3275"
+    },
+    {
+      "module": "Universality/Examples/TieGemCriticalBounds.lean",
+      "source_sha256": "54184472bfa0eeda9aaf90fa490ba3a3027e0b0df994e832c2521c71e04c3bc5"
+    },
+    {
+      "module": "Universality/Examples/TieGemResponseBounds.lean",
+      "source_sha256": "5d691a956d9b068c3aa9280248d3b7781c076808ca2eada93cfcf7df66a52f22"
+    },
+    {
+      "module": "Universality/Examples/TriangleMassFormula.lean",
+      "source_sha256": "1c9c060e6764f68bccd091ddce4ad6f081b60d5f42fb6a87a5ff01ecdc512c8c"
+    },
+    {
+      "module": "Universality/Matrix/PositiveRootTestRatio.lean",
+      "source_sha256": "8afd86dd78218ce364a9ab787397fe9fede5d7b7edbd3e20094ba3bcb70aac51"
+    },
+    {
+      "module": "Universality/Examples/GemMassBlock.lean",
+      "source_sha256": "aee29de71666c44a86f1a7738579e16047efbbd39ad65eef9d0589b1c9808e64"
+    },
+    {
+      "module": "Universality/Examples/GemMassBlockBounds.lean",
+      "source_sha256": "e27dd11a62e78cf4b8214ee5465f0ffad897f6ef017ee496b97ad19feaa218bc"
+    },
+    {
+      "module": "Universality/Examples/TieGemSpectralBounds.lean",
+      "source_sha256": "1193ec3aa3e3c8c6517e4bf17fc21995c0ab4c617e993ac7bdd34914273a0adc"
+    },
+    {
+      "module": "Universality/Examples/TieGemCommonSpectrum.lean",
+      "source_sha256": "4cbfa5c235de055f4f3dc016c5f0a4d6e0d6cc7b72e58af2e8e4aa015f7dc8a3"
+    },
+    {
+      "module": "Universality/Examples/DiamondSusceptibilityNumerical.lean",
+      "source_sha256": "aaf3d9027588b228a3a7e72f9078c1f2440728176108b288e203d299503f6414"
+    },
+    {
+      "module": "Universality/Examples/WheatstoneAlphaNumerical.lean",
+      "source_sha256": "3e5f6134396fe0f665a4cd64dba33ef766b3270cc024006ed669d290381906b7"
+    },
+    {
+      "module": "Universality/Section3.lean",
+      "source_sha256": "c599ea131fcea8c801ed240e0115b07aea7d53c13193859fff9c0bdb052472b3"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "ccbceed266bf166eaef8668b2c2687ae0ea4c7eb5f41438f029dfb3af8a721d0"
+      "source_sha256": "41e3358e08d786dcdd67fe580ed5f80b370157b487a55a53930b43db3643753d"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "9643b68c258a63c759d89a1677a49e78bfae1bad77246b22dbad485082cb7bbb"
+      "source_sha256": "ce374e6c19c7f75a0a9fdb4bb99e9e35fcec06e3b5f9b92edce681d4d003a7be"
     }
   ]
 }

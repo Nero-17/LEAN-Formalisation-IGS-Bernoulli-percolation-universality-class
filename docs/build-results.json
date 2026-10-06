@@ -5154,7 +5154,7 @@
     "exit_code": 0,
     "seconds": 28.5210928,
     "source_sha256": "bee8b57a75b9e98166571d0c3c835ed6b390d0a6f95c00f5d88195a59b8bf252",
-    "checked_at_utc": "2026-10-06T17:58:04.4423480Z"
+    "checked_at_utc": "2026-10-06T17:58:04.442348Z"
   },
   {
     "module": "Universality/Analysis/StoppedGeometricPowerBounds.lean",
@@ -5168,7 +5168,7 @@
     "exit_code": 0,
     "seconds": 29.7651488,
     "source_sha256": "274d8e871d2bc18a1fe47189ac65643f4fca2b8551d26d1e780386c981fa8470",
-    "checked_at_utc": "2026-10-06T17:59:05.8191630Z"
+    "checked_at_utc": "2026-10-06T17:59:05.819163Z"
   },
   {
     "module": "Universality/Percolation/NearCriticalMomentPowerBounds.lean",
@@ -5182,7 +5182,7 @@
     "exit_code": 0,
     "seconds": 24.3535767,
     "source_sha256": "dc9eb4f4c8efa97a5d3c8c6f21726bf8666fe5ae83a9b463ec46c78bb8a0f411",
-    "checked_at_utc": "2026-10-06T18:00:02.5605110Z"
+    "checked_at_utc": "2026-10-06T18:00:02.560511Z"
   },
   {
     "module": "Universality/Analysis/WindowRatioBounds.lean",
@@ -5196,14 +5196,14 @@
     "exit_code": 0,
     "seconds": 27.055341,
     "source_sha256": "70d0b4d8e593998cddc59a2903a8c70baee638bd305fb70e99e02e7e9c8e3d52",
-    "checked_at_utc": "2026-10-06T18:00:47.8908270Z"
+    "checked_at_utc": "2026-10-06T18:00:47.890827Z"
   },
   {
     "module": "Universality/Percolation/CriticalWindowAtCells.lean",
     "exit_code": 0,
     "seconds": 32.6787888,
     "source_sha256": "c3473e6d60ee5c861c397ee02afcbd682e5c6167f6ee3f95954aa0aaefd41570",
-    "checked_at_utc": "2026-10-06T18:01:20.5821080Z"
+    "checked_at_utc": "2026-10-06T18:01:20.582108Z"
   },
   {
     "module": "Universality/Percolation/CriticalWindowConnectivity.lean",
@@ -5287,7 +5287,7 @@
     "exit_code": 0,
     "seconds": 22.8985607,
     "source_sha256": "d64a9f66283921db0fbc79ca05e63aa35b59b3118d46c3dcd1d28031ecfbeaf6",
-    "checked_at_utc": "2026-10-06T18:05:55.2427930Z"
+    "checked_at_utc": "2026-10-06T18:05:55.242793Z"
   },
   {
     "module": "Universality/Analysis/GeometricTailDifferences.lean",
@@ -5308,7 +5308,7 @@
     "exit_code": 0,
     "seconds": 23.5931181,
     "source_sha256": "2f3bc7df1e3c761c433abf41e81c0e8fa68efca684774a8bd08c36264da2a1ba",
-    "checked_at_utc": "2026-10-06T18:07:06.0819460Z"
+    "checked_at_utc": "2026-10-06T18:07:06.081946Z"
   },
   {
     "module": "Universality/Analysis/RadiusPointExponent.lean",
@@ -5329,7 +5329,7 @@
     "exit_code": 0,
     "seconds": 22.6641529,
     "source_sha256": "2f2fc7349bc99529aa86e87d4c70121a2bba00678cda9a411be121a4c94e3744",
-    "checked_at_utc": "2026-10-06T18:08:13.1825750Z"
+    "checked_at_utc": "2026-10-06T18:08:13.182575Z"
   },
   {
     "module": "Universality/Percolation/CriticalRadiusPointValue.lean",
@@ -5364,7 +5364,7 @@
     "exit_code": 0,
     "seconds": 18.9349164,
     "source_sha256": "866d90105ebe4c1e5ce46af9b608baf31f18a91fb9e703e74afef7890b2b340b",
-    "checked_at_utc": "2026-10-06T18:09:51.4815410Z"
+    "checked_at_utc": "2026-10-06T18:09:51.481541Z"
   },
   {
     "module": "Universality/Graph/FiniteAgeBounds.lean",
@@ -5451,17 +5451,794 @@
     "checked_at_utc": "2026-10-06T18:13:44.7132373Z"
   },
   {
+    "module": "Universality/Percolation/CyclicPhysicalClass.lean",
+    "exit_code": 0,
+    "seconds": 37.2422403,
+    "source_sha256": "c573aba9536222c5a29d3964e0e0b6aba07530693f9086c7dd12557a330f0f69",
+    "checked_at_utc": "2026-10-06T18:40:21.3766628Z"
+  },
+  {
+    "module": "Universality/Examples/TieGemPhysicalClass.lean",
+    "exit_code": 0,
+    "seconds": 43.9761733,
+    "source_sha256": "8223d741071a36797cbf5c3dbf02b1bc46db12b73083b217f4b3a97f2e2a1bbb",
+    "checked_at_utc": "2026-10-06T18:41:05.4372369Z"
+  },
+  {
+    "module": "Universality/Analysis/CompactEscapeUpperBound.lean",
+    "exit_code": 0,
+    "seconds": 46.9448947,
+    "source_sha256": "13f707971fcc6dd8651f4948deaef772d290b42a59c73adfd0600cc5f679e535",
+    "checked_at_utc": "2026-10-06T18:41:52.4382598Z"
+  },
+  {
+    "module": "Universality/Analysis/AffineCriticalCorrections.lean",
+    "exit_code": 0,
+    "seconds": 43.7771594,
+    "source_sha256": "61ad155a6125017abcabc140d924587514615a8e86a202ee90a8b44188bc60f8",
+    "checked_at_utc": "2026-10-06T18:42:36.3066262Z"
+  },
+  {
+    "module": "Universality/Analysis/CompactCriticalResponse.lean",
+    "exit_code": 0,
+    "seconds": 49.9632876,
+    "source_sha256": "7f1258b7e361c030617a8b05c525af297b65b9310847ba5d05eddec037288c7c",
+    "checked_at_utc": "2026-10-06T18:43:26.3183367Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstoneCriticalCoefficient.lean",
+    "exit_code": 0,
+    "seconds": 33.2504764,
+    "source_sha256": "2f11e7fca6914bc4e4f657bc862707048d3fe3644ef369c68decd38c5fd68419",
+    "checked_at_utc": "2026-10-06T18:43:59.5995981Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstoneNormalizedResponseData.lean",
+    "exit_code": 0,
+    "seconds": 24.1509962,
+    "source_sha256": "ce9a552c54fa17e0379b46bddc5aa67c895210561aef8f46ee513822489f8612",
+    "checked_at_utc": "2026-10-06T18:44:23.7713767Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstoneSharpPowerBounds.lean",
+    "exit_code": 0,
+    "seconds": 23.5954086,
+    "source_sha256": "7dc450ac3ac683418a96d5535ea517d7ae20fa9d5f55c50e6e97d87fa548821b",
+    "checked_at_utc": "2026-10-06T18:44:47.3887158Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstoneTwoSidedPowerBounds.lean",
+    "exit_code": 0,
+    "seconds": 46.6715449,
+    "source_sha256": "22390036e60c5fe1fed8c302d6cf0b4be986d2244c7ecee1c0ac71d15436e273",
+    "checked_at_utc": "2026-10-06T18:45:34.0857566Z"
+  },
+  {
+    "module": "Universality/Graph/TerminalPortCounting.lean",
+    "exit_code": 0,
+    "seconds": 37.2341515,
+    "source_sha256": "81e8c5efc21f59a59e59fa88e97e8e498cd2f25b6970d2b785c66d9115aea6a2",
+    "checked_at_utc": "2026-10-06T18:46:11.3909527Z"
+  },
+  {
+    "module": "Universality/Graph/TerminalPrefixCounting.lean",
+    "exit_code": 0,
+    "seconds": 44.3997716,
+    "source_sha256": "e6f8b6985c15969b52c6d598acc8083a654a4a10b2da06a87ee39c859cebe3d9",
+    "checked_at_utc": "2026-10-06T18:46:55.8229066Z"
+  },
+  {
+    "module": "Universality/Graph/TerminalSpineProbability.lean",
+    "exit_code": 0,
+    "seconds": 33.0748808,
+    "source_sha256": "2f593d69e176044380ded77a8326c4327282e1887575a423bf9678e71675744d",
+    "checked_at_utc": "2026-10-06T18:47:28.9196826Z"
+  },
+  {
+    "module": "Universality/Graph/TerminalSpineEscape.lean",
+    "exit_code": 0,
+    "seconds": 28.713872,
+    "source_sha256": "40ab6742c33ef974ebb03b5657d03de8b9fb68d43b032d88732dc9d3e0d76082",
+    "checked_at_utc": "2026-10-06T18:47:57.6629136Z"
+  },
+  {
+    "module": "Universality/Graph/FrozenTowerNeighborhood.lean",
+    "exit_code": 0,
+    "seconds": 29.7683482,
+    "source_sha256": "f87a802aef27ed28f88a28e5f41f52ae8d23b3ab31b037b8dba86bc20a730242",
+    "checked_at_utc": "2026-10-06T18:48:27.4504631Z"
+  },
+  {
+    "module": "Universality/Graph/AncestralInternalNeighborhood.lean",
+    "exit_code": 0,
+    "seconds": 60.5144903,
+    "source_sha256": "31fd48d8311c0c0a3b899ea5c6fdef7dfa63197d8ed79c731718912062a600c9",
+    "checked_at_utc": "2026-10-06T18:49:28.0081202Z"
+  },
+  {
+    "module": "Universality/Graph/TowerWalkLift.lean",
+    "exit_code": 0,
+    "seconds": 104.7718485,
+    "source_sha256": "0227f66ead233ac34fac12ffb1ab005cb83c33d396170057fa6ae443be54b670",
+    "checked_at_utc": "2026-10-06T18:51:12.8954849Z"
+  },
+  {
+    "module": "Universality/Graph/TowerDistance.lean",
+    "exit_code": 0,
+    "seconds": 57.2255933,
+    "source_sha256": "a1d0e0f663ef1c88679ff442a5ccda734ff74694a5f40b3d8c25e1c84e363db8",
+    "checked_at_utc": "2026-10-06T18:52:10.2630299Z"
+  },
+  {
+    "module": "Universality/Graph/TowerTail.lean",
+    "exit_code": 0,
+    "seconds": 39.41727,
+    "source_sha256": "32fd1d8e7992e302600c3f7b83815c30d07a070fc3187951b0caf30117912907",
+    "checked_at_utc": "2026-10-06T18:52:49.7177962Z"
+  },
+  {
+    "module": "Universality/Graph/AncestralTowerTail.lean",
+    "exit_code": 0,
+    "seconds": 40.4984181,
+    "source_sha256": "d5bd85d39a0cbd0298effc761eac169354879b6a16f1ada0e169ae36cbe8441b",
+    "checked_at_utc": "2026-10-06T18:53:30.2609895Z"
+  },
+  {
+    "module": "Universality/Graph/AncestralTowerIsometry.lean",
+    "exit_code": 0,
+    "seconds": 33.1159984,
+    "source_sha256": "70e60bd2a76282089da46a324517a43bf47cf112ef2042271e71dd9cecfdd70f",
+    "checked_at_utc": "2026-10-06T18:54:03.4117385Z"
+  },
+  {
+    "module": "Universality/Graph/AncestralLocalFiniteness.lean",
+    "exit_code": 0,
+    "seconds": 43.7421265,
+    "source_sha256": "154f4d0ee562319dd4e014142bb3a0439a5e725295819e9abf83b9c349806d2b",
+    "checked_at_utc": "2026-10-06T18:54:47.1826761Z"
+  },
+  {
+    "module": "Universality/Percolation/ClosedCoarseRadius.lean",
+    "exit_code": 0,
+    "seconds": 30.0937569,
+    "source_sha256": "d568b49ea629e01f4ddca3ec4cad81e58601a9841b81435ff7194af4f4983818",
+    "checked_at_utc": "2026-10-06T18:55:17.352857Z"
+  },
+  {
+    "module": "Universality/Percolation/IsolatedCellRadius.lean",
+    "exit_code": 0,
+    "seconds": 34.4958889,
+    "source_sha256": "ec9178be2fc0705d3699acd23319e9834efdc912ed9509e84b8b23a9385e6ec0",
+    "checked_at_utc": "2026-10-06T18:55:51.8925608Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondOppositeWitness.lean",
+    "exit_code": 0,
+    "seconds": 28.7952494,
+    "source_sha256": "5e2ab92494dcda572cb0ef5a5eb167efe90461c3d8871962471c469bc9d17560",
+    "checked_at_utc": "2026-10-06T18:56:20.7212098Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondQuarterCell.lean",
+    "exit_code": 0,
+    "seconds": 29.1480179,
+    "source_sha256": "77a931ed05519439b871013f7ae91bde853c05acf224c916849705e8d5cd13b5",
+    "checked_at_utc": "2026-10-06T18:56:49.8836448Z"
+  },
+  {
+    "module": "Universality/Percolation/IsolatedCellPointCount.lean",
+    "exit_code": 0,
+    "seconds": 27.5309907,
+    "source_sha256": "84cbc5210bc421ca09a53fda67bc4acbe6f2fbe4cd947a984e0c89dcf41dc84d",
+    "checked_at_utc": "2026-10-06T18:57:17.4384493Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondQuarterWitness.lean",
+    "exit_code": 0,
+    "seconds": 39.5716662,
+    "source_sha256": "e9943482f77ffec74ff091d7f22238a66b31d5ab43e763ea037e90e031522749",
+    "checked_at_utc": "2026-10-06T18:57:57.0274371Z"
+  },
+  {
+    "module": "Universality/Examples/DoubleClosedAttachments.lean",
+    "exit_code": 0,
+    "seconds": 38.5258177,
+    "source_sha256": "e2ca44dcb7cec8dd630ef4ed1badeed5d8ae4f1b4d217e18dcfeec1b9fad817f",
+    "checked_at_utc": "2026-10-06T18:58:35.5737569Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondSpikeFiniteEvent.lean",
+    "exit_code": 0,
+    "seconds": 25.2712663,
+    "source_sha256": "6402de7fa3224492fd4935ec042111e63df126981aeb9122abe49685c1079f1c",
+    "checked_at_utc": "2026-10-06T18:59:00.8598762Z"
+  },
+  {
+    "module": "Universality/Probability/ThreeLevelProductLaw.lean",
+    "exit_code": 0,
+    "seconds": 14.5339385,
+    "source_sha256": "41afa1b84e4c8e77f88912709d958a3574d31bb5651dfbe669d365e9deeec187",
+    "checked_at_utc": "2026-10-06T18:59:15.4074157Z"
+  },
+  {
+    "module": "Universality/Percolation/NestedConfigurationLaw.lean",
+    "exit_code": 0,
+    "seconds": 17.9954652,
+    "source_sha256": "d44e1b3c327d8a04ef87ac230a3872a1282cb8e024d2f55c56c73ea2ff490e76",
+    "checked_at_utc": "2026-10-06T18:59:33.4165907Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondSpikeExpectation.lean",
+    "exit_code": 0,
+    "seconds": 21.0945979,
+    "source_sha256": "7624ceb159a41a81efcd5737a202a265acd60315c386cc11e49f908e1f9327b6",
+    "checked_at_utc": "2026-10-06T18:59:54.5313708Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondActualSpikes.lean",
+    "exit_code": 0,
+    "seconds": 20.782298,
+    "source_sha256": "9c17ee002c7471516318287cff7db8a07a284da3d2209dceb97dbb12c93e7199",
+    "checked_at_utc": "2026-10-06T19:00:15.3300982Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondRadiusNonexistence.lean",
+    "exit_code": 0,
+    "seconds": 21.2120404,
+    "source_sha256": "83854c6223c39c0e1df2a9e4554d2770510923782ebccb383fa62127792c64db",
+    "checked_at_utc": "2026-10-06T19:00:36.5557997Z"
+  },
+  {
+    "module": "Universality/Analysis/MomentGapAlgebra.lean",
+    "exit_code": 0,
+    "seconds": 18.3454904,
+    "source_sha256": "b63543ae724b6b034f046ce184fcb12ac51ef93cb7ae92ee9146c17730e30e25",
+    "checked_at_utc": "2026-10-06T19:00:54.9158497Z"
+  },
+  {
+    "module": "Universality/Analysis/MomentGapProfile.lean",
+    "exit_code": 0,
+    "seconds": 17.7945746,
+    "source_sha256": "1f1f8c5928fc66915b6acecd2c7776e281c0f74875c69c735e2e858309dbfc83",
+    "checked_at_utc": "2026-10-06T19:01:12.722214Z"
+  },
+  {
+    "module": "Universality/Percolation/ActualMomentGap.lean",
+    "exit_code": 0,
+    "seconds": 32.0016582,
+    "source_sha256": "b573c512b969e7a33d0007bc094350beb230068f3682a5f11deefd1a6194933a",
+    "checked_at_utc": "2026-10-06T19:01:44.7401651Z"
+  },
+  {
+    "module": "Universality/Percolation/SubcriticalHighMomentDivergence.lean",
+    "exit_code": 0,
+    "seconds": 29.5988893,
+    "source_sha256": "ee26cf51be5d03c02938ec89cd1e5da4a524973faaf1f2bcfee580c3bf8c6892",
+    "checked_at_utc": "2026-10-06T19:02:14.3568567Z"
+  },
+  {
+    "module": "Universality/Percolation/ActualSusceptibilityExponent.lean",
+    "exit_code": 0,
+    "seconds": 27.2126925,
+    "source_sha256": "ba7ec6746b225aeac8b4a74dc220cfc40f62e8af8178369f22cef1e4023f232a",
+    "checked_at_utc": "2026-10-06T19:02:41.5869103Z"
+  },
+  {
+    "module": "Universality/Percolation/PhysicalMomentExponents.lean",
+    "exit_code": 0,
+    "seconds": 36.7721462,
+    "source_sha256": "42c74ebf16ba0bf28f0eb190a951d24cb52481a91427150362ba2f40b5f2a965",
+    "checked_at_utc": "2026-10-06T19:03:18.3863567Z"
+  },
+  {
+    "module": "Universality/Analysis/LogarithmRationalBounds.lean",
+    "exit_code": 0,
+    "seconds": 22.7691662,
+    "source_sha256": "8874bc6ee49f2a055399ed143bdbe4d06d532b460f59b18d1d161b5c49a3abda",
+    "checked_at_utc": "2026-10-06T19:03:41.17526Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondNumericalBounds.lean",
+    "exit_code": 0,
+    "seconds": 28.2402318,
+    "source_sha256": "fcdc6a3f98ff82e992085ad0461af4dd5a974eb17ad6ce9ae1fb6d7d708c554e",
+    "checked_at_utc": "2026-10-06T19:04:09.4349208Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondFourPhysicalExponents.lean",
+    "exit_code": 0,
+    "seconds": 36.6518148,
+    "source_sha256": "28f6acdd168c45e0809bf634816ff1c41c8cf6163029e87bba5329b468367605",
+    "checked_at_utc": "2026-10-06T19:04:46.1091708Z"
+  },
+  {
+    "module": "Universality/Graph/UniformRootLocalFiniteness.lean",
+    "exit_code": 0,
+    "seconds": 27.500308,
+    "source_sha256": "7c6cf425007a3fa522959479b7c11d69bea3ca263e89b654f637d936a7a8beb1",
+    "checked_at_utc": "2026-10-06T19:05:13.6278847Z"
+  },
+  {
+    "module": "Universality/Graph/FiniteWalkBalls.lean",
+    "exit_code": 0,
+    "seconds": 23.5027316,
+    "source_sha256": "7e27a27067ff280b7171f2a275f08c7aebdcdb724e6deb0e28b41fad319aafaf",
+    "checked_at_utc": "2026-10-06T19:05:37.1495692Z"
+  },
+  {
+    "module": "Universality/Graph/FiniteStageSupport.lean",
+    "exit_code": 0,
+    "seconds": 32.4093929,
+    "source_sha256": "accc85901cb0c5067c00984837aa172a8145a7b1f482e58e90384044878bef5b",
+    "checked_at_utc": "2026-10-06T19:06:09.5867443Z"
+  },
+  {
+    "module": "Universality/Graph/AncestralInfiniteVertices.lean",
+    "exit_code": 0,
+    "seconds": 25.8852686,
+    "source_sha256": "5fdcf0f24d9bbc28a6156bdb89c7455c5eeea2ccb4a22bf3eb157475b7cbcf51",
+    "checked_at_utc": "2026-10-06T19:06:35.4909343Z"
+  },
+  {
+    "module": "Universality/Graph/FiniteAgeEventDisintegration.lean",
+    "exit_code": 0,
+    "seconds": 31.7544287,
+    "source_sha256": "90a0eaec8fbfaa2b2a3349636ff7936da1a786d4854c7a68e70cab36a2c8a95e",
+    "checked_at_utc": "2026-10-06T19:21:44.6754445Z"
+  },
+  {
+    "module": "Universality/Graph/FiniteAgeEventBounds.lean",
+    "exit_code": 0,
+    "seconds": 19.7142414,
+    "source_sha256": "2aba1970fadcfdbfcd4ee64f93b8b50eba43a57c6d26bc3b9842f5a29cbf82e6",
+    "checked_at_utc": "2026-10-06T19:22:04.4538237Z"
+  },
+  {
+    "module": "Universality/Graph/UniformRootEventConvergence.lean",
+    "exit_code": 0,
+    "seconds": 20.498187,
+    "source_sha256": "1c993c03b30e25dae96a7d420b89ad18fc1aa1909ca668b1ddadfc558f16f338",
+    "checked_at_utc": "2026-10-06T19:22:24.9751218Z"
+  },
+  {
+    "module": "Universality/Graph/UniformRootEventIdentification.lean",
+    "exit_code": 0,
+    "seconds": 21.9113747,
+    "source_sha256": "d4663a422e8bcfbd32400bdd6110f66512fa7bac049f57c4db9e2b15aca33003",
+    "checked_at_utc": "2026-10-06T19:22:46.9018996Z"
+  },
+  {
+    "module": "Universality/Graph/TowerRootedBallIsomorphism.lean",
+    "exit_code": 0,
+    "seconds": 21.8479418,
+    "source_sha256": "310286009f64e9ebf3afb18cc5d170447e8d9b60577bf70b9dc7d1d4c354a8ac",
+    "checked_at_utc": "2026-10-06T19:23:08.7635285Z"
+  },
+  {
+    "module": "Universality/Graph/AncestralBallShapes.lean",
+    "exit_code": 0,
+    "seconds": 24.5122562,
+    "source_sha256": "5562a844ed9dcb25edf50ef7504149063d74fdc9a2f84f46067a6aa984ca0a2b",
+    "checked_at_utc": "2026-10-06T19:23:33.2926527Z"
+  },
+  {
+    "module": "Universality/Graph/FullBallShapeEvents.lean",
+    "exit_code": 0,
+    "seconds": 20.796649,
+    "source_sha256": "30e0633b7b31e9ba1128e8f549c3c66e9f7936abc3465569cf601b15baa8e61b",
+    "checked_at_utc": "2026-10-06T19:23:54.101235Z"
+  },
+  {
+    "module": "Universality/Graph/UniformRootLocalLimit.lean",
+    "exit_code": 0,
+    "seconds": 21.5551336,
+    "source_sha256": "2861c4899de2851bb58a9e69a4e879241c92e20b0d6abcd76f08f23fa470a85e",
+    "checked_at_utc": "2026-10-06T19:24:15.6692518Z"
+  },
+  {
+    "module": "Universality/Graph/TowerRadiusEvents.lean",
+    "exit_code": 0,
+    "seconds": 18.9390505,
+    "source_sha256": "710ba4bbcc757d6093acedb491f8fc3165816d6b0aa332513ea6c1d487458642",
+    "checked_at_utc": "2026-10-06T19:24:34.631014Z"
+  },
+  {
+    "module": "Universality/Graph/AncestralRadiusEvents.lean",
+    "exit_code": 0,
+    "seconds": 22.9325608,
+    "source_sha256": "6c2957de8380179546b461e23de4781213186eebc4e88903997b95916268099f",
+    "checked_at_utc": "2026-10-06T19:24:57.5756103Z"
+  },
+  {
+    "module": "Universality/Graph/UniformRootRadiusIdentification.lean",
+    "exit_code": 0,
+    "seconds": 25.0197629,
+    "source_sha256": "074eeada213153bb602eb5dc522ae10aa8da0a6b902e83d6be25eb587b73ea26",
+    "checked_at_utc": "2026-10-06T19:25:22.608003Z"
+  },
+  {
+    "module": "Universality/Graph/UniformRootRadiusPointLaw.lean",
+    "exit_code": 0,
+    "seconds": 19.0584104,
+    "source_sha256": "b78553482e62d25ac616c988be1141ec2d5d25361d304160db36503de4a221a8",
+    "checked_at_utc": "2026-10-06T19:25:41.6797309Z"
+  },
+  {
+    "module": "Universality/Graph/UniformRootCriticalFiniteness.lean",
+    "exit_code": 0,
+    "seconds": 19.7695067,
+    "source_sha256": "68d7e2e24b08e22408b4cbd4fb449cbd57b0e0059f0714e9ca54114ebdffa275",
+    "checked_at_utc": "2026-10-06T19:26:01.4625616Z"
+  },
+  {
+    "module": "Universality/Graph/PhysicalRadiusExponents.lean",
+    "exit_code": 0,
+    "seconds": 21.8355359,
+    "source_sha256": "0758d716450839c55dc267e3171c2b191063a9f412d26ddd496229e563c3f5ee",
+    "checked_at_utc": "2026-10-06T19:26:23.3107763Z"
+  },
+  {
+    "module": "Universality/Analysis/UniformCountTailLimit.lean",
+    "exit_code": 0,
+    "seconds": 16.6233389,
+    "source_sha256": "6960bc4b7a166820e66c2078160c6f90de33efb0842f4af339251f1a9a697e42",
+    "checked_at_utc": "2026-10-06T19:26:39.946018Z"
+  },
+  {
+    "module": "Universality/Percolation/ClusterCountCutoff.lean",
+    "exit_code": 0,
+    "seconds": 20.0250324,
+    "source_sha256": "01349f4891bfb5c7a217ab1b3401577e30de6b1a1e0e645fa7539946c531b9cf",
+    "checked_at_utc": "2026-10-06T19:26:59.9831365Z"
+  },
+  {
+    "module": "Universality/Percolation/ClusterNumberSizeSum.lean",
+    "exit_code": 0,
+    "seconds": 24.1504921,
+    "source_sha256": "96d87bf24d85cd1cd8ae58ad9283cf0b7f5f0fad502697d8e12a5c07195ce7e5",
+    "checked_at_utc": "2026-10-06T19:27:24.1469088Z"
+  },
+  {
+    "module": "Universality/Percolation/PhysicalClusterNumber.lean",
+    "exit_code": 0,
+    "seconds": 37.1743022,
+    "source_sha256": "7c61b664e20beea396a1f899c079b72e4af75fc7fd935972904b787f3d6ab649",
+    "checked_at_utc": "2026-10-06T19:28:01.3411266Z"
+  },
+  {
+    "module": "Universality/Percolation/PhysicalClusterNumberResponses.lean",
+    "exit_code": 0,
+    "seconds": 59.4079636,
+    "source_sha256": "5c73b38f557738700db96e89331eee40bc40f688855999dcc763728bd664f0fb",
+    "checked_at_utc": "2026-10-06T19:29:00.8022428Z"
+  },
+  {
+    "module": "Universality/Examples/PhysicalRawAlphaExamples.lean",
+    "exit_code": 0,
+    "seconds": 59.9894361,
+    "source_sha256": "435a4592cc2e032bbd95a4210dc8cc8064262b2d1447fceb60520844aba70663",
+    "checked_at_utc": "2026-10-06T19:30:00.828383Z"
+  },
+  {
+    "module": "Universality/Percolation/PhysicalClusterNumberAnalyticity.lean",
+    "exit_code": 0,
+    "seconds": 58.2908486,
+    "source_sha256": "6fe893a59bdc34c936e6625e859b269e7d3307010fe5e3ab4b05fb756a5787d0",
+    "checked_at_utc": "2026-10-06T19:30:59.2389487Z"
+  },
+  {
+    "module": "Universality/Geometry/MetricDirectLimit.lean",
+    "exit_code": 0,
+    "seconds": 44.5062511,
+    "source_sha256": "4cf3e72d0af2d74519bcbd9078b04c3a06c0346d575428ed179e61660b1e8a97",
+    "checked_at_utc": "2026-10-06T19:31:43.8127435Z"
+  },
+  {
+    "module": "Universality/Geometry/ScaledGenerationMetric.lean",
+    "exit_code": 0,
+    "seconds": 53.950393,
+    "source_sha256": "6f431dd2665c9dcab94af0273c9d16c63d952ab7c8f3929ae5033e1577efbee1",
+    "checked_at_utc": "2026-10-06T19:32:37.813179Z"
+  },
+  {
+    "module": "Universality/Geometry/IsometricSequence.lean",
+    "exit_code": 0,
+    "seconds": 21.0681976,
+    "source_sha256": "d0b6f72e8c0361675557e0636aef094f4581510cce060e8ce45fd7d8ef90c0de",
+    "checked_at_utc": "2026-10-06T19:32:58.9475061Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationCompletion.lean",
+    "exit_code": 0,
+    "seconds": 23.9282367,
+    "source_sha256": "5664f93b588da729e12126cc71419b0f87f71b143007097bfd278097ab2407b8",
+    "checked_at_utc": "2026-10-06T19:33:22.909693Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationNet.lean",
+    "exit_code": 0,
+    "seconds": 20.2094221,
+    "source_sha256": "81f0668109e55d5778acf68d0f76f1d936ac5cd92bef1acf0a70928592b3c399",
+    "checked_at_utc": "2026-10-06T19:33:43.1329775Z"
+  },
+  {
+    "module": "Universality/Geometry/GeometricNets.lean",
+    "exit_code": 0,
+    "seconds": 18.3836805,
+    "source_sha256": "f7da27558078a662b5f17bddda409030864ba4dab041a710c6bfb59bc4052933",
+    "checked_at_utc": "2026-10-06T19:34:01.5301964Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationCompactness.lean",
+    "exit_code": 0,
+    "seconds": 54.6960961,
+    "source_sha256": "70d10926011b84cc81e97de8db05d5fbc5f6f29a4ff1e9a8d4f399cc9f9aa32a",
+    "checked_at_utc": "2026-10-06T19:34:56.2485616Z"
+  },
+  {
+    "module": "Universality/Geometry/GeometricCovers.lean",
+    "exit_code": 0,
+    "seconds": 50.7700167,
+    "source_sha256": "20aa3ab07b352e9329e5fbe3e4c56921c523a5d2499cf33e9b87fbf3f9a59661",
+    "checked_at_utc": "2026-10-06T19:35:47.088248Z"
+  },
+  {
+    "module": "Universality/Geometry/FiniteCoverHausdorffBound.lean",
+    "exit_code": 0,
+    "seconds": 62.0381008,
+    "source_sha256": "b57335253c4fd6010b190f521e4130d6bf2a9e67763a89d539a915006b699dda",
+    "checked_at_utc": "2026-10-06T19:36:49.1926605Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationHausdorffUpperBound.lean",
+    "exit_code": 0,
+    "seconds": 49.9643013,
+    "source_sha256": "6a29911ddb9eab4669672d2578c872befd9b47fd23b8faa3ca1138076452acbd",
+    "checked_at_utc": "2026-10-06T19:37:39.2001522Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationMetricSpace.lean",
+    "exit_code": 0,
+    "seconds": 19.4434194,
+    "source_sha256": "455008ae98517d5411ff5dc3115491900714ab209ec3de4855617b00e6ad329f",
+    "checked_at_utc": "2026-10-06T19:37:58.6738946Z"
+  },
+  {
+    "module": "Universality/Geometry/CellBoundaryPotential.lean",
+    "exit_code": 0,
+    "seconds": 18.3571767,
+    "source_sha256": "c68c15d01a919f0153dedc9a4a37a4869f08f9dd1ed78ca20d2bc21cc8ea6c99",
+    "checked_at_utc": "2026-10-06T19:38:17.0574409Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationCellMetric.lean",
+    "exit_code": 0,
+    "seconds": 18.7066148,
+    "source_sha256": "3ed10c8b47ce63b681dcfe43b01962608278059324a1f0d4e63a303fa7423dd1",
+    "checked_at_utc": "2026-10-06T19:38:35.7786476Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationCellBoundary.lean",
+    "exit_code": 0,
+    "seconds": 20.4047166,
+    "source_sha256": "38e8e814ca4e29db0d98558dbcff058fdae25defa1e1c97573766c52a65da78a",
+    "checked_at_utc": "2026-10-06T19:38:56.1978814Z"
+  },
+  {
+    "module": "Universality/Geometry/SequenceSimilarity.lean",
+    "exit_code": 0,
+    "seconds": 17.0444554,
+    "source_sha256": "cf8a0a64a4c48dad6855ef00ca0b29921a2b6bafd108d5379a83d5480280e66f",
+    "checked_at_utc": "2026-10-06T19:39:13.2626653Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationMetricCells.lean",
+    "exit_code": 0,
+    "seconds": 69.4871115,
+    "source_sha256": "c816c74082d66d3698c741b702bdff63493744efd13fed7084681993079d372b",
+    "checked_at_utc": "2026-10-06T19:40:22.7709512Z"
+  },
+  {
+    "module": "Universality/Geometry/InternalSimilarity.lean",
+    "exit_code": 0,
+    "seconds": 25.2820098,
+    "source_sha256": "433fd399577c03f4ab6469d08fc4195625f279dac19a5deb710b032bca717dca",
+    "checked_at_utc": "2026-10-06T19:40:48.1025767Z"
+  },
+  {
+    "module": "Universality/Geometry/SymbolicHausdorffLowerBound.lean",
+    "exit_code": 0,
+    "seconds": 63.9848224,
+    "source_sha256": "bc79d4ff8d4517e0ae81085aa61d0035c39d68c800cd9abfa3bf42539f202bab",
+    "checked_at_utc": "2026-10-06T19:41:52.1322956Z"
+  },
+  {
+    "module": "Universality/Geometry/SeparatedSimilarities.lean",
+    "exit_code": 0,
+    "seconds": 29.1788233,
+    "source_sha256": "c88b49e8fd06fd8f46274a8c9c9ef69c091d7958aee9925e62a453e544df7c0d",
+    "checked_at_utc": "2026-10-06T19:42:21.362981Z"
+  },
+  {
+    "module": "Universality/Geometry/BlockDimensionLimit.lean",
+    "exit_code": 0,
+    "seconds": 17.6243858,
+    "source_sha256": "65e036188e4f148c16b55343304caf51e4b2c3fe4f666794afca1ff1ac882884",
+    "checked_at_utc": "2026-10-06T19:42:39.0226298Z"
+  },
+  {
+    "module": "Universality/Geometry/SeparatedBlocks.lean",
+    "exit_code": 0,
+    "seconds": 23.3615286,
+    "source_sha256": "3b3460ad0b0ac31621ad9762d9e6fb3e53851e171919b3828b12420480d2c753",
+    "checked_at_utc": "2026-10-06T19:43:02.4089727Z"
+  },
+  {
+    "module": "Universality/Geometry/GenerationHausdorffDimension.lean",
+    "exit_code": 0,
+    "seconds": 22.7971763,
+    "source_sha256": "f78ad851bc4074cf314bbbbdbde44586895df9f647f44e0172f472c46a68c164",
+    "checked_at_utc": "2026-10-06T19:43:25.2197393Z"
+  },
+  {
+    "module": "Universality/Probability/LocalLimitDepthShift.lean",
+    "exit_code": 0,
+    "seconds": 23.0076344,
+    "source_sha256": "6530c2e7f52c7f51b9f417f2a4f79258c8feb4d659fff70445aedef93b22c9e6",
+    "checked_at_utc": "2026-10-06T19:43:48.2454956Z"
+  },
+  {
+    "module": "Universality/Probability/DensityDivision.lean",
+    "exit_code": 0,
+    "seconds": 25.8490977,
+    "source_sha256": "654b0033b151e51d92f1cc623164301c3d8eb680e5bbcce83997ffedb4d5a1e4",
+    "checked_at_utc": "2026-10-06T19:44:14.1160288Z"
+  },
+  {
+    "module": "Universality/Percolation/InternalMassPaperNormalization.lean",
+    "exit_code": 0,
+    "seconds": 122.3210856,
+    "source_sha256": "885ff31a7af7d3e8792d2b82d9ee227a4f1c49d09afcc4beead155567d3f15ac",
+    "checked_at_utc": "2026-10-06T19:46:16.4672672Z"
+  },
+  {
+    "module": "Universality/Graph/DirichletEnergy.lean",
+    "exit_code": 0,
+    "seconds": 118.129252,
+    "source_sha256": "bb92312f6204e6654627bcdd505f3a574a30a98f95db9bd5c0dfe2ef4d4ab27b",
+    "checked_at_utc": "2026-10-06T19:48:14.7323408Z"
+  },
+  {
+    "module": "Universality/Graph/SubstitutionEnergy.lean",
+    "exit_code": 0,
+    "seconds": 58.6149062,
+    "source_sha256": "4d756fdf269bc9f625b1367ab2e39f02ea592af02feef3f378906b4114fc75c0",
+    "checked_at_utc": "2026-10-06T19:49:13.4834273Z"
+  },
+  {
+    "module": "Universality/Graph/ConductanceMultiplicativity.lean",
+    "exit_code": 0,
+    "seconds": 42.0627911,
+    "source_sha256": "3055735da1e1eb431b9f2ef825391290d98915a25f7bffa9b7d0a8a057cce936",
+    "checked_at_utc": "2026-10-06T19:49:55.593943Z"
+  },
+  {
+    "module": "Universality/Graph/ConnectedConductance.lean",
+    "exit_code": 0,
+    "seconds": 114.2810849,
+    "source_sha256": "36af809c92d7d51b8fc967a97536cee101a4637ee80280e9df997c405490fea9",
+    "checked_at_utc": "2026-10-06T19:51:49.9271244Z"
+  },
+  {
+    "module": "Universality/Examples/TieGemResistance.lean",
+    "exit_code": 0,
+    "seconds": 47.1838958,
+    "source_sha256": "b5ae476d5107ff66afbe05ebe6eacca04a8666a2b2328faf465ff419ed7c8137",
+    "checked_at_utc": "2026-10-06T19:52:37.2016046Z"
+  },
+  {
+    "module": "Universality/Graph/ResistanceObservation.lean",
+    "exit_code": 0,
+    "seconds": 80.1394365,
+    "source_sha256": "827600a5f60fa0e037c685af6fbf9531e49ca747d792a7e9b6a7cd8d2b15148c",
+    "checked_at_utc": "2026-10-06T19:53:57.521329Z"
+  },
+  {
+    "module": "Universality/Percolation/GeometricPhysicalClass.lean",
+    "exit_code": 0,
+    "seconds": 55.7562183,
+    "source_sha256": "c441770584565b145e71259943a3bd3af1ee91c33d575484dfc20e4c438e3275",
+    "checked_at_utc": "2026-10-06T19:54:53.3202701Z"
+  },
+  {
+    "module": "Universality/Examples/TieGemCriticalBounds.lean",
+    "exit_code": 0,
+    "seconds": 22.3953255,
+    "source_sha256": "54184472bfa0eeda9aaf90fa490ba3a3027e0b0df994e832c2521c71e04c3bc5",
+    "checked_at_utc": "2026-10-06T19:57:42.6665225Z"
+  },
+  {
+    "module": "Universality/Examples/TieGemResponseBounds.lean",
+    "exit_code": 0,
+    "seconds": 28.0503658,
+    "source_sha256": "5d691a956d9b068c3aa9280248d3b7781c076808ca2eada93cfcf7df66a52f22",
+    "checked_at_utc": "2026-10-06T19:58:10.7623837Z"
+  },
+  {
+    "module": "Universality/Examples/TriangleMassFormula.lean",
+    "exit_code": 0,
+    "seconds": 45.7508075,
+    "source_sha256": "1c9c060e6764f68bccd091ddce4ad6f081b60d5f42fb6a87a5ff01ecdc512c8c",
+    "checked_at_utc": "2026-10-06T19:58:56.5383507Z"
+  },
+  {
+    "module": "Universality/Matrix/PositiveRootTestRatio.lean",
+    "exit_code": 0,
+    "seconds": 56.2031748,
+    "source_sha256": "8afd86dd78218ce364a9ab787397fe9fede5d7b7edbd3e20094ba3bcb70aac51",
+    "checked_at_utc": "2026-10-06T19:59:52.7719532Z"
+  },
+  {
+    "module": "Universality/Examples/GemMassBlock.lean",
+    "exit_code": 0,
+    "seconds": 40.8398893,
+    "source_sha256": "aee29de71666c44a86f1a7738579e16047efbbd39ad65eef9d0589b1c9808e64",
+    "checked_at_utc": "2026-10-06T20:00:33.6737324Z"
+  },
+  {
+    "module": "Universality/Examples/GemMassBlockBounds.lean",
+    "exit_code": 0,
+    "seconds": 34.0642024,
+    "source_sha256": "e27dd11a62e78cf4b8214ee5465f0ffad897f6ef017ee496b97ad19feaa218bc",
+    "checked_at_utc": "2026-10-06T20:01:07.7904058Z"
+  },
+  {
+    "module": "Universality/Examples/TieGemSpectralBounds.lean",
+    "exit_code": 0,
+    "seconds": 20.0825459,
+    "source_sha256": "1193ec3aa3e3c8c6517e4bf17fc21995c0ab4c617e993ac7bdd34914273a0adc",
+    "checked_at_utc": "2026-10-06T20:01:27.9105660Z"
+  },
+  {
+    "module": "Universality/Examples/TieGemCommonSpectrum.lean",
+    "exit_code": 0,
+    "seconds": 17.7290556,
+    "source_sha256": "4cbfa5c235de055f4f3dc016c5f0a4d6e0d6cc7b72e58af2e8e4aa015f7dc8a3",
+    "checked_at_utc": "2026-10-06T20:01:45.6569509Z"
+  },
+  {
+    "module": "Universality/Examples/DiamondSusceptibilityNumerical.lean",
+    "exit_code": 0,
+    "seconds": 39.799214,
+    "source_sha256": "aaf3d9027588b228a3a7e72f9078c1f2440728176108b288e203d299503f6414",
+    "checked_at_utc": "2026-10-06T20:02:25.4801298Z"
+  },
+  {
+    "module": "Universality/Examples/WheatstoneAlphaNumerical.lean",
+    "exit_code": 0,
+    "seconds": 18.522316,
+    "source_sha256": "3e5f6134396fe0f665a4cd64dba33ef766b3270cc024006ed669d290381906b7",
+    "checked_at_utc": "2026-10-06T20:02:44.0247779Z"
+  },
+  {
+    "module": "Universality/Section3.lean",
+    "exit_code": 0,
+    "seconds": 23.7151242,
+    "source_sha256": "c599ea131fcea8c801ed240e0115b07aea7d53c13193859fff9c0bdb052472b3",
+    "checked_at_utc": "2026-10-06T20:03:07.7540582Z"
+  },
+  {
     "module": "Universality.lean",
     "exit_code": 0,
-    "seconds": 22.1320013,
-    "source_sha256": "ccbceed266bf166eaef8668b2c2687ae0ea4c7eb5f41438f029dfb3af8a721d0",
-    "checked_at_utc": "2026-10-06T18:14:07.0474229Z"
+    "seconds": 54.9237088,
+    "source_sha256": "41e3358e08d786dcdd67fe580ed5f80b370157b487a55a53930b43db3643753d",
+    "checked_at_utc": "2026-10-06T20:04:02.9800011Z"
   },
   {
     "module": "Audit.lean",
     "exit_code": 0,
-    "seconds": 24.1417151,
-    "source_sha256": "9643b68c258a63c759d89a1677a49e78bfae1bad77246b22dbad485082cb7bbb",
-    "checked_at_utc": "2026-10-06T18:14:31.2089616Z"
+    "seconds": 60.8584502,
+    "source_sha256": "ce374e6c19c7f75a0a9fdb4bb99e9e35fcec06e3b5f9b92edce681d4d003a7be",
+    "checked_at_utc": "2026-10-06T20:05:03.9286528Z"
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "source": "scratch/DiamondSusceptibilityNumerical.lean",
+    "target": "Universality/Examples/DiamondSusceptibilityNumerical.lean",
+    "audits": [
+      "Universality.diamond_susceptibility_exponent_decimal_bounds",
+      "Universality.diamond_physical_subcritical_susceptibility_eq_top"
+    ]
+  },
+  {
+    "source": "scratch/WheatstoneAlphaNumerical.lean",
+    "target": "Universality/Examples/WheatstoneAlphaNumerical.lean",
+    "audits": [
+      "Universality.wheatstone_alpha_logarithm_rational_bounds",
+      "Universality.wheatstone_raw_alpha_decimal_bounds"
+    ]
+  },
+  {
+    "source": "scratch/Section3.lean",
+    "target": "Universality/Section3.lean",
+    "audits": []
+  }
+]

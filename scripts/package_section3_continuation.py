@@ -19,8 +19,9 @@ with zipfile.ZipFile(destination, 'w', compression=zipfile.ZIP_DEFLATED) as arch
     # the kernel-audited formal import closure recorded in docs/source-audit.json.
     draft_root = root / 'scratch'
     if draft_root.exists():
-        for path in sorted(draft_root.rglob('*.lean')):
-            archive.write(path, 'working-drafts/' + path.relative_to(root).as_posix())
+        for path in sorted(draft_root.rglob('*')):
+            if path.is_file() and path.suffix in {'.lean', '.json', '.md', '.txt'}:
+                archive.write(path, 'working-drafts/' + path.relative_to(root).as_posix())
         archive.writestr('working-drafts/README.txt',
             'These scratch sources preserve ongoing work and experiments. '
             'They are outside the audited formal import closure. '
