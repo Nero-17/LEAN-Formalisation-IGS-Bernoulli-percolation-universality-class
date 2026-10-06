@@ -38,17 +38,18 @@ conditional Bernoulli history laws, simultaneous coarsening consistency,
 and the full labelled EIGS law. The actual Perron-weighted population is a
 martingale for the complete past, has uniformly bounded normalized moments
 of every integer order, and converges almost surely and in L² to a limit
-with strictly positive preserved mean. This is a population limit; the
-identification with normalized accumulated vertex mass and the local limit
-theorem remain separate obligations.
+with strictly positive preserved mean. The actual accumulated internal
+vertex mass also has an L² limit, with strictly positive mean.
 
 The actual normalized vertex means converge to a strictly positive Perron
 eigenvector. The centered reward from one actual refinement has second moment
 at most `C * ρ^n`; the accumulated centered rewards divided by `ρ^n` converge
 to zero in L². These estimates use the conditional cell product law, without
 assuming independence between a cell's reward and its offspring types.
-The non-Perron population contribution still needs control to identify the
-accumulated vertex-mass limit with the population martingale limit.
+The complementary reward population and its accumulated sum vanish in L²
+at the spectral scale. An exact telescoping identity identifies the vertex
+limit with a positive scalar multiple of a Perron population limit. The
+smoothing equation and local limit theorem remain separate obligations.
 
 Section 3 as a whole is **not yet formalised**. The infinite branching local
 limit theorem, uniformly rooted infinite graph identification, β/δ/averaged η,

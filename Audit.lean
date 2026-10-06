@@ -238,3 +238,12 @@ import Universality
 #print axioms Universality.Rule.Classical.vertex_innovation_second_moment_bound
 #print axioms Universality.geometric_second_moment_sum_tendsto_zero
 #print axioms Universality.Rule.Classical.vertex_reward_compensation_L2_zero
+#print axioms Universality.FiniteNetwork.refinement_liveResponse_variance_le
+#print axioms Universality.Rule.Classical.population_innovation_second_moment_bound
+#print axioms Universality.subcritical_L2_recursion_geometric_bound
+#print axioms Universality.Rule.Classical.subcritical_population_L2_zero
+#print axioms Universality.Rule.Classical.subcritical_population_sum_L2_zero
+#print axioms Universality.Rule.Classical.vertex_reward_spectral_split
+#print axioms Universality.Rule.Classical.vertex_mass_perron_approximation
+#print axioms Universality.Rule.Classical.internal_vertex_mass_L2_limit
+#print axioms Universality.Rule.Classical.nonnegative_internal_vertex_mass_L2_limit

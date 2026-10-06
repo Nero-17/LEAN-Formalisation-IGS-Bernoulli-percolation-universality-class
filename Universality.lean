@@ -91,3 +91,5 @@ import Universality.Percolation.VertexMassPlane
 import Universality.Percolation.VertexMeanLimit
 import Universality.Percolation.VertexInnovation
 import Universality.Percolation.VertexNoiseLimit
+import Universality.Percolation.VertexMassConvergence
+import Universality.Percolation.VertexMassNonnegativeLimit

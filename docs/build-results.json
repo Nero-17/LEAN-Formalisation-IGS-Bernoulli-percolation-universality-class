@@ -2653,17 +2653,115 @@
     "checked_at_utc": "2026-10-06T09:09:25.8047191Z"
   },
   {
+    "module": "Universality/Percolation/LocalPopulationBounds.lean",
+    "exit_code": 0,
+    "seconds": 15.2379618,
+    "source_sha256": "b88e81d53a3501e37519191925218a74592a9ed176d955c88dec5b93db3ac4ad",
+    "checked_at_utc": "2026-10-06T09:40:05.0855181Z"
+  },
+  {
+    "module": "Universality/Percolation/RefinementPopulationVariance.lean",
+    "exit_code": 0,
+    "seconds": 15.3085282,
+    "source_sha256": "85dabca347e27697f178487e739486e34b0b1ca1191e8a77d68c774b87646b17",
+    "checked_at_utc": "2026-10-06T09:40:20.4148882Z"
+  },
+  {
+    "module": "Universality/Percolation/PopulationInnovation.lean",
+    "exit_code": 0,
+    "seconds": 30.4384615,
+    "source_sha256": "dc67bc2932aed1c9fa32afac9090d16091e7d28f00f58ecd9f97bd594ad290c9",
+    "checked_at_utc": "2026-10-06T09:40:50.8553170Z"
+  },
+  {
+    "module": "Universality/Probability/SubcriticalL2Recursion.lean",
+    "exit_code": 0,
+    "seconds": 22.8937181,
+    "source_sha256": "f07030d6ce7673f366db9f1c63f5acc23d78ae72413d7b438efcd28759d3bf63",
+    "checked_at_utc": "2026-10-06T09:41:13.7521578Z"
+  },
+  {
+    "module": "Universality/Percolation/SubcriticalPopulation.lean",
+    "exit_code": 0,
+    "seconds": 18.2697499,
+    "source_sha256": "ddf86980cefa3b045f650a3103e64d1e9f300619eda6321c7016fa8993466a45",
+    "checked_at_utc": "2026-10-06T09:41:32.0238845Z"
+  },
+  {
+    "module": "Universality/Percolation/SubcriticalPopulationSum.lean",
+    "exit_code": 0,
+    "seconds": 17.7831649,
+    "source_sha256": "1217314fd8a4582981409b3c43fc84acf5890eb832f3584528fb1b9a1c4c86d2",
+    "checked_at_utc": "2026-10-06T09:41:49.8089618Z"
+  },
+  {
+    "module": "Universality/Percolation/VertexRewardSpectralSplit.lean",
+    "exit_code": 0,
+    "seconds": 18.619399,
+    "source_sha256": "7abd809aef14b18c0cd9d10f8ba69efc69a4aa93963d41dabdd95b52b611980e",
+    "checked_at_utc": "2026-10-06T09:42:08.4306614Z"
+  },
+  {
+    "module": "Universality/Probability/L2LimitOperations.lean",
+    "exit_code": 0,
+    "seconds": 35.9412427,
+    "source_sha256": "39a6d73276cc60f490508fa7f1b4c0575f839028c055869a1d66d33d34740970",
+    "checked_at_utc": "2026-10-06T09:42:44.3770748Z"
+  },
+  {
+    "module": "Universality/Probability/PerronL2Sum.lean",
+    "exit_code": 0,
+    "seconds": 22.4058675,
+    "source_sha256": "304638a1a5016288d4e500f7bb5bbda5604fe4ef2f1b0d06fdba4fe312052b7e",
+    "checked_at_utc": "2026-10-06T09:43:06.7852182Z"
+  },
+  {
+    "module": "Universality/Percolation/VertexMassPerronApproximation.lean",
+    "exit_code": 0,
+    "seconds": 18.675263,
+    "source_sha256": "bc884626eb40c9e9723d10fdda169ff9f5cd5cd4eacd3d83fab17901587c17b8",
+    "checked_at_utc": "2026-10-06T09:43:25.4624134Z"
+  },
+  {
+    "module": "Universality/Percolation/PositivePopulationLimit.lean",
+    "exit_code": 0,
+    "seconds": 28.8500817,
+    "source_sha256": "893774d38d2cb75a7eade2198db1d31ec05ffb7f525f02dea274fd1816502753",
+    "checked_at_utc": "2026-10-06T09:43:54.3144108Z"
+  },
+  {
+    "module": "Universality/Percolation/VertexMassConvergence.lean",
+    "exit_code": 0,
+    "seconds": 19.8237607,
+    "source_sha256": "6a670c066efddba1c4f7aa97ca31a40ac2aa5023146c6d9af6823c9683bfc73d",
+    "checked_at_utc": "2026-10-06T09:44:14.1430613Z"
+  },
+  {
+    "module": "Universality/Probability/NonnegativeL2Limit.lean",
+    "exit_code": 0,
+    "seconds": 17.7113396,
+    "source_sha256": "4ff3e79187e2833c637328978e2708c57281fd2fee1cd183580fbe95db7d45c8",
+    "checked_at_utc": "2026-10-06T09:44:31.8577783Z"
+  },
+  {
+    "module": "Universality/Percolation/VertexMassNonnegativeLimit.lean",
+    "exit_code": 0,
+    "seconds": 21.0680391,
+    "source_sha256": "230435d66aab2e9cbb51d5d69e2de048b70ed341bd33393b11a71c3a01064d98",
+    "checked_at_utc": "2026-10-06T09:44:52.9288833Z"
+  },
+  {
     "module": "Universality.lean",
     "exit_code": 0,
-    "seconds": 17.9087391,
-    "source_sha256": "0460a253abdbaf24e6a015a0b7a015798cbc1bd544d02f32b5732c0f06e00518",
-    "checked_at_utc": "2026-10-06T09:09:43.7226841Z"
+    "seconds": 16.6335505,
+    "source_sha256": "69afaf746fb19c28dcacfd20f9b116e263313d141679d5283fa730d4a3addfd4",
+    "checked_at_utc": "2026-10-06T09:45:09.5676022Z"
   },
   {
     "module": "Audit.lean",
     "exit_code": 0,
-    "seconds": 17.6507491,
-    "source_sha256": "24d2b23ff7707968e2dc33436646a1704f71193a85b280e7ab04d4999e8fbbd1",
-    "checked_at_utc": "2026-10-06T09:10:01.3757984Z"
+    "seconds": 26.062126,
+    "source_sha256": "5716ff1cfd109bbf7932f67ca5a222214148e91d7142133cbd69a63947ed08a6",
+    "checked_at_utc": "2026-10-06T09:45:35.6356427Z"
   }
 ]
