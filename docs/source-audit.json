@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "module_count": 663,
+  "module_count": 709,
   "certificate_batch_count": 136,
-  "milestone_axiom_audit_count": 517,
-  "kernel_axiom_output_count": 517,
+  "milestone_axiom_audit_count": 610,
+  "kernel_axiom_output_count": 610,
   "kernel_axioms": [
     "Classical.choice",
     "Quot.sound",
@@ -2656,12 +2656,196 @@
       "source_sha256": "4ebf5fb0b6f7243f4b8e2d33c8cdd3d8a8921313490bcee6457753eead556b43"
     },
     {
+      "module": "Universality/Percolation/RootMomentDominatedConvergence.lean",
+      "source_sha256": "88493626a7a5da49ad5c89b047d780b1bec68285fe8a96dbc2ace67caa15ed69"
+    },
+    {
+      "module": "Universality/Percolation/GeometricBirthContinuity.lean",
+      "source_sha256": "56c0a28550cba5ccdb08f1e0a25632c5a50742299d360380e35252232e012e13"
+    },
+    {
+      "module": "Universality/Percolation/ActualRootMomentContinuity.lean",
+      "source_sha256": "e8b042090e64a66884565259dd4f4d4b557d79497e40b25f0d6c0af26c3719e1"
+    },
+    {
+      "module": "Universality/Percolation/CriticalMomentPositive.lean",
+      "source_sha256": "347b6e18d54e2cf43a20521dfd2ed212793b38cad61cc188a4fc9a376e60a241"
+    },
+    {
+      "module": "Universality/Graph/FiniteClusterIndicator.lean",
+      "source_sha256": "70161e8cd5c12f8b5ed3c8ef4e761e4df7048bcc7112f34a43e73946bf348917"
+    },
+    {
+      "module": "Universality/Graph/FiniteClusterLaw.lean",
+      "source_sha256": "8ffa5701c62dae0f8955857853053fec61dabd39df986e48f3f0a2c4f44f6322"
+    },
+    {
+      "module": "Universality/Graph/BirthAgeLimit.lean",
+      "source_sha256": "a9c23c552121af503f0eb8ded849ffd57b53e404d229d6f6c545af883060f3ec"
+    },
+    {
+      "module": "Universality/Graph/BirthAgeFiber.lean",
+      "source_sha256": "3ea6a2867efe9fefbdd283fc820df20b18e95a5a149b1effb8f852ab6797715a"
+    },
+    {
+      "module": "Universality/Percolation/DistanceWindowPairs.lean",
+      "source_sha256": "b75e80bfbc62e86ecd43248147934938627cde1aaa1a8c95e7505bbbbc6f18ab"
+    },
+    {
+      "module": "Universality/Percolation/ExpectedWindowLower.lean",
+      "source_sha256": "f94633f316f2ecf4ac0efc22cff500ee727a60f1cdf3196ce3190b8be36a12cd"
+    },
+    {
+      "module": "Universality/Analysis/WindowScaleChoice.lean",
+      "source_sha256": "5b59c745bb8037fa5f23da4fff4bcc8fe791e04b8388c650bb09635747216c29"
+    },
+    {
+      "module": "Universality/Graph/ArbitraryCyclicWord.lean",
+      "source_sha256": "ed327b56ba2ef31f71dbce51937109e3c306cd72d7d7bbe77a145f2f128fab8c"
+    },
+    {
+      "module": "Universality/Graph/AncestralInterior.lean",
+      "source_sha256": "4d6439444425895a7801a65634645cadbb3d7cb89c29ddbd747ad6e3d6598ad0"
+    },
+    {
+      "module": "Universality/Graph/RootAgeLaw.lean",
+      "source_sha256": "e30f7815d62378773440e10c59041b1f4f876391f95bf6767d2015f663d7a7c3"
+    },
+    {
+      "module": "Universality/Analysis/TwoSidedGeometricCutoff.lean",
+      "source_sha256": "c817763f2631233a4214e0bdf6146687905cb1fb3bc4679e8fd2c4a1b1d3e481"
+    },
+    {
+      "module": "Universality/Analysis/GeometricSizeKernel.lean",
+      "source_sha256": "dc0e5e156df3d67443902a84d3fe5f4e99c45856596bf50bbba1153052c17afb"
+    },
+    {
+      "module": "Universality/Analysis/WeightedSizeSeries.lean",
+      "source_sha256": "008a3c859f3bc8d401dbc3cd52175eb42d9f3e357ccfe6bfa958e1de461b8d03"
+    },
+    {
+      "module": "Universality/Graph/CellPairDistance.lean",
+      "source_sha256": "d1b0dcc8f22f23280c2c8e9f9fcfd6faa75fa48bc8b863f9b435fed8b1cb9fa8"
+    },
+    {
+      "module": "Universality/Graph/SelectedCellDistanceWindow.lean",
+      "source_sha256": "119abbbcc442f3264517b09d033305a4eee2890e3a506fed6fbc66d29cb90303"
+    },
+    {
+      "module": "Universality/Graph/GenerationVolumeBounds.lean",
+      "source_sha256": "6e0fa07c583646ddd4fc7f0c3c282e2d4f72a1a45dd8082f4310a0379ed0915c"
+    },
+    {
+      "module": "Universality/Percolation/WindowNetworkEquivalence.lean",
+      "source_sha256": "0f71416ba5da81ff92b414cbc734ddc4cddaff8eb775914bc49bf246e3ae4f9d"
+    },
+    {
+      "module": "Universality/Percolation/ClusterRadius.lean",
+      "source_sha256": "972866dbe6454c1e9ee56c3433b1bc0fb897dc70490c71c1944890810100db9f"
+    },
+    {
+      "module": "Universality/Percolation/BirthRadiusRecursion.lean",
+      "source_sha256": "11ec1761c0c360e6d1cefa2990d617cfb98c1161924e03e964ea1c597bd822de"
+    },
+    {
+      "module": "Universality/Percolation/RadiusEquivalence.lean",
+      "source_sha256": "e20164cf589ea6321a426b154f9197ca0faf5acf2821a08a0ef3ce908e08348c"
+    },
+    {
+      "module": "Universality/Percolation/RadiusBoundaryBounds.lean",
+      "source_sha256": "125d13ed90bcc0313c31832dd77e8ba7c00e849d6dd26c441c060228db649dd1"
+    },
+    {
+      "module": "Universality/Percolation/RadiusBirthSeries.lean",
+      "source_sha256": "0439ef8d5d1d141c75cbbd530d421fb44366ff23274483596d1f57532090a2f2"
+    },
+    {
+      "module": "Universality/Percolation/RadiusSupport.lean",
+      "source_sha256": "a2fd595365a204be282a5360d1717e405c87c6cb24dcb3cd7a256afebd1d1431"
+    },
+    {
+      "module": "Universality/Percolation/RadiusTailZero.lean",
+      "source_sha256": "37168c82762c0f56d5e5340c0644fb4d7ae6548ea01c38b50ef377987f4d0b8c"
+    },
+    {
+      "module": "Universality/Percolation/RadiusGeometricUpper.lean",
+      "source_sha256": "6a9d4b13c8bbedb77412cab9c605ea3cb7f67ed5bfa3bc925b58680719fd017a"
+    },
+    {
+      "module": "Universality/Percolation/RadiusOrder.lean",
+      "source_sha256": "652b7230e714c18e8863b0c842bdf4503605ad8369731383bf380da36e74cfa5"
+    },
+    {
+      "module": "Universality/Examples/TieGemClassical.lean",
+      "source_sha256": "84b8b741db49f09fcff7815099762c685af80d77be3162d8c4f23d32cd6fcf59"
+    },
+    {
+      "module": "Universality/Graph/AncestralMeasurability.lean",
+      "source_sha256": "6b2226cb9756b2cbd485d8dafa78b6dd6078737fe6ee28f33ad1f821c3396546"
+    },
+    {
+      "module": "Universality/Graph/AncestralProbabilitySpace.lean",
+      "source_sha256": "ffcf1f13ade4e67cba8111c8250b6993f4e21f754d6d67cd2e34d50b1f21e056"
+    },
+    {
+      "module": "Universality/Graph/FiniteUniformLaw.lean",
+      "source_sha256": "ce4c7cb97177550515521e91b7c14670d93668c14d026bd3a135a9e6878d6f6a"
+    },
+    {
+      "module": "Universality/Graph/AncestralPrefix.lean",
+      "source_sha256": "076d178545500a159600194dc53507e0db1da8f6cac1e141c7f33365b9277b55"
+    },
+    {
+      "module": "Universality/Percolation/RadiusBirthLower.lean",
+      "source_sha256": "abf3378f3444e41398bc5b30c4f885757c4043660dba19f3061fc4cc779419d5"
+    },
+    {
+      "module": "Universality/Percolation/RadiusGeometricLower.lean",
+      "source_sha256": "cc364dd7303e64c76a363a3771dafa63110089aad9597c32c15f2fbe58dcd429"
+    },
+    {
+      "module": "Universality/Analysis/RadiusGeometricInterpolation.lean",
+      "source_sha256": "b97194b25fe5947fc49d75657ff12be137ac5b85323bf3b8aa3d96fab7159d12"
+    },
+    {
+      "module": "Universality/Analysis/PowerBoundsFromLogError.lean",
+      "source_sha256": "729c7b4fa98896a7054ef5c3e2c338b71a62fad0cc6b8d981db4bf25d949c81f"
+    },
+    {
+      "module": "Universality/Percolation/CriticalRadiusPowerBounds.lean",
+      "source_sha256": "1d5907d44b26024d0a9f9b50695ac9b509c9420ae36a407e8769c2e33d3751ab"
+    },
+    {
+      "module": "Universality/Percolation/CriticalBirthSizeSeriesBounds.lean",
+      "source_sha256": "251408fa4649c31d988490db9d9779676c5612a71e46f01c407e4c540e72ea27"
+    },
+    {
+      "module": "Universality/Percolation/CriticalRootSizeScaleBounds.lean",
+      "source_sha256": "5230657099f8f7a4ab9fd33ea08c1058626ba3afc1fe68eb9d64fe5d03613a8c"
+    },
+    {
+      "module": "Universality/Analysis/GeometricSizeLogBound.lean",
+      "source_sha256": "a4482b14761a96b4af43aaf781fb2bc3c5ad4461c1491758f28123f0de0c5208"
+    },
+    {
+      "module": "Universality/Percolation/CriticalRootSizeExponent.lean",
+      "source_sha256": "a7448fff30235a64eb01cc5f53ca7e2948d09e9ef6de6fea7f33ee3e51efa5b4"
+    },
+    {
+      "module": "Universality/Percolation/CriticalRootSizePowerBounds.lean",
+      "source_sha256": "7765cf0e6ec40b5b9afa4136db887ce0b978b0e7ea81d98b2d70a6e9f2cda06b"
+    },
+    {
+      "module": "Universality/Percolation/RadiusPointLaw.lean",
+      "source_sha256": "f7a9b91b87dd4d0670695a87626f74395353fe0def45ccb446d85d53e2c32b1a"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "452da042d1b9de456a77a71d7623c7bbc910465b0088febd18da0b56d665a689"
+      "source_sha256": "3734fa12c9efc177451e00e4e89805d78da8164c278a8dba70d073d16d589604"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "32655ee82d8ce5f58a0edfd7661ec3bf09c2c9a63ffdfb5cdf336c40e88009ea"
+      "source_sha256": "4f1bf9aa9e6fd6da3f664528b7450476f0ed02bb531fac83ddb7933c678e877a"
     }
   ]
 }
