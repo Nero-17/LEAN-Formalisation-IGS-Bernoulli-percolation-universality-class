@@ -1,0 +1,32 @@
+[
+  {
+    "module": "Universality/Graph/NetworkEmbedding.lean",
+    "source": "C:\\Users\\lzysh\\Documents\\Codex\\2026-09-13\\new-chat\\work\\universality-lean\\Universality\\Graph\\NetworkEmbedding.lean",
+    "sha256": "02EABD99F976B5480129DFC07B757126865B6B634F2F1F44CE08C2966F2A71AF",
+    "copySha256": "02EABD99F976B5480129DFC07B757126865B6B634F2F1F44CE08C2966F2A71AF"
+  },
+  {
+    "module": "Universality/Graph/SubstitutionRadius.lean",
+    "source": "C:\\Users\\lzysh\\Documents\\Codex\\2026-09-13\\new-chat\\work\\universality-lean\\Universality\\Graph\\SubstitutionRadius.lean",
+    "sha256": "35674D272A9D8929DB5480F5A9BA35638F38C35F44E7181CD2BEE8F7E97A04E3",
+    "copySha256": "35674D272A9D8929DB5480F5A9BA35638F38C35F44E7181CD2BEE8F7E97A04E3"
+  },
+  {
+    "module": "Universality/Graph/SubstitutionPotential.lean",
+    "source": "C:\\Users\\lzysh\\Documents\\Codex\\2026-09-13\\new-chat\\work\\universality-lean\\Universality\\Graph\\SubstitutionPotential.lean",
+    "sha256": "02B6483A7590309E6721091481552833A6169D8B5E0CB479B87C4C2E4AA74F06",
+    "copySha256": "02B6483A7590309E6721091481552833A6169D8B5E0CB479B87C4C2E4AA74F06"
+  },
+  {
+    "module": "Universality/Graph/CellIsometry.lean",
+    "source": "C:\\Users\\lzysh\\Documents\\Codex\\2026-09-13\\new-chat\\work\\universality-lean\\Universality\\Graph\\CellIsometry.lean",
+    "sha256": "C120AB5CB86FEAAB9454301D4577966C0F5EF0BCD75616C3F4D33B52504010F6",
+    "copySha256": "C120AB5CB86FEAAB9454301D4577966C0F5EF0BCD75616C3F4D33B52504010F6"
+  },
+  {
+    "module": "Universality/Graph/GenerationCellEmbedding.lean",
+    "source": "C:\\Users\\lzysh\\Documents\\Codex\\2026-09-13\\new-chat\\work\\universality-lean\\Universality\\Graph\\GenerationCellEmbedding.lean",
+    "sha256": "265FB8E84545AC819772289DBCD1167E1A6594C2001AE3E80E2C55DADA368463",
+    "copySha256": "265FB8E84545AC819772289DBCD1167E1A6594C2001AE3E80E2C55DADA368463"
+  }
+]

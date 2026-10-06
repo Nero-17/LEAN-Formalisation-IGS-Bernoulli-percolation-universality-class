@@ -43,8 +43,14 @@ function Get-SectionProjectImports([string]$sourceText, [string]$root) {
 function Assert-SectionLeanSource([string]$module, [string]$sourceText) {
   $code = [Section4LeanSource]::Code($sourceText)
   $declarationCode = [regex]::Replace($code, '(?m)^\s*#print\s+axioms\b', '')
-  if ([regex]::IsMatch($declarationCode, '\b(sorry|admit|native_decide|sorryAx|axioms|constant|constants|opaque)\b|debug\.skipKernelTC')) {
+  if ([regex]::IsMatch($declarationCode, '\b(sorry|admit|native_decide|sorryAx|axioms|constants|opaque)\b|debug\.skipKernelTC')) {
     throw "Unapproved declaration or proof shortcut in $module"
+  }
+  # `constant` is also a legitimate binder name in the imported proof sources.
+  # Reject declaration-shaped uses; the kernel audit remains authoritative for
+  # every actual axiom declaration, including unused imported declarations.
+  if ([regex]::IsMatch($declarationCode, '(?m)^\s*(?:(?:private|protected|public|noncomputable|unsafe)\s+)*constant\s+[A-Za-z_][A-Za-z0-9_\x27.]*\s*(?=[:({\[⦃])')) {
+    throw "Unapproved constant declaration in $module"
   }
   foreach ($declaration in [regex]::Matches($code, '\baxiom\s+([A-Za-z0-9_\x27.]+)')) {
     $expected = @{

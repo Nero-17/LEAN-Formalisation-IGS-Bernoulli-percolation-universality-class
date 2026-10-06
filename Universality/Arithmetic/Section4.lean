@@ -6,6 +6,7 @@ import Universality.Arithmetic.GraphFixedPointDegree
 import Universality.Arithmetic.IrreducibleCommensurability
 import Universality.Arithmetic.GraphDiamondArithmetic
 import Universality.Arithmetic.RationalPivotalObstruction
+import Universality.Arithmetic.GraphExponentCommensurability
 
 /-!
 Section 4 of the universality manuscript, independently of the ongoing

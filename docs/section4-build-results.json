@@ -3203,7 +3203,7 @@
     "dependency_fingerprint": "509ab698828f27e603440f586c0288cf095518527bb5354c829402bf9ca850a7",
     "olean_sha256": "725fe6677e25b3106e39b894aa7de60c897b6964eb103e7d58f4b316f9ab1b53",
     "started_at_utc": "2026-10-06T15:42:32.6750114Z",
-    "checked_at_utc": "2026-10-06T15:44:07.8210860Z",
+    "checked_at_utc": "2026-10-06T15:44:07.821086Z",
     "log": "docs/section4-build-logs/Universality_Arithmetic_GraphFixedPointParity.log"
   },
   {
@@ -3311,7 +3311,7 @@
     "dependency_fingerprint": "649eba458a221ee7389d6d5735e9f3fc48b412500d0b1a6d254266786d827065",
     "olean_sha256": "83fbd2144200e2b9046ad3d6e52d01737c853eff910cbc300034df438af50a47",
     "started_at_utc": "2026-10-06T15:48:29.5443101Z",
-    "checked_at_utc": "2026-10-06T15:49:14.6295090Z",
+    "checked_at_utc": "2026-10-06T15:49:14.629509Z",
     "log": "docs/section4-build-logs/Universality_Arithmetic_GraphIndexedVertexConnectivity.log"
   },
   {
@@ -3334,8 +3334,8 @@
     "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
     "dependency_fingerprint": "0887b0a21324e75b19c93fd6e196f5f17966fb651e5d9566a005e0fa6bc608e5",
     "olean_sha256": "a46769b7dbd530e68b2e8ae56bcc1e4516d4260e6d8fedde94fd05ae466adff5",
-    "started_at_utc": "2026-10-06T15:49:38.3404870Z",
-    "checked_at_utc": "2026-10-06T15:49:53.6129930Z",
+    "started_at_utc": "2026-10-06T15:49:38.340487Z",
+    "checked_at_utc": "2026-10-06T15:49:53.612993Z",
     "log": "docs/section4-build-logs/Universality_Arithmetic_FixedPointCoefficientCancellation.log"
   },
   {
@@ -3394,7 +3394,7 @@
     "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
     "dependency_fingerprint": "b403f1d7545325c6e3158b7301a1a777ef011c94672f2670a18a7861408132d6",
     "olean_sha256": "2d62d1d1be8d27c0e3949f0a44a138b02149c4c15e36e3dd4732cd9eede1296b",
-    "started_at_utc": "2026-10-06T15:51:37.7152410Z",
+    "started_at_utc": "2026-10-06T15:51:37.715241Z",
     "checked_at_utc": "2026-10-06T15:51:52.8503958Z",
     "log": "docs/section4-build-logs/Universality_Arithmetic_FixedPointCoefficientPositive.log"
   },
@@ -3495,7 +3495,7 @@
     "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
     "dependency_fingerprint": "f3b12dffac548ce0557f6f8c36316434f21a592c826a76d4a91cda8b7ca4efdd",
     "olean_sha256": "103a77c151a08f7a97ab1e421c070041f5cdeeb9f11a3d26eada97614e18c9c9",
-    "started_at_utc": "2026-10-06T15:52:32.1454840Z",
+    "started_at_utc": "2026-10-06T15:52:32.145484Z",
     "checked_at_utc": "2026-10-06T15:52:57.5232837Z",
     "log": "docs/section4-build-logs/Universality_Arithmetic_LogarithmicIndependence.log"
   },
@@ -3534,7 +3534,7 @@
     "dependency_fingerprint": "20db05bc684d1e370f0474d4c98e49263127842d6c350aa05abe9e226c7bd0bd",
     "olean_sha256": "4600e564e1ce845506d2bf6ae2934df0594a26b953d40d87449b76f1b723d5a1",
     "started_at_utc": "2026-10-06T15:52:57.6114051Z",
-    "checked_at_utc": "2026-10-06T15:53:29.4346050Z",
+    "checked_at_utc": "2026-10-06T15:53:29.434605Z",
     "log": "docs/section4-build-logs/Universality_Percolation_PivotalResponseBound.log"
   },
   {
@@ -3545,7 +3545,7 @@
     "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
     "dependency_fingerprint": "f56d8905cfb4d616dfafdb05419d854f8646d0ec3f5d5fd65d6f882461d57a99",
     "olean_sha256": "64392dec521951b9f5698e311bead0c8f940904fcadfe66010a09e335e9f0031",
-    "started_at_utc": "2026-10-06T15:53:29.4429820Z",
+    "started_at_utc": "2026-10-06T15:53:29.442982Z",
     "checked_at_utc": "2026-10-06T15:53:46.8291272Z",
     "log": "docs/section4-build-logs/Universality_Arithmetic_GraphLogarithmicIndependence.log"
   },
@@ -3646,20 +3646,80 @@
     "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
     "dependency_fingerprint": "beae732c2f7b79e530975e593017c24aec387d409a812f4d521b37d5a7789dcf",
     "olean_sha256": "2515572aa56aa7c39f63399f6b45fe2684592af4ac3cc9890de69d901eca48eb",
-    "started_at_utc": "2026-10-06T15:54:20.6738690Z",
-    "checked_at_utc": "2026-10-06T15:54:41.7768660Z",
+    "started_at_utc": "2026-10-06T15:54:20.673869Z",
+    "checked_at_utc": "2026-10-06T15:54:41.776866Z",
     "log": "docs/section4-build-logs/Universality_Arithmetic_RationalPivotalObstruction.log"
+  },
+  {
+    "module": "Universality/Algebra/ExponentRecovery.lean",
+    "exit_code": 0,
+    "mode": "rebuilt",
+    "source_sha256": "1958661f073674fbd9ab6e3eb3954be48a2413c9486c15afd8ffd206518c7f7d",
+    "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
+    "dependency_fingerprint": "260319b63186465a9ef3881d75e8e5f2d0ed664cba5d444398e1827b0c86fe72",
+    "olean_sha256": "de5836717cc01c3e16a84e997f98c415f15f1c188302267cdb5a465f18a48de7",
+    "started_at_utc": "2026-10-06T16:29:25.8311757Z",
+    "checked_at_utc": "2026-10-06T16:29:38.0391716Z",
+    "log": "docs/section4-build-logs/Universality_Algebra_ExponentRecovery.log"
+  },
+  {
+    "module": "Universality/Matrix/StrictRowBound.lean",
+    "exit_code": 0,
+    "mode": "rebuilt",
+    "source_sha256": "8b1ee06c00d507c6bfabe523f0968811359bb8bb9a0bedded40b172cd7d105a5",
+    "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
+    "dependency_fingerprint": "a91c7d22f2ee69da7e5f409b5b163b78c459e826b9db6c9906499def7cb6c74a",
+    "olean_sha256": "4a80dbffbdc2e4365788fc69002061b41378f18f17a1230367375469199ee45e",
+    "started_at_utc": "2026-10-06T16:29:38.0556826Z",
+    "checked_at_utc": "2026-10-06T16:29:56.3291709Z",
+    "log": "docs/section4-build-logs/Universality_Matrix_StrictRowBound.log"
+  },
+  {
+    "module": "Universality/Percolation/MassSpectralUpperBound.lean",
+    "exit_code": 0,
+    "mode": "rebuilt",
+    "source_sha256": "452c82ef797ea426ee318d3ffab09a938497a7e799792bebcce6821a516b30aa",
+    "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
+    "dependency_fingerprint": "c189760ed5a6826110e1834c32764f49e8ecb209cffde7a0b8b04217d4bf0dcd",
+    "olean_sha256": "a90b8518e2ffa940da9a9e894dd02006b181f48798ff1ec918f8b14f157c79db",
+    "started_at_utc": "2026-10-06T16:29:56.3411150Z",
+    "checked_at_utc": "2026-10-06T16:30:13.0330020Z",
+    "log": "docs/section4-build-logs/Universality_Percolation_MassSpectralUpperBound.log"
+  },
+  {
+    "module": "Universality/Arithmetic/GraphExponentInterface.lean",
+    "exit_code": 0,
+    "mode": "rebuilt",
+    "source_sha256": "d21f00ce29e874fc3984e29b150cd15ccd6e1af29f03d18e24debed91a21529e",
+    "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
+    "dependency_fingerprint": "9cf89262818b1899e8cab235438ff6506fce8e5f75f43c72092fbc6c8fba7eb7",
+    "olean_sha256": "f257ec639d80758a0d393492e01408e1256a909d125e199118f48839ac90de15",
+    "started_at_utc": "2026-10-06T16:30:13.0456143Z",
+    "checked_at_utc": "2026-10-06T16:30:33.9297839Z",
+    "log": "docs/section4-build-logs/Universality_Arithmetic_GraphExponentInterface.log"
+  },
+  {
+    "module": "Universality/Arithmetic/GraphExponentCommensurability.lean",
+    "exit_code": 0,
+    "mode": "rebuilt",
+    "source_sha256": "a102f8b6d88e17fd9b79aa9353783195141fad56125793b1afd6cf66ed648ab4",
+    "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
+    "dependency_fingerprint": "9a56df5329015979b2f42dcd8c6bec4b4c3c75fdf55102bca5df84807ecd6a7c",
+    "olean_sha256": "5d4a1e69487d61f19e0f08bd33b37ab20af595d681684f8ca89abc576028c11f",
+    "started_at_utc": "2026-10-06T16:30:33.9499683Z",
+    "checked_at_utc": "2026-10-06T16:30:55.1352180Z",
+    "log": "docs/section4-build-logs/Universality_Arithmetic_GraphExponentCommensurability.log"
   },
   {
     "module": "Universality/Arithmetic/Section4.lean",
     "exit_code": 0,
     "mode": "rebuilt",
-    "source_sha256": "d4c1348a1d0aa643054774d5c50c4b3fe5485127b0ebbf83cfb17cdddb2c37b8",
+    "source_sha256": "ecea26718c919878b46110164f88512a1f1cd342bc4db3cdcfdf069efd83f0dd",
     "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
-    "dependency_fingerprint": "15ba6e05a875ccb52f1fbd517d215655ae9ed1c68ff4d53829523e13540c2a3f",
-    "olean_sha256": "29e0bf1a3c8ae563ded37ec288a54e0630d446654d35d8e804d2a1c14f7f6ad5",
-    "started_at_utc": "2026-10-06T15:54:41.7886424Z",
-    "checked_at_utc": "2026-10-06T15:55:17.2142413Z",
+    "dependency_fingerprint": "67191a1ae8a98470fc99c679d6d790d2b17c859ab778f104f2d3d28883f42574",
+    "olean_sha256": "7280bc20b01076f4309e2b3c0060818e63977b9463b6ea3814bdad45b8f2c7d6",
+    "started_at_utc": "2026-10-06T16:30:55.1435405Z",
+    "checked_at_utc": "2026-10-06T16:31:09.7785682Z",
     "log": "docs/section4-build-logs/Universality_Arithmetic_Section4.log"
   },
   {
@@ -3668,22 +3728,22 @@
     "mode": "rebuilt",
     "source_sha256": "d65c98828f7d965778930d10706eed9e0e50ae4c114719f9fd1e02deee6eb318",
     "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
-    "dependency_fingerprint": "7d470b19ef01c41954d2a01b49a0ef5cb32c3db7c60c7c0cf6c3fc5777e808ed",
+    "dependency_fingerprint": "a7345cbc370138cb5480d6ecd19c0c1e46b9ef167024425bef2f5218313df4c6",
     "olean_sha256": "96e94853a2445f57f26fd94f7859ba2a09d6a4ad0791c2f535c91f0a67d79fee",
-    "started_at_utc": "2026-10-06T15:55:17.2318588Z",
-    "checked_at_utc": "2026-10-06T15:55:51.6111486Z",
+    "started_at_utc": "2026-10-06T16:31:09.7876037Z",
+    "checked_at_utc": "2026-10-06T16:31:41.8350249Z",
     "log": "docs/section4-build-logs/Section4KernelAudit.log"
   },
   {
     "module": "Section4Audit.lean",
     "exit_code": 0,
     "mode": "rebuilt",
-    "source_sha256": "402519fe0891488ae85885f591a35a1d924490c8fc211af83bfbe8e369531726",
+    "source_sha256": "af3ef1b78f25bd47df6ce695c7a36c79e4692b2196637bcf4f5b14ccb81288d7",
     "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
-    "dependency_fingerprint": "1e13803f6c46a2ead014e48bcf25f10995b2c46d2aca42b161f9f29fa9c827a7",
+    "dependency_fingerprint": "a019470279f657e6229398d20c2eaace2edabd9b38f851f23c7647752c228146",
     "olean_sha256": "16a2a6c59828421b6894abefd8e573e71e1835a87092034a8f6e630a096e3b90",
-    "started_at_utc": "2026-10-06T15:55:51.6258878Z",
-    "checked_at_utc": "2026-10-06T15:56:44.3041738Z",
+    "started_at_utc": "2026-10-06T16:31:41.8440370Z",
+    "checked_at_utc": "2026-10-06T16:32:10.9940805Z",
     "log": "docs/section4-build-logs/Section4Audit.log"
   }
 ]

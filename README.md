@@ -12,23 +12,29 @@ The complete Chinese record and its precise limits are in
 [R071](docs/R071_完整研究记录.md), [R072](docs/R072_完整研究记录.md), and
 [R074](docs/R074_完整研究记录.md), and [R075](docs/R075_完整研究记录.md).
 
-## Section 4 independent development (R078)
+## Section 4 independent development (R078–R080)
 
 Section 4 finite-rule arithmetic is formalised independently of the concurrent Section 3 work.
 The actual algebraicity, rank/common-base alternatives, iteration/alignment,
 Wheatstone arithmetic, integer fixed-point quotient, Hensel/Witt arithmetic,
 and complete actual irreducible commensurability criterion are implemented,
-including graph parity, both whole-class examples, and the exact polynomial degree proved by deletion/contraction. The final dependency closure passed for 289 modules; all 3046 project kernel declarations passed the axiom audit.
+including graph parity, the Wheatstone and diamond finite-growth-class examples, and the exact polynomial degree proved by deletion/contraction. The refreshed core dependency closure passed for 294 modules; all 3088 project kernel declarations passed the axiom audit.
 See the [precise coverage table](docs/SECTION4_COVERAGE.md) and
-[complete R078 record](docs/R078_完整研究记录.md).
+[complete R078 record](docs/R078_完整研究记录.md), with the completed integration in [R080](docs/R080_完整研究记录.md).
+
+R080 constructs the actual compact completion of the rescaled generation graph metrics and proves its Hausdorff dimension formula, using separated interior copies for the lower bound. It also identifies the actual observable exponents and supplies the four-exponent-class interfaces through a frozen, source-verified Section 3 snapshot. The final combined closure passed for **647 modules and 5740 project kernel declarations**; an independent verifier rechecked all source/object hashes, recursive dependencies and source provenance. Finite growth equality is not used as a replacement definition of the physical class.
 
 The user explicitly authorizes two external mathematical theorems:
 `Universality.External.six_exponentials` and
 `Universality.External.gelfond_schneider_real`. All other Section 4 mathematics
 must be proved. `Section4Audit.lean` and `scripts/check-section4.ps1` audit
-this separate closure and expose exactly which results use those two inputs. Import `Universality.Arithmetic.Section4` to use its results. Run `./scripts/check-section4.ps1` for the dedicated check; it always reruns the all-project-declaration kernel axiom audit and binds cached results to the measured compiler and clean pinned dependencies.
+this separate closure and expose exactly which results use those two inputs. Import `Universality.Arithmetic.Section4Complete` for the complete entry, or `Universality.Arithmetic.Section4` for the arithmetic core. Run `./scripts/check-section4.ps1 -Target Section4CombinedAudit.lean -ReportName section4-combined` for the final check; it always reruns the all-project-declaration kernel axiom audit and binds cached results to the measured compiler and clean pinned dependencies.
 The earlier Section 2/3 axiom statements below describe their own audit closure.
 
+The Section 2/3 notes below retain the inherited R071–R075 snapshot. Their
+remaining-obligation statements are historical; current Section 4 coverage
+above and its coverage table supersede the old Hausdorff and selected
+four-exponent status. Other chapters continue independently.
 ## Section 3 start (R073)
 
 The first tranche proves the actual internal-vertex mass recursion, its full
@@ -98,7 +104,7 @@ conditional configuration-history measure and identifies all its finite
 labelled marginals with the actual percolation law. Identification with
 percolation on a uniformly rooted infinite graph remains open.
 
-## What is actually proved
+## Earlier Section 2/3 snapshot: proved results
 
 The core objects are actual edge-indexed finite graphs, Bernoulli configurations,
 graph reachability, and conditional open-cluster edge counts. Their matrix
@@ -191,7 +197,7 @@ use proof-producing tactics checked by Lean's kernel. All literals needed for
 compilation are already in the source. Regenerating manuscript integer inputs
 requires the original certificate JSON files, whose hashes are recorded in `docs/`.
 
-## What is not formalised
+## Earlier snapshot: remaining scope
 
 1. A bulk infinite-volume percolation graph and identification of crossing
    criticality with bulk infinite-cluster criticality. The compatible

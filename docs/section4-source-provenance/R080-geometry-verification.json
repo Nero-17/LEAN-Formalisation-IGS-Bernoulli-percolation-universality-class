@@ -1,0 +1,22 @@
+{
+  "round": "R080",
+  "verified_at_utc": "2026-10-06T17:57:38.2522429Z",
+  "closure_modules": 359,
+  "source_object_pairs_checked": 359,
+  "recursive_import_fingerprints_checked": 359,
+  "no_missing_project_source_imports": true,
+  "new_geometry_sources_guarded_and_built": 23,
+  "geometry_modules_in_closure": 24,
+  "unchanged_attested_core_legacy_records": 65,
+  "kernel_declarations": 3842,
+  "kernel_project_modules": 357,
+  "codegen_only_origin_entries": 76084,
+  "printed_geometry_theorems_checked": 9,
+  "geometry_theorem_dependencies": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "environment_fingerprint": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
+  "build_metadata_sha256": "247e4fddcda5963d19d35d1cbd76468ddfa52bd96de5250f9eb6523916441c6b"
+}

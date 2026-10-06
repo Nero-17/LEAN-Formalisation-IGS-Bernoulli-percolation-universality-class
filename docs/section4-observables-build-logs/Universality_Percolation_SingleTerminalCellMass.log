@@ -1,0 +1,14 @@
+Universality/Percolation/SingleTerminalCellMass.lean:22:24: warning: This simp argument is unused:
+  ↓reduceIte
+
+Hint: Omit it from the simp argument list.
+  simp only [hactive,̵ ̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Universality/Percolation/SingleTerminalCellMass.lean:84:18: warning: This simp argument is unused:
+  hsecond
+
+Hint: Omit it from the simp argument list.
+  simp [hfirst, hsecond,̵ ̵h̵s̵e̵c̵o̵n̵d̵.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

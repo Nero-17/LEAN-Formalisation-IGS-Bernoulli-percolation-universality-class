@@ -1,0 +1,3 @@
+Universality/Percolation/FiniteClusters.lean:75:2: warning: 'push_cast' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

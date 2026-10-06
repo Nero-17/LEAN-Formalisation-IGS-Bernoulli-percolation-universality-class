@@ -30,3 +30,9 @@ project modules and prints the principal theorem dependencies for review. -/
 #print axioms Universality.diamond_actual_mass_nonsplit
 #print axioms Universality.diamond_actual_criticalDimensions_independent
 #print axioms Universality.Rule.Classical.scale_power_two_of_diamond_dimensions
+#print axioms Universality.Rule.Classical.coreExponentFormula_eq_iff_criticalDimensions_eq
+#print axioms Universality.Rule.Classical.commensurate_of_coreExponentFormulas_rank
+#print axioms Universality.Rule.Classical.common_primitive_base_of_coreExponentFormulas_irreducible
+#print axioms Universality.Rule.Classical.aligned_coreExponentFormulas_iff
+#print axioms Universality.Rule.Classical.scale_power_two_of_wheatstone_coreExponentFormulas
+#print axioms Universality.Rule.Classical.scale_power_two_of_diamond_coreExponentFormulas

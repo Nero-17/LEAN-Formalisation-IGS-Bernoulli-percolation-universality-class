@@ -2,6 +2,8 @@ param(
   [string]$Target = 'Section4Audit.lean',
   [string]$PackageCache = 'C:/Users/lzysh/Documents/Codex/lean32/packages',
   [string]$LeanBin = 'C:/Users/lzysh/.elan/toolchains/leanprover--lean4---v4.32.1/bin',
+  [ValidatePattern('^[A-Za-z0-9-]+$')]
+  [string]$ReportName = 'section4',
   [switch]$Rebuild
 )
 $ErrorActionPreference = 'Stop'
@@ -9,11 +11,11 @@ $sectionRoot = Split-Path $PSScriptRoot -Parent
 Set-Location $sectionRoot
 . (Join-Path $PSScriptRoot 'section4-source-guard.ps1')
 $sectionEnvironment = & (Join-Path $PSScriptRoot 'section4-environment.ps1') -PackageCache $PackageCache -LeanBin $LeanBin
-$sectionManifest = Join-Path $sectionRoot 'docs/section4-build-results.json'
-$sectionLogDirectory = Join-Path $sectionRoot 'docs/section4-build-logs'
+$sectionManifest = Join-Path $sectionRoot ("docs/$ReportName-build-results.json")
+$sectionLogDirectory = Join-Path $sectionRoot ("docs/$ReportName-build-logs")
 New-Item -ItemType Directory -Path $sectionLogDirectory -Force | Out-Null
 $sectionPrevious = @{}
-foreach ($recordPath in @('work/section4-evidence-dependencies.json', 'docs/section4-build-results.json')) {
+foreach ($recordPath in @('work/section4-evidence-dependencies.json', 'docs/section4-build-results.json', ("docs/$ReportName-build-results.json"))) {
   $fullRecordPath = Join-Path $sectionRoot $recordPath
   if (Test-Path -LiteralPath $fullRecordPath) {
     foreach ($entry in (Get-Content -LiteralPath $fullRecordPath -Raw | ConvertFrom-Json)) {
@@ -64,7 +66,7 @@ foreach ($module in $sectionOrder) {
     $started = (Get-Date).ToUniversalTime()
     $output = @(& (Join-Path $PSScriptRoot 'check.ps1') -Module $module -PackageCache $PackageCache -LeanBin $LeanBin 2>&1)
     $exitCode = $LASTEXITCODE
-    $logRelative = 'docs/section4-build-logs/' + $module.Replace('/', '_').Replace('.lean', '.log')
+    $logRelative = ("docs/$ReportName-build-logs/") + $module.Replace('/', '_').Replace('.lean', '.log')
     [IO.File]::WriteAllText((Join-Path $sectionRoot $logRelative), ($output -join [Environment]::NewLine), [Text.UTF8Encoding]::new($false))
     if ($exitCode -ne 0) { $output | ForEach-Object { Write-Host $_ }; throw "Lean rejected $module" }
     if ((Get-FileHash -LiteralPath $sourcePath -Algorithm SHA256).Hash.ToLowerInvariant() -ne $sourceHash) { throw "Source changed during build: $module" }
@@ -102,7 +104,7 @@ foreach ($record in $sectionResults) {
 }
 $sectionEnvironmentAfter = & (Join-Path $PSScriptRoot 'section4-environment.ps1') -PackageCache $PackageCache -LeanBin $LeanBin
 if ($sectionEnvironmentAfter.sha256 -ne $sectionEnvironment.sha256) { throw 'Build environment changed during verification' }
-$sectionEnvironment | ConvertTo-Json -Depth 8 | Set-Content docs/section4-build-environment.json -Encoding utf8
+$sectionEnvironment | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath ("docs/$ReportName-build-environment.json") -Encoding utf8
 [pscustomobject]@{
   target=$Target; module_count=$sectionOrder.Count; rebuilt_count=$sectionRebuiltCount;
   kernel_axiom_audit=$sectionKernelAudit;
@@ -110,5 +112,5 @@ $sectionEnvironment | ConvertTo-Json -Depth 8 | Set-Content docs/section4-build-
   environment_fingerprint=$sectionEnvironment.sha256;
   mathlib_revision=(@($sectionEnvironment.identity.packages | Where-Object name -eq 'mathlib')[0].revision);
   completed_at_utc=(Get-Date).ToUniversalTime().ToString('o')
-} | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath docs/section4-build-metadata.json -Encoding utf8
+} | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath ("docs/$ReportName-build-metadata.json") -Encoding utf8
 Write-Host "Verified $($sectionOrder.Count) project modules; rebuilt $sectionRebuiltCount."

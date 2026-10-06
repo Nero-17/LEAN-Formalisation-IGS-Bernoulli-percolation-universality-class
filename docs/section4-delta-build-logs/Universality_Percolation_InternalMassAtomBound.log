@@ -1,0 +1,7 @@
+Universality/Percolation/InternalMassAtomBound.lean:78:14: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  simp [norm_m̵u̵l̵,̵ ̵n̵o̵r̵m̵_̵pow, Complex.norm_real, abs_of_nonneg hradius0.le, abs_of_nonneg hprobability]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

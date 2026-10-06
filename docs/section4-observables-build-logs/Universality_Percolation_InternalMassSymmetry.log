@@ -1,0 +1,4 @@
+Universality/Percolation/InternalMassSymmetry.lean:13:4: warning: 'change
+  (v ≠ R.source ∧ v ≠ R.target) ↔ (symmetry.vertex v ≠ R.source ∧ symmetry.vertex v ≠ R.target)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

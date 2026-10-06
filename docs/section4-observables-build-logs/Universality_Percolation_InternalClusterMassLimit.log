@@ -1,0 +1,7 @@
+Universality/Percolation/InternalClusterMassLimit.lean:36:15: warning: This simp argument is unused:
+  hcross
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵c̵r̵o̵s̵s̵,̵ ̵Bool.false_eq_true, Bool.true_eq_false, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

@@ -1,0 +1,5 @@
+'Universality.Geometry.MetricDirectLimit.metricSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Geometry.MetricDirectLimit.inclusion_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Geometry.MetricDirectLimit.completion_inclusion_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

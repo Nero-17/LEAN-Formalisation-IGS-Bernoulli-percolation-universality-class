@@ -1,0 +1,3 @@
+Universality/Probability/CharacteristicRigidity.lean:45:38: warning: Try `simp at hunit` instead of `simpa using hunit`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
