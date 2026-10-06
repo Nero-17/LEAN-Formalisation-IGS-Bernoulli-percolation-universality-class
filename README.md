@@ -1,13 +1,39 @@
 # Hierarchical-percolation universality in Lean
 
-This is the first six-hour formalisation round for *Iterated Graph Systems (II):
+This project formalises *Iterated Graph Systems (II):
 Bernoulli percolation and universality class on hierarchical lattices*.
 It is an independent local project; the Overleaf manuscript was not modified.
 
-Manuscript baseline: Overleaf project `69b4d5f8e9e9b26ffd015f17`, Git `6270a59`.
+Manuscript baseline: Overleaf project `69b4d5f8e9e9b26ffd015f17`.
+R071 used Git `6270a59`; the R072 Section 2 snapshot includes the additional
+pivotal-response bound in Git `fccfba64`.
 Lean **4.32.1**, mathlib **520045ab14e26149ee970e2e617ca04b09bde5d6**.
 The complete Chinese record and its precise limits are in
-[R071](docs/R071_完整研究记录.md).
+[R071](docs/R071_完整研究记录.md) and [R072](docs/R072_完整研究记录.md).
+
+## Section 2 continuation (R072)
+
+The Section 2 proof chain now includes the full finite-dimensional joint law
+of the critical random EIGS, its actual cluster extraction, the geometric
+limit under compatible contractions, the exact counting polynomials and
+critical characteristic polynomial, and the four-edge diamond example.
+The added strict bound `deriv reliability p ^ 2 < edges` is proved from the
+actual Bernoulli covariance. The statement-by-statement coverage table,
+assumptions and current verification evidence are in the R072 report.
+
+`Rule.critical_randomEIGS_joint_law` concerns arbitrary observables of every
+generation's labels, rather than only their first moments.
+`offspring_labels_conditionally_independent` supplies the state-dependent
+joint rule kernels. Single-terminal orientation is retained until symmetry
+is applied; sibling labels within one rule are not assumed independent.
+
+`Geometry.TypedGraphRealisation.geometric_limit` is pathwise for every fixed
+realisation of whole-rule choices. It proves a nonempty compact limit,
+address coding, the graph-directed set equation and the precise Hausdorff
+bound using the maximum diameter of the finitely many type spaces. Finite
+rule laws are normalised. An infinite product probability space is not
+constructed as an additional object; the stochastic statement is represented
+by its finite-dimensional laws and the pathwise geometric theorem.
 
 ## What is actually proved
 
@@ -104,8 +130,10 @@ requires the original certificate JSON files, whose hashes are recorded in `docs
 
 ## What is not formalised
 
-1. The infinite-volume graph, local or metric scaling limits, and identification
-   of crossing criticality with bulk infinite-cluster criticality.
+1. A bulk infinite-volume percolation graph and identification of crossing
+   criticality with bulk infinite-cluster criticality. The compatible
+   contractive geometric limit in Section 2 is proved, but is not identified
+   with a random Hausdorff mass dimension or a physical scaling limit.
 2. Existence and formulas for the four selected physical critical exponents,
    the other four exponent classifications, and exponent/dimension equivalence.
 3. Full preservation of the classical rule category under arbitrary substitution.
@@ -113,6 +141,8 @@ requires the original certificate JSON files, whose hashes are recorded in `docs
 5. Full mass repair, finite rule realisation and infinite families for the large
    Section 5 certificates. Integer moments alone do not prove those claims.
 
-Next: full classical substitution closure and the distributional random-EIGS
-representation, then analytic estimates needed for the physical exponent
-definitions. These remain separate theorem obligations, not bundled assumptions.
+Beyond Section 2: full classical substitution closure and the analytic
+estimates needed for the physical exponent definitions remain separate
+theorem obligations, not bundled assumptions. Rounded decimal illustrations
+in the manuscript are not certified error intervals; the diamond formulas
+themselves are exact Lean theorems.
