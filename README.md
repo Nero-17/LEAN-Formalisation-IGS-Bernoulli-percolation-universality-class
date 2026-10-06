@@ -10,7 +10,8 @@ pivotal-response bound in Git `fccfba64`.
 Lean **4.32.1**, mathlib **520045ab14e26149ee970e2e617ca04b09bde5d6**.
 The complete Chinese record and its precise limits are in
 [R071](docs/R071_完整研究记录.md), [R072](docs/R072_完整研究记录.md), and
-[R074](docs/R074_完整研究记录.md), and [R075](docs/R075_完整研究记录.md).
+[R074](docs/R074_完整研究记录.md), [R075](docs/R075_完整研究记录.md), and
+[R077](docs/R077_完整研究记录.md).
 
 ## Section 3 start (R073)
 

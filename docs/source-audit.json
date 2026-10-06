@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "module_count": 395,
+  "module_count": 439,
   "certificate_batch_count": 128,
-  "milestone_axiom_audit_count": 247,
+  "milestone_axiom_audit_count": 289,
   "errors": [],
   "sources": [
     {
@@ -1578,12 +1578,188 @@
       "source_sha256": "230435d66aab2e9cbb51d5d69e2de048b70ed341bd33393b11a71c3a01064d98"
     },
     {
+      "module": "Universality/Graph/SubstitutionRadius.lean",
+      "source_sha256": "35674d272a9d8929db5480f5a9ba35638f38c35f44e7181cd2bee8f7e97a04e3"
+    },
+    {
+      "module": "Universality/Graph/GenerationDiameter.lean",
+      "source_sha256": "8466b450673d68e4d63971c1a157dfa9c2e18c94534aef6602d9f5cf84ccc97b"
+    },
+    {
+      "module": "Universality/Graph/CoarseDistance.lean",
+      "source_sha256": "e83325e235c439afd12c5db64b73ac23a9af1933e39d9758efe3cd8543573cba"
+    },
+    {
+      "module": "Universality/Graph/SubstitutionPotential.lean",
+      "source_sha256": "02b6483a7590309e6721091481552833a6169d8b5e0cb479b87c4c2e4aa74f06"
+    },
+    {
+      "module": "Universality/Graph/CellIsometry.lean",
+      "source_sha256": "c120ab5cb86feaab9454301d4577966c0f5ef0bcd75616c3f4d33b52504010f6"
+    },
+    {
+      "module": "Universality/Probability/L2Characteristic.lean",
+      "source_sha256": "66cd18f23987dff4c54af67923e3c342f1037edadb9ccc03cad3d4d6b716ede0"
+    },
+    {
+      "module": "Universality/Percolation/RootedLimitSizeLaw.lean",
+      "source_sha256": "16968751897c7da54c164f5ae30be1338a5f88b3c66b64ce081571d1cf88ed1c"
+    },
+    {
+      "module": "Universality/Percolation/RootedLimitBoundaryMass.lean",
+      "source_sha256": "af3d148f27ef472f313d8c77f59d1e1e8ceb5b1ae3eaaadd27ced52ac6ba2881"
+    },
+    {
+      "module": "Universality/Percolation/AnnealedBirthMomentSeries.lean",
+      "source_sha256": "d6ba1db55614ee573ebd6e9aa1f46fa2043a5ab10c33bc7b0b0e5c6ed4b944ac"
+    },
+    {
+      "module": "Universality/Percolation/AnnealedFiniteBirthMoments.lean",
+      "source_sha256": "a1ae5eef2e969cffd6dde618430fbc3118fb202fa2a115d22d08eb94f7c29cd3"
+    },
+    {
+      "module": "Universality/Percolation/AnnealedBirthFirstMoment.lean",
+      "source_sha256": "e600ea18f139c3a415185ba9b2d8ed6217430e9620d81ad21a894228d0916344"
+    },
+    {
+      "module": "Universality/Probability/FiniteRandomFamilyMoment.lean",
+      "source_sha256": "bab134e2c8561157610d76ff377631b6fcf5f9af8ba62e8c867165fbd999a3eb"
+    },
+    {
+      "module": "Universality/Percolation/AnnealedBirthMomentLower.lean",
+      "source_sha256": "5db56d335931e183537646e21018a1722af3068257eee9227a17cb2581e7ab52"
+    },
+    {
+      "module": "Universality/Percolation/AnnealedCriticalMomentDivergence.lean",
+      "source_sha256": "782401ff3bb2250b5b4038360c4b79924776f85e503ce5681ea5ce7f9a8090fe"
+    },
+    {
+      "module": "Universality/Percolation/BirthMassPathwise.lean",
+      "source_sha256": "05e9bafe518a4efe962a1924e93a41d20b0fcb4aab379286ec829bd55b00b8e0"
+    },
+    {
+      "module": "Universality/Percolation/BoundaryMassMoments.lean",
+      "source_sha256": "2d920a593d019c64b01e18f6f0ad94a63eb87bc40249ef5fedfa0e0c8c545167"
+    },
+    {
+      "module": "Universality/Percolation/BirthMomentUpper.lean",
+      "source_sha256": "119d55da2e2d05fe8c9d5ce28299e8a3a5d55a2ab4f908185fcc8c7c36150418"
+    },
+    {
+      "module": "Universality/Percolation/AnnealedCriticalMomentFinite.lean",
+      "source_sha256": "fa35cd6e19dae9332064b5182d71a81b811c0fe3cb26360647bac31740e432df"
+    },
+    {
+      "module": "Universality/Percolation/AnnealedCriticalMomentThreshold.lean",
+      "source_sha256": "6051ac4770e678b8faf2d474572bad32ad486293292e2d8cd59d89fbb2b20ad4"
+    },
+    {
+      "module": "Universality/Percolation/SupercriticalBirthBound.lean",
+      "source_sha256": "30fabb77f7e6cd93aa301f485ee2a9ef2e5d2dac65da04bddc95a43bcec7ccb9"
+    },
+    {
+      "module": "Universality/Analysis/ZeroDerivativeIteration.lean",
+      "source_sha256": "ce82a3bddc20c288d6e062ed868af6a60e23bfd7df4c473f51b57a281cecc107"
+    },
+    {
+      "module": "Universality/Percolation/SupercriticalFailureSummability.lean",
+      "source_sha256": "e93e8b9a4a0f27345b99ca27eb001fcd96aee2e14d90f8ca11b9593c1c5f66af"
+    },
+    {
+      "module": "Universality/Percolation/AnnealedSupercriticalMomentFinite.lean",
+      "source_sha256": "b283455d1a0ef5f6d60240638d222d884579cd7048293e554623ec60604a7b60"
+    },
+    {
+      "module": "Universality/Percolation/VertexMomentComparison.lean",
+      "source_sha256": "9785e1f5b6431a5f5a140a55b25240c5d971aa2bc6562dbef3b2f4e0dedd1cb5"
+    },
+    {
+      "module": "Universality/Percolation/ConditionalMassCharacteristic.lean",
+      "source_sha256": "1924e4b5368d55822ca0208594eaf88a56e104da6431de897c337869c6f4d1a2"
+    },
+    {
+      "module": "Universality/Percolation/GenerationMassCharacteristic.lean",
+      "source_sha256": "04adc1e45a7b1d6d4a9953799bde3a77ffb84e93a98e76d29ae2e342c9757323"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassCharacteristicLimit.lean",
+      "source_sha256": "9c24e4e2e45d0017a89244f1478c0bda34f8377bd0afbc6535ac6630fa8bcab2"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassSmoothing.lean",
+      "source_sha256": "91b39f8a4e74f64ebcebca67bd00572e98603d7df89f3cbc4d9e16ed623db908"
+    },
+    {
+      "module": "Universality/Percolation/CharacteristicContraction.lean",
+      "source_sha256": "07cfa18c3d1f8751351c888326c8071b90644b7e053a37fb5e88284c21daf88c"
+    },
+    {
+      "module": "Universality/Probability/CharacteristicRigidity.lean",
+      "source_sha256": "8d0b55182fd44e2d81fb64bfcaceece023090763289eceae3c2e63ad6391ca79"
+    },
+    {
+      "module": "Universality/Percolation/AllClosedCharacteristic.lean",
+      "source_sha256": "2bb93541c8644299cbd3e3a5c7ac2ddb1eaab5a6fcd4ab9d657d975621919aa1"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassNonconstant.lean",
+      "source_sha256": "1e0a152215f0bab920b08ded067c3bb4df0c695471b25afa7b6cd8ca66753842"
+    },
+    {
+      "module": "Universality/Probability/CharacteristicNonlattice.lean",
+      "source_sha256": "ee0742129dd96943630aa5e7ec13ff697e9bc86cdfa9b6cc495e37105726a5ed"
+    },
+    {
+      "module": "Universality/Percolation/VertexMassNonlattice.lean",
+      "source_sha256": "fb752fc9ccac12edfa84ebca988aa57e1cfb8d691a7d888a59aad9a1ef938e23"
+    },
+    {
+      "module": "Universality/Percolation/CharacteristicPropagation.lean",
+      "source_sha256": "4dd884c8b7eb7ef52fc98e443fb980f1254783229f8fb12dd2b60fde63d0703f"
+    },
+    {
+      "module": "Universality/Percolation/AllTypesMassNonlattice.lean",
+      "source_sha256": "30f36fa82cef08cc960d1a9c1a30444e4ceffd4684559d773fd0e4604b3ec5cd"
+    },
+    {
+      "module": "Universality/Analysis/PowerResponseExponent.lean",
+      "source_sha256": "7d559c8b5612c2ba7eb99d49059fd7c252f1a6953ec0556e43aabd6b7bb9a687"
+    },
+    {
+      "module": "Universality/Analysis/TaylorResponseExponent.lean",
+      "source_sha256": "21009f70a464ded641ad889d052a40f03ab2aff2f1c19275a568f3befb940b3d"
+    },
+    {
+      "module": "Universality/Percolation/ClusterNumberAlphaCriterion.lean",
+      "source_sha256": "9704aed1187a9adca11088496a9d7e0ef3c360fde08b4c13bf4858eb5bad1401"
+    },
+    {
+      "module": "Universality/Percolation/ClusterNumberCriticalValue.lean",
+      "source_sha256": "29023ff0e3fac6e6ed7aa1e50f7af9dacbb44e771cddaa4e4ae4aef37545fd8e"
+    },
+    {
+      "module": "Universality/Analysis/QuadraticRenormalization.lean",
+      "source_sha256": "fff9446412841285bf92797d77be26da8e56173b45bd905679d65d63c27610de"
+    },
+    {
+      "module": "Universality/Percolation/ClusterNumberLinearRemainder.lean",
+      "source_sha256": "e1dba71a94a123f04ba406b155f078fcf9993bfc29f5e53b89ab57e981f38407"
+    },
+    {
+      "module": "Universality/Percolation/ClusterNumberCriticalDerivative.lean",
+      "source_sha256": "fb58044cc7b4037f5bd4b8566420eb8a7d94e535dfe1ff3790cb00d85a148950"
+    },
+    {
+      "module": "Universality/Examples/ClusterNumberReflection.lean",
+      "source_sha256": "1e83f796a04bde9b72f986a44a81ad5cddbcab7feade74242e94b89693d85a92"
+    },
+    {
       "module": "Universality.lean",
-      "source_sha256": "69afaf746fb19c28dcacfd20f9b116e263313d141679d5283fa730d4a3addfd4"
+      "source_sha256": "544ff770466f867520b2a012ee18cc22ffe69c3e2e3a1453a3ab329300b99cdd"
     },
     {
       "module": "Audit.lean",
-      "source_sha256": "5716ff1cfd109bbf7932f67ca5a222214148e91d7142133cbd69a63947ed08a6"
+      "source_sha256": "7aebd419a669f8cce800d11aa8db26e8e16c09a783757d7e4eaf2ebadb015461"
     }
   ]
 }
