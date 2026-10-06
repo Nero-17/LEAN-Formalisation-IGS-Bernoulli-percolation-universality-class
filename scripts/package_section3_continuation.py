@@ -15,6 +15,17 @@ with zipfile.ZipFile(destination, 'w', compression=zipfile.ZIP_DEFLATED) as arch
         for name in sorted(files):
             path = Path(directory) / name
             archive.write(path, path.relative_to(root).as_posix())
+    # Preserve in-progress proof work for handoff without conflating it with
+    # the kernel-audited formal import closure recorded in docs/source-audit.json.
+    draft_root = root / 'scratch'
+    if draft_root.exists():
+        for path in sorted(draft_root.rglob('*.lean')):
+            archive.write(path, 'working-drafts/' + path.relative_to(root).as_posix())
+        archive.writestr('working-drafts/README.txt',
+            'These scratch sources preserve ongoing work and experiments. '
+            'They are outside the audited formal import closure. '
+            'Only the authoritative round report identifies individually checked candidates. '
+            'Unverified drafts do not establish completion or new mathematical results.\n')
     for log in ('section3-continuation-build.log',):
         path = root / 'logs' / log
         if path.exists():

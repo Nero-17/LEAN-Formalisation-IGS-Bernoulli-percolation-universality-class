@@ -7,6 +7,7 @@ from pathlib import Path
 import hashlib
 import json
 import re
+from datetime import datetime
 
 root = Path(__file__).resolve().parents[1]
 imports = re.compile(r"^import (Universality(?:\.[A-Za-z0-9_]+)*)\s*$", re.M)
@@ -29,6 +30,28 @@ visit("Audit.lean")
 manifest = {entry["module"]: entry for entry in json.loads(
     (root / "docs/build-results.json").read_text(encoding="utf-8-sig"))}
 errors = []
+# Interrupted builds may recover only checks proven complete by the original
+# fail-fast sequential log. Keep that exact log prefix as audit evidence.
+recovered = [entry for entry in manifest.values() if entry.get("recovered_from_successful_sequential_check")]
+if recovered:
+    evidence_path = root / "docs/build-resume-evidence.json"
+    evidence = json.loads(evidence_path.read_text(encoding="utf-8-sig"))
+    log_path = root / "logs/section3-continuation-build.log"
+    if not log_path.exists():
+        log_path = root / "build-evidence/section3-continuation-build.log"
+    prefix = log_path.read_bytes()[:evidence["interrupted_log_byte_length"]]
+    if hashlib.sha256(prefix).hexdigest() != evidence["interrupted_log_sha256"]:
+        errors.append("Interrupted-build evidence log prefix changed")
+    completed = {entry["module"]: entry for entry in evidence["recovered_modules"]}
+    starts = [line.removeprefix("Checking ") for line in prefix.decode("utf-8-sig").splitlines() if line.startswith("Checking ")]
+    if set(completed) != set(starts[:-1]) or evidence["interrupted_module_not_counted"] != starts[-1]:
+        errors.append("Recovered modules do not match completed sequential checks")
+    for entry in recovered:
+        original = completed.get(entry["module"], {})
+        same_fields = {k: v for k, v in original.items() if k != "object_written_at_utc"} == {k: v for k, v in entry.items() if k != "object_written_at_utc"}
+        same_time = datetime.fromisoformat(original["object_written_at_utc"]) == datetime.fromisoformat(entry["object_written_at_utc"])
+        if not same_fields or not same_time:
+            errors.append("Recovered build record changed: " + entry["module"])
 checked = []
 for module in order:
     source = (root / module).read_bytes()
@@ -47,6 +70,11 @@ for module in order:
 
 all_modules = {str(path.relative_to(root)).replace("\\", "/")
                for path in (root / "Universality").rglob("*.lean")}
+canonical_modules = {module.casefold(): module for module in all_modules}
+for module in visited:
+    canonical = canonical_modules.get(module.casefold(), module)
+    if canonical != module:
+        errors.append("Import path case differs from actual source file: " + module + " versus " + canonical)
 unreachable = sorted(all_modules - visited)
 if unreachable:
     errors.append("Source modules outside Audit import closure: " + ", ".join(unreachable))
@@ -54,7 +82,7 @@ if unreachable:
 result = {
     "ok": not errors,
     "module_count": len(order),
-    "certificate_batch_count": sum("/Opposite/Batch" in p or "/Opposite/Crossing" in p for p in order),
+    "certificate_batch_count": sum("/Opposite/Batch" in p or "/Opposite/Crossing" in p or "/CentralWheatstoneCertificates/Batch" in p for p in order),
     "milestone_axiom_audit_count": (root / "Audit.lean").read_text(encoding="utf-8-sig").count("#print axioms"),
     "errors": errors,
     "sources": checked,
