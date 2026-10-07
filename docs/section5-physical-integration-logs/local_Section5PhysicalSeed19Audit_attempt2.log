@@ -1,0 +1,6 @@
+'Universality.Section5.exactAllocationBase19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Section5.certifiedRule19_responses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Section5.certifiedRule19_hasCriticalExponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Section5.certifiedRule19_physical_infinite_cluster_positive_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

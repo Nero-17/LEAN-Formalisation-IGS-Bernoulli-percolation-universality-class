@@ -1,0 +1,4 @@
+'Universality.Geometry.hausdorffMeasure_eq_zero_of_finite_geometric_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Geometry.dimH_le_of_finite_geometric_cover' depends on axioms: [propext, Classical.choice, Quot.sound]

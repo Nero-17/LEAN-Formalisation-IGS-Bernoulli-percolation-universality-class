@@ -1,0 +1,17 @@
+'Universality.Rule.generationMetricSpace_dimH_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.generationMetricCell_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.generationMetricCell_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Section5.RuleResponses.hausdorff_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Section5.ExactAllocationCertificate.hausdorff_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Section5.ExactAllocationCertificate.shifted_hausdorff_dimension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Section5.ExactAllocationCertificate.shifted_hausdorff_dimension_toReal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Section5.ExactAllocationCertificate.shifted_hausdorff_dimension_transcendental' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.gelfond_schneider_real]

@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-06T20:24:47Z",
+  "scope": "Read-only Git source provenance, not a numerical or Lean proof",
+  "manuscript_commit": "de5c6e9c2d6f025665f20a5ee2c54ba373f28741",
+  "source_commit": "dad7bc3fd1205bfd2c7f4922d1ca74befd4f36a5",
+  "path": "supplementary/section5/certificates",
+  "manuscript_tree": "167276f2a751921cd5f8beee7fde36462ea6a506",
+  "source_tree": "167276f2a751921cd5f8beee7fde36462ea6a506",
+  "git_rev_parse_exit_code": 0,
+  "git_diff_stat_exit_code": 0,
+  "git_diff_stat_output": "",
+  "status": "identical_versioned_certificate_directory"
+}

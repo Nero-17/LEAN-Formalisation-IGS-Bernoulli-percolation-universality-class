@@ -1,0 +1,7 @@
+C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\Universality\Graph\UniformRootProbabilitySpace.lean:63:0: warning: automatically included section variable(s) unused in theorem `Universality.Rule.uniformRootInfiniteClusterEvent_iff`:
+  [MeasurableSpace Bool]
+  [MeasurableSingletonClass Bool]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace Bool] [MeasurableSingletonClass Bool] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

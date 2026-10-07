@@ -1,0 +1,7 @@
+{
+  "started_utc": "2026-10-07T00:06:39.609319+00:00",
+  "plan_sha256": "1d332dfb44ee23109175b41b06951e15a0020d972a2a5fcfe6d80859ab84b10f",
+  "driver_sha256": "327d4769893dab9e9df9febbe0cadc5d7cad7b1b4540664272a03e9ff2700716",
+  "invocation_script_sha256": "2fce52fbe74bf3fb9f62c9bf9f73508c017e706aa2fd2e897b9f71cdda15f4e6",
+  "scope": "Existing execute(plan, result) API; its complete pre/post source, object, environment and actual fresh-audit guards run unchanged. No duplicate plan classification."
+}

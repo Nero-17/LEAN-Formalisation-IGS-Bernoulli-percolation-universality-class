@@ -6,4 +6,8 @@ logs/
 *.olean.server
 *.olean.private
 __pycache__/
+/work/section5-restored-data-*/
 
+
+# Reconstruct these byte-verified large literal inputs before building.
+/Universality/Certificates/Section5MassChunkData*.lean

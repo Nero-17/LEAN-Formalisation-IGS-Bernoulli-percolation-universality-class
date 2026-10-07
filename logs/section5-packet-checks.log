@@ -1,0 +1,32 @@
+interpretation of Mathlib.Tactic.ToAdditive.guessNameExt took 224ms
+interpretation of Mathlib.Tactic.ToDual.guessNameExt took 225ms
+import took 17.6s
+cumulative profiling times:
+	.olean serialization 90ms
+	attribute application 0.18ms
+	compilation (IR) 4.2ms
+	compilation (LCNF base) 46.4ms
+	compilation (LCNF impure) 13.1ms
+C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\Universality\Certificates\Section5PacketChecks.lean:13:93: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+	compilation (LCNF mono) 13.2ms
+	congr simp thm 3.53ms
+	elaboration 78.5ms
+	fix level params 0.283ms
+	import 17.6s
+	initialization 74.9ms
+
+	instantiate metavars 0.822ms
+	interpretation 8.62s
+	let-to-have transformation 0.23ms
+	linting 11.8ms
+	module linting 0.0048ms
+	overlappingInstancesLinter 26ms
+	parsing 8.73ms
+	process pre-definitions 5.99ms
+	share common exprs 1.75ms
+	simp 208ms
+	tactic execution 42.6ms
+	tacticAnalysis 71.8ms
+	type checking 16.1ms
+	typeclass inference 209ms
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

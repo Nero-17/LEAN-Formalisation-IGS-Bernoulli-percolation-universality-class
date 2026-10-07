@@ -1,0 +1,31 @@
+interpretation of Mathlib.Tactic.ToAdditive.guessNameExt took 137ms
+interpretation of Mathlib.Tactic.ToDual.guessNameExt took 136ms
+import took 8.91s
+'Universality.Certificates.initialMassEvaluationBits_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	.olean serialization 58.5ms
+	attribute application 0.109ms
+	blocked (unaccounted) 438ms
+	compilation (IR) 3.66ms
+	compilation (LCNF base) 33.3ms
+	compilation (LCNF impure) 10.5ms
+	compilation (LCNF mono) 13.5ms
+	congr simp thm 3.41ms
+	elaboration 83.8ms
+	fix level params 0.205ms
+	import 8.91s
+	initialization 47.8ms
+	instantiate metavars 0.285ms
+	interpretation 5.14s
+	let-to-have transformation 4.04ms
+	linting 6.4ms
+	module linting 0.0026ms
+	overlappingInstancesLinter 15.4ms
+	parsing 4.19ms
+	process pre-definitions 19.7ms
+	share common exprs 1.2ms
+	simp 36.2ms
+	tactic execution 87.1ms
+	tacticAnalysis 31.8ms
+	type checking 8.15ms
+	typeclass inference 36ms

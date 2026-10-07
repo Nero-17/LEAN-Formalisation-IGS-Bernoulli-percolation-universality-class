@@ -1,0 +1,38 @@
+[
+  {
+    "folder": "n424",
+    "lean": "Universality\\Certificates\\Section5DataBase19.lean",
+    "depth": 424,
+    "rows": 425,
+    "packets": 424,
+    "word_base_sha256": "ffc55aceb341791e0b5cab26cb376766148532c991ba86f9c31ac594fc696e13",
+    "packet_repair_sha256": "c213fbb0fab70c959852603a1f03b1b865742fe7bed6d1e8fe9bc6d70253e362"
+  },
+  {
+    "folder": "n936",
+    "lean": "Universality\\Certificates\\Section5DataBase661.lean",
+    "depth": 936,
+    "rows": 937,
+    "packets": 936,
+    "word_base_sha256": "8e05965df05f955a41bae8b23e7213cfeec8566f59497637f825d5c2d18f946f",
+    "packet_repair_sha256": "bc372fc7fe1e93fa5113212364082049092f82ed46eac0f8f9215daaf093f7bb"
+  },
+  {
+    "folder": "n952",
+    "lean": "Universality\\Certificates\\Section5DataBase739.lean",
+    "depth": 952,
+    "rows": 953,
+    "packets": 952,
+    "word_base_sha256": "ace83b8a5caf8777913fb5ef46455b8ca7c8c3a9ea88ad00aa5928b00eea3dcf",
+    "packet_repair_sha256": "e3690ba890f60da5c59f25816eb60fff003ad4da95047cd565b98168711c17e1"
+  },
+  {
+    "folder": "transcendental",
+    "lean": "Universality\\Certificates\\Section5DataShifted19.lean",
+    "depth": 424,
+    "rows": 425,
+    "packets": 424,
+    "word_base_sha256": "56c047f630310329a86f155da0c5a166332a017f15a54e9fa1b2d6b9d3b3a2f5",
+    "packet_repair_sha256": "e6cd0e44a52f7b5d86cc0c178072243d603342c5950773fe31f05a27b1b1dde6"
+  }
+]

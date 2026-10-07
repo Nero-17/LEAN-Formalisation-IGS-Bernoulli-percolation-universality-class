@@ -1,0 +1,184 @@
+{
+  "format": "deterministic-source-reconstruction-v1",
+  "reason": "Observed Drive connector upload limit: 104857600 bytes",
+  "restoration_receipt": "code/docs/section5-chunk-data-restoration.json",
+  "restoration_receipt_sha256": "f2c24365447987ff8a71d2cf674e94283cf492306f26894d07f610c22f2d9101",
+  "files": {
+    "code/Universality/Certificates/Section5MassChunkDataBase1900.lean": {
+      "sha256": "fadbee3219e85b468f84f41362ca8c62130253bb6295e8065334512c80f3e4d9",
+      "bytes": 3975957
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase1901.lean": {
+      "sha256": "7039a6626c9d5f9d9688c0266eeee1e77200f3c4ac8574de511a3c4f9549fd92",
+      "bytes": 3041453
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase1902.lean": {
+      "sha256": "dd4b5b2ed26e426c004e29bb5ae03b060ef8b0aaa5f26fdf74fdc41f9c8e8e54",
+      "bytes": 2918448
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase1903.lean": {
+      "sha256": "ed3f54943ace544174ab02d638d21d83c50f2c40db92263b73b7ad19cb42d59d",
+      "bytes": 2809438
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase1904.lean": {
+      "sha256": "e32ebf918c25485a861ee4eaa329e32fc64948c273c58538d83080feb1602b38",
+      "bytes": 2715719
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase1905.lean": {
+      "sha256": "6b0f531879849aa749a40a15d136af00848e6a884606fc08d6ec7f68925b4056",
+      "bytes": 2671326
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase1906.lean": {
+      "sha256": "14ac800210209d2bdf3e8d121e22063b827ac95f07f3834313d7e82f19d6f364",
+      "bytes": 2011462
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66100.lean": {
+      "sha256": "e78b939cd2c0a6d4fd92d4d5247ac95f99a42341056a6ca0292c8fa29295a13d",
+      "bytes": 17169742
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66101.lean": {
+      "sha256": "d9c31a01fcd5ce26133103236c7057588e5e7c5c64c8cf2a453e9b4167b7212f",
+      "bytes": 13487788
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66102.lean": {
+      "sha256": "35b757d537d05052e22e3f519517d1c827d834ef9996e0066fed0865b5d4da46",
+      "bytes": 13224883
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66103.lean": {
+      "sha256": "c32c71c24569e999ecc3c1cae11f2e7505f0f2d96027a288407e5c02da7760ee",
+      "bytes": 12953883
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66104.lean": {
+      "sha256": "f6fd7d373a3fd455654ed4fb16ed468b3f985ec12b1b4857d39d7bee46033b3e",
+      "bytes": 12719588
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66105.lean": {
+      "sha256": "82468c3d55e314f47c5351fb8aa661db944058ff97ab2f0c52c70941f162fa4b",
+      "bytes": 12511737
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66106.lean": {
+      "sha256": "f81ce8ec33840037245ad86b827bf910d25b3e924ad2f8dc6a707213dc43ce81",
+      "bytes": 12334669
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66107.lean": {
+      "sha256": "1c387eb854b21f72879e3532297c750a614c4367e578b4d405da48b82ccf4a9f",
+      "bytes": 12201518
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66108.lean": {
+      "sha256": "3075c4bae8277d85fdca5cf04640e7d733e504d09c81f742f26828570dd5be34",
+      "bytes": 12128280
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66109.lean": {
+      "sha256": "970eb45d5c410eeb1a77e4a1ebbd5a3ff8f892df1d3a14f9d4ecca4d016b23c6",
+      "bytes": 12106195
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66110.lean": {
+      "sha256": "85a4b26110ea86156e7d5b7f8723f99327dd5db20c3f99f635103dbabbb984ad",
+      "bytes": 12185246
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66111.lean": {
+      "sha256": "c4cc1c4d697f9b5cfb1a35c262f4e2c6be7e3f108473054c1942bfb94477c9ae",
+      "bytes": 12344509
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66112.lean": {
+      "sha256": "c11afe5ce4d31994d4d2da8752ccdee6479372b14db4bb7d2d4dc1f776f0b6a7",
+      "bytes": 12566021
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66113.lean": {
+      "sha256": "e9fe29b01cb98d46e7b7dca5188863447a937080d97dacb1812cd57f0332e0d3",
+      "bytes": 12962796
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase66114.lean": {
+      "sha256": "c24c95c4add7987975b70dc5d0fda8b0985bf3fb8177873b75ef7f1c9f9b2267",
+      "bytes": 10082106
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73900.lean": {
+      "sha256": "9940fd4a760b9188f99e6f9ce520e29738f5fb0b2728df51d7c1bf7d339f4d7c",
+      "bytes": 18356901
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73901.lean": {
+      "sha256": "08c08f34c2180cc742dacf0d3c58f219b0729307679fd085648147328b11b385",
+      "bytes": 14585739
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73902.lean": {
+      "sha256": "2982f5069c2186062c9f9c5038339d4356a866338d2ef7b120a396b69b04201b",
+      "bytes": 14450746
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73903.lean": {
+      "sha256": "ec3b8a963a9cea0e8ef1a8a2dc205ffe20856d100d326a3dda4a0605c8e62f4b",
+      "bytes": 14325214
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73904.lean": {
+      "sha256": "bbf56ebc727bc3fb8cdefed27660258fea908e3fd91a5ffd254bf59ecd81a5cd",
+      "bytes": 14216904
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73905.lean": {
+      "sha256": "d7ac227142b6c003dd3823dd78e25fc3989621bef92382d7f94a7aba9ae1b8f7",
+      "bytes": 14128064
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73906.lean": {
+      "sha256": "51f731a4c51b8c5a866175211338ce8f4ab7a5291ad238754fc3d1da6966311c",
+      "bytes": 14087185
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73907.lean": {
+      "sha256": "eed1846896bda445cfee467664e49546cf743dfca7550d1305c91b7d4fd692d3",
+      "bytes": 14079747
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73908.lean": {
+      "sha256": "e94a82f90b2b3099ec3e78ee1b609279dbb4e25caa68a675648cb00a256a0d3e",
+      "bytes": 14099564
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73909.lean": {
+      "sha256": "ef8e0e62378b829b66513677c594b4a713584355e82909cc689a3e088866d6a3",
+      "bytes": 14229126
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73910.lean": {
+      "sha256": "31fe9015f369f3856a6fbce9bdaf86a11521d75b29d3576c1ef1b4fa906bd4fd",
+      "bytes": 14407445
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73911.lean": {
+      "sha256": "241365e40e01f08e3f186bee54765fbd967e3e97671ecd8fdf1f837c59a9d578",
+      "bytes": 14628752
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73912.lean": {
+      "sha256": "2d49313334869c04090a93e95433ea9247c0fc0247292a033d4ddc53be64824c",
+      "bytes": 15002729
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73913.lean": {
+      "sha256": "76f524a53fb596af613f8c28b4cb98ecea6c55e5f0a1ebb94314d5b0622383ce",
+      "bytes": 15519074
+    },
+    "code/Universality/Certificates/Section5MassChunkDataBase73914.lean": {
+      "sha256": "651f2785e6e977f6bb001aad47fa69a77c4a568d918c11d37b1c77e62aa7c633",
+      "bytes": 16115217
+    },
+    "code/Universality/Certificates/Section5MassChunkDataShifted1900.lean": {
+      "sha256": "e7bbb0aa3463ebef3f26b6177a31140b250c091caed1867db5aee27789fe4772",
+      "bytes": 3974831
+    },
+    "code/Universality/Certificates/Section5MassChunkDataShifted1901.lean": {
+      "sha256": "5cb313f600357ae9680970f404dddbb27893eb7f1deefed8c13fd3e94fd09cc8",
+      "bytes": 3041328
+    },
+    "code/Universality/Certificates/Section5MassChunkDataShifted1902.lean": {
+      "sha256": "6c5c5fe05ed092252783cb278b52c55bcd332631c6114a49f241fd6a03736af7",
+      "bytes": 2916978
+    },
+    "code/Universality/Certificates/Section5MassChunkDataShifted1903.lean": {
+      "sha256": "adc186ce57c4548e1e84c9dc33a451c2d8c0cf717456528f8836f1b3e700deaf",
+      "bytes": 2806740
+    },
+    "code/Universality/Certificates/Section5MassChunkDataShifted1904.lean": {
+      "sha256": "e2cb0bbd90be9dc7834f16a34d5417e2da76300615d9cc840e934f5e05a8f96a",
+      "bytes": 2711669
+    },
+    "code/Universality/Certificates/Section5MassChunkDataShifted1905.lean": {
+      "sha256": "2d075ba5f107434a6de100186f6f51f1e915b54ee9ec855daeb9a10e892364bf",
+      "bytes": 2665498
+    },
+    "code/Universality/Certificates/Section5MassChunkDataShifted1906.lean": {
+      "sha256": "5819487ec0c26847c2ff5eeac5f53b9de1071117d094b8eac3ff7b9aa4f78119",
+      "bytes": 2005346
+    }
+  }
+}

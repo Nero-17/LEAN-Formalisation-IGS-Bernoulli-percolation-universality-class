@@ -1,3 +1,20 @@
+# Section 5: verified formalisation snapshot
+
+This branch publishes the completed R079 Section 5 source and its exact dependencies.
+Start with [publication and review notes](docs/SECTION5_PUBLICATION.md),
+[the formal entry](Universality/Section5.lean), and
+[the reproduction guide](docs/section5-guide.md).
+**Restore the 44 generated data files before compiling:**
+[restoration instructions](RESTORE_GENERATED_DATA.md).
+
+The main branch retains the separately verified final Section 3 tree and the
+[project progress overview](https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/blob/main/docs/FORMALISATION_PROGRESS.md).
+This independent snapshot does not claim a merged Sections 2–5 build.
+
+---
+
+The original working snapshot README follows. Earlier chapter status below is historical.
+
 # Hierarchical-percolation universality in Lean
 
 This project formalises *Iterated Graph Systems (II):
@@ -13,7 +30,29 @@ The complete Chinese record and its precise limits are in
 [R074](docs/R074_完整研究记录.md), [R075](docs/R075_完整研究记录.md), and
 [R077](docs/R077_完整研究记录.md).
 
-## Section 3 start (R073)
+Section 5 is documented in the [formalisation and verification guide](docs/section5-guide.md)
+and the [R079 complete record](docs/R079_完整研究记录.md). These give its actual
+graph interfaces, numerical certificate status, source provenance, and checked
+reproduction procedure. The public entry point is `Universality.Section5`.
+
+Section 5 is complete: all four original numerical certificates, the actual
+three seeds, the specified infinite family, physical critical exponents,
+Hausdorff dimension, and shifted transcendence conclusions have passed.
+The four-exponentials conjecture remains an explicit hypothesis, and
+transcendence uses the previously accepted Gelfond–Schneider interface.
+The final incremental closure has 906 modules; its actual
+top-level dependency output covers 8543 project kernel
+declarations. Full evidence and reproduction instructions are in the
+Section 5 guide and R079 record linked above.
+
+## Historical Section 3 checkpoints (R073–early R077)
+
+This section records the earlier baseline, rather than the current open-problem
+list. R079 has since imported and recompiled the minimal upstream dependencies
+for the actual uniformly rooted infinite graph, its physical critical exponents,
+and the Hausdorff dimension of the compact metric completion. Their scope and
+source provenance are recorded in the Section 5 guide linked above. This branch
+does not claim to include every later, unrelated Section 3 or Section 4 module.
 
 The first tranche proves the actual internal-vertex mass recursion, its full
 finite probability-generating-function recursion (retaining the dependence
@@ -69,10 +108,10 @@ the cluster-number proposition at every allowed differentiability order,
 and uniform pre-exit moment estimates. The second complete checkpoint passed
 522 modules and 337 milestone audits, with zero source/build audit errors.
 
-Section 3 as a whole is **not yet formalised**. Strictly positive densities
-and spatial pointwise tails, uniformly rooted infinite graph identification,
-β/δ/averaged η, complete near-critical moments, cluster-number examples,
-radius laws, and remaining cyclic-list/example details are still open.
+At that early checkpoint, the full Section 3 development remained incomplete.
+Its then-open list included positive densities and spatial tails, the uniformly
+rooted infinite graph, β/δ/averaged η, near-critical moments, examples and radius
+laws. This is historical status, not the current status of the imported results.
 
 ## Section 2 continuation (R072)
 
@@ -96,8 +135,8 @@ address coding, the graph-directed set equation and the precise Hausdorff
 bound using the maximum diameter of the finitely many type spaces. Finite
 rule laws are normalised. R075 additionally constructs the infinite
 conditional configuration-history measure and identifies all its finite
-labelled marginals with the actual percolation law. Identification with
-percolation on a uniformly rooted infinite graph remains open.
+labelled marginals with the actual percolation law. The later uniformly rooted
+infinite-graph identification used by Section 5 is now imported and checked.
 
 ## What is actually proved
 
@@ -119,13 +158,13 @@ formulas are derived, rather than used as replacement definitions.
 | Three-state structure | `pivotal_left_eigenvector`; `massMatrix_real_diagonalization`; `exact_conditional_cluster_mass` | Off-critical left eigenvalue, invariant plane, critical 2+1 decomposition, real diagonalisation, exact mass expansion |
 | Noncommutative obstruction | `no_classification_by_classical_multiplicative_observations` | Actual classical rules and annealed mass-growth limits; multiplicativity required only on the classical domain; conversion to different physical-exponent classes remains separate |
 | Cyclic substitution | `Rule.cyclic_substitution_real_similarity`; `cyclic_substitution_response` | Full real similarity for two-factor cyclic composites, including repeated response/secondary eigenvalues; actual edge counts and distances agree |
-| Exponent/dimension inversion | `four_exponent_formulas_eq_iff_dimensions_eq` | Algebraic equivalence of the displayed fractions only; physical existence and formula theorems remain separate |
+| Exponent/dimension inversion | `four_exponent_formulas_eq_iff_dimensions_eq` | Algebraic equivalence; the actual physical existence and formula results used in Section 5 are supplied separately by `RuleResponses.hasCriticalExponents` |
 | Commensurability arithmetic | `commensurate_iff_rational_log_ratio`; `explicit_scales_pairwise_incommensurate` | Positive integer blocking and the explicit scale family |
-| Large counterexample data | `Certificates.certificate*_integer_moments`; `signed_wheatstone_packet` | Four integer datasets, word expansions, capacity allocation and commutator algebra; full graph realisation still missing |
+| Large counterexample data | `Certificates.certificate*_integer_moments`; `signed_wheatstone_packet` | Four integer datasets and actual finite-graph realisation; see the Section 5 guide for the remaining Base661 mass verification and final assembly |
 
 Strict instability follows from a finite-product variance inequality. Uniqueness
 follows because the difference of crossing and occupation log odds is strictly
-increasing on `(0,1)`. No transcendence or percolation theorem was added as an axiom.
+increasing on `(0,1)`. These percolation arguments use only standard logical axioms. The separate Section 5 transcendence results use the accepted Gelfond–Schneider interface.
 
 ## The graph counterexample
 
@@ -161,51 +200,51 @@ of scalar substitution-multiplicative observations agrees on the two rules.
 
 ## Build and trust
 
-The command actually checked in this environment is:
+Use the [Section 5 verification guide](docs/section5-guide.md) for the current
+public import closure and exact reproduction instructions. Its driver first
+produces a plan without running Lean:
 
 ```powershell
-./scripts/build.ps1
+python scripts/section5_final_driver.py --decisions docs/section5-final-history-decisions.json
 ```
 
-It dependency-orders every project import of `Audit.lean`, calls Lean on each
-source, and prints milestone axiom dependencies. `docs/build-results.json`
-records source SHA256, check time, exit code and duration. After a checked full
-build, `./scripts/build.ps1 -ReuseVerified` recompiles new or changed sources and
-their importing modules, retaining records for unchanged sources. The default
-command rebuilds everything.
+Review any changed source, object or dependency evidence before adding
+`--execute`. The incremental driver preserves genuine historical receipts and
+runs the final declaration audit from source. `--fresh` explicitly selects a
+full source rebuild. The earlier `build.ps1` logs belong to historical
+milestones and are not the complete Section 5 acceptance record.
 
-The Windows helper defaults to the shared dependency cache
-`C:/Users/lzysh/Documents/Codex/lean32/packages` and the installed Lean 4.32.1
-binary. Override `PackageCache` and `LeanBin` to change those paths. Dependencies
-are pinned by `lean-toolchain`, `lakefile.toml` and `lake-manifest.json`. A standard
-Lake build is the intended portable route, but **a fresh `lake build` has not been
-verified in this round**. The direct Lean build is the verification evidence.
-`lake --no-cache env lean Universality/Percolation/ClassicalCriticalPoint.lean`
-was also checked successfully using the same installed dependencies. On this
-shared Windows cache, Git ownership exceptions were limited to the exact package
-directories in that one process; no global Git configuration was changed.
+The pinned runtime is Lean 4.32.1 with the mathlib revision listed above.
+Windows PowerShell helpers accept `LeanBin` and `PackageCache` overrides.
+The Python driver uses paths in `scripts/section5_receipt_closure.py`; see the
+guide before configuring another machine. A fresh portable `lake build` has
+not been verified in this round.
 
-The checked library contains no `sorry`, `admit`, `native_decide`, or added
-mathematical axioms. The audit reports only `propext`, `Classical.choice` and
-`Quot.sound`; some finite certificates need only `propext`. Finite computations
-use proof-producing tactics checked by Lean's kernel. All literals needed for
-compilation are already in the source. Regenerating manuscript integer inputs
-requires the original certificate JSON files, whose hashes are recorded in `docs/`.
+No proof uses `sorry` or `native_decide`. The only external mathematical axiom
+in the Section 5 dependency closure is the explicitly accepted
+Gelfond–Schneider interface, used for transcendence. Other results use standard
+Lean logical axioms (`propext`, `Classical.choice`, `Quot.sound` as needed).
+The four-exponentials conjecture is an explicit proposition hypothesis, not
+an axiom or a proved theorem. Finite checks produce ordinary kernel proofs.
 
-## What is not formalised
+The local workspace contains all generated data. The single round archive
+stores 44 large data modules through an exact, fully tested restoration recipe;
+follow its `RESTORE_GENERATED_DATA.md` before building an extracted archive.
+The archive retains every proof, original certificate JSON, generator and
+source hash. Reconstruction restores source and does not replace Lean checking.
 
-1. A bulk infinite-volume percolation graph and identification of crossing
-   criticality with bulk infinite-cluster criticality. The compatible
-   contractive geometric limit in Section 2 is proved, but is not identified
-   with a random Hausdorff mass dimension or a physical scaling limit.
-2. The selected physical exponents β, δ and averaged η; the other four exponent
-   classifications; and full exponent/dimension equivalence. The physical
-   crossing exponent ν is proved in `Classical.crossing_length_exponent`.
-3. The six exponentials theorem and the global arithmetic rigidity theorem.
-4. Full mass repair, finite rule realisation and infinite families for the large
-   Section 5 certificates. Integer moments alone do not prove those claims.
+## Current scope and remaining work
 
-The remaining analytic estimates needed for the physical exponent definitions
-are separate theorem obligations, not bundled assumptions. Rounded decimal illustrations
-in the manuscript are not certified error intervals; the diamond formulas
-themselves are exact Lean theorems.
+The checked actual 19 and 739 rules have the same physical critical exponents
+and incommensurate scales. The shifted-19 rule, its three transcendental
+dimensions, and their rational-span statements are checked. Base661's remaining
+initial-mass checks and the final public assembly are still in progress; their
+completion is required for the original three-seed and infinite-family claims.
+The full current status is in the R079 report linked above.
+
+The eta result concerns fixed macroscopic distance windows. The actual ambient
+Hausdorff dimension concerns the compact completion of rescaled generation
+graph metrics; it does not assert a random cluster scaling limit. Open
+conjectures in the manuscript's discussion remain open, and conditional
+four-exponentials consequences retain their hypothesis. Rounded decimal
+illustrations are not certified error intervals.

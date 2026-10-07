@@ -1,7 +1,9 @@
 param(
     [string]$Module = 'Universality/Matrix/TwoByTwo.lean',
     [string]$PackageCache = 'C:/Users/lzysh/Documents/Codex/lean32/packages',
-    [string]$LeanBin = 'C:/Users/lzysh/.elan/toolchains/leanprover--lean4---v4.32.1/bin'
+    [string]$LeanBin = 'C:/Users/lzysh/.elan/toolchains/leanprover--lean4---v4.32.1/bin',
+    [switch]$Profile,
+    [ValidateRange(0,64)][int]$Threads = 0
 )
 $ErrorActionPreference = 'Stop'
 $taskRoot = Split-Path $PSScriptRoot -Parent
@@ -12,5 +14,9 @@ $taskPaths = @($taskBuild) + @(Get-ChildItem -LiteralPath $PackageCache -Directo
 $env:LEAN_PATH = $taskPaths -join ';'
 $taskOutput = Join-Path $taskBuild ([IO.Path]::ChangeExtension($Module, '.olean'))
 New-Item -ItemType Directory -Path (Split-Path $taskOutput -Parent) -Force | Out-Null
-& (Join-Path $LeanBin 'lean.exe') '-o' $taskOutput $Module
+$taskArguments = @('-R', $taskRoot, '-o', $taskOutput)
+if ($Profile) { $taskArguments += '--profile' }
+if ($Threads -gt 0) { $taskArguments += "--threads=$Threads" }
+$taskArguments += (Join-Path $taskRoot $Module)
+& (Join-Path $LeanBin 'lean.exe') @taskArguments
 exit $LASTEXITCODE

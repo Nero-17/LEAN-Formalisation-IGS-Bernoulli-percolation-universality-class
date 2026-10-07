@@ -1,0 +1,174 @@
+{
+  "recorded_at_utc": "2026-10-06T20:43:32.981327+00:00",
+  "status": "three_modules_kernel_checked_exit_zero",
+  "command": "python scripts/section5_certificate_check.py --threads 1 Universality/Section5/Seed739.lean Universality/Section5/PhysicalSeed739.lean Section5PhysicalSeed739Audit.lean",
+  "tool_session_id": 6785,
+  "process_exit_code": 0,
+  "receipts": [
+    {
+      "receipt_file": "docs/section5-certificate-kernel-checks.json",
+      "entry_sha256": "d31e758162318520d0c308aa24fdb4eb4d73d3b7f5bf173b8696cd067bb756f2",
+      "original_module": "Universality/Section5/Seed739.lean",
+      "source_sha256": "17b93d8a95cc25321203791b41615cab4f446ad9d4ca12578a522df9ba23b97b",
+      "exit_code": 0,
+      "started": "2026-10-07T04:40:04+08:00",
+      "finished": "2026-10-07T04:40:26+08:00",
+      "source_unchanged_during_check": true,
+      "dependencies_unchanged_during_check": true,
+      "recorded_olean_sha256": null,
+      "recorded_output_artifacts": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed739.olean": "7bddd274ee4d9e1047d4c81763e3ebcef610453a1aa6dd2746218c2fc8109cc2",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed739.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed739.olean.private": null
+      },
+      "log_path": null,
+      "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "recorded_at_utc": null,
+      "has_dependency_snapshots": true,
+      "scope": "Reference to genuine historical execution; null means not recorded, not verified.",
+      "receipt_history_index_zero_based": 153,
+      "elapsed_seconds": 18.703,
+      "current_source_output_and_local_dependency_hashes_match": true,
+      "local_source_closure_count": 351,
+      "concrete_base661_dependencies": []
+    },
+    {
+      "receipt_file": "docs/section5-certificate-kernel-checks.json",
+      "entry_sha256": "6cdc7f2fdfb160c0a1d7449ae497001a177335e06da203892567ce98fa2458d7",
+      "original_module": "Universality/Section5/PhysicalSeed739.lean",
+      "source_sha256": "3f25b89164d182d88a79ecdb748edbec97c839284d0f06bdb62c449f844e3ce5",
+      "exit_code": 0,
+      "started": "2026-10-07T04:40:30+08:00",
+      "finished": "2026-10-07T04:41:02+08:00",
+      "source_unchanged_during_check": true,
+      "dependencies_unchanged_during_check": true,
+      "recorded_olean_sha256": null,
+      "recorded_output_artifacts": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\PhysicalSeed739.olean": "dc7f569fdd08e4bc09c0a70e15fcbbeb034e576950519e735a794aa13b44543d",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\PhysicalSeed739.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\PhysicalSeed739.olean.private": null
+      },
+      "log_path": null,
+      "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "recorded_at_utc": null,
+      "has_dependency_snapshots": true,
+      "scope": "Reference to genuine historical execution; null means not recorded, not verified.",
+      "receipt_history_index_zero_based": 154,
+      "elapsed_seconds": 27.093,
+      "current_source_output_and_local_dependency_hashes_match": true,
+      "local_source_closure_count": 706,
+      "concrete_base661_dependencies": []
+    },
+    {
+      "receipt_file": "docs/section5-certificate-kernel-checks.json",
+      "entry_sha256": "4107946491bc0c8cd2cba10c4ebce0a666a48534aad86c0b7cf0dce439a5dd3e",
+      "original_module": "Section5PhysicalSeed739Audit.lean",
+      "source_sha256": "14b2eaaac63c4e2a08554152a48a51f2d16d0da0c43d72355d87f4edfc7a6a02",
+      "exit_code": 0,
+      "started": "2026-10-07T04:41:06+08:00",
+      "finished": "2026-10-07T04:41:30+08:00",
+      "source_unchanged_during_check": true,
+      "dependencies_unchanged_during_check": true,
+      "recorded_olean_sha256": null,
+      "recorded_output_artifacts": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Section5PhysicalSeed739Audit.olean": "39a5d1811186e5bd6286418c2a64d804063bfb9b0ef6ed1be5f5a5fa14f24f70",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Section5PhysicalSeed739Audit.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Section5PhysicalSeed739Audit.olean.private": null
+      },
+      "log_path": null,
+      "embedded_output_sha256": "23b1434cc3abb7651c3f4ba9c11bfcecf00f08dc58f32e21d4b4f17aa8dc65bf",
+      "recorded_at_utc": null,
+      "has_dependency_snapshots": true,
+      "scope": "Reference to genuine historical execution; null means not recorded, not verified.",
+      "receipt_history_index_zero_based": 156,
+      "elapsed_seconds": 20.672,
+      "current_source_output_and_local_dependency_hashes_match": true,
+      "local_source_closure_count": 707,
+      "concrete_base661_dependencies": []
+    }
+  ],
+  "axiom_audit": [
+    {
+      "theorem": "Universality.Section5.exactAllocationBase19",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.exactAllocationBase739",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.certifiedRule19_responses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.certifiedRule739_responses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.certifiedRule19_hasCriticalExponents",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.certifiedRule739_hasCriticalExponents",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.certifiedRule739_physical_infinite_cluster_positive_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.certifiedRule19_and739_sameCriticalExponentUniversalityClass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.coprime_not_commensurate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "Universality.Section5.certifiedRule19_and739_scale_incommensurate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "audit_log": "docs/section5-physical-seed739-audit.log",
+  "scope": "Three actual compiler invocations with genuine before/after snapshots in the append-only common history; current source, output artifact and complete local dependency hashes independently reread. Direct external objects and environment are bound by the compiler receipts; their transitive baseline is not independently rebuilt by this check. No base-661 numerical dependency."
+}

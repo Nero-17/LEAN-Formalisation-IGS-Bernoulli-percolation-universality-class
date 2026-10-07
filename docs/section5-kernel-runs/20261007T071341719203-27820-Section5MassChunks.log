@@ -1,0 +1,35 @@
+interpretation of Mathlib.Tactic.ToAdditive.guessNameExt took 141ms
+interpretation of Mathlib.Tactic.ToDual.guessNameExt took 139ms
+import took 8.58s
+'Universality.Certificates.runLexMassChunk_witnesses' depends on axioms: [propext]
+'Universality.Certificates.runLexMassBitStream_of_chunk_witness' depends on axioms: [propext]
+'Universality.Certificates.initialMassEvaluation_of_chunk_values' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+cumulative profiling times:
+	.olean serialization 59.4ms
+	attribute application 0.649ms
+	blocked (unaccounted) 396ms
+	compilation (IR) 0.669ms
+	compilation (LCNF base) 6.18ms
+	compilation (LCNF impure) 2.15ms
+	compilation (LCNF mono) 5.78ms
+	congr simp thm 1.23ms
+	elaboration 110ms
+	fix level params 0.261ms
+	import 8.58s
+	initialization 49.1ms
+	instantiate metavars 0.788ms
+	interpretation 5.06s
+	let-to-have transformation 0.458ms
+	linting 10.6ms
+	module linting 0.003ms
+	overlappingInstancesLinter 13.4ms
+	parsing 5.33ms
+	process pre-definitions 7.4ms
+	share common exprs 1.54ms
+	simp 28.4ms
+	tactic execution 71ms
+	tacticAnalysis 36.6ms
+	type checking 31.6ms
+	typeclass inference 25.5ms

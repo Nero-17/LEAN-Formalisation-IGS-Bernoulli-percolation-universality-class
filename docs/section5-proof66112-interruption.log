@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\scripts\section5_certificate_check.py", line 112, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\scripts\section5_certificate_check.py", line 95, in main
+    snapshot_after = snapshot_module(ROOT, relative.as_posix())
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\scripts\section5_receipt_closure.py", line 127, in snapshot_module
+    search = [root / ".lake/build/lib/lean"] + package_search_paths()
+                                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\scripts\section5_receipt_closure.py", line 117, in package_search_paths
+    output = subprocess.check_output(["pwsh", "-NoProfile", "-Command", command], text=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lzysh\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lzysh\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pwsh', '-NoProfile', '-Command', "Get-ChildItem -LiteralPath 'C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages' -Directory | ForEach-Object { $_.FullName }"]' returned non-zero exit status 3221226091.

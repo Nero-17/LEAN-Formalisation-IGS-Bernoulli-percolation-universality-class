@@ -1,0 +1,208 @@
+{
+  "scope": "Read-only source import intersection; no compilation. Safety limited to the named running/queued targets, which must be reconfirmed before mutation.",
+  "stream_targets": [
+    "Universality/Certificates/Section5MassChunkProofBase66111.lean",
+    "Universality/Certificates/Section5MassChunkProofBase66113.lean"
+  ],
+  "repair_targets": [
+    "Universality/Certificates/Section5MassRepairDataBase661.lean",
+    "Universality/Certificates/Section5MassRepairChecksBase661.lean",
+    "Universality/Certificates/Section5MassRepairProofBase66100.lean",
+    "Universality/Certificates/Section5MassRepairProofBase66101.lean",
+    "Universality/Certificates/Section5MassRepairProofBase66102.lean",
+    "Universality/Certificates/Section5MassRepairProofBase66103.lean",
+    "Universality/Certificates/Section5MassRepairProofBase66104.lean",
+    "Universality/Certificates/Section5MassRepairProofBase66105.lean",
+    "Universality/Certificates/Section5MassRepairProofBase66106.lean",
+    "Universality/Certificates/Section5MassRepairProofBase66107.lean",
+    "Universality/Certificates/Section5MassRepairBase661.lean"
+  ],
+  "short_modules": [
+    {
+      "module": "Universality/Section5/ScaleGrowth.lean",
+      "source_sha256": "d366dc6248200d5fa8f3d9b7f54a9bba95d32ee1680aad1a48a1ff0f62e5a4b6",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5BinomialTable.lean",
+      "source_sha256": "3fce849c4b7afa42a7dd4ad4e77eb72c05675cf6070f68361ef9ebd060473435",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5MomentCertificate.lean",
+      "source_sha256": "cbff8788d425eb3c2607e6bc0e4ccf24125dc395bd82cb64e60a0cf9b1158241",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5NaturalMoments.lean",
+      "source_sha256": "6c780827b6467e83c0e3c9a242edbe627e6219d59f2828ff6a90530737dff81b",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5BinomialBoolean.lean",
+      "source_sha256": "e5a3859a545b8c306c0fb527bb17a6c439b509942dc99ee9cf1dd46fade0a577",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5GroupChecks.lean",
+      "source_sha256": "4c0b343c85eafef9933571121f2a29edefbba6dbb4009172835076f5f204bcce",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5Distance.lean",
+      "source_sha256": "f4dc07120aea864a3f78a8477a391ea21b8a797691a3696f1483dc5c84c5b2f9",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5LinearChecks.lean",
+      "source_sha256": "2852dbcf54cbe8ee4aba7ab84300e0bd694445f63c93db3e50538c5eab4cd0b1",
+      "used_by": [
+        "Universality/Certificates/Section5MassRepairDataBase661.lean",
+        "Universality/Certificates/Section5MassRepairChecksBase661.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66100.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66101.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66102.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66103.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66104.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66105.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66106.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66107.lean",
+        "Universality/Certificates/Section5MassRepairBase661.lean"
+      ],
+      "safe_from_listed_jobs": false
+    },
+    {
+      "module": "Universality/Certificates/Section5RowChecks.lean",
+      "source_sha256": "e2b4dbe706a4377f77bd326ecf7d86a641b7f80d7b869ee1801ef6bd3ce5a4cd",
+      "used_by": [
+        "Universality/Certificates/Section5MassRepairDataBase661.lean",
+        "Universality/Certificates/Section5MassRepairChecksBase661.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66100.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66101.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66102.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66103.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66104.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66105.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66106.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66107.lean",
+        "Universality/Certificates/Section5MassRepairBase661.lean"
+      ],
+      "safe_from_listed_jobs": false
+    },
+    {
+      "module": "Universality/Certificates/Section5PacketChecks.lean",
+      "source_sha256": "8cc53742ee8a38c151d245907c2d35c5c16be54d24a8c77e8b39301187bdfc78",
+      "used_by": [
+        "Universality/Certificates/Section5MassRepairDataBase661.lean",
+        "Universality/Certificates/Section5MassRepairChecksBase661.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66100.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66101.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66102.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66103.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66104.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66105.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66106.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66107.lean",
+        "Universality/Certificates/Section5MassRepairBase661.lean"
+      ],
+      "safe_from_listed_jobs": false
+    },
+    {
+      "module": "Universality/Certificates/Section5FastRank.lean",
+      "source_sha256": "cf05d3178756f7a317d2380d7a1a15897a534a69f7e8403ac15e3c81f613a89c",
+      "used_by": [
+        "Universality/Certificates/Section5MassRepairDataBase661.lean",
+        "Universality/Certificates/Section5MassRepairChecksBase661.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66100.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66101.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66102.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66103.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66104.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66105.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66106.lean",
+        "Universality/Certificates/Section5MassRepairProofBase66107.lean",
+        "Universality/Certificates/Section5MassRepairBase661.lean"
+      ],
+      "safe_from_listed_jobs": false
+    },
+    {
+      "module": "Universality/Certificates/Section5LengthCertificate.lean",
+      "source_sha256": "c99257eaf9710082e230f3c1f2a315d0b0402b9b8e1aa7c45cc3c4cd4e540323",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5MomentSpecialization.lean",
+      "source_sha256": "83680866a1acf9417ebe4063b90cbd6d94d158f423c0fbe0447b4d291e89b910",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Certificates/Section5BitExtraction.lean",
+      "source_sha256": "dda251f72de4f8a35fca64d660699469fa15c352014654f3a4a9c050d3ca653d",
+      "used_by": [
+        "Universality/Certificates/Section5MassChunkProofBase66111.lean",
+        "Universality/Certificates/Section5MassChunkProofBase66113.lean"
+      ],
+      "safe_from_listed_jobs": false
+    },
+    {
+      "module": "Universality/Certificates/Section5MassChunks.lean",
+      "source_sha256": "3658c3bdf22a4d8a4aac733926495f39cdc2980b75708c878750db3d91d6d7f1",
+      "used_by": [
+        "Universality/Certificates/Section5MassChunkProofBase66111.lean",
+        "Universality/Certificates/Section5MassChunkProofBase66113.lean"
+      ],
+      "safe_from_listed_jobs": false
+    },
+    {
+      "module": "Universality/Certificates/Section5MassSpecialization.lean",
+      "source_sha256": "0f87ad42cc03e582ad5e99e576f4ffa85ff467037e95d2fce24d6b7f4504703c",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    },
+    {
+      "module": "Universality/Section5/Seed19.lean",
+      "source_sha256": "1e7b4ce64d44a90b85de6e80871a8b09d7d18772c5f67eee0ce9917b6c50f1ad",
+      "used_by": [],
+      "safe_from_listed_jobs": true
+    }
+  ],
+  "safe_dependency_order": [
+    "Universality/Section5/ScaleGrowth.lean",
+    "Universality/Certificates/Section5BinomialTable.lean",
+    "Universality/Certificates/Section5MomentCertificate.lean",
+    "Universality/Certificates/Section5NaturalMoments.lean",
+    "Universality/Certificates/Section5BinomialBoolean.lean",
+    "Universality/Certificates/Section5GroupChecks.lean",
+    "Universality/Certificates/Section5Distance.lean",
+    "Universality/Certificates/Section5LengthCertificate.lean",
+    "Universality/Certificates/Section5MomentSpecialization.lean",
+    "Universality/Certificates/Section5MassSpecialization.lean",
+    "Universality/Section5/Seed19.lean"
+  ],
+  "safe_after_all_repair_jobs_finish": [
+    "Universality/Section5/ScaleGrowth.lean",
+    "Universality/Certificates/Section5BinomialTable.lean",
+    "Universality/Certificates/Section5MomentCertificate.lean",
+    "Universality/Certificates/Section5NaturalMoments.lean",
+    "Universality/Certificates/Section5BinomialBoolean.lean",
+    "Universality/Certificates/Section5GroupChecks.lean",
+    "Universality/Certificates/Section5Distance.lean",
+    "Universality/Certificates/Section5LinearChecks.lean",
+    "Universality/Certificates/Section5RowChecks.lean",
+    "Universality/Certificates/Section5PacketChecks.lean",
+    "Universality/Certificates/Section5FastRank.lean",
+    "Universality/Certificates/Section5LengthCertificate.lean",
+    "Universality/Certificates/Section5MomentSpecialization.lean",
+    "Universality/Certificates/Section5MassSpecialization.lean",
+    "Universality/Section5/Seed19.lean"
+  ]
+}

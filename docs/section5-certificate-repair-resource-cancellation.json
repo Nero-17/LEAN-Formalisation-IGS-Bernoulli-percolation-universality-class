@@ -1,0 +1,17 @@
+{
+  "status": "resource_cancelled",
+  "module": "Universality/Certificates/Section5MassRepairBase661.lean",
+  "source_sha256": "c5b80f3fdb254ef5b118355138276cccb45c55b79ba07a8e5c5859fdbda90b7c",
+  "unstarted_queued_module": "Universality/Certificates/Section5MassRepairBase739.lean",
+  "session_id": 97513,
+  "started": "2026-10-07T03:43:47+08:00",
+  "cancelled": "2026-10-07T03:54:13+08:00",
+  "elapsed_seconds_approximate": 626,
+  "numerical_failure": false,
+  "queue_cancellation": "Ctrl+C sent to the exact owned unified-exec session; returned exit 1 without a proof result",
+  "reason": "Host memory reached 90%; parent read-only CIM inspection measured approximately 4.135 GB resident memory for this repair Lean process",
+  "parent_observed_repair_pid": 34852,
+  "child_process_release": "Parent fresh CIM at 19:54-19:55 UTC confirmed repair Lean PID34852 and pwsh PID29240 absent; no repair process remained",
+  "recovered_memory": "Parent GlobalMemoryStatusEx at 19:57:29 UTC: physical load 75%, available physical memory 4.026 GB, available commit 15.35 GB",
+  "preserved": "Both established Base661 and Base739 initial-stream proof queues remain running"
+}

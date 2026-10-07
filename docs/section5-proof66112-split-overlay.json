@@ -1,0 +1,311 @@
+{
+  "schema": 1,
+  "status": "exact_source_layout_only_pending_kernel_checks",
+  "prepared_at": "2026-10-07T06:30:01+08:00",
+  "reason": "Old batch had no successful object/receipt after a snapshot_after subprocess error; do not infer its Lean exit code.",
+  "original_manifest": {
+    "path": "docs/section5-certificate-chunks-Base661.json",
+    "sha256": "e0304de27d12fd47910934807ead804cb93ade25c2da52fe6098e2fa9b837e0d"
+  },
+  "historical_restoration_receipt": {
+    "path": "docs/section5-chunk-data-restoration.json",
+    "sha256": "f2c24365447987ff8a71d2cf674e94283cf492306f26894d07f610c22f2d9101"
+  },
+  "original_source": {
+    "path": "Universality/Certificates/Section5MassChunkProofBase66112.lean",
+    "backup_path": "docs/section5-proof-split-original/Section5MassChunkProofBase66112.lean",
+    "bytes": 1737,
+    "sha256": "9294ea6a8d1581d96f85723e0cad2b4a23383b1a94014263a4fbe5ec4d43829a"
+  },
+  "header_sha256": "3a6a963ec24483c173a3021a43da2701f7e9dee0a15019804fb10d49654439f6",
+  "footer_sha256": "763703ee0b83a5f6d7e42c754ade62e08da42242e3d183831024ceac3ab7d6c7",
+  "leaves": [
+    {
+      "module": "Section5MassChunkProofBase66112A",
+      "path": "Universality/Certificates/Section5MassChunkProofBase66112A.lean",
+      "bytes": 714,
+      "sha256": "066a741c0c11f147ef8ab72b57f84f7a815c6d7fcc29add9b8b0b8f9d3c5bfa8",
+      "original_body_start_byte": 322,
+      "original_body_end_byte": 663,
+      "body_sha256": "f1c95d8ecf3e08d58ab5c41bf07b7aa24fc45b0ec84f7af517129b36170379b0",
+      "declarations": [
+        "transition0768_0784",
+        "values0768_0784"
+      ]
+    },
+    {
+      "module": "Section5MassChunkProofBase66112B",
+      "path": "Universality/Certificates/Section5MassChunkProofBase66112B.lean",
+      "bytes": 714,
+      "sha256": "4b90f36047d55a1be3dd8c758e3572148d29f6ac83122c08f57d53bbc04806cd",
+      "original_body_start_byte": 663,
+      "original_body_end_byte": 1004,
+      "body_sha256": "3e1c002e81f4559f7a26593999295fda7163f8277d5af8db3b82b982a71ad66f",
+      "declarations": [
+        "transition0784_0800",
+        "values0784_0800"
+      ]
+    },
+    {
+      "module": "Section5MassChunkProofBase66112C",
+      "path": "Universality/Certificates/Section5MassChunkProofBase66112C.lean",
+      "bytes": 714,
+      "sha256": "e3d3384d2747725d31b0f2903ce6fb63c31ae57acec1c579f1d31920a1cf4c40",
+      "original_body_start_byte": 1004,
+      "original_body_end_byte": 1345,
+      "body_sha256": "23a8ff57a477048a13362a80f7a54811657ac86922cbeceb19652f1536af7801",
+      "declarations": [
+        "transition0800_0816",
+        "values0800_0816"
+      ]
+    },
+    {
+      "module": "Section5MassChunkProofBase66112D",
+      "path": "Universality/Certificates/Section5MassChunkProofBase66112D.lean",
+      "bytes": 714,
+      "sha256": "c18eccf2f7f770b20ddb09a5ba79de146e5a52f222053715b495a8f4ff30d737",
+      "original_body_start_byte": 1345,
+      "original_body_end_byte": 1686,
+      "body_sha256": "9d0d1238f32ce6cc618e7daa37687ca2964c13124164187ca7c42779ad99e7d4",
+      "declarations": [
+        "transition0816_0832",
+        "values0816_0832"
+      ]
+    }
+  ],
+  "assembly": {
+    "path": "Universality/Certificates/Section5MassChunkProofBase66112.lean",
+    "bytes": 268,
+    "sha256": "dbbfdf40458d30dd87a3029df9612766fac58ddf51d87afc540f5743607c5406",
+    "imports": [
+      "Universality.Certificates.Section5MassChunkProofBase66112A",
+      "Universality.Certificates.Section5MassChunkProofBase66112B",
+      "Universality.Certificates.Section5MassChunkProofBase66112C",
+      "Universality.Certificates.Section5MassChunkProofBase66112D"
+    ]
+  },
+  "unchanged_files": [
+    {
+      "path": "docs/section5-chunk-data-restoration.json",
+      "sha256": "f2c24365447987ff8a71d2cf674e94283cf492306f26894d07f610c22f2d9101"
+    },
+    {
+      "path": "docs/section5-certificate-chunks-Base19.json",
+      "sha256": "39e8a03ce1421e91e2cbd1c8b0f20362b8126d15150ecbf208544cf082997a55"
+    },
+    {
+      "path": "docs/section5-certificate-chunks-Base661.json",
+      "sha256": "e0304de27d12fd47910934807ead804cb93ade25c2da52fe6098e2fa9b837e0d"
+    },
+    {
+      "path": "docs/section5-certificate-chunks-Base739.json",
+      "sha256": "cabc608acc29593fd180028d34c94ee5ba6d3130b24ae31b2ae760a8af83b867"
+    },
+    {
+      "path": "docs/section5-certificate-chunks-Shifted19.json",
+      "sha256": "275d68bc1f076364adc196db59888e9dc848d8a549e34b2173502b8281c96ac1"
+    },
+    {
+      "path": "supplementary/section5/certificates/n424/word_base.json",
+      "sha256": "ffc55aceb341791e0b5cab26cb376766148532c991ba86f9c31ac594fc696e13"
+    },
+    {
+      "path": "supplementary/section5/certificates/n936/word_base.json",
+      "sha256": "8e05965df05f955a41bae8b23e7213cfeec8566f59497637f825d5c2d18f946f"
+    },
+    {
+      "path": "supplementary/section5/certificates/n952/word_base.json",
+      "sha256": "ace83b8a5caf8777913fb5ef46455b8ca7c8c3a9ea88ad00aa5928b00eea3dcf"
+    },
+    {
+      "path": "supplementary/section5/certificates/transcendental/word_base.json",
+      "sha256": "56c047f630310329a86f155da0c5a166332a017f15a54e9fa1b2d6b9d3b3a2f5"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase1900.lean",
+      "sha256": "fadbee3219e85b468f84f41362ca8c62130253bb6295e8065334512c80f3e4d9"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase1901.lean",
+      "sha256": "7039a6626c9d5f9d9688c0266eeee1e77200f3c4ac8574de511a3c4f9549fd92"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase1902.lean",
+      "sha256": "dd4b5b2ed26e426c004e29bb5ae03b060ef8b0aaa5f26fdf74fdc41f9c8e8e54"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase1903.lean",
+      "sha256": "ed3f54943ace544174ab02d638d21d83c50f2c40db92263b73b7ad19cb42d59d"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase1904.lean",
+      "sha256": "e32ebf918c25485a861ee4eaa329e32fc64948c273c58538d83080feb1602b38"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase1905.lean",
+      "sha256": "6b0f531879849aa749a40a15d136af00848e6a884606fc08d6ec7f68925b4056"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase1906.lean",
+      "sha256": "14ac800210209d2bdf3e8d121e22063b827ac95f07f3834313d7e82f19d6f364"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66100.lean",
+      "sha256": "e78b939cd2c0a6d4fd92d4d5247ac95f99a42341056a6ca0292c8fa29295a13d"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66101.lean",
+      "sha256": "d9c31a01fcd5ce26133103236c7057588e5e7c5c64c8cf2a453e9b4167b7212f"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66102.lean",
+      "sha256": "35b757d537d05052e22e3f519517d1c827d834ef9996e0066fed0865b5d4da46"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66103.lean",
+      "sha256": "c32c71c24569e999ecc3c1cae11f2e7505f0f2d96027a288407e5c02da7760ee"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66104.lean",
+      "sha256": "f6fd7d373a3fd455654ed4fb16ed468b3f985ec12b1b4857d39d7bee46033b3e"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66105.lean",
+      "sha256": "82468c3d55e314f47c5351fb8aa661db944058ff97ab2f0c52c70941f162fa4b"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66106.lean",
+      "sha256": "f81ce8ec33840037245ad86b827bf910d25b3e924ad2f8dc6a707213dc43ce81"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66107.lean",
+      "sha256": "1c387eb854b21f72879e3532297c750a614c4367e578b4d405da48b82ccf4a9f"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66108.lean",
+      "sha256": "3075c4bae8277d85fdca5cf04640e7d733e504d09c81f742f26828570dd5be34"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66109.lean",
+      "sha256": "970eb45d5c410eeb1a77e4a1ebbd5a3ff8f892df1d3a14f9d4ecca4d016b23c6"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66110.lean",
+      "sha256": "85a4b26110ea86156e7d5b7f8723f99327dd5db20c3f99f635103dbabbb984ad"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66111.lean",
+      "sha256": "c4cc1c4d697f9b5cfb1a35c262f4e2c6be7e3f108473054c1942bfb94477c9ae"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66112.lean",
+      "sha256": "c11afe5ce4d31994d4d2da8752ccdee6479372b14db4bb7d2d4dc1f776f0b6a7"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66113.lean",
+      "sha256": "e9fe29b01cb98d46e7b7dca5188863447a937080d97dacb1812cd57f0332e0d3"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase66114.lean",
+      "sha256": "c24c95c4add7987975b70dc5d0fda8b0985bf3fb8177873b75ef7f1c9f9b2267"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73900.lean",
+      "sha256": "9940fd4a760b9188f99e6f9ce520e29738f5fb0b2728df51d7c1bf7d339f4d7c"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73901.lean",
+      "sha256": "08c08f34c2180cc742dacf0d3c58f219b0729307679fd085648147328b11b385"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73902.lean",
+      "sha256": "2982f5069c2186062c9f9c5038339d4356a866338d2ef7b120a396b69b04201b"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73903.lean",
+      "sha256": "ec3b8a963a9cea0e8ef1a8a2dc205ffe20856d100d326a3dda4a0605c8e62f4b"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73904.lean",
+      "sha256": "bbf56ebc727bc3fb8cdefed27660258fea908e3fd91a5ffd254bf59ecd81a5cd"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73905.lean",
+      "sha256": "d7ac227142b6c003dd3823dd78e25fc3989621bef92382d7f94a7aba9ae1b8f7"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73906.lean",
+      "sha256": "51f731a4c51b8c5a866175211338ce8f4ab7a5291ad238754fc3d1da6966311c"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73907.lean",
+      "sha256": "eed1846896bda445cfee467664e49546cf743dfca7550d1305c91b7d4fd692d3"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73908.lean",
+      "sha256": "e94a82f90b2b3099ec3e78ee1b609279dbb4e25caa68a675648cb00a256a0d3e"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73909.lean",
+      "sha256": "ef8e0e62378b829b66513677c594b4a713584355e82909cc689a3e088866d6a3"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73910.lean",
+      "sha256": "31fe9015f369f3856a6fbce9bdaf86a11521d75b29d3576c1ef1b4fa906bd4fd"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73911.lean",
+      "sha256": "241365e40e01f08e3f186bee54765fbd967e3e97671ecd8fdf1f837c59a9d578"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73912.lean",
+      "sha256": "2d49313334869c04090a93e95433ea9247c0fc0247292a033d4ddc53be64824c"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73913.lean",
+      "sha256": "76f524a53fb596af613f8c28b4cb98ecea6c55e5f0a1ebb94314d5b0622383ce"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataBase73914.lean",
+      "sha256": "651f2785e6e977f6bb001aad47fa69a77c4a568d918c11d37b1c77e62aa7c633"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataShifted1900.lean",
+      "sha256": "e7bbb0aa3463ebef3f26b6177a31140b250c091caed1867db5aee27789fe4772"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataShifted1901.lean",
+      "sha256": "5cb313f600357ae9680970f404dddbb27893eb7f1deefed8c13fd3e94fd09cc8"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataShifted1902.lean",
+      "sha256": "6c5c5fe05ed092252783cb278b52c55bcd332631c6114a49f241fd6a03736af7"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataShifted1903.lean",
+      "sha256": "adc186ce57c4548e1e84c9dc33a451c2d8c0cf717456528f8836f1b3e700deaf"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataShifted1904.lean",
+      "sha256": "e2cb0bbd90be9dc7834f16a34d5417e2da76300615d9cc840e934f5e05a8f96a"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataShifted1905.lean",
+      "sha256": "2d075ba5f107434a6de100186f6f51f1e915b54ee9ec855daeb9a10e892364bf"
+    },
+    {
+      "path": "Universality/Certificates/Section5MassChunkDataShifted1906.lean",
+      "sha256": "5819487ec0c26847c2ff5eeac5f53b9de1071117d094b8eac3ff7b9aa4f78119"
+    },
+    {
+      "path": "scripts/section5_certificate_chunks.py",
+      "sha256": "f7c06bf514c0cf0a2621c80d7e1ba70a839b0bcc9d91444f2faa069d4cce2c8c"
+    },
+    {
+      "path": "scripts/restore_section5_chunk_data.py",
+      "sha256": "bff2e2fcbe2d8327ffdcc2ada01ef2cf40246356a47e05a72a62bf832bb4190b"
+    }
+  ],
+  "declaration_coverage": "Exactly the original eight declarations, once each, with byte-identical bodies, header/options/namespace and footer.",
+  "proof_scope": "Every new transition still requires its own actual Lean kernel check; no historical successful exit is synthesized."
+}

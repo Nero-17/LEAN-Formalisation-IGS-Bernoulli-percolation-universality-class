@@ -1,0 +1,71 @@
+[
+  {
+    "observed_utc": "2026-10-06T20:56:13Z",
+    "evidence": "Parent escalated read-only CIM restricted to these two project Lean processes; compiler success is not inferred from CPU/resource data.",
+    "processes": [
+      {
+        "module": "Section5MassChunkProofBase66111",
+        "pid": 12556,
+        "wall_seconds": 435.2,
+        "cpu_seconds": 427.6,
+        "resident_bytes": 2227818496,
+        "private_bytes": 3728932864
+      },
+      {
+        "module": "Section5MassChunkProofBase66113",
+        "pid": 23928,
+        "wall_seconds": 423.1,
+        "cpu_seconds": 416.1,
+        "resident_bytes": 1890246656,
+        "private_bytes": 3396378624
+      }
+    ],
+    "recent_global_memory": {
+      "observed_utc": "2026-10-06T20:55:30.273952Z",
+      "physical_load_percent": 90,
+      "available_physical_bytes": 1638862848,
+      "available_commit_bytes": 17432432640
+    },
+    "decision": "Keep both healthy, active checks. No third Lean task. Parent explicitly instructed not to cancel solely for90% physical load with this commit headroom; report actual OOM, critical99% or CPU collapse."
+  },
+  {
+    "observed_utc": "2026-10-06T21:23:01.966700Z",
+    "physical_load_percent": 81,
+    "available_physical_bytes": 3078959104,
+    "available_commit_bytes": 21632880640,
+    "parent_authorized_short_work_gate": {
+      "physical_load_at_most_percent": 82,
+      "available_physical_at_least_bytes": 3221225472,
+      "long_proof_count": 1,
+      "short_modules_in_parallel_at_most": 1
+    },
+    "gate_passed": false,
+    "decision": "Wait: available physical memory is below3GiB despite physical load satisfying82%. Preserve Proof13; do not start another long proof unless the original75% gate passes.",
+    "short_job_stop_conditions": "Unexpected growth toward2GiB resident memory or whole-host physical load at least96%; stop only the new short job."
+  },
+  {
+    "observed_utc": "2026-10-06T21:42:22Z",
+    "evidence": "Parent fresh escalated read-only CIM restricted to the two project Lean processes. Resource evidence is not proof success.",
+    "processes": [
+      {
+        "module": "Section5MassChunkProofBase66112",
+        "pid": 29616,
+        "wall_seconds": 702.2,
+        "cpu_seconds": 690.8,
+        "resident_gib_rounded": 1.994,
+        "private_gib_rounded": 3.392
+      },
+      {
+        "module": "Section5MassChunkProofBase66114",
+        "pid": 27244,
+        "wall_seconds": 690.4,
+        "cpu_seconds": 679.7,
+        "resident_gib_rounded": 1.8,
+        "private_gib_rounded": 3.194
+      }
+    ],
+    "physical_load_percent": 89,
+    "available_physical_gb_rounded": 1.8,
+    "decision": "Both proof processes are actively computing. Preserve both; do not launch a third job. The next short-helper handoff requires one long proof to finish and a fresh memory gate."
+  }
+]

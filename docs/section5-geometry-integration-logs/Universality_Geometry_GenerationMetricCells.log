@@ -1,0 +1,7 @@
+'Universality.Rule.generationMetricCell_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.generationMetricCell_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.generationMetricBoundaryDistance_pos_somewhere' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.generationMetricCell_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.generationMetricCell_separation' depends on axioms: [propext, Classical.choice, Quot.sound]

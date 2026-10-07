@@ -1,0 +1,39 @@
+{
+  "status": "ROOT INDEPENDENT INTEGER-ONLY CERTIFICATE PASS",
+  "base": 19,
+  "n": 424,
+  "mass_definition": "original three-state, re-enumerated from 32 configurations",
+  "input_files": [
+    "word_base.json",
+    "packet_repair.json"
+  ],
+  "rational_center_read": false,
+  "full_PF_vector": [
+    55,
+    46,
+    23
+  ],
+  "exponents": [
+    100,
+    232,
+    219,
+    70
+  ],
+  "thermal_pivotal_numerators_reenumerated": [
+    6,
+    6,
+    6,
+    6,
+    2
+  ],
+  "thermal_pivotal_denominator": 16,
+  "explicitly_checked_exception_words": 4,
+  "hashes": {
+    "word_base.json": "56c047f630310329a86f155da0c5a166332a017f15a54e9fa1b2d6b9d3b3a2f5",
+    "packet_repair.json": "e6cd0e44a52f7b5d86cc0c178072243d603342c5950773fe31f05a27b1b1dde6"
+  },
+  "seconds": 3.264999999999418,
+  "scale_offset": 480,
+  "scale": "75051624198251984443456989853061891539043939434909537798332873934101480896578056472849915762891214746171016655874432115640378481",
+  "coprime_to_19": true
+}
