@@ -34251,6 +34251,33 @@
       "Classical.choice",
       "Quot.sound"
     ],
+    "declaration": "Universality.Geometry.increasing_sets_hausdorff_bound",
+    "module": "Universality.Geometry.IncreasingCompactLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Geometry.increasing_sets_hausdorff_bound._simp_1_1",
+    "module": "Universality.Geometry.IncreasingCompactLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Geometry.increasing_sets_hausdorff_tendsto",
+    "module": "Universality.Geometry.IncreasingCompactLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
     "declaration": "Universality.Geometry.exists_internal_similarity",
     "module": "Universality.Geometry.InternalSimilarity"
   },
@@ -34445,6 +34472,759 @@
     ],
     "declaration": "Universality.Geometry.MetricDirectLimit.metricSpace._proof_8",
     "module": "Universality.Geometry.MetricDirectLimit"
+  },
+  {
+    "axioms": [
+      "Quot.sound"
+    ],
+    "declaration": "Universality.FiniteNetwork.NetworkEquivalence.mk.congr_simp",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "Quot.sound"
+    ],
+    "declaration": "Universality.FiniteNetwork.NetworkEquivalence.refl.eq_1",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.FiniteNetwork.NetworkEquivalence.substitute.eq_1",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.FiniteNetwork.NetworkEquivalence.trans.eq_1",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.FiniteNetwork.substitutionAssociativity.eq_1",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.FiniteNetwork.substitutionConfigurationEquiv.eq_1",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.coherent_generation_crosses",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.generationTopDecomposition.eq_1",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.generationTopDecomposition.eq_2",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.generationTopDecomposition.eq_def",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.generation_crosses_coarsen",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCellConfiguration_coarsen",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCellConfiguration_coherent",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCellConfiguration_succ",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCellState_eq",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCell_coarseConfiguration",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [],
+    "declaration": "_private.Universality.Geometry.PercolationCellCoherence.0.Universality.Rule.generationTopDecomposition.match_1.eq_1",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [],
+    "declaration": "_private.Universality.Geometry.PercolationCellCoherence.0.Universality.Rule.generationTopDecomposition.match_1.eq_2",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [],
+    "declaration": "_private.Universality.Geometry.PercolationCellCoherence.0.Universality.Rule.generationTopDecomposition.match_1.splitter",
+    "module": "Universality.Geometry.PercolationCellCoherence"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCellConfiguration",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCellConfiguration.eq_1",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCellState",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCellState.eq_1",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCell_selectedActive",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterVertices.eq_1",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedVertices",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedVertices.eq_1",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedVertices_recursion",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedVertices_source",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedVertices_source._simp_1_3",
+    "module": "Universality.Geometry.PercolationCellSelection"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.generation_reachable_old_iff",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.infiniteLaw_clusterVertices_monotone",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterLimit",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterLimit_compact",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterLimit_nonempty",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterVertices",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterVertices_finite",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterVertices_monotone",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterVertices_nonempty",
+    "module": "Universality.Geometry.PercolationClusterVertices"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.generation_selectedActive_old",
+    "module": "Universality.Geometry.PercolationGraphDirectedLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.generation_selectedActive_old._simp_1_1",
+    "module": "Universality.Geometry.PercolationGraphDirectedLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterLimit.eq_1",
+    "module": "Universality.Geometry.PercolationGraphDirectedLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedLimit",
+    "module": "Universality.Geometry.PercolationGraphDirectedLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedLimit.eq_1",
+    "module": "Universality.Geometry.PercolationGraphDirectedLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedLimit_graphDirected",
+    "module": "Universality.Geometry.PercolationGraphDirectedLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedLimit_source",
+    "module": "Universality.Geometry.PercolationGraphDirectedLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationSelectedVertices_monotone",
+    "module": "Universality.Geometry.PercolationGraphDirectedLimit"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.infiniteLaw_percolationCluster_gromovHausdorff",
+    "module": "Universality.Geometry.PercolationGromovHausdorff"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterCompact",
+    "module": "Universality.Geometry.PercolationGromovHausdorff"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationClusterCompact._proof_1",
+    "module": "Universality.Geometry.PercolationGromovHausdorff"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCluster_gromovHausdorff",
+    "module": "Universality.Geometry.PercolationGromovHausdorff"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationLimitCompact",
+    "module": "Universality.Geometry.PercolationGromovHausdorff"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.Coherent",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess._sizeOf_1",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess._sizeOf_inst",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.atAddress",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.atAddress._f",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.atAddress._sunfold",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.atAddress._unsafe_rec",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [],
+    "declaration": "Universality.Rule.PercolationCellProcess.atAddress.match_1",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.atAddress_coherent",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.casesOn",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.child",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.child_coherent",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.child_state_at_every_depth",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.configuration",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.ctorIdx",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.graphDirected_at_every_address",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.limit",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.limit_compact",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.mk",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.mk._flat_ctor",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.mk.inj",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.mk.injEq",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.mk.noConfusion",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.mk.sizeOf_spec",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.noConfusion",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.noConfusionType",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.rec",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.recOn",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.sourceSelected",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.PercolationCellProcess.targetSelected",
+    "module": "Universality.Geometry.PercolationRecursiveTree"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.classical_percolation_graphDirected_gromovHausdorff",
+    "module": "Universality.Geometry.PercolationTheorem29"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationCell_conditional_joint_weight",
+    "module": "Universality.Geometry.PercolationTheorem29"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.percolationHistoryProcess",
+    "module": "Universality.Geometry.PercolationTheorem29"
   },
   {
     "axioms": [
@@ -60275,6 +61055,24 @@
     ],
     "declaration": "Universality.Rule.ConfigurationHistory.law.eq_1",
     "module": "Universality.Percolation.InfiniteObservables"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.ConfigurationHistory.infiniteLaw_terminal_condition",
+    "module": "Universality.Percolation.InfiniteTerminalCondition"
+  },
+  {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.ConfigurationHistory.law_terminal_condition",
+    "module": "Universality.Percolation.InfiniteTerminalCondition"
   },
   {
     "axioms": [

@@ -51,3 +51,8 @@ No mathematical declaration or proof body was replaced by this equivalence check
 hashes. These are final verification artifacts, not accumulated execution histories.
 This verification is not represented as an all-modules fresh source rebuild or a
 tested clean-machine Lake installation.
+
+The current verification freshly compiled nine concrete Theorem 2.9 modules,
+the aggregate entry and the executable audit (11 modules), while verifying and
+reusing 1165 unchanged dependency objects. The audit covers 1175 project modules
+and 10513 serialized kernel declarations; the extra build module is `Audit.lean`.

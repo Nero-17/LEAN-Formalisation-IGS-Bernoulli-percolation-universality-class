@@ -19,3 +19,8 @@ It is not an axiom and is not used to assert unconditional four-exponentials res
 declarations by their source module, not only by their namespace, and includes
 serialized private/generated kernel declarations. Compiler-only entries are
 counted separately and are not counted as mathematical proofs.
+
+The concrete Theorem 2.9 endpoint
+`Rule.classical_percolation_graphDirected_gromovHausdorff` uses only the three
+standard logical axioms. Neither external number-theoretic theorem is used in
+its probability, geometric or GH-limit proof.

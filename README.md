@@ -20,6 +20,11 @@ mass matrix and metric completion throughout. Section 4 consumes Section 3's
 physical-class theorem; Section 5 realizes its examples as actual classical
 rules and invokes that same theorem. See [coverage and interfaces](docs/COVERAGE.md).
 
+The concrete almost-sure GH and graph-directed limit theorem for actual critical
+percolation clusters is [Theorem 2.9](Universality/Geometry/PercolationTheorem29.lean).
+It constructs the geometry from the rule and configurations, without assuming a
+compatible geometric realisation.
+
 ## Verification
 
 Use Lean **4.32.1** and the mathlib revision pinned in `lake-manifest.json`.

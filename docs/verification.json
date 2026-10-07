@@ -1,11 +1,11 @@
 {
-  "scope": "Fresh combined entry compilation and full imported kernel-declaration axiom audit; hash-verified reuse of completed dependency objects, not a fresh rebuild of every module.",
+  "scope": "Fresh compilation of the concrete Theorem 2.9 modules and combined entry; full imported kernel-declaration axiom audit; hash-verified reuse of unchanged dependencies, not a fresh rebuild of every module.",
   "lean_version": "4.32.1",
   "mathlib_revision": "520045ab14e26149ee970e2e617ca04b09bde5d6",
   "compiler_sha256": "c3f02a2b739078d1237af9feefd27ec85b943b56870234b42bc0111d6699d54d",
-  "project_modules": 1166,
-  "kernel_declarations": 10422,
-  "compiler_only_entries": 932523,
+  "project_modules": 1175,
+  "kernel_declarations": 10513,
+  "compiler_only_entries": 932532,
   "gelfond_schneider_declarations": 14,
   "six_exponentials_declarations": 43,
   "allowed_axioms": [
@@ -15,17 +15,24 @@
     "Universality.External.six_exponentials",
     "propext"
   ],
-  "dependency_objects_reused": 1165,
-  "nonsemantic_source_adjustments": 18,
-  "source_manifest_sha256": "4c074ecd357c506c132c9a7965ae9de90f81552bc2520f8cd58cff77d4b27249",
-  "axiom_report_sha256": "ca457ea9354640ce4b21fff6ce1e3791dcccd6dedf9c90180fd5149ade119783",
+  "theorem_2_9": {
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declaration": "Universality.Rule.classical_percolation_graphDirected_gromovHausdorff",
+    "module": "Universality.Geometry.PercolationTheorem29"
+  },
+  "source_manifest_sha256": "4fd9458cff9a3edeb79660adcd67c80f4d87213faa4e0032ad3edff7dd003a3f",
+  "axiom_report_sha256": "24b9fd82fdcda7757cdf09edf4f4793f3131e4dcd9e01806a746136cfa03c6b4",
   "audit_source_sha256": "2ca6daa026151e22314806e5c8018f31e00c9f0415bae3008b0de85b767c7fa9",
-  "aggregate_source_sha256": "be2ccb293d8f5c5c65c83fc4fade28e41321c00db37add8d7418ce861956a8a6",
-  "verified_at_utc": "2026-10-07T01:28:30.964071+00:00",
+  "aggregate_source_sha256": "104d446f9bd8b69b536dd9aef6999a8d1d9f22e45362282dee48d12dbdb3cf8d",
+  "verified_at_utc": "2026-10-07T08:15:56.241011+00:00",
   "unified_driver_test": {
-    "modules": 1167,
-    "compiled": 1,
-    "reused": 1166,
-    "result": "passed; fresh final audit matches published per-declaration report"
+    "modules": 1176,
+    "compiled": 11,
+    "reused": 1165,
+    "mode": "build_and_audit"
   }
 }

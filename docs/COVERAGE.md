@@ -10,9 +10,38 @@ completion and its actual Hausdorff dimension are shared geometry results.
 ## Section 2
 
 Finite Bernoulli configurations, conditional live states, exact random substitution
-laws and mass recursions feed the critical Perron theory. The recursive metric
-construction and graph-directed description retain their stated compatibility
-and contraction hypotheses; this is not a theorem about arbitrary random EIGS.
+laws and mass recursions feed the critical Perron theory.
+
+Manuscript Theorem 2.9 is implemented concretely in
+`Geometry/PercolationTheorem29.lean`, with endpoint
+`Rule.classical_percolation_graphDirected_gromovHausdorff`.
+For every classical rule and its interior fixed point, the actual
+terminal-connected clusters converge almost surely in mathlib's GH space under
+the existing conditional Bernoulli history law. Their metric is the inherited
+rescaled ambient graph metric, not the intrinsic open-path metric.
+
+`percolationClusterVertices` uses actual reachable vertices in the compact
+generation completion. Coarse-graining makes these sets increasing; compactness
+gives Hausdorff convergence, and continuity of `NonemptyCompacts.toGHSpace`
+gives GH convergence. This is an alternate proof of convergence, without a new
+quantitative rate assertion. `Rule.percolationCellConfiguration_coherent` proves that actual
+child configurations inherit coherence. `percolationCellState_eq` identifies
+their depth-independent oriented terminal states.
+
+`PercolationCellProcess.graphDirected_at_every_address` gives the exact set
+equation at every finite address using `generationMetricCell`, whose distance
+identity has ratio the reciprocal terminal distance. The child sets are the
+closures of the actual terminal-selected vertices; no compatible geometric
+realisation is assumed. `percolationCell_conditional_joint_weight` identifies
+the complete conditional product law of child configurations, and
+`ConfigurationHistory.infinite_randomEIGS_joint_law` identifies all finite-history
+label observables on the same infinite probability space. Terminal conditioning
+holds almost surely at every generation by `infiniteLaw_terminal_condition`.
+
+This closes the concrete interface formerly missing from the generic
+`GraphRealisation` and `TypedGraphRealisation` lemmas. It does not assert a
+scaling-limit theorem for arbitrary random EIGS. Lean generation zero is the
+first substituted graph (paper generation one).
 
 ## Section 3 and the appendix
 

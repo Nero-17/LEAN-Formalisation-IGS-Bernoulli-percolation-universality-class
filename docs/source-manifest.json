@@ -9272,8 +9272,74 @@
     ],
     "olean_sha256": "eb959aa2eab52971a2fa5c2e23bc08a17bb389a1f21935b66cbbfa3d299fa97c"
   },
+  "Universality/Geometry/PercolationClusterVertices.lean": {
+    "source_sha256": "2f50bf180c918a96692c432d331ecfdfc6ae7b8a2faa18d852201b10b2f4f98f",
+    "imports": [
+      "Universality/Geometry/GenerationMetricCells.lean",
+      "Universality/Percolation/InfiniteObservables.lean"
+    ],
+    "olean_sha256": "6c6f731ece2d984c9042580fb7d488620da62246cb859ba0deedc3e16db78c38"
+  },
+  "Universality/Geometry/PercolationCellSelection.lean": {
+    "source_sha256": "3ac0a3b16310c6c6c3a98039d5dfcf19ff97d79fb11b18303a8d991e5c6d252e",
+    "imports": [
+      "Universality/Geometry/PercolationClusterVertices.lean",
+      "Universality/Percolation/MassEquivalence.lean"
+    ],
+    "olean_sha256": "41b2f6e033c09c787328202ec4dda46f99a7bae182e9014cf9d2057ad677891d"
+  },
+  "Universality/Geometry/PercolationCellCoherence.lean": {
+    "source_sha256": "29455b44c48c84b4372e91b853d79337cc204f30b5f280ff2759bf120092712d",
+    "imports": [
+      "Universality/Geometry/PercolationCellSelection.lean"
+    ],
+    "olean_sha256": "a4e2e296e70dffb19f88280eb1a6a6f6aefcdef192a432e9e3a2a9b7d6091e28"
+  },
+  "Universality/Geometry/IncreasingCompactLimit.lean": {
+    "source_sha256": "850e7edea8dc340d3fb98429e9c02997648d0fe5a39b072d0e40323efa642c1b",
+    "imports": [],
+    "olean_sha256": "2795ef39265f7e6b60a2be5998ab7d4413ff66cfbcd7b7025039463ea815d0d0"
+  },
+  "Universality/Geometry/PercolationGromovHausdorff.lean": {
+    "source_sha256": "d3e69841ea1d97313e4936bee63992c4de9d66527c6f9d68ee2c82e4988ec953",
+    "imports": [
+      "Universality/Geometry/IncreasingCompactLimit.lean",
+      "Universality/Geometry/PercolationClusterVertices.lean"
+    ],
+    "olean_sha256": "3f40e809839bb5a1e90a51dd0c806a102c40b6eb89b6e074cc4c973afd3cc81f"
+  },
+  "Universality/Geometry/PercolationGraphDirectedLimit.lean": {
+    "source_sha256": "4007286195b5ccfb8de27cf5b5d371e5bca08bc5fa212de0be3478c90cc52007",
+    "imports": [
+      "Universality/Geometry/PercolationCellCoherence.lean",
+      "Universality/Geometry/PercolationGromovHausdorff.lean"
+    ],
+    "olean_sha256": "7c44fd39cec94bafe7d659bada718982355aafa14b3a4f7994719d11cfbddaee"
+  },
+  "Universality/Geometry/PercolationRecursiveTree.lean": {
+    "source_sha256": "3b55bd7549bf9b09d5cf39d22a7b1cf1e9f2423ceaf2650f8e9676e3c2fe9cc3",
+    "imports": [
+      "Universality/Geometry/PercolationGraphDirectedLimit.lean"
+    ],
+    "olean_sha256": "06d9005244b07286bb9b423be1a7999fb016b9f7dd7bc70268544f5d3512056e"
+  },
+  "Universality/Percolation/InfiniteTerminalCondition.lean": {
+    "source_sha256": "e8ffb2685b4f05244aee8ab261f4320754ad48e9aebaffe74a8cb3f730a1d968",
+    "imports": [
+      "Universality/Percolation/InfiniteObservables.lean"
+    ],
+    "olean_sha256": "118a096aa51adae649c5a2c2e856738d876a4eab3f427e45b989d85d5764d3bf"
+  },
+  "Universality/Geometry/PercolationTheorem29.lean": {
+    "source_sha256": "78b3c749f9710c1d608f7b463318f14eba356ad626d7ff6333b22e7f1fe87931",
+    "imports": [
+      "Universality/Geometry/PercolationRecursiveTree.lean",
+      "Universality/Percolation/InfiniteTerminalCondition.lean"
+    ],
+    "olean_sha256": "8607c93b2b0bba14d3168034cb8c7491587e1dccb3ec1f9b8d88130e037318e5"
+  },
   "Universality.lean": {
-    "source_sha256": "be2ccb293d8f5c5c65c83fc4fade28e41321c00db37add8d7418ce861956a8a6",
+    "source_sha256": "104d446f9bd8b69b536dd9aef6999a8d1d9f22e45362282dee48d12dbdb3cf8d",
     "imports": [
       "Universality/Matrix/TwoByTwo.lean",
       "Universality/Matrix/SpectralSeparation.lean",
@@ -9669,9 +9735,10 @@
       "Universality/Section3.lean",
       "Universality/Section3.lean",
       "Universality/Arithmetic/Section4Complete.lean",
-      "Universality/Section5.lean"
+      "Universality/Section5.lean",
+      "Universality/Geometry/PercolationTheorem29.lean"
     ],
-    "olean_sha256": "8d733ba688dc565d491a6fc683128bf210ef62658e441cf8d582025eba5b4f64"
+    "olean_sha256": "61c7935da781183882e24890162810794315bc36727fa9c02f28a13a9c44b67c"
   },
   "Audit.lean": {
     "source_sha256": "2ca6daa026151e22314806e5c8018f31e00c9f0415bae3008b0de85b767c7fa9",
