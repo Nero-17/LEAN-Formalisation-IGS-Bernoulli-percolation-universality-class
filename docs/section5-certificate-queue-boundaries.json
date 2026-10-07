@@ -1,0 +1,175 @@
+[
+  {
+    "status": "queue_tail_cancelled",
+    "module": "Universality/Certificates/Section5MassBase739.lean",
+    "source_sha256": "f6be6e254a7203e4e71bce77fdb1af06799b33b7b5dc0d38508a24862d48fd4d",
+    "session_id": 80676,
+    "started": "2026-10-07T04:31:44+08:00",
+    "cancelled": "2026-10-07T04:31:54+08:00",
+    "numerical_failure": false,
+    "reason": "All 60 initial-stream transitions and the original initialMassEvaluation theorem passed; cancel the obsolete monolithic repair endpoint until all bounded repair chunks are checked.",
+    "queue_cancellation": "Ctrl+C sent to exact owned unified-exec session; returned exit 1 without a final mass proof result.",
+    "child_process_release": "Parent escalated read-only CIM at 2026-10-06T20:33:32Z confirmed no Base739 or repair Lean/pwsh remained; only Base661 Proof10 was running. No cleanup was needed.",
+    "last_successful_module": "Universality/Certificates/Section5InitialMassBase739.lean",
+    "remaining": "18 of 30 bounded packet-repair checks, their final assembly, verified bridge generation, and final actual mass theorem.",
+    "preserved": "All completed strong receipts and sources; Base661 stream remains running.",
+    "resolved_by": "All bounded repair checks and their exact assembly passed; guarded bridge emitted; Section5MassBase739 compiled successfully in 17.156 seconds with unchanged source/dependency snapshots.",
+    "resolved_observed": "2026-10-07T04:39:19+08:00",
+    "final_source_sha256": "a09fc52bec7995be8026a9ff185f14a5d703984103769291851d8a55dd07aab4"
+  },
+  {
+    "status": "queue_boundary_cancelled",
+    "module": "Universality/Certificates/Section5MassChunkDataBase66111.lean",
+    "source_sha256": "c4cc1c4d697f9b5cfb1a35c262f4e2c6be7e3f108473054c1942bfb94477c9ae",
+    "session_id": 14937,
+    "started": "2026-10-07T04:41:11+08:00",
+    "cancelled": "2026-10-07T04:41:57+08:00",
+    "numerical_failure": false,
+    "reason": "Proof10 passed. Stop the old sequential wrapper at the next short data module so remaining independent proof batches can be partitioned into disjoint queues without duplicate object writes.",
+    "queue_cancellation": "Ctrl+C sent to exact owned session, exit 1; Data11 has no successful receipt and will be compiled again.",
+    "last_successful_module": "Universality/Certificates/Section5MassChunkProofBase66110.lean",
+    "completed_transitions": 44,
+    "total_transitions": 59,
+    "child_process_release": "Parent escalated read-only CIM at 2026-10-06T20:42:29Z confirmed no project Lean/wrapper remained, including Data11 Lean25708 and pwsh29440.",
+    "planned_resume": "Compile Data11\u201314, then nonoverlapping proof batches11/12 and13/14; bounded signed repairs in at most one third slot; fresh memory gate before every module.",
+    "verified_data_modules": [
+      "Universality/Certificates/Section5MassChunkDataBase66111.lean",
+      "Universality/Certificates/Section5MassChunkDataBase66112.lean",
+      "Universality/Certificates/Section5MassChunkDataBase66113.lean",
+      "Universality/Certificates/Section5MassChunkDataBase66114.lean"
+    ],
+    "resumed_proof_queues": [
+      {
+        "first_module": "Section5MassChunkProofBase66111",
+        "next_module": "Section5MassChunkProofBase66112",
+        "session_id": 1951,
+        "started": "2026-10-07T04:48:57+08:00",
+        "launch_memory_percent": 65
+      },
+      {
+        "first_module": "Section5MassChunkProofBase66113",
+        "next_module": "Section5MassChunkProofBase66114",
+        "session_id": 76322,
+        "started": "2026-10-07T04:49:09+08:00",
+        "launch_memory_percent": 72
+      }
+    ],
+    "completed_partition_batches": [
+      {
+        "module": "Section5MassChunkProofBase66111",
+        "session_id": 1951,
+        "finished": "2026-10-07T05:18:18+08:00",
+        "elapsed_seconds": 1760.844,
+        "exit_code": 0
+      },
+      {
+        "module": "Section5MassChunkProofBase66113",
+        "session_id": 76322,
+        "finished": "2026-10-07T05:25:00+08:00",
+        "elapsed_seconds": 2151.093,
+        "exit_code": 0
+      },
+      {
+        "module": "Section5MassChunkProofBase66114",
+        "session_id": 93698,
+        "started": "2026-10-07T05:30:51+08:00",
+        "launch_memory_percent": 75,
+        "finished": "2026-10-07T05:43:16+08:00",
+        "elapsed_seconds": 744.906,
+        "exit_code": 0
+      }
+    ],
+    "current_final_batch": {
+      "module": "Section5MassChunkProofBase66112",
+      "session_id": 95996,
+      "started": "2026-10-07T05:30:39+08:00",
+      "launch_memory_percent": 68,
+      "status": "incomplete_after_snapshot_exception",
+      "remaining_transitions": 4,
+      "wrapper_session_exit_code": 1,
+      "lean_exit_code": null,
+      "traceback_log": "docs/section5-proof66112-interruption.log",
+      "source_sha256_before_split": "9294ea6a8d1581d96f85723e0cad2b4a23383b1a94014263a4fbe5ec4d43829a",
+      "after_snapshot_subprocess_exit_code": 3221226091,
+      "successful_receipt": false,
+      "object_absence_evidence": "Parent read-only inspection at 2026-10-06T22:21Z confirmed no Proof12 .olean; no numerical success is inferred."
+    },
+    "current_completed_transitions": 55,
+    "final_assembly_hold": "Wait until all stream batches and all 17 coordinated final generic-dependency rechecks pass; require explicit parent handoff before InitialMass/Mass compilation.",
+    "proof_split_recovery": {
+      "status": "source_prepared_pending_independent_review_and_Lean",
+      "overlay": "docs/section5-proof66112-split-overlay.json",
+      "leaves": [
+        {
+          "module": "Section5MassChunkProofBase66112A",
+          "path": "Universality/Certificates/Section5MassChunkProofBase66112A.lean",
+          "bytes": 714,
+          "sha256": "066a741c0c11f147ef8ab72b57f84f7a815c6d7fcc29add9b8b0b8f9d3c5bfa8",
+          "original_body_start_byte": 322,
+          "original_body_end_byte": 663,
+          "body_sha256": "f1c95d8ecf3e08d58ab5c41bf07b7aa24fc45b0ec84f7af517129b36170379b0",
+          "declarations": [
+            "transition0768_0784",
+            "values0768_0784"
+          ],
+          "kernel_status": "not_run"
+        },
+        {
+          "module": "Section5MassChunkProofBase66112B",
+          "path": "Universality/Certificates/Section5MassChunkProofBase66112B.lean",
+          "bytes": 714,
+          "sha256": "4b90f36047d55a1be3dd8c758e3572148d29f6ac83122c08f57d53bbc04806cd",
+          "original_body_start_byte": 663,
+          "original_body_end_byte": 1004,
+          "body_sha256": "3e1c002e81f4559f7a26593999295fda7163f8277d5af8db3b82b982a71ad66f",
+          "declarations": [
+            "transition0784_0800",
+            "values0784_0800"
+          ],
+          "kernel_status": "not_run"
+        },
+        {
+          "module": "Section5MassChunkProofBase66112C",
+          "path": "Universality/Certificates/Section5MassChunkProofBase66112C.lean",
+          "bytes": 714,
+          "sha256": "e3d3384d2747725d31b0f2903ce6fb63c31ae57acec1c579f1d31920a1cf4c40",
+          "original_body_start_byte": 1004,
+          "original_body_end_byte": 1345,
+          "body_sha256": "23a8ff57a477048a13362a80f7a54811657ac86922cbeceb19652f1536af7801",
+          "declarations": [
+            "transition0800_0816",
+            "values0800_0816"
+          ],
+          "kernel_status": "not_run"
+        },
+        {
+          "module": "Section5MassChunkProofBase66112D",
+          "path": "Universality/Certificates/Section5MassChunkProofBase66112D.lean",
+          "bytes": 714,
+          "sha256": "c18eccf2f7f770b20ddb09a5ba79de146e5a52f222053715b495a8f4ff30d737",
+          "original_body_start_byte": 1345,
+          "original_body_end_byte": 1686,
+          "body_sha256": "9d0d1238f32ce6cc618e7daa37687ca2964c13124164187ca7c42779ad99e7d4",
+          "declarations": [
+            "transition0816_0832",
+            "values0816_0832"
+          ],
+          "kernel_status": "not_run"
+        }
+      ],
+      "aggregate": {
+        "path": "Universality/Certificates/Section5MassChunkProofBase66112.lean",
+        "bytes": 268,
+        "sha256": "dbbfdf40458d30dd87a3029df9612766fac58ddf51d87afc540f5743607c5406",
+        "imports": [
+          "Universality.Certificates.Section5MassChunkProofBase66112A",
+          "Universality.Certificates.Section5MassChunkProofBase66112B",
+          "Universality.Certificates.Section5MassChunkProofBase66112C",
+          "Universality.Certificates.Section5MassChunkProofBase66112D"
+        ]
+      },
+      "original_manifest_unchanged": true,
+      "completed_transitions_before_recovery": 55
+    }
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "name": "Base19",
+  "source_sha256": "ffc55aceb341791e0b5cab26cb376766148532c991ba86f9c31ac594fc696e13",
+  "depth": 424,
+  "packing_bits": 2562,
+  "chunk_steps": 16,
+  "chunks_per_module": 4,
+  "states_per_checkpoint": 425,
+  "limb_bits": 4096,
+  "raw_literals": true,
+  "checkpoints": 28,
+  "modules": [
+    {
+      "module": "Section5MassChunkDataBase1900",
+      "bytes": 3975957,
+      "sha256": "fadbee3219e85b468f84f41362ca8c62130253bb6295e8065334512c80f3e4d9"
+    },
+    {
+      "module": "Section5MassChunkProofBase1900",
+      "bytes": 1669,
+      "sha256": "b09e258b483e9618cfd67eb45ef59da4cd96af22edbfcff1f0391e12e65c3a25"
+    },
+    {
+      "module": "Section5MassChunkDataBase1901",
+      "bytes": 3041453,
+      "sha256": "7039a6626c9d5f9d9688c0266eeee1e77200f3c4ac8574de511a3c4f9549fd92"
+    },
+    {
+      "module": "Section5MassChunkProofBase1901",
+      "bytes": 1669,
+      "sha256": "271b3c674f72a6d1db9b86ba0e4f7cec2c04f103df5f1d5fb1fd650d80600516"
+    },
+    {
+      "module": "Section5MassChunkDataBase1902",
+      "bytes": 2918448,
+      "sha256": "dd4b5b2ed26e426c004e29bb5ae03b060ef8b0aaa5f26fdf74fdc41f9c8e8e54"
+    },
+    {
+      "module": "Section5MassChunkProofBase1902",
+      "bytes": 1669,
+      "sha256": "e6234cf8c7d2fcdfca59e112463ebb887c52604d08123aed05e9d7463677996e"
+    },
+    {
+      "module": "Section5MassChunkDataBase1903",
+      "bytes": 2809438,
+      "sha256": "ed3f54943ace544174ab02d638d21d83c50f2c40db92263b73b7ad19cb42d59d"
+    },
+    {
+      "module": "Section5MassChunkProofBase1903",
+      "bytes": 1669,
+      "sha256": "9f38966cb7ca658d440f4c6589635113fc8d7de0bdc8ba3ac1a1e57a6d2862e1"
+    },
+    {
+      "module": "Section5MassChunkDataBase1904",
+      "bytes": 2715719,
+      "sha256": "e32ebf918c25485a861ee4eaa329e32fc64948c273c58538d83080feb1602b38"
+    },
+    {
+      "module": "Section5MassChunkProofBase1904",
+      "bytes": 1669,
+      "sha256": "bdd812e1bb9382e171a694bbfd2d28148d4041dd708be4694b5f4fecd851d15d"
+    },
+    {
+      "module": "Section5MassChunkDataBase1905",
+      "bytes": 2671326,
+      "sha256": "6b0f531879849aa749a40a15d136af00848e6a884606fc08d6ec7f68925b4056"
+    },
+    {
+      "module": "Section5MassChunkProofBase1905",
+      "bytes": 1669,
+      "sha256": "832f996d1adcf4c8f067b1c58b80e80da078820e78c16c7ce7e3b42699eff2a2"
+    },
+    {
+      "module": "Section5MassChunkDataBase1906",
+      "bytes": 2011462,
+      "sha256": "14ac800210209d2bdf3e8d121e22063b827ac95f07f3834313d7e82f19d6f364"
+    },
+    {
+      "module": "Section5MassChunkProofBase1906",
+      "bytes": 1326,
+      "sha256": "057645abcb2297389fcd837d12fc7e7368e195a8b8385cd1ef3369e3e7ae1b29"
+    },
+    {
+      "module": "Section5MassChunkInitialBase19",
+      "bytes": 2549,
+      "sha256": "b6d2c78a75cb77cc452a8e8205aef4f9a2a29dfcf561f6c59cc28a532cc47683"
+    },
+    {
+      "module": "Section5InitialMassBase19",
+      "bytes": 4244,
+      "sha256": "d2a048d9203dfb189bfb3568c581ddecfca6094a74d3fc34306c435d653c923d"
+    }
+  ],
+  "check_order": [
+    "Section5MassChunkDataBase1900",
+    "Section5MassChunkInitialBase19",
+    "Section5MassChunkProofBase1900",
+    "Section5MassChunkDataBase1901",
+    "Section5MassChunkProofBase1901",
+    "Section5MassChunkDataBase1902",
+    "Section5MassChunkProofBase1902",
+    "Section5MassChunkDataBase1903",
+    "Section5MassChunkProofBase1903",
+    "Section5MassChunkDataBase1904",
+    "Section5MassChunkProofBase1904",
+    "Section5MassChunkDataBase1905",
+    "Section5MassChunkProofBase1905",
+    "Section5MassChunkDataBase1906",
+    "Section5MassChunkProofBase1906",
+    "Section5InitialMassBase19"
+  ],
+  "generated_witness_status": "Python replay matched source; all Lean equalities still require checks"
+}

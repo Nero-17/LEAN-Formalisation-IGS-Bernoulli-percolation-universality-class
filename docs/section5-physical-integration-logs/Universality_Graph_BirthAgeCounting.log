@@ -1,0 +1,28 @@
+C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\Universality\Graph\BirthAgeCounting.lean:23:10: warning: This simp argument is unused:
+  birthAgeCount
+
+Hint: Omit it from the simp argument list.
+  simp [b̵i̵r̵t̵h̵A̵g̵e̵C̵o̵u̵n̵t̵,̵ ̵BirthAddress.age, h, rule.network.card_interior_vertices]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\Universality\Graph\BirthAgeCounting.lean:23:25: warning: This simp argument is unused:
+  BirthAddress.age
+
+Hint: Omit it from the simp argument list.
+  simp [birthAgeCount, B̵i̵r̵t̵h̵A̵d̵d̵r̵e̵s̵s̵.̵a̵g̵e̵,̵ ̵h, rule.network.card_interior_vertices]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\Universality\Graph\BirthAgeCounting.lean:24:10: warning: This simp argument is unused:
+  birthAgeCount
+
+Hint: Omit it from the simp argument list.
+  simp [b̵i̵r̵t̵h̵A̵g̵e̵C̵o̵u̵n̵t̵,̵ ̵BirthAddress.age, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\Universality\Graph\BirthAgeCounting.lean:24:25: warning: This simp argument is unused:
+  BirthAddress.age
+
+Hint: Omit it from the simp argument list.
+  simp [birthAgeCount, B̵i̵r̵t̵h̵A̵d̵d̵r̵e̵s̵s̵.̵a̵g̵e̵,̵ ̵h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

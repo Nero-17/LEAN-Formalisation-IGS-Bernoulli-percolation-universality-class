@@ -1,0 +1,438 @@
+{
+  "checked_at_utc": "2026-10-07T00:00:25.182301+00:00",
+  "scope": "Current source receipts only; not a dependency-closure or axiom audit.",
+  "records": [
+    {
+      "seed": "Base19",
+      "stage": "Input",
+      "module": "Universality/Certificates/Section5InputBase19.lean",
+      "source_sha256": "f2d48bf6388c91b8767c029e1828820d90f9af283fd09a00e27975c9491a533f",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:32:40+08:00",
+      "elapsed_seconds": 19.75
+    },
+    {
+      "seed": "Base19",
+      "stage": "Rows",
+      "module": "Universality/Certificates/Section5RowsBase19.lean",
+      "source_sha256": "ec7904243756f365ec7972c436f7ecd08ce7c1746790b6564a39371385856912",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:38:09+08:00",
+      "elapsed_seconds": 18.125
+    },
+    {
+      "seed": "Base19",
+      "stage": "Disjoint",
+      "module": "Universality/Certificates/Section5DisjointBase19.lean",
+      "source_sha256": "137829f26305e34b3765fe0ed017dea076a0274bcc7d0323bb2e0fe4e5eaf97d",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:38:26+08:00",
+      "elapsed_seconds": 17.703
+    },
+    {
+      "seed": "Base19",
+      "stage": "PacketCapacity",
+      "module": "Universality/Certificates/Section5PacketCapacityBase19.lean",
+      "source_sha256": "bab80dcbdad2f0f4069f01c6a3fddc03df2463dd7daa9c8226bf104c84bf4cb7",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:39:07+08:00",
+      "elapsed_seconds": 40.437
+    },
+    {
+      "seed": "Base19",
+      "stage": "Data",
+      "module": "Universality/Certificates/Section5DataBase19.lean",
+      "source_sha256": "9e7456c509571d36b3238850f80b65a82c2c3fa01b0a0d0d655cd7fb4efa4129",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:39:31+08:00",
+      "elapsed_seconds": 24.531
+    },
+    {
+      "seed": "Base19",
+      "stage": "Counts",
+      "module": "Universality/Certificates/Section5CountsBase19.lean",
+      "source_sha256": "31be8ca14460aa505f2c232feae28103b7a396520aeb6d8e8df8433851a17f99",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:39:58+08:00",
+      "elapsed_seconds": 27.0
+    },
+    {
+      "seed": "Base19",
+      "stage": "Groups",
+      "module": "Universality/Certificates/Section5GroupsBase19.lean",
+      "source_sha256": "2c5c5bcfe32bd00a22ddb0806bbf18c43b1b65f95320e3f42dd8e485e4e86908",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:41:18+08:00",
+      "elapsed_seconds": 19.453
+    },
+    {
+      "seed": "Base19",
+      "stage": "Length",
+      "module": "Universality/Certificates/Section5LengthBase19.lean",
+      "source_sha256": "6e193606a60e186f62534584bf1f9676fc1d84b09abd2028208cf2de113f2fe4",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:42:14+08:00",
+      "elapsed_seconds": 55.953
+    },
+    {
+      "seed": "Base19",
+      "stage": "Responses",
+      "module": "Universality/Certificates/Section5ResponsesBase19.lean",
+      "source_sha256": "cf3f323d158d5ad44b7bb107e7db2c8fa2cad202978770ab66c640805740120a",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:42:41+08:00",
+      "elapsed_seconds": 26.329
+    },
+    {
+      "seed": "Base19",
+      "stage": "Moments",
+      "module": "Universality/Certificates/Section5MomentsBase19.lean",
+      "source_sha256": "3ca34662c206cb559d66fd42edaa4fe2035969e3c4ebb9deacba1ad29b0fb776",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:43:23+08:00",
+      "elapsed_seconds": 42.187
+    },
+    {
+      "seed": "Base19",
+      "stage": "InitialMass",
+      "module": "Universality/Certificates/Section5InitialMassBase19.lean",
+      "source_sha256": "d2a048d9203dfb189bfb3568c581ddecfca6094a74d3fc34306c435d653c923d",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:27:37+08:00",
+      "elapsed_seconds": 21.172
+    },
+    {
+      "seed": "Base19",
+      "stage": "Mass",
+      "module": "Universality/Certificates/Section5MassBase19.lean",
+      "source_sha256": "0210c86bd07b93b6b9ce11dd26fc70b74f6122fa5e8757191b6ec7d35c2be5b0",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:32:01+08:00",
+      "elapsed_seconds": 58.297
+    },
+    {
+      "seed": "Base661",
+      "stage": "Input",
+      "module": "Universality/Certificates/Section5InputBase661.lean",
+      "source_sha256": "533754c77bc417c4d0d9a8c138b84d44539caa3280ce074c1fd9b7d4fb349116",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:11:02+08:00",
+      "elapsed_seconds": 29.657
+    },
+    {
+      "seed": "Base661",
+      "stage": "Rows",
+      "module": "Universality/Certificates/Section5RowsBase661.lean",
+      "source_sha256": "feb04d8a17d7171170019ba1e913136ad0795009900e9b51dd675e38121bc5ab",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:12:16+08:00",
+      "elapsed_seconds": 15.969
+    },
+    {
+      "seed": "Base661",
+      "stage": "Disjoint",
+      "module": "Universality/Certificates/Section5DisjointBase661.lean",
+      "source_sha256": "c772cc39db850572ff70e80041f771fb083150474413d16fd8915ffdd5aeb49e",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:12:30+08:00",
+      "elapsed_seconds": 14.079
+    },
+    {
+      "seed": "Base661",
+      "stage": "PacketCapacity",
+      "module": "Universality/Certificates/Section5PacketCapacityBase661.lean",
+      "source_sha256": "06a086c8512db4a71f17a7b80f467e1ecab2ea2b3092ba7f1e476cd21e2988ed",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:13:19+08:00",
+      "elapsed_seconds": 48.203
+    },
+    {
+      "seed": "Base661",
+      "stage": "Data",
+      "module": "Universality/Certificates/Section5DataBase661.lean",
+      "source_sha256": "840add75688897baa8d1ddc0a2c19d248d00fd7a4de9338c5280f1e890427a04",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:13:39+08:00",
+      "elapsed_seconds": 20.297
+    },
+    {
+      "seed": "Base661",
+      "stage": "Counts",
+      "module": "Universality/Certificates/Section5CountsBase661.lean",
+      "source_sha256": "621a1a7a29cb2eec1ec81740ecccf8cdfbf45395088f79053d25c6b256a67f0c",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:25:55+08:00",
+      "elapsed_seconds": 24.047
+    },
+    {
+      "seed": "Base661",
+      "stage": "Groups",
+      "module": "Universality/Certificates/Section5GroupsBase661.lean",
+      "source_sha256": "e4cea65d738bcbc19cf918b70eebd6b2114f77727ee833e81d32cec731df9bdc",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:26:12+08:00",
+      "elapsed_seconds": 17.422
+    },
+    {
+      "seed": "Base661",
+      "stage": "Length",
+      "module": "Universality/Certificates/Section5LengthBase661.lean",
+      "source_sha256": "6339417786bc93ed9f675a17be76dc17e1886d6fadab0f283e7d508d570eea19",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:30:24+08:00",
+      "elapsed_seconds": 30.172
+    },
+    {
+      "seed": "Base661",
+      "stage": "Responses",
+      "module": "Universality/Certificates/Section5ResponsesBase661.lean",
+      "source_sha256": "f34bb331f1adabd5d01ddf2470916708e58cd2f8408bce21f2835333bbed34ac",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:34:06+08:00",
+      "elapsed_seconds": 17.734
+    },
+    {
+      "seed": "Base661",
+      "stage": "Moments",
+      "module": "Universality/Certificates/Section5MomentsBase661.lean",
+      "source_sha256": "f637d610b918b67461445ae242e7bd816acaea5e5d00483ada156f423d7bff1b",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:34:24+08:00",
+      "elapsed_seconds": 18.359
+    },
+    {
+      "seed": "Base661",
+      "stage": "InitialMass",
+      "module": "Universality/Certificates/Section5InitialMassBase661.lean",
+      "source_sha256": "55a0a47cde70d2e4b9e3109ac57114ead82517133b133c7ed7562aaa98b7ed13",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T07:59:03+08:00",
+      "elapsed_seconds": 16.266
+    },
+    {
+      "seed": "Base661",
+      "stage": "Mass",
+      "module": "Universality/Certificates/Section5MassBase661.lean",
+      "source_sha256": "e9f28983f9ef1723d925717e02b45d1d6a364f271a395ae7ee19c837327274a3",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T07:59:55+08:00",
+      "elapsed_seconds": 27.954
+    },
+    {
+      "seed": "Base739",
+      "stage": "Input",
+      "module": "Universality/Certificates/Section5InputBase739.lean",
+      "source_sha256": "38b66e7a9ff0aa3cbdd3cca7441e22bed8d397acc30e1023d39e15d45e431e44",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:44:02+08:00",
+      "elapsed_seconds": 39.046
+    },
+    {
+      "seed": "Base739",
+      "stage": "Rows",
+      "module": "Universality/Certificates/Section5RowsBase739.lean",
+      "source_sha256": "362e934e0a2abfb4b983a0aa66011f138c455dd61a6e96a27bd999377d7f97d0",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:44:38+08:00",
+      "elapsed_seconds": 35.968
+    },
+    {
+      "seed": "Base739",
+      "stage": "Disjoint",
+      "module": "Universality/Certificates/Section5DisjointBase739.lean",
+      "source_sha256": "1bcf056b8676fa729c830bb8eaf18061bd9b0ca8c95bf0ec87908cf768bab2d9",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T01:45:05+08:00",
+      "elapsed_seconds": 27.312
+    },
+    {
+      "seed": "Base739",
+      "stage": "PacketCapacity",
+      "module": "Universality/Certificates/Section5PacketCapacityBase739.lean",
+      "source_sha256": "9405d2ed3399eb63fac71c4983ecfe41362617c141dca9141032d2d880a3f65f",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:52:21+08:00",
+      "elapsed_seconds": 252.64
+    },
+    {
+      "seed": "Base739",
+      "stage": "Data",
+      "module": "Universality/Certificates/Section5DataBase739.lean",
+      "source_sha256": "93a5e16e22ab298985dc744ca8a65e15cc2a02f6571b0e4ffce5b0cf13d2a64e",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:52:52+08:00",
+      "elapsed_seconds": 29.937
+    },
+    {
+      "seed": "Base739",
+      "stage": "Counts",
+      "module": "Universality/Certificates/Section5CountsBase739.lean",
+      "source_sha256": "f95ac2a124af0495623256d14b79570b8e5c3569cf4c96ede6c019482eec6178",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:53:24+08:00",
+      "elapsed_seconds": 30.265
+    },
+    {
+      "seed": "Base739",
+      "stage": "Groups",
+      "module": "Universality/Certificates/Section5GroupsBase739.lean",
+      "source_sha256": "d5ad7e834c4af77e52a6c39914aa8546e9e93adaf86c1402acb1156e28d2cc7b",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:53:50+08:00",
+      "elapsed_seconds": 24.047
+    },
+    {
+      "seed": "Base739",
+      "stage": "Length",
+      "module": "Universality/Certificates/Section5LengthBase739.lean",
+      "source_sha256": "e395df36c896874268ec25b2e769ce784c5fdaba70d61279c5f5a13248be636a",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:54:17+08:00",
+      "elapsed_seconds": 25.766
+    },
+    {
+      "seed": "Base739",
+      "stage": "Responses",
+      "module": "Universality/Certificates/Section5ResponsesBase739.lean",
+      "source_sha256": "385236687e246353cc65dfcf488b77bc35fda301f0804dfe5ba6dd2a25cea1f6",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:54:46+08:00",
+      "elapsed_seconds": 26.719
+    },
+    {
+      "seed": "Base739",
+      "stage": "Moments",
+      "module": "Universality/Certificates/Section5MomentsBase739.lean",
+      "source_sha256": "d4b878c5f2d4b764095a2520d053631f485e3877bc09140c4eb10881b5de4038",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:55:10+08:00",
+      "elapsed_seconds": 22.437
+    },
+    {
+      "seed": "Base739",
+      "stage": "InitialMass",
+      "module": "Universality/Certificates/Section5InitialMassBase739.lean",
+      "source_sha256": "83fbc0fa7b8296e403feac602c4a2c00b146dc3bb0a5dd1ee1bd2299f5e438b2",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T04:31:41+08:00",
+      "elapsed_seconds": 18.688
+    },
+    {
+      "seed": "Base739",
+      "stage": "Mass",
+      "module": "Universality/Certificates/Section5MassBase739.lean",
+      "source_sha256": "a09fc52bec7995be8026a9ff185f14a5d703984103769291851d8a55dd07aab4",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T04:39:12+08:00",
+      "elapsed_seconds": 17.156
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Input",
+      "module": "Universality/Certificates/Section5InputShifted19.lean",
+      "source_sha256": "d111dcb67dee97864fb2680b033f13ec548db6574bb5c4facbafcda52dff70c2",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:55:45+08:00",
+      "elapsed_seconds": 33.5
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Rows",
+      "module": "Universality/Certificates/Section5RowsShifted19.lean",
+      "source_sha256": "c5e916f8a60e7210ccf7abdcc63722a0ed0d6ba85dfeea0ee5746ac854eec543",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:56:08+08:00",
+      "elapsed_seconds": 21.437
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Disjoint",
+      "module": "Universality/Certificates/Section5DisjointShifted19.lean",
+      "source_sha256": "e730fd05525fa183ecfe357e194fafce1a3f7a9abc332e2e1964ff44f31b1627",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:56:28+08:00",
+      "elapsed_seconds": 19.172
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "PacketCapacity",
+      "module": "Universality/Certificates/Section5PacketCapacityShifted19.lean",
+      "source_sha256": "888ca2cc6ad5e1b5420b95e1d89817ce5890c85f520d5133e2e21748b0a91863",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:56:57+08:00",
+      "elapsed_seconds": 27.656
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Data",
+      "module": "Universality/Certificates/Section5DataShifted19.lean",
+      "source_sha256": "aca40ed3e648776c8d9932a59a2c3751c94ef57d732cf07f919c6cb9b2f24a31",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:57:19+08:00",
+      "elapsed_seconds": 20.203
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Counts",
+      "module": "Universality/Certificates/Section5CountsShifted19.lean",
+      "source_sha256": "ea652909027b6179cb9385484ca5c6186ace068a4a4177c75bb7e6737c5c05ae",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:57:47+08:00",
+      "elapsed_seconds": 26.609
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Groups",
+      "module": "Universality/Certificates/Section5GroupsShifted19.lean",
+      "source_sha256": "fa67eaec247ebba0481b4cef5b139522c1d2c49dbe0f02abfe4452ac2397e756",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:58:09+08:00",
+      "elapsed_seconds": 20.562
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Length",
+      "module": "Universality/Certificates/Section5LengthShifted19.lean",
+      "source_sha256": "c541d4ef285f9a79ffbe91065bd7a811913e3b3be06076343e3cc9518a99c130",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:58:33+08:00",
+      "elapsed_seconds": 22.875
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Responses",
+      "module": "Universality/Certificates/Section5ResponsesShifted19.lean",
+      "source_sha256": "159a259d2f5e8d7669c5df57db842c658386e37c25d5c9c13201a4bcba0e84d8",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:58:50+08:00",
+      "elapsed_seconds": 15.703
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Moments",
+      "module": "Universality/Certificates/Section5MomentsShifted19.lean",
+      "source_sha256": "7c02e74899fd0b80cc75cb33466eddeb9c839fe0a8277b76aeabeeea3a8894db",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T02:59:07+08:00",
+      "elapsed_seconds": 16.156
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "InitialMass",
+      "module": "Universality/Certificates/Section5InitialMassShifted19.lean",
+      "source_sha256": "64420722e0ca186e7c8d26786e8b0a1b524871930740371aa13e9f0d74f5bb20",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T03:20:26+08:00",
+      "elapsed_seconds": 21.156
+    },
+    {
+      "seed": "Shifted19",
+      "stage": "Mass",
+      "module": "Universality/Certificates/Section5MassShifted19.lean",
+      "source_sha256": "7e2a5d6e54c1149e9f6632a6e49e971a5a39feddaac46f88e8a2393147725f62",
+      "current_source_passed": true,
+      "last_matching_receipt": "2026-10-07T03:21:33+08:00",
+      "elapsed_seconds": 60.11
+    }
+  ]
+}

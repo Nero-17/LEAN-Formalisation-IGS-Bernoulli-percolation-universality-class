@@ -1,0 +1,42 @@
+import Universality.Section5.CertifiedConsequences
+
+/-! Final seed/consequence boundary audit. Run after all numerical seed
+dependencies are checked. Preparation of this file alone is not an audit pass. -/
+
+-- Parent-authored exact seed and actual-rule endpoints.
+#print axioms Universality.Section5.exactAllocationBase19
+#print axioms Universality.Section5.exactAllocationBase661
+#print axioms Universality.Section5.exactAllocationBase739
+#print axioms Universality.Section5.exactAllocationShifted19
+#print axioms Universality.Section5.certifiedRule19_responses
+#print axioms Universality.Section5.certifiedRule661_responses
+#print axioms Universality.Section5.certifiedRule739_responses
+#print axioms Universality.Section5.certified_three_scale_logs_independent
+#print axioms Universality.Section5.certifiedFamily_responses
+#print axioms Universality.Section5.certifiedFamily_injective
+#print axioms Universality.Section5.certifiedFamily_infinite
+#print axioms Universality.Section5.certifiedFamily_incommensurate
+#print axioms Universality.Section5.certifiedRuleShifted19_classical
+#print axioms Universality.Section5.certifiedRuleShifted19_transcendental_dimensions
+
+-- The concrete wrappers are author checks by the graph agent.
+#print axioms Universality.Section5.certifiedRule19_hasCriticalExponents
+#print axioms Universality.Section5.certifiedRule661_hasCriticalExponents
+#print axioms Universality.Section5.certifiedRule739_hasCriticalExponents
+#print axioms Universality.Section5.certifiedRule739_physical_infinite_cluster_positive_iff
+#print axioms Universality.Section5.certifiedRule19_and661_sameCriticalExponentUniversalityClass
+#print axioms Universality.Section5.certifiedRule19_and739_sameCriticalExponentUniversalityClass
+#print axioms Universality.Section5.certifiedRule19_and739_scale_incommensurate
+#print axioms Universality.Section5.certifiedFamily_actual_growth_limits
+#print axioms Universality.Section5.certifiedRuleShifted19_span_ranks
+#print axioms Universality.Section5.certifiedFamily_hausdorff_dimension
+#print axioms Universality.Section5.certifiedFamily_hasCriticalExponents
+#print axioms Universality.Section5.certifiedFamily_physical_infinite_cluster_positive_iff
+#print axioms Universality.Section5.certifiedFamily_sameCriticalExponentUniversalityClass
+#print axioms Universality.Section5.certifiedRuleShifted19_hausdorff_dimension_transcendental
+#print axioms Universality.Section5.certifiedRuleShifted19_physical_infinite_cluster_positive_iff
+
+#check Universality.Section5.certifiedFamily_actual_growth_limits
+#check Universality.Section5.certifiedRuleShifted19_span_ranks
+#check Universality.Section5.certifiedFamily_hausdorff_dimension
+#check Universality.Section5.certifiedRuleShifted19_hausdorff_dimension_transcendental

@@ -1,0 +1,26 @@
+interpretation of Mathlib.Tactic.ToAdditive.guessNameExt took 153ms
+interpretation of Mathlib.Tactic.ToDual.guessNameExt took 157ms
+import took 9.31s
+.olean serialization took 590ms
+type checking took 525s
+'Universality.Certificates.MassChunksBase661.transition0768_0784' depends on axioms: [propext]
+cumulative profiling times:
+	.olean serialization 590ms
+	attribute application 0.0276ms
+	elaboration 20.1ms
+	fix level params 0.0175ms
+	import 9.31s
+	initialization 47.7ms
+	instantiate metavars 0.0256ms
+	interpretation 5.47s
+	let-to-have transformation 0.678ms
+	linting 2.76ms
+	module linting 0.0029ms
+	overlappingInstancesLinter 22.7ms
+	parsing 1.02ms
+	process pre-definitions 4.09ms
+	share common exprs 0.391ms
+	tactic execution 5.92ms
+	tacticAnalysis 23.8ms
+	type checking 525s
+	typeclass inference 1.17ms

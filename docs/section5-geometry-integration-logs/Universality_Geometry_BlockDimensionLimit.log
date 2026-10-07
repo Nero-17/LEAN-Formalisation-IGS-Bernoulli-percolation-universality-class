@@ -1,0 +1,1 @@
+'Universality.logarithmic_dimension_le_of_block_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

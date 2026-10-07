@@ -1,0 +1,1366 @@
+{
+  "status": "pass",
+  "recorded_at_utc": "2026-10-06T21:31:58.785821+00:00",
+  "source_list": "docs/section5-short-helper-dependency-intersection.json",
+  "source_list_sha256": "1400ee565c5f3c74d402ee80746711f649c20f69a0f4c3c7e7c73bff4af9af65",
+  "bounded_mass661_source_sha256_at_handoff": "e9f28983f9ef1723d925717e02b45d1d6a364f271a395ae7ee19c837327274a3",
+  "handoff_evidence": "Certificate agent explicitly reported all 30 repair chunks, helper, and the 11-module current-strong-receipt guard passed. At handoff Proof12 session95996 and Proof14 session93698 were both running. These are agent-reported process states, not a local process census.",
+  "resource_gate": {
+    "maximum_other_long_lean_jobs": 1,
+    "maximum_physical_load_percent": 82,
+    "minimum_available_physical_bytes": 2952790016,
+    "maximum_load_percent_if_process_state_unclear": 75
+  },
+  "modules": [
+    {
+      "module": "Universality/Section5/ScaleGrowth.lean",
+      "source_sha256_before": "d366dc6248200d5fa8f3d9b7f54a9bba95d32ee1680aad1a48a1ff0f62e5a4b6",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean": "e4309861d6d16c1451ffec5d690ea1a6f0047bf871622174315dcd1aef15adb3",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean": "e4309861d6d16c1451ffec5d690ea1a6f0047bf871622174315dcd1aef15adb3",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean.private": null
+      },
+      "source_sha256_after": "d366dc6248200d5fa8f3d9b7f54a9bba95d32ee1680aad1a48a1ff0f62e5a4b6",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "4970f3e7eda5fb1ffd54002da428d322b59f993f054a4ae0b1fc658b899e2127",
+        "original_module": "Universality/Section5/ScaleGrowth.lean",
+        "source_sha256": "d366dc6248200d5fa8f3d9b7f54a9bba95d32ee1680aad1a48a1ff0f62e5a4b6",
+        "exit_code": 0,
+        "started": "2026-10-07T05:44:44+08:00",
+        "finished": "2026-10-07T05:45:08+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean": "e4309861d6d16c1451ffec5d690ea1a6f0047bf871622174315dcd1aef15adb3",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 172
+    },
+    {
+      "module": "Universality/Certificates/Section5BinomialTable.lean",
+      "source_sha256_before": "3fce849c4b7afa42a7dd4ad4e77eb72c05675cf6070f68361ef9ebd060473435",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean": "71874fd0ffade116afa051d61a61fa8e8e9294de0c494db388f3a3ffda76d5b8",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean": "71874fd0ffade116afa051d61a61fa8e8e9294de0c494db388f3a3ffda76d5b8",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean.private": null
+      },
+      "source_sha256_after": "3fce849c4b7afa42a7dd4ad4e77eb72c05675cf6070f68361ef9ebd060473435",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "ad512d143a08b4fa39646556a468b4f7c5a771921557cf350e3fd1441c9c425d",
+        "original_module": "Universality/Certificates/Section5BinomialTable.lean",
+        "source_sha256": "3fce849c4b7afa42a7dd4ad4e77eb72c05675cf6070f68361ef9ebd060473435",
+        "exit_code": 0,
+        "started": "2026-10-07T05:45:15+08:00",
+        "finished": "2026-10-07T05:45:29+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean": "71874fd0ffade116afa051d61a61fa8e8e9294de0c494db388f3a3ffda76d5b8",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "d8374a079a1309a7cd1006593ffd03f2b02269c03df87e0df26510a0027811a0",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 173
+    },
+    {
+      "module": "Universality/Certificates/Section5MomentCertificate.lean",
+      "source_sha256_before": "cbff8788d425eb3c2607e6bc0e4ccf24125dc395bd82cb64e60a0cf9b1158241",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean": "161aadd335fa5dea2f1821c59f8ab9b0f831fbcf132ed56d9c22a5a7bb148382",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean": "161aadd335fa5dea2f1821c59f8ab9b0f831fbcf132ed56d9c22a5a7bb148382",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean.private": null
+      },
+      "source_sha256_after": "cbff8788d425eb3c2607e6bc0e4ccf24125dc395bd82cb64e60a0cf9b1158241",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "8ccb335c6bf08285b603dbcabff2358baedff381f743f256fbcfe0b62c5f8924",
+        "original_module": "Universality/Certificates/Section5MomentCertificate.lean",
+        "source_sha256": "cbff8788d425eb3c2607e6bc0e4ccf24125dc395bd82cb64e60a0cf9b1158241",
+        "exit_code": 0,
+        "started": "2026-10-07T05:45:44+08:00",
+        "finished": "2026-10-07T05:45:57+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean": "161aadd335fa5dea2f1821c59f8ab9b0f831fbcf132ed56d9c22a5a7bb148382",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 174
+    },
+    {
+      "module": "Universality/Certificates/Section5NaturalMoments.lean",
+      "source_sha256_before": "6c780827b6467e83c0e3c9a242edbe627e6219d59f2828ff6a90530737dff81b",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean": "daf86172aa83dce4ca238f27b89e66c5cf0b9368db4f3837fb39195a02d79329",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean": "daf86172aa83dce4ca238f27b89e66c5cf0b9368db4f3837fb39195a02d79329",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean.private": null
+      },
+      "source_sha256_after": "6c780827b6467e83c0e3c9a242edbe627e6219d59f2828ff6a90530737dff81b",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "02273319fe0965561b8cb4c9689a544ecf6413d555e30e5667188273d3b1aa6e",
+        "original_module": "Universality/Certificates/Section5NaturalMoments.lean",
+        "source_sha256": "6c780827b6467e83c0e3c9a242edbe627e6219d59f2828ff6a90530737dff81b",
+        "exit_code": 0,
+        "started": "2026-10-07T05:46:09+08:00",
+        "finished": "2026-10-07T05:46:23+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean": "daf86172aa83dce4ca238f27b89e66c5cf0b9368db4f3837fb39195a02d79329",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 175
+    },
+    {
+      "module": "Universality/Certificates/Section5BinomialBoolean.lean",
+      "source_sha256_before": "e5a3859a545b8c306c0fb527bb17a6c439b509942dc99ee9cf1dd46fade0a577",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean": "4c3cad17d1bcac8cc269d27a822a0e69cd0202a7d01c0e16c280ccb74312ac11",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean": "4c3cad17d1bcac8cc269d27a822a0e69cd0202a7d01c0e16c280ccb74312ac11",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean.private": null
+      },
+      "source_sha256_after": "e5a3859a545b8c306c0fb527bb17a6c439b509942dc99ee9cf1dd46fade0a577",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "0e7897e12855bb8fc95dfd3d7606d70d906c5fce14fc045ac47359c3b057bb3e",
+        "original_module": "Universality/Certificates/Section5BinomialBoolean.lean",
+        "source_sha256": "e5a3859a545b8c306c0fb527bb17a6c439b509942dc99ee9cf1dd46fade0a577",
+        "exit_code": 0,
+        "started": "2026-10-07T05:46:31+08:00",
+        "finished": "2026-10-07T05:46:45+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean": "4c3cad17d1bcac8cc269d27a822a0e69cd0202a7d01c0e16c280ccb74312ac11",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 176
+    },
+    {
+      "module": "Universality/Certificates/Section5GroupChecks.lean",
+      "source_sha256_before": "4c0b343c85eafef9933571121f2a29edefbba6dbb4009172835076f5f204bcce",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean": "543b9dd73b6012b51f7af8d7492fc66dc90ecf162ef9d950c32ac4f92f14e45d",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean": "543b9dd73b6012b51f7af8d7492fc66dc90ecf162ef9d950c32ac4f92f14e45d",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean.private": null
+      },
+      "source_sha256_after": "4c0b343c85eafef9933571121f2a29edefbba6dbb4009172835076f5f204bcce",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "cdd304bd8c56eb3ab2d8225bd1e5340dcebb0dd00c7d49d55bb28b742cf38bfd",
+        "original_module": "Universality/Certificates/Section5GroupChecks.lean",
+        "source_sha256": "4c0b343c85eafef9933571121f2a29edefbba6dbb4009172835076f5f204bcce",
+        "exit_code": 0,
+        "started": "2026-10-07T05:48:57+08:00",
+        "finished": "2026-10-07T05:49:11+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean": "543b9dd73b6012b51f7af8d7492fc66dc90ecf162ef9d950c32ac4f92f14e45d",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "b52473f31baa497cc4e44ce9dec9b7830228574270425c50a28b253ee3820677",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 177
+    },
+    {
+      "module": "Universality/Certificates/Section5Distance.lean",
+      "source_sha256_before": "f4dc07120aea864a3f78a8477a391ea21b8a797691a3696f1483dc5c84c5b2f9",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean": "4a49fcfea7236715b29e1866a960a105e844c0952bb780cbcf529c8c4c456db1",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean": "4a49fcfea7236715b29e1866a960a105e844c0952bb780cbcf529c8c4c456db1",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean.private": null
+      },
+      "source_sha256_after": "f4dc07120aea864a3f78a8477a391ea21b8a797691a3696f1483dc5c84c5b2f9",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "b922ea99d06d188244b1b17fcbfc7428ac13fec5cec9065db9660bb61fed4c07",
+        "original_module": "Universality/Certificates/Section5Distance.lean",
+        "source_sha256": "f4dc07120aea864a3f78a8477a391ea21b8a797691a3696f1483dc5c84c5b2f9",
+        "exit_code": 0,
+        "started": "2026-10-07T05:49:19+08:00",
+        "finished": "2026-10-07T05:49:32+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean": "4a49fcfea7236715b29e1866a960a105e844c0952bb780cbcf529c8c4c456db1",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "9b195541d384f81533b6220c8b8ff1c50ec6391ef3783d9b806704ba5b52bd70",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 178
+    },
+    {
+      "module": "Universality/Certificates/Section5LinearChecks.lean",
+      "source_sha256_before": "2852dbcf54cbe8ee4aba7ab84300e0bd694445f63c93db3e50538c5eab4cd0b1",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean": "70b65ca07e1e7949bd9e630c10744a437644031877c5ca7418a4f448df86fe81",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean": "70b65ca07e1e7949bd9e630c10744a437644031877c5ca7418a4f448df86fe81",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean.private": null
+      },
+      "source_sha256_after": "2852dbcf54cbe8ee4aba7ab84300e0bd694445f63c93db3e50538c5eab4cd0b1",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "69d36d777ec0c3647f14238ae1e3b0c81bdd754aac1750900d40ec8ce10e2b31",
+        "original_module": "Universality/Certificates/Section5LinearChecks.lean",
+        "source_sha256": "2852dbcf54cbe8ee4aba7ab84300e0bd694445f63c93db3e50538c5eab4cd0b1",
+        "exit_code": 0,
+        "started": "2026-10-07T05:49:50+08:00",
+        "finished": "2026-10-07T05:50:03+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean": "70b65ca07e1e7949bd9e630c10744a437644031877c5ca7418a4f448df86fe81",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 179
+    },
+    {
+      "module": "Universality/Certificates/Section5RowChecks.lean",
+      "source_sha256_before": "e2b4dbe706a4377f77bd326ecf7d86a641b7f80d7b869ee1801ef6bd3ce5a4cd",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean": "f4efe0669d9ea58e88ba34f7e94b73bf96b7bb8dfee468c5593a84de2cfde243",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean": "f4efe0669d9ea58e88ba34f7e94b73bf96b7bb8dfee468c5593a84de2cfde243",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean.private": null
+      },
+      "source_sha256_after": "e2b4dbe706a4377f77bd326ecf7d86a641b7f80d7b869ee1801ef6bd3ce5a4cd",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "03102136dcc2ff7f8174483b7fecaba1688b9feba07f795de1ff9c2c9bf1fad0",
+        "original_module": "Universality/Certificates/Section5RowChecks.lean",
+        "source_sha256": "e2b4dbe706a4377f77bd326ecf7d86a641b7f80d7b869ee1801ef6bd3ce5a4cd",
+        "exit_code": 0,
+        "started": "2026-10-07T05:50:22+08:00",
+        "finished": "2026-10-07T05:50:34+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean": "f4efe0669d9ea58e88ba34f7e94b73bf96b7bb8dfee468c5593a84de2cfde243",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 180
+    },
+    {
+      "module": "Universality/Certificates/Section5PacketChecks.lean",
+      "source_sha256_before": "8cc53742ee8a38c151d245907c2d35c5c16be54d24a8c77e8b39301187bdfc78",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean": "754a8befff1d1a089d6f5ea2088988e66f2b3475355b6ee3ae4030b8c8aa9693",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean": "754a8befff1d1a089d6f5ea2088988e66f2b3475355b6ee3ae4030b8c8aa9693",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean.private": null
+      },
+      "source_sha256_after": "8cc53742ee8a38c151d245907c2d35c5c16be54d24a8c77e8b39301187bdfc78",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "891a429426eeb016eedb5d549c1a7aa222afb7b9292b783e94edecae13e20003",
+        "original_module": "Universality/Certificates/Section5PacketChecks.lean",
+        "source_sha256": "8cc53742ee8a38c151d245907c2d35c5c16be54d24a8c77e8b39301187bdfc78",
+        "exit_code": 0,
+        "started": "2026-10-07T05:53:11+08:00",
+        "finished": "2026-10-07T05:53:24+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean": "754a8befff1d1a089d6f5ea2088988e66f2b3475355b6ee3ae4030b8c8aa9693",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "d680a2726e1f1d3b5e8966b90f9fbeb6ee3d78de9bdf8ce0be650c1ec9a4bafc",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 181
+    },
+    {
+      "module": "Universality/Certificates/Section5FastRank.lean",
+      "source_sha256_before": "cf05d3178756f7a317d2380d7a1a15897a534a69f7e8403ac15e3c81f613a89c",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean": "6ac4a2d110f546224e59c3bb0030561e85a43772d3f13d19f96ce595b8a1e194",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean": "6ac4a2d110f546224e59c3bb0030561e85a43772d3f13d19f96ce595b8a1e194",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean.private": null
+      },
+      "source_sha256_after": "cf05d3178756f7a317d2380d7a1a15897a534a69f7e8403ac15e3c81f613a89c",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "48c5f3715174bf354971906e4b5f761cdf4015769ba66e375b82561ca39b4594",
+        "original_module": "Universality/Certificates/Section5FastRank.lean",
+        "source_sha256": "cf05d3178756f7a317d2380d7a1a15897a534a69f7e8403ac15e3c81f613a89c",
+        "exit_code": 0,
+        "started": "2026-10-07T05:53:50+08:00",
+        "finished": "2026-10-07T05:54:03+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean": "6ac4a2d110f546224e59c3bb0030561e85a43772d3f13d19f96ce595b8a1e194",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "caafc18a9988c060ba61f60f3dda7e030b855f726c4538e757a3c84954715b6d",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 182
+    },
+    {
+      "module": "Universality/Certificates/Section5LengthCertificate.lean",
+      "source_sha256_before": "c99257eaf9710082e230f3c1f2a315d0b0402b9b8e1aa7c45cc3c4cd4e540323",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean": "2ae628a2de57433cd5e6efce8bd8523711e88424a7c49f54f97e71d833c818ba",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean": "2ae628a2de57433cd5e6efce8bd8523711e88424a7c49f54f97e71d833c818ba",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean.private": null
+      },
+      "source_sha256_after": "c99257eaf9710082e230f3c1f2a315d0b0402b9b8e1aa7c45cc3c4cd4e540323",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "e44989d6c1f48c73f3658bbf8f068ba0dc22cc6fbbd06b152e5c42cb9c86ec6d",
+        "original_module": "Universality/Certificates/Section5LengthCertificate.lean",
+        "source_sha256": "c99257eaf9710082e230f3c1f2a315d0b0402b9b8e1aa7c45cc3c4cd4e540323",
+        "exit_code": 0,
+        "started": "2026-10-07T05:54:13+08:00",
+        "finished": "2026-10-07T05:54:27+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean": "2ae628a2de57433cd5e6efce8bd8523711e88424a7c49f54f97e71d833c818ba",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 183
+    },
+    {
+      "module": "Universality/Certificates/Section5MomentSpecialization.lean",
+      "source_sha256_before": "83680866a1acf9417ebe4063b90cbd6d94d158f423c0fbe0447b4d291e89b910",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean": "e0df8b7db750d9de481f34b7cb1695ea45b0c392456f9fa70f355f17d6041183",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean": "e0df8b7db750d9de481f34b7cb1695ea45b0c392456f9fa70f355f17d6041183",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean.private": null
+      },
+      "source_sha256_after": "83680866a1acf9417ebe4063b90cbd6d94d158f423c0fbe0447b4d291e89b910",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "75a98d50a6bb7a40d90c0e8ec3ade7e2361aba1da27b0f0cff5b1079c15288cc",
+        "original_module": "Universality/Certificates/Section5MomentSpecialization.lean",
+        "source_sha256": "83680866a1acf9417ebe4063b90cbd6d94d158f423c0fbe0447b4d291e89b910",
+        "exit_code": 0,
+        "started": "2026-10-07T05:54:52+08:00",
+        "finished": "2026-10-07T05:55:06+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean": "e0df8b7db750d9de481f34b7cb1695ea45b0c392456f9fa70f355f17d6041183",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 184
+    },
+    {
+      "module": "Universality/Certificates/Section5MassSpecialization.lean",
+      "source_sha256_before": "0f87ad42cc03e582ad5e99e576f4ffa85ff467037e95d2fce24d6b7f4504703c",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean": "a21a4679b320e1fccef83e48e41764916a887a19a89669d7bc31b5cdad9b5800",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean": "a21a4679b320e1fccef83e48e41764916a887a19a89669d7bc31b5cdad9b5800",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean.private": null
+      },
+      "source_sha256_after": "0f87ad42cc03e582ad5e99e576f4ffa85ff467037e95d2fce24d6b7f4504703c",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "87223cf12121ca0309458b7255d6d72d80ed17b963859fee840fe17fbda2c3b5",
+        "original_module": "Universality/Certificates/Section5MassSpecialization.lean",
+        "source_sha256": "0f87ad42cc03e582ad5e99e576f4ffa85ff467037e95d2fce24d6b7f4504703c",
+        "exit_code": 0,
+        "started": "2026-10-07T05:55:22+08:00",
+        "finished": "2026-10-07T05:55:41+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean": "a21a4679b320e1fccef83e48e41764916a887a19a89669d7bc31b5cdad9b5800",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "7d5b0fe4daf0441a09ea23849b10e5f5cf93cd89f514796395db6b21fce08fbe",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 185
+    },
+    {
+      "module": "Universality/Section5/Seed19.lean",
+      "source_sha256_before": "1e7b4ce64d44a90b85de6e80871a8b09d7d18772c5f67eee0ce9917b6c50f1ad",
+      "output_artifacts_before": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean": "8b995bf4c5f3448f9b3210c7cb704bacdbb8b2abadbe8098a0e6aa645da01990",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean.private": null
+      },
+      "output_artifacts_after": {
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean": "8b995bf4c5f3448f9b3210c7cb704bacdbb8b2abadbe8098a0e6aa645da01990",
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean.server": null,
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean.private": null
+      },
+      "source_sha256_after": "1e7b4ce64d44a90b85de6e80871a8b09d7d18772c5f67eee0ce9917b6c50f1ad",
+      "successful_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "ac6b63f7438f468442d91a1001428c56c82f42b2b6ae8f35e3f34fcd98ef1211",
+        "original_module": "Universality/Section5/Seed19.lean",
+        "source_sha256": "1e7b4ce64d44a90b85de6e80871a8b09d7d18772c5f67eee0ce9917b6c50f1ad",
+        "exit_code": 0,
+        "started": "2026-10-07T07:07:52+08:00",
+        "finished": "2026-10-07T07:10:30+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean": "8b995bf4c5f3448f9b3210c7cb704bacdbb8b2abadbe8098a0e6aa645da01990",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "a568103a3de69d2fda0d134994bd0f7ad72b55b33f9ebabf2034bfcb57501294",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 186
+    }
+  ],
+  "attempts": [
+    {
+      "module": "Universality/Section5/ScaleGrowth.lean",
+      "index_zero_based": 0,
+      "memory_sample_at_utc": "2026-10-06T21:44:42.993186+00:00",
+      "physical_load_percent": 81,
+      "available_physical_bytes": 3021807616,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 25.5,
+      "wrapper_finished_at_utc": "2026-10-06T21:45:08.675394+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "4970f3e7eda5fb1ffd54002da428d322b59f993f054a4ae0b1fc658b899e2127",
+        "original_module": "Universality/Section5/ScaleGrowth.lean",
+        "source_sha256": "d366dc6248200d5fa8f3d9b7f54a9bba95d32ee1680aad1a48a1ff0f62e5a4b6",
+        "exit_code": 0,
+        "started": "2026-10-07T05:44:44+08:00",
+        "finished": "2026-10-07T05:45:08+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean": "e4309861d6d16c1451ffec5d690ea1a6f0047bf871622174315dcd1aef15adb3",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\ScaleGrowth.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5BinomialTable.lean",
+      "index_zero_based": 1,
+      "memory_sample_at_utc": "2026-10-06T21:45:14.427168+00:00",
+      "physical_load_percent": 81,
+      "available_physical_bytes": 3043954688,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 15.234,
+      "wrapper_finished_at_utc": "2026-10-06T21:45:29.849827+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "ad512d143a08b4fa39646556a468b4f7c5a771921557cf350e3fd1441c9c425d",
+        "original_module": "Universality/Certificates/Section5BinomialTable.lean",
+        "source_sha256": "3fce849c4b7afa42a7dd4ad4e77eb72c05675cf6070f68361ef9ebd060473435",
+        "exit_code": 0,
+        "started": "2026-10-07T05:45:15+08:00",
+        "finished": "2026-10-07T05:45:29+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean": "71874fd0ffade116afa051d61a61fa8e8e9294de0c494db388f3a3ffda76d5b8",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialTable.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "d8374a079a1309a7cd1006593ffd03f2b02269c03df87e0df26510a0027811a0",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5MomentCertificate.lean",
+      "index_zero_based": 2,
+      "memory_sample_at_utc": "2026-10-06T21:45:42.711818+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2996269056,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 15.281,
+      "wrapper_finished_at_utc": "2026-10-06T21:45:58.201028+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "8ccb335c6bf08285b603dbcabff2358baedff381f743f256fbcfe0b62c5f8924",
+        "original_module": "Universality/Certificates/Section5MomentCertificate.lean",
+        "source_sha256": "cbff8788d425eb3c2607e6bc0e4ccf24125dc395bd82cb64e60a0cf9b1158241",
+        "exit_code": 0,
+        "started": "2026-10-07T05:45:44+08:00",
+        "finished": "2026-10-07T05:45:57+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean": "161aadd335fa5dea2f1821c59f8ab9b0f831fbcf132ed56d9c22a5a7bb148382",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentCertificate.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5NaturalMoments.lean",
+      "index_zero_based": 3,
+      "memory_sample_at_utc": "2026-10-06T21:46:08.459255+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2990120960,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 15.563,
+      "wrapper_finished_at_utc": "2026-10-06T21:46:24.216697+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "02273319fe0965561b8cb4c9689a544ecf6413d555e30e5667188273d3b1aa6e",
+        "original_module": "Universality/Certificates/Section5NaturalMoments.lean",
+        "source_sha256": "6c780827b6467e83c0e3c9a242edbe627e6219d59f2828ff6a90530737dff81b",
+        "exit_code": 0,
+        "started": "2026-10-07T05:46:09+08:00",
+        "finished": "2026-10-07T05:46:23+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean": "daf86172aa83dce4ca238f27b89e66c5cf0b9368db4f3837fb39195a02d79329",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5NaturalMoments.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5BinomialBoolean.lean",
+      "index_zero_based": 4,
+      "memory_sample_at_utc": "2026-10-06T21:46:30.058233+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2968506368,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 15.562,
+      "wrapper_finished_at_utc": "2026-10-06T21:46:45.827129+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "0e7897e12855bb8fc95dfd3d7606d70d906c5fce14fc045ac47359c3b057bb3e",
+        "original_module": "Universality/Certificates/Section5BinomialBoolean.lean",
+        "source_sha256": "e5a3859a545b8c306c0fb527bb17a6c439b509942dc99ee9cf1dd46fade0a577",
+        "exit_code": 0,
+        "started": "2026-10-07T05:46:31+08:00",
+        "finished": "2026-10-07T05:46:45+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean": "4c3cad17d1bcac8cc269d27a822a0e69cd0202a7d01c0e16c280ccb74312ac11",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BinomialBoolean.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5GroupChecks.lean",
+      "index_zero_based": 5,
+      "memory_sample_at_utc": "2026-10-06T21:46:58.104107+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2902953984,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "resource_gate_deferred_no_lean_started"
+    },
+    {
+      "module": "Universality/Certificates/Section5GroupChecks.lean",
+      "index_zero_based": 5,
+      "memory_sample_at_utc": "2026-10-06T21:48:56.458618+00:00",
+      "physical_load_percent": 81,
+      "available_physical_bytes": 3051921408,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 15.453,
+      "wrapper_finished_at_utc": "2026-10-06T21:49:12.109336+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "cdd304bd8c56eb3ab2d8225bd1e5340dcebb0dd00c7d49d55bb28b742cf38bfd",
+        "original_module": "Universality/Certificates/Section5GroupChecks.lean",
+        "source_sha256": "4c0b343c85eafef9933571121f2a29edefbba6dbb4009172835076f5f204bcce",
+        "exit_code": 0,
+        "started": "2026-10-07T05:48:57+08:00",
+        "finished": "2026-10-07T05:49:11+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean": "543b9dd73b6012b51f7af8d7492fc66dc90ecf162ef9d950c32ac4f92f14e45d",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5GroupChecks.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "b52473f31baa497cc4e44ce9dec9b7830228574270425c50a28b253ee3820677",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5Distance.lean",
+      "index_zero_based": 6,
+      "memory_sample_at_utc": "2026-10-06T21:49:17.970196+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 3003039744,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 14.844,
+      "wrapper_finished_at_utc": "2026-10-06T21:49:33.004947+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "b922ea99d06d188244b1b17fcbfc7428ac13fec5cec9065db9660bb61fed4c07",
+        "original_module": "Universality/Certificates/Section5Distance.lean",
+        "source_sha256": "f4dc07120aea864a3f78a8477a391ea21b8a797691a3696f1483dc5c84c5b2f9",
+        "exit_code": 0,
+        "started": "2026-10-07T05:49:19+08:00",
+        "finished": "2026-10-07T05:49:32+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean": "4a49fcfea7236715b29e1866a960a105e844c0952bb780cbcf529c8c4c456db1",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Distance.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "9b195541d384f81533b6220c8b8ff1c50ec6391ef3783d9b806704ba5b52bd70",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5LinearChecks.lean",
+      "index_zero_based": 7,
+      "memory_sample_at_utc": "2026-10-06T21:49:49.013807+00:00",
+      "physical_load_percent": 81,
+      "available_physical_bytes": 3025584128,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 14.547,
+      "wrapper_finished_at_utc": "2026-10-06T21:50:03.762180+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "69d36d777ec0c3647f14238ae1e3b0c81bdd754aac1750900d40ec8ce10e2b31",
+        "original_module": "Universality/Certificates/Section5LinearChecks.lean",
+        "source_sha256": "2852dbcf54cbe8ee4aba7ab84300e0bd694445f63c93db3e50538c5eab4cd0b1",
+        "exit_code": 0,
+        "started": "2026-10-07T05:49:50+08:00",
+        "finished": "2026-10-07T05:50:03+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean": "70b65ca07e1e7949bd9e630c10744a437644031877c5ca7418a4f448df86fe81",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LinearChecks.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5RowChecks.lean",
+      "index_zero_based": 8,
+      "memory_sample_at_utc": "2026-10-06T21:50:20.562623+00:00",
+      "physical_load_percent": 81,
+      "available_physical_bytes": 3055349760,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 14.797,
+      "wrapper_finished_at_utc": "2026-10-06T21:50:35.538405+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "03102136dcc2ff7f8174483b7fecaba1688b9feba07f795de1ff9c2c9bf1fad0",
+        "original_module": "Universality/Certificates/Section5RowChecks.lean",
+        "source_sha256": "e2b4dbe706a4377f77bd326ecf7d86a641b7f80d7b869ee1801ef6bd3ce5a4cd",
+        "exit_code": 0,
+        "started": "2026-10-07T05:50:22+08:00",
+        "finished": "2026-10-07T05:50:34+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean": "f4efe0669d9ea58e88ba34f7e94b73bf96b7bb8dfee468c5593a84de2cfde243",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5RowChecks.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5PacketChecks.lean",
+      "index_zero_based": 9,
+      "memory_sample_at_utc": "2026-10-06T21:50:43.882039+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2923560960,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "resource_gate_deferred_no_lean_started"
+    },
+    {
+      "module": "Universality/Certificates/Section5PacketChecks.lean",
+      "index_zero_based": 9,
+      "memory_sample_at_utc": "2026-10-06T21:52:02.942830+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2947031040,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "resource_gate_deferred_no_lean_started"
+    },
+    {
+      "module": "Universality/Certificates/Section5PacketChecks.lean",
+      "index_zero_based": 9,
+      "memory_sample_at_utc": "2026-10-06T21:53:10.278708+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2987675648,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 15.094,
+      "wrapper_finished_at_utc": "2026-10-06T21:53:25.555360+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "891a429426eeb016eedb5d549c1a7aa222afb7b9292b783e94edecae13e20003",
+        "original_module": "Universality/Certificates/Section5PacketChecks.lean",
+        "source_sha256": "8cc53742ee8a38c151d245907c2d35c5c16be54d24a8c77e8b39301187bdfc78",
+        "exit_code": 0,
+        "started": "2026-10-07T05:53:11+08:00",
+        "finished": "2026-10-07T05:53:24+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean": "754a8befff1d1a089d6f5ea2088988e66f2b3475355b6ee3ae4030b8c8aa9693",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5PacketChecks.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "d680a2726e1f1d3b5e8966b90f9fbeb6ee3d78de9bdf8ce0be650c1ec9a4bafc",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5FastRank.lean",
+      "index_zero_based": 10,
+      "memory_sample_at_utc": "2026-10-06T21:53:48.952873+00:00",
+      "physical_load_percent": 81,
+      "available_physical_bytes": 3020861440,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 14.938,
+      "wrapper_finished_at_utc": "2026-10-06T21:54:04.088094+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "48c5f3715174bf354971906e4b5f761cdf4015769ba66e375b82561ca39b4594",
+        "original_module": "Universality/Certificates/Section5FastRank.lean",
+        "source_sha256": "cf05d3178756f7a317d2380d7a1a15897a534a69f7e8403ac15e3c81f613a89c",
+        "exit_code": 0,
+        "started": "2026-10-07T05:53:50+08:00",
+        "finished": "2026-10-07T05:54:03+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean": "6ac4a2d110f546224e59c3bb0030561e85a43772d3f13d19f96ce595b8a1e194",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5FastRank.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "caafc18a9988c060ba61f60f3dda7e030b855f726c4538e757a3c84954715b6d",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5LengthCertificate.lean",
+      "index_zero_based": 11,
+      "memory_sample_at_utc": "2026-10-06T21:54:12.070901+00:00",
+      "physical_load_percent": 81,
+      "available_physical_bytes": 3030073344,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 15.562,
+      "wrapper_finished_at_utc": "2026-10-06T21:54:27.819105+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "e44989d6c1f48c73f3658bbf8f068ba0dc22cc6fbbd06b152e5c42cb9c86ec6d",
+        "original_module": "Universality/Certificates/Section5LengthCertificate.lean",
+        "source_sha256": "c99257eaf9710082e230f3c1f2a315d0b0402b9b8e1aa7c45cc3c4cd4e540323",
+        "exit_code": 0,
+        "started": "2026-10-07T05:54:13+08:00",
+        "finished": "2026-10-07T05:54:27+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean": "2ae628a2de57433cd5e6efce8bd8523711e88424a7c49f54f97e71d833c818ba",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5LengthCertificate.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5MomentSpecialization.lean",
+      "index_zero_based": 12,
+      "memory_sample_at_utc": "2026-10-06T21:54:50.546427+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2995646464,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 16.187,
+      "wrapper_finished_at_utc": "2026-10-06T21:55:06.943391+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "75a98d50a6bb7a40d90c0e8ec3ade7e2361aba1da27b0f0cff5b1079c15288cc",
+        "original_module": "Universality/Certificates/Section5MomentSpecialization.lean",
+        "source_sha256": "83680866a1acf9417ebe4063b90cbd6d94d158f423c0fbe0447b4d291e89b910",
+        "exit_code": 0,
+        "started": "2026-10-07T05:54:52+08:00",
+        "finished": "2026-10-07T05:55:06+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean": "e0df8b7db750d9de481f34b7cb1695ea45b0c392456f9fa70f355f17d6041183",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MomentSpecialization.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Certificates/Section5MassSpecialization.lean",
+      "index_zero_based": 13,
+      "memory_sample_at_utc": "2026-10-06T21:55:19.507935+00:00",
+      "physical_load_percent": 82,
+      "available_physical_bytes": 2964127744,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "passed",
+      "wrapper_exit_code": 0,
+      "actual_wrapper_elapsed_seconds": 22.094,
+      "wrapper_finished_at_utc": "2026-10-06T21:55:41.807754+00:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "87223cf12121ca0309458b7255d6d72d80ed17b963859fee840fe17fbda2c3b5",
+        "original_module": "Universality/Certificates/Section5MassSpecialization.lean",
+        "source_sha256": "0f87ad42cc03e582ad5e99e576f4ffa85ff467037e95d2fce24d6b7f4504703c",
+        "exit_code": 0,
+        "started": "2026-10-07T05:55:22+08:00",
+        "finished": "2026-10-07T05:55:41+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean": "a21a4679b320e1fccef83e48e41764916a887a19a89669d7bc31b5cdad9b5800",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassSpecialization.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "7d5b0fe4daf0441a09ea23849b10e5f5cf93cd89f514796395db6b21fce08fbe",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "object_changes": []
+    },
+    {
+      "module": "Universality/Section5/Seed19.lean",
+      "index_zero_based": 14,
+      "memory_sample_at_utc": "2026-10-06T21:55:59.053265+00:00",
+      "physical_load_percent": 84,
+      "available_physical_bytes": 2665971712,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "resource_gate_deferred_no_lean_started"
+    },
+    {
+      "module": "Universality/Section5/Seed19.lean",
+      "index_zero_based": 14,
+      "memory_sample_at_utc": "2026-10-06T21:58:07.868265+00:00",
+      "physical_load_percent": 87,
+      "available_physical_bytes": 2082484224,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "resource_gate_deferred_no_lean_started"
+    },
+    {
+      "module": "Universality/Section5/Seed19.lean",
+      "index_zero_based": 14,
+      "memory_sample_at_utc": "2026-10-06T22:01:23.536299+00:00",
+      "physical_load_percent": 86,
+      "available_physical_bytes": 2239324160,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+        "maximum_other_long_jobs": 1,
+        "process_state_unclear": false,
+        "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+      },
+      "status": "resource_gate_deferred_no_lean_started"
+    },
+    {
+      "module": "Universality/Section5/Seed19.lean",
+      "index_zero_based": 14,
+      "memory_sample_at_utc": "2026-10-06T22:23:31.773728+00:00",
+      "physical_load_percent": 85,
+      "available_physical_bytes": 2510069760,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T22:23:31.772728+00:00",
+        "maximum_other_long_jobs": 0,
+        "process_state_unclear": false,
+        "evidence": "Root explicitly authorized resuming only final Seed19 after environment recovery and reported a fresh CIM census with no Lean process from this repository. The vanished Proof12 has no object or successful receipt and will be resumed only after this short slot and the root-owned last two helpers."
+      },
+      "status": "resource_gate_deferred_no_lean_started"
+    },
+    {
+      "module": "Universality/Section5/Seed19.lean",
+      "index_zero_based": 14,
+      "memory_sample_at_utc": "2026-10-06T22:33:51.857409+00:00",
+      "physical_load_percent": 91,
+      "available_physical_bytes": 1417379840,
+      "total_physical_bytes": 16766210048,
+      "process_count_basis": {
+        "recorded_at_utc": "2026-10-06T22:33:51.857409+00:00",
+        "maximum_other_long_jobs": 0,
+        "process_state_unclear": false,
+        "evidence": "Root explicitly released only Seed19 after independent static/fault-mock review of the durable wrapper, retaining the original <=82 percent and available >=2.75 GiB gate. Root reports no other repository Lean; root-owned final two helper checks wait for this completion."
+      },
+      "status": "resource_gate_deferred_no_lean_started"
+    },
+    {
+      "module": "Universality/Section5/Seed19.lean",
+      "index_zero_based": 14,
+      "status": "passed",
+      "completion_observed_at_utc": "2026-10-06T23:12:51.385713+00:00",
+      "wrapper_exit_code": 0,
+      "actual_process_elapsed_seconds": 147.969,
+      "process_finished": "2026-10-07T07:10:28+08:00",
+      "wrapper_receipt_finished": "2026-10-07T07:10:30+08:00",
+      "actual_receipt": {
+        "receipt_file": "docs/section5-certificate-kernel-checks.json",
+        "entry_sha256": "ac6b63f7438f468442d91a1001428c56c82f42b2b6ae8f35e3f34fcd98ef1211",
+        "original_module": "Universality/Section5/Seed19.lean",
+        "source_sha256": "1e7b4ce64d44a90b85de6e80871a8b09d7d18772c5f67eee0ce9917b6c50f1ad",
+        "exit_code": 0,
+        "started": "2026-10-07T07:07:52+08:00",
+        "finished": "2026-10-07T07:10:30+08:00",
+        "source_unchanged_during_check": true,
+        "dependencies_unchanged_during_check": true,
+        "recorded_olean_sha256": null,
+        "recorded_output_artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean": "8b995bf4c5f3448f9b3210c7cb704bacdbb8b2abadbe8098a0e6aa645da01990",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Section5\\Seed19.olean.private": null
+        },
+        "log_path": null,
+        "embedded_output_sha256": "a568103a3de69d2fda0d134994bd0f7ad72b55b33f9ebabf2034bfcb57501294",
+        "recorded_at_utc": null,
+        "has_dependency_snapshots": true,
+        "scope": "Reference to genuine historical execution; null means not recorded, not verified."
+      },
+      "receipt_history_index_zero_based": 186,
+      "run_journal": "docs/section5-kernel-runs/20261007T070752282636-12604-Seed19.json",
+      "raw_output_path": "docs/section5-kernel-runs/20261007T070752282636-12604-Seed19.log",
+      "raw_output_sha256": "a568103a3de69d2fda0d134994bd0f7ad72b55b33f9ebabf2034bfcb57501294",
+      "object_changes": [],
+      "completion_evidence": "Existing durable journal records actual process exit 0 and wrapper exit 0; its full receipt equals existing common history entry 186. Completion was observed after agent handoff; no new Lean process was started and no common receipt was fabricated."
+    }
+  ],
+  "observed_object_changes": [],
+  "source_changes": [],
+  "compile_slot_authorization": {
+    "recorded_at_utc": "2026-10-06T22:33:51.857409+00:00",
+    "maximum_other_long_jobs": 0,
+    "process_state_unclear": false,
+    "evidence": "Root explicitly released only Seed19 after independent static/fault-mock review of the durable wrapper, retaining the original <=82 percent and available >=2.75 GiB gate. Root reports no other repository Lean; root-owned final two helper checks wait for this completion."
+  },
+  "authorization_history": [
+    {
+      "recorded_at_utc": "2026-10-06T21:44:35.686381+00:00",
+      "maximum_other_long_jobs": 1,
+      "process_state_unclear": false,
+      "evidence": "Certificate agent explicitly reported Proof14 session93698 EXIT0 after 744.906 seconds with stable source/dependency snapshots. Only Proof12 session95996 remains, and the certificate agent will not start InitialMass/Mass. Root was informed before this queue starts. This satisfies the previously authorized resource gate."
+    },
+    {
+      "recorded_at_utc": "2026-10-06T22:23:31.772728+00:00",
+      "maximum_other_long_jobs": 0,
+      "process_state_unclear": false,
+      "evidence": "Root explicitly authorized resuming only final Seed19 after environment recovery and reported a fresh CIM census with no Lean process from this repository. The vanished Proof12 has no object or successful receipt and will be resumed only after this short slot and the root-owned last two helpers."
+    }
+  ],
+  "coordination_events": [
+    {
+      "recorded_at_utc": "2026-10-06T22:25:36.325231+00:00",
+      "event": "Root explicitly instructed no automatic wrapper start until durable-output wrapper repair and review complete, followed by a newly stated single-slot resource threshold. Fourteen verified helpers are not to be rerun.",
+      "lean_process_started": false
+    },
+    {
+      "recorded_at_utc": "2026-10-06T23:12:51.385713+00:00",
+      "event": "Handoff agent observed genuine Seed19 completion in the durable journal and common history entry 186, verified all 15 current receipts, and completed this same helper receipt. The compile slot is returned to root for its two remaining helper checks.",
+      "lean_process_started": false
+    }
+  ],
+  "completed_at_utc": "2026-10-06T23:12:51.385713+00:00",
+  "successful_module_count": 15,
+  "expected_module_count": 15,
+  "completion_verification": {
+    "recorded_at_utc": "2026-10-06T23:12:51.385713+00:00",
+    "all_sources_unchanged_from_before": true,
+    "all_output_artifact_sets_unchanged_from_before": true,
+    "all_15_successful_receipts_current_and_strong": true,
+    "source_list_unchanged": true,
+    "new_lean_invocations_by_handoff_agent": 0,
+    "scope": "Current source, output artifact sets and complete local dependency snapshots checked against the 15 actual successful common receipts. External transitive closure remains the pinned baseline scope."
+  }
+}

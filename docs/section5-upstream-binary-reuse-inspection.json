@@ -1,0 +1,82 @@
+{
+  "inspected_at_utc": "2026-10-06T18:42:53.0663591Z",
+  "upstream_root": "C:/Users/lzysh/Documents/Codex/2026-09-13/new-chat/work/universality-lean",
+  "source_audit_entry_fields": [
+    "module",
+    "source_sha256"
+  ],
+  "build_entry_fields": [
+    "checked_at_utc",
+    "evidence",
+    "exit_code",
+    "module",
+    "object_written_at_utc",
+    "recovered_from_successful_sequential_check",
+    "seconds",
+    "source_sha256"
+  ],
+  "metadata_fields": [
+    "target",
+    "module_count",
+    "rebuilt_count",
+    "reuse_verified",
+    "lean_version",
+    "mathlib_revision",
+    "completed_at_utc"
+  ],
+  "resume_entry_fields": [
+    "checked_at_utc",
+    "evidence",
+    "exit_code",
+    "module",
+    "object_written_at_utc",
+    "recovered_from_successful_sequential_check",
+    "seconds",
+    "source_sha256"
+  ],
+  "artifact_content_hashes_recorded": false,
+  "recursive_dependency_fingerprints_recorded": false,
+  "per_module_compiler_package_binding_recorded": false,
+  "global_environment_metadata": {
+    "target": "Audit.lean",
+    "module_count": 752,
+    "rebuilt_count": 45,
+    "reuse_verified": true,
+    "lean_version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)",
+    "mathlib_revision": "520045ab14e26149ee970e2e617ca04b09bde5d6",
+    "completed_at_utc": "2026-10-06T18:14:31.3089668Z"
+  },
+  "binary_reuse_authorized": false,
+  "objects_copied": 0,
+  "conclusion": "Insufficient historical binary provenance for the requested object reuse. Existing source-success evidence does not bind current object bytes, private/server siblings, recursive dependency fingerprints, or per-module compiler/package environment. Fresh hashes cannot reconstruct these missing historical bindings.",
+  "inspected_files": [
+    {
+      "relative_path": "docs/source-audit.json",
+      "sha256": "a9e07adedbda551062fd218b3c335950944a49be11b06b0cd373e5002da5bffb"
+    },
+    {
+      "relative_path": "docs/build-results.json",
+      "sha256": "84a9f3765719eccda81f89fccf7160ee13680bd48185ab471e7a34048c8844a4"
+    },
+    {
+      "relative_path": "docs/build-metadata.json",
+      "sha256": "eebde4f58d4e42c2885312130077da8888eccdc2897396d71f92c906715ac6f0"
+    },
+    {
+      "relative_path": "docs/build-resume-evidence.json",
+      "sha256": "665565e4efa71868588e3cf7d4a43e2f837777312dcad361bac55333d5d1b0a2"
+    },
+    {
+      "relative_path": "scripts/build.ps1",
+      "sha256": "7fa9190ba88cfd8e25e5405f6c6b39c8bace316b0218f592561e7cab7b32147a"
+    },
+    {
+      "relative_path": "scripts/verify_snapshot.py",
+      "sha256": "7b7774069a094101a5b20438ed9765c87b49aff26e16237f5c3c8f11a294c34f"
+    },
+    {
+      "relative_path": "docs/supplemental-mathlib-builds.jsonl",
+      "sha256": "76aaca4e7e9149ce7f1889b32e25822c754a086256a0a24c86cbac7481fbaf75"
+    }
+  ]
+}

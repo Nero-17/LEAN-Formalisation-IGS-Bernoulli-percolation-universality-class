@@ -10,3 +10,5 @@ __pycache__/
 
 # Local proof-development scratch; complete R078 evidence is archived separately.
 work/
+
+/Universality/Certificates/Section5MassChunkData*.lean

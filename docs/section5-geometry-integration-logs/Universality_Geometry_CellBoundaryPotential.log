@@ -1,0 +1,6 @@
+'Universality.FiniteNetwork.substitute_cell_boundary_le_distance_to_old' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.substitute_distinct_cell_boundary_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

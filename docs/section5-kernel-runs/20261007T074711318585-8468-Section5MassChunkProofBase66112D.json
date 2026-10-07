@@ -1,0 +1,938 @@
+{
+  "schema": 1,
+  "status": "pass",
+  "run_id": "20261007T074711318585-8468-Section5MassChunkProofBase66112D",
+  "module": "Universality/Certificates/Section5MassChunkProofBase66112D.lean",
+  "source_sha256": "c18eccf2f7f770b20ddb09a5ba79de146e5a52f222053715b495a8f4ff30d737",
+  "started": "2026-10-07T07:47:11+08:00",
+  "command": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\scripts\\check.ps1",
+    "-Module",
+    "Universality\\Certificates\\Section5MassChunkProofBase66112D.lean",
+    "-Profile",
+    "-Threads",
+    "1"
+  ],
+  "cwd": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5",
+  "raw_output_path": "docs/section5-kernel-runs/20261007T074711318585-8468-Section5MassChunkProofBase66112D.log",
+  "process_exit_code": 0,
+  "wrapper_exit_code": 0,
+  "scope": "Incomplete journal until status pass; a process exit alone is not a strong proof receipt.",
+  "snapshot_before": {
+    "schema": 1,
+    "module": "Universality/Certificates/Section5MassChunkProofBase66112D.lean",
+    "source_sha256": "c18eccf2f7f770b20ddb09a5ba79de146e5a52f222053715b495a8f4ff30d737",
+    "local_imports": [
+      {
+        "module": "Universality/Algebra/WordExpansion.lean",
+        "source_sha256": "504764b3dd5102e4d681b1efc97d0b085d525819c3867c51d0ecf766bf0e7558",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean": "6cc76e91dc094824733a317b1ba9cb5576f637c73423f4010231ad32f5d29091",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Matrix/TwoByTwo.lean",
+        "source_sha256": "8ae2ada33f2a870142c4a18b61da9b4e9eefcc2906c383b24bcd568ee9b858df",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean": "dcd784c02914bc63174c920249e622e3d28e42861477ab8d5f101ccaec792a53",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Algebra/PacketCancellation.lean",
+        "source_sha256": "48e7442416230ae8ca6f798655114a6c501be15e195326cd69cb21fafb9da832",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean": "731c386a8f56787888e3d8a21b19c6936db6c45a36a389e62ec792938a82852a",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Algebra/GroupedWords.lean",
+        "source_sha256": "aaa972c16fcef3b602250a996b0aa3c2b6a863686f020e53442314e853c20c96",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean": "8852df890d6506dff4d9c35c1e0d60a6f855fec8edb2296c975baa86378cd053",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5Packets.lean",
+        "source_sha256": "59866898e407d2390d259497376be1fd76fd0fab4d2430a8ef6c2e5fd1f8da43",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean": "ecabe1fe5c9da280500c2624130bf53e03414c16896d9ba07bdf91accc9ba111",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5Allocation.lean",
+        "source_sha256": "a27eb6947c8a659998377e0fbc851ce5b92e1f92547a34b4ce587cef56df29ed",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean": "8e88612cc9ae3250420215d5f010df1f8ead167203cfd5bfb77189dd02c323fc",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5InitialSums.lean",
+        "source_sha256": "9c6dd6abff6e43621d5a38f40ebd23235af42ab8037e3716846d2e488d25ddee",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean": "dec837050df1a8360a0c5e4e4e7ded531a62c4d2ee95423801ae03a180abccaa",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Capacity.lean",
+        "source_sha256": "1c4db1d0282e24dd9e9378e031b0284b9b354b76c93971c5bc57e9604b0b3259",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean": "add38408d04506f6377ab5ec193cb6bfd7e7b7c7031cc6620e6fc1f24c5527f5",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5MatrixEvaluation.lean",
+        "source_sha256": "f91dd36da620022d372575c195e18f3b51e46efdd5285e4b355925d774d6a9a8",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean": "d4ab75ef2c6e6c134c98739f308774647293470067572e168a4224e5bc425369",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5MatrixStream.lean",
+        "source_sha256": "b170150961b7c46a80f521a69d2930ab9210ab9c5b08f098c00e43cb75383695",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean": "2f6302b9dedea71ec3d56e4b4c5e78748984dd5d8aa1c1efa48cf91a420898a6",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5BitExtraction.lean",
+        "source_sha256": "dda251f72de4f8a35fca64d660699469fa15c352014654f3a4a9c050d3ca653d",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean": "8f4c31c7778e66c41b04dcff2bbbcbece6644873f55360ea77a1604e05cceb5b",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5MassChunks.lean",
+        "source_sha256": "ebe36e895c2fe6ce07b582e39beff438130809d940dff0808941204d09c6a31f",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean": "b4c7abf00001b06195b63037df85a876d0e738556d86d1ef0843215bbba9b41a",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5MassChunkDataBase66112.lean",
+        "source_sha256": "c11afe5ce4d31994d4d2da8752ccdee6479372b14db4bb7d2d4dc1f776f0b6a7",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean": "3311e04de0183c08ebfdedaf3f03e81a9d4140ae0985ece63062f14bfb96a5ed",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean.private": null
+        }
+      },
+      {
+        "module": "Universality/Certificates/Section5MassChunkDataBase66111.lean",
+        "source_sha256": "c4cc1c4d697f9b5cfb1a35c262f4e2c6be7e3f108473054c1942bfb94477c9ae",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean": "74156308282319892ac4400e12fe3dd6bb53878c92d07e8a5572eec22afcccd9",
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean.server": null,
+          "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean.private": null
+        }
+      }
+    ],
+    "external_direct_imports": {
+      "Init.Data.Nat.Bitwise.Lemmas": {
+        "resolved": "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean": "b5d932c8860c09379c218694945dae609deb3d6d6584dc19d98deb0050de19b1",
+          "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean.server": "884790586c97ff75c70b573b879ee861aa496e54412e90cf0b8c955547814f71",
+          "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean.private": "e407ec1068e8ceb05d42caa2c919da3ffc9b55ebeab233a3506d580a579e4fe5"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Algebra.BigOperators.Fin": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean": "0c54b5bf83abcace9b4bca0a4581bb7dad6fc1feda2fa17298889f2b0f879a23",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean.server": "2f5e147d0d3d9dcce93e0f5bbcf23dc439b4e2a4fae367b05cc2de314c825524",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean.private": "0481aadd545c7eaccf9afbd748bfe7921199cbacd4bae830a77fb62c07540445"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Algebra.BigOperators.Ring.Finset": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean": "0b0c6a5dd3242e21ee9acecca52fc5b3b4ac1ecdfed3283a1dd1776484494955",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean.server": "476b3974b7b7e12b2a1bf31b00ff8de2b0648a6febb4dffc96c4b64353b03f46",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean.private": "1a30b334aabd9bf901cd00fda2cfaae3bda3392ec179c4bbcae82b69695b069a"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Algebra.BigOperators.Ring.List": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean": "823af6caceb502841e01aee20b534ed03e10c86045c913ac6a25107319c9c07f",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean.server": "0acbb19573c533c7fa04fdefd0e0fee53dec365713f3d5f9392b30438e4257f9",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean.private": "6716ac83b674c8fd57aadf671f0b1873e9dd01910a5f2323673e359b7b233d9c"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Algebra.Module.Basic": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean": "2b8c8e66825b59be9533d80039dca5a4efd3042a5df15d65a4c42db7289dfca5",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean.server": "f7b4663234362996a49b6576800e6cabb035593c62a8c8e88cee59bdf9975b7d",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean.private": "041380ef51f676a65b9d1249dae83bbfd96641c78afb9246b679f74326129304"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Data.List.Nodup": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean": "fa7cb88ad277484be6691ba5bd249f4c4b1acf05212fda6632d5ebaebef760fc",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean.server": "a155406763db8af96b535906df7515e8dfc3c3ae607b56800ee8339312e3f38e",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean.private": "13b773fdeda27288cf141baa03ef5b3346ac2de3f2f2fa1c4cd3ff573ea130ae"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Data.List.Range": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean": "0ca54b34b926ed8c3db365263c473db53ee6f6dd21ac7baa5ddf0d697072088f",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean.server": "745cb8fe37ec726d1970adb127643387922499f1c08fb998df028cee401b80cd",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean.private": "d67f90c9ccd569f578b38e3a56d6db4228aed83904bc1b9e894db335dcd45ded"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Data.List.TakeDrop": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean": "845fade3443a1ac05d3d35ab9a3427a195c392b7c9fc1c06e03b73ec3e313b23",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean.server": "db8d91f945c3b4b8b8f4a88819a4018880b5e22bf8155384b18e1479bcca28d2",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean.private": "476f98fb103f1ef36fbfa7ede4d84ba0bac67113bc19c5df6386992db56a9337"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Data.Nat.Choose.Basic": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean": "9e9230f5020ad07043b3c972217b321979b1a02c8f42064fb7ee2b08858c6551",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean.server": "4653e53456383fc6250e0edcdf725ef4b217f15afd2d278d6af3a9b511120862",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean.private": "a7cdc45e878a9c7c32b4b48035f32e797333ab93f9b2ee3cdac1b7af6840a5c0"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Data.Nat.Choose.Bounds": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean": "792cd04745848fb09e256d944c90b951fa9dbc507c0093f15dc1eb62856b0ed4",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean.server": "10786c697ad91585c6da6a71af01709c0d721476d6368b7fe036a3b39cc893e6",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean.private": "8e57e27842d9ee1d32b51cc1dc52831b6244921e8fb71c804251a88a13b22bf0"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Data.Nat.Digits.Lemmas": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean": "e53e110ed0850d1d248d7f8caf49ea182a3d03fe33ce1b64ea73189adc16c4c6",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean.server": "6485860315280f812f837155532f9c6b9dd3b503a9c19420e263c26919a1ffa8",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean.private": "6d19bc648dedc3c8bee209a4ecfedbcb13f2923c5f22be3c97a13a3a7a91c485"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.LinearAlgebra.Matrix.Determinant.Basic": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean": "42ef2c691772de538c0821fe56f71ecd316082721a83f494bef0e59ed550434c",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean.server": "3da7dc389cad5e325169dc1e4ea90586478087db957290a8799bf9916b08035a",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean.private": "36d839c55a4b3bb4fa3b0821f595f8af55888e570cab834d6bb1fa21f2282be0"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.LinearAlgebra.Matrix.Trace": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean": "7fb98156993abb046c8833c82564f78c7a11c4f7b840d96b9e3dbed874ee60bc",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean.server": "af979d38cfe2cc2d1b0a00b4dc4ff489c9f42a83efcdee1c132f581c52dd7f01",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean.private": "40f087e9eedd65f9737678e3fa9ba721029f173b2dd31284df5672ee2f09bf4b"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Tactic.FinCases": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean": "ee4969ab89f60be791fd5e1f4038c9422ccdd90483ae7d91236ec7cf247190c7",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean.server": "7ef87716370b1c3b3ec9540033400a3ee04d9198011d30ce0cc16acf632128bd",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean.private": "c73f12fe4b8065400ab040b3742fb33b5302e68ee4c0b205aad7c206c888be4b"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Tactic.NormNum": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean": "427708091e805c768b350fd21f5826c8610438c1ab8770b8107a722ee49a9469",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean.server": "0c65b2c35fb646019d3358b2a86f31bb17294034dcfa62a5b8259aca840fe642",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean.private": "52d6003a4c8f3b6531b3d2e229ba155a9a6a96c0edc27adaa959b30a79cf41e8"
+        },
+        "other_candidates": []
+      },
+      "Mathlib.Tactic.Ring": {
+        "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean",
+        "artifacts": {
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean": "9a9972cc4becc46566831f704c2c365f5510bafb5c63c1bb611c2c8490a936a1",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean.server": "9af125590b8f6c6fb6345e415a17e758c346a6c76f33818cd7efd626882381b0",
+          "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean.private": "d60d0eebc9433fe797018e6d3005207df015547b17346e592e8741fc477ae76b"
+        },
+        "other_candidates": []
+      }
+    },
+    "compiler_sha256": "c3f02a2b739078d1237af9feefd27ec85b943b56870234b42bc0111d6699d54d",
+    "check_script_sha256": "bfffae8ee0b28e76bf25aac121a77fb348dbcd6a885918ebaffc079a09497754",
+    "compiler_version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)",
+    "search_path": [
+      "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\aesop\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\batteries\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\Cli\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\importGraph\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\plausible\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\proofwidgets\\.lake\\build\\lib\\lean",
+      "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\Qq\\.lake\\build\\lib\\lean"
+    ],
+    "package_manifest_sha256": "7f9d3653d27c4b5bf3b42304fd862a4d62d11c9cfb5475b937020c7bbf15638b",
+    "scope": "Complete local closure; direct external objects. External transitive closure relies on pinned baseline."
+  },
+  "process_id": 2356,
+  "process_finished": "2026-10-07T07:57:22+08:00",
+  "elapsed_seconds": 609.718,
+  "raw_output_sha256": "2272f3ae64ca98120229706e14611c3eb46fe49bf5f7942212cbe98ea1d3178b",
+  "output": "interpretation of Mathlib.Tactic.ToAdditive.guessNameExt took 125ms\ninterpretation of Mathlib.Tactic.ToDual.guessNameExt took 127ms\nimport took 8.04s\ntype checking took 595s\n'Universality.Certificates.MassChunksBase661.transition0816_0832' depends on axioms: [propext]\ncumulative profiling times:\n\t.olean serialization 52ms\n\tattribute application 0.0266ms\n\telaboration 4.7ms\n\tfix level params 0.0226ms\n\timport 8.04s\n\tinitialization 44.2ms\n\tinstantiate metavars 0.0238ms\n\tinterpretation 4.8s\n\tlet-to-have transformation 0.025ms\n\tlinting 1.48ms\n\tmodule linting 0.0033ms\n\toverlappingInstancesLinter 12.9ms\n\tparsing 0.687ms\n\tprocess pre-definitions 0.289ms\n\tshare common exprs 0.0461ms\n\ttactic execution 0.629ms\n\ttacticAnalysis 25.7ms\n\ttype checking 595s\n\ttypeclass inference 1.25ms\n",
+  "receipt": {
+    "module": "Universality/Certificates/Section5MassChunkProofBase66112D.lean",
+    "source_sha256": "c18eccf2f7f770b20ddb09a5ba79de146e5a52f222053715b495a8f4ff30d737",
+    "started": "2026-10-07T07:47:11+08:00",
+    "finished": "2026-10-07T07:57:23+08:00",
+    "elapsed_seconds": 609.718,
+    "exit_code": 0,
+    "source_unchanged_during_check": true,
+    "dependencies_unchanged_during_check": true,
+    "snapshot_before": {
+      "schema": 1,
+      "module": "Universality/Certificates/Section5MassChunkProofBase66112D.lean",
+      "source_sha256": "c18eccf2f7f770b20ddb09a5ba79de146e5a52f222053715b495a8f4ff30d737",
+      "local_imports": [
+        {
+          "module": "Universality/Algebra/WordExpansion.lean",
+          "source_sha256": "504764b3dd5102e4d681b1efc97d0b085d525819c3867c51d0ecf766bf0e7558",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean": "6cc76e91dc094824733a317b1ba9cb5576f637c73423f4010231ad32f5d29091",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Matrix/TwoByTwo.lean",
+          "source_sha256": "8ae2ada33f2a870142c4a18b61da9b4e9eefcc2906c383b24bcd568ee9b858df",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean": "dcd784c02914bc63174c920249e622e3d28e42861477ab8d5f101ccaec792a53",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Algebra/PacketCancellation.lean",
+          "source_sha256": "48e7442416230ae8ca6f798655114a6c501be15e195326cd69cb21fafb9da832",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean": "731c386a8f56787888e3d8a21b19c6936db6c45a36a389e62ec792938a82852a",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Algebra/GroupedWords.lean",
+          "source_sha256": "aaa972c16fcef3b602250a996b0aa3c2b6a863686f020e53442314e853c20c96",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean": "8852df890d6506dff4d9c35c1e0d60a6f855fec8edb2296c975baa86378cd053",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5Packets.lean",
+          "source_sha256": "59866898e407d2390d259497376be1fd76fd0fab4d2430a8ef6c2e5fd1f8da43",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean": "ecabe1fe5c9da280500c2624130bf53e03414c16896d9ba07bdf91accc9ba111",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5Allocation.lean",
+          "source_sha256": "a27eb6947c8a659998377e0fbc851ce5b92e1f92547a34b4ce587cef56df29ed",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean": "8e88612cc9ae3250420215d5f010df1f8ead167203cfd5bfb77189dd02c323fc",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5InitialSums.lean",
+          "source_sha256": "9c6dd6abff6e43621d5a38f40ebd23235af42ab8037e3716846d2e488d25ddee",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean": "dec837050df1a8360a0c5e4e4e7ded531a62c4d2ee95423801ae03a180abccaa",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Capacity.lean",
+          "source_sha256": "1c4db1d0282e24dd9e9378e031b0284b9b354b76c93971c5bc57e9604b0b3259",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean": "add38408d04506f6377ab5ec193cb6bfd7e7b7c7031cc6620e6fc1f24c5527f5",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MatrixEvaluation.lean",
+          "source_sha256": "f91dd36da620022d372575c195e18f3b51e46efdd5285e4b355925d774d6a9a8",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean": "d4ab75ef2c6e6c134c98739f308774647293470067572e168a4224e5bc425369",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MatrixStream.lean",
+          "source_sha256": "b170150961b7c46a80f521a69d2930ab9210ab9c5b08f098c00e43cb75383695",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean": "2f6302b9dedea71ec3d56e4b4c5e78748984dd5d8aa1c1efa48cf91a420898a6",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5BitExtraction.lean",
+          "source_sha256": "dda251f72de4f8a35fca64d660699469fa15c352014654f3a4a9c050d3ca653d",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean": "8f4c31c7778e66c41b04dcff2bbbcbece6644873f55360ea77a1604e05cceb5b",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MassChunks.lean",
+          "source_sha256": "ebe36e895c2fe6ce07b582e39beff438130809d940dff0808941204d09c6a31f",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean": "b4c7abf00001b06195b63037df85a876d0e738556d86d1ef0843215bbba9b41a",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MassChunkDataBase66112.lean",
+          "source_sha256": "c11afe5ce4d31994d4d2da8752ccdee6479372b14db4bb7d2d4dc1f776f0b6a7",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean": "3311e04de0183c08ebfdedaf3f03e81a9d4140ae0985ece63062f14bfb96a5ed",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MassChunkDataBase66111.lean",
+          "source_sha256": "c4cc1c4d697f9b5cfb1a35c262f4e2c6be7e3f108473054c1942bfb94477c9ae",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean": "74156308282319892ac4400e12fe3dd6bb53878c92d07e8a5572eec22afcccd9",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean.private": null
+          }
+        }
+      ],
+      "external_direct_imports": {
+        "Init.Data.Nat.Bitwise.Lemmas": {
+          "resolved": "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean": "b5d932c8860c09379c218694945dae609deb3d6d6584dc19d98deb0050de19b1",
+            "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean.server": "884790586c97ff75c70b573b879ee861aa496e54412e90cf0b8c955547814f71",
+            "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean.private": "e407ec1068e8ceb05d42caa2c919da3ffc9b55ebeab233a3506d580a579e4fe5"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Algebra.BigOperators.Fin": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean": "0c54b5bf83abcace9b4bca0a4581bb7dad6fc1feda2fa17298889f2b0f879a23",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean.server": "2f5e147d0d3d9dcce93e0f5bbcf23dc439b4e2a4fae367b05cc2de314c825524",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean.private": "0481aadd545c7eaccf9afbd748bfe7921199cbacd4bae830a77fb62c07540445"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Algebra.BigOperators.Ring.Finset": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean": "0b0c6a5dd3242e21ee9acecca52fc5b3b4ac1ecdfed3283a1dd1776484494955",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean.server": "476b3974b7b7e12b2a1bf31b00ff8de2b0648a6febb4dffc96c4b64353b03f46",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean.private": "1a30b334aabd9bf901cd00fda2cfaae3bda3392ec179c4bbcae82b69695b069a"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Algebra.BigOperators.Ring.List": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean": "823af6caceb502841e01aee20b534ed03e10c86045c913ac6a25107319c9c07f",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean.server": "0acbb19573c533c7fa04fdefd0e0fee53dec365713f3d5f9392b30438e4257f9",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean.private": "6716ac83b674c8fd57aadf671f0b1873e9dd01910a5f2323673e359b7b233d9c"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Algebra.Module.Basic": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean": "2b8c8e66825b59be9533d80039dca5a4efd3042a5df15d65a4c42db7289dfca5",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean.server": "f7b4663234362996a49b6576800e6cabb035593c62a8c8e88cee59bdf9975b7d",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean.private": "041380ef51f676a65b9d1249dae83bbfd96641c78afb9246b679f74326129304"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.List.Nodup": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean": "fa7cb88ad277484be6691ba5bd249f4c4b1acf05212fda6632d5ebaebef760fc",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean.server": "a155406763db8af96b535906df7515e8dfc3c3ae607b56800ee8339312e3f38e",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean.private": "13b773fdeda27288cf141baa03ef5b3346ac2de3f2f2fa1c4cd3ff573ea130ae"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.List.Range": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean": "0ca54b34b926ed8c3db365263c473db53ee6f6dd21ac7baa5ddf0d697072088f",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean.server": "745cb8fe37ec726d1970adb127643387922499f1c08fb998df028cee401b80cd",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean.private": "d67f90c9ccd569f578b38e3a56d6db4228aed83904bc1b9e894db335dcd45ded"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.List.TakeDrop": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean": "845fade3443a1ac05d3d35ab9a3427a195c392b7c9fc1c06e03b73ec3e313b23",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean.server": "db8d91f945c3b4b8b8f4a88819a4018880b5e22bf8155384b18e1479bcca28d2",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean.private": "476f98fb103f1ef36fbfa7ede4d84ba0bac67113bc19c5df6386992db56a9337"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.Nat.Choose.Basic": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean": "9e9230f5020ad07043b3c972217b321979b1a02c8f42064fb7ee2b08858c6551",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean.server": "4653e53456383fc6250e0edcdf725ef4b217f15afd2d278d6af3a9b511120862",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean.private": "a7cdc45e878a9c7c32b4b48035f32e797333ab93f9b2ee3cdac1b7af6840a5c0"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.Nat.Choose.Bounds": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean": "792cd04745848fb09e256d944c90b951fa9dbc507c0093f15dc1eb62856b0ed4",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean.server": "10786c697ad91585c6da6a71af01709c0d721476d6368b7fe036a3b39cc893e6",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean.private": "8e57e27842d9ee1d32b51cc1dc52831b6244921e8fb71c804251a88a13b22bf0"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.Nat.Digits.Lemmas": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean": "e53e110ed0850d1d248d7f8caf49ea182a3d03fe33ce1b64ea73189adc16c4c6",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean.server": "6485860315280f812f837155532f9c6b9dd3b503a9c19420e263c26919a1ffa8",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean.private": "6d19bc648dedc3c8bee209a4ecfedbcb13f2923c5f22be3c97a13a3a7a91c485"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.LinearAlgebra.Matrix.Determinant.Basic": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean": "42ef2c691772de538c0821fe56f71ecd316082721a83f494bef0e59ed550434c",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean.server": "3da7dc389cad5e325169dc1e4ea90586478087db957290a8799bf9916b08035a",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean.private": "36d839c55a4b3bb4fa3b0821f595f8af55888e570cab834d6bb1fa21f2282be0"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.LinearAlgebra.Matrix.Trace": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean": "7fb98156993abb046c8833c82564f78c7a11c4f7b840d96b9e3dbed874ee60bc",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean.server": "af979d38cfe2cc2d1b0a00b4dc4ff489c9f42a83efcdee1c132f581c52dd7f01",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean.private": "40f087e9eedd65f9737678e3fa9ba721029f173b2dd31284df5672ee2f09bf4b"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Tactic.FinCases": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean": "ee4969ab89f60be791fd5e1f4038c9422ccdd90483ae7d91236ec7cf247190c7",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean.server": "7ef87716370b1c3b3ec9540033400a3ee04d9198011d30ce0cc16acf632128bd",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean.private": "c73f12fe4b8065400ab040b3742fb33b5302e68ee4c0b205aad7c206c888be4b"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Tactic.NormNum": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean": "427708091e805c768b350fd21f5826c8610438c1ab8770b8107a722ee49a9469",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean.server": "0c65b2c35fb646019d3358b2a86f31bb17294034dcfa62a5b8259aca840fe642",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean.private": "52d6003a4c8f3b6531b3d2e229ba155a9a6a96c0edc27adaa959b30a79cf41e8"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Tactic.Ring": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean": "9a9972cc4becc46566831f704c2c365f5510bafb5c63c1bb611c2c8490a936a1",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean.server": "9af125590b8f6c6fb6345e415a17e758c346a6c76f33818cd7efd626882381b0",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean.private": "d60d0eebc9433fe797018e6d3005207df015547b17346e592e8741fc477ae76b"
+          },
+          "other_candidates": []
+        }
+      },
+      "compiler_sha256": "c3f02a2b739078d1237af9feefd27ec85b943b56870234b42bc0111d6699d54d",
+      "check_script_sha256": "bfffae8ee0b28e76bf25aac121a77fb348dbcd6a885918ebaffc079a09497754",
+      "compiler_version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)",
+      "search_path": [
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\aesop\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\batteries\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\Cli\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\importGraph\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\plausible\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\proofwidgets\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\Qq\\.lake\\build\\lib\\lean"
+      ],
+      "package_manifest_sha256": "7f9d3653d27c4b5bf3b42304fd862a4d62d11c9cfb5475b937020c7bbf15638b",
+      "scope": "Complete local closure; direct external objects. External transitive closure relies on pinned baseline."
+    },
+    "snapshot_after": {
+      "schema": 1,
+      "module": "Universality/Certificates/Section5MassChunkProofBase66112D.lean",
+      "source_sha256": "c18eccf2f7f770b20ddb09a5ba79de146e5a52f222053715b495a8f4ff30d737",
+      "local_imports": [
+        {
+          "module": "Universality/Algebra/WordExpansion.lean",
+          "source_sha256": "504764b3dd5102e4d681b1efc97d0b085d525819c3867c51d0ecf766bf0e7558",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean": "6cc76e91dc094824733a317b1ba9cb5576f637c73423f4010231ad32f5d29091",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\WordExpansion.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Matrix/TwoByTwo.lean",
+          "source_sha256": "8ae2ada33f2a870142c4a18b61da9b4e9eefcc2906c383b24bcd568ee9b858df",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean": "dcd784c02914bc63174c920249e622e3d28e42861477ab8d5f101ccaec792a53",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Matrix\\TwoByTwo.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Algebra/PacketCancellation.lean",
+          "source_sha256": "48e7442416230ae8ca6f798655114a6c501be15e195326cd69cb21fafb9da832",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean": "731c386a8f56787888e3d8a21b19c6936db6c45a36a389e62ec792938a82852a",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\PacketCancellation.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Algebra/GroupedWords.lean",
+          "source_sha256": "aaa972c16fcef3b602250a996b0aa3c2b6a863686f020e53442314e853c20c96",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean": "8852df890d6506dff4d9c35c1e0d60a6f855fec8edb2296c975baa86378cd053",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Algebra\\GroupedWords.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5Packets.lean",
+          "source_sha256": "59866898e407d2390d259497376be1fd76fd0fab4d2430a8ef6c2e5fd1f8da43",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean": "ecabe1fe5c9da280500c2624130bf53e03414c16896d9ba07bdf91accc9ba111",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Packets.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5Allocation.lean",
+          "source_sha256": "a27eb6947c8a659998377e0fbc851ce5b92e1f92547a34b4ce587cef56df29ed",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean": "8e88612cc9ae3250420215d5f010df1f8ead167203cfd5bfb77189dd02c323fc",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5Allocation.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5InitialSums.lean",
+          "source_sha256": "9c6dd6abff6e43621d5a38f40ebd23235af42ab8037e3716846d2e488d25ddee",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean": "dec837050df1a8360a0c5e4e4e7ded531a62c4d2ee95423801ae03a180abccaa",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5InitialSums.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Capacity.lean",
+          "source_sha256": "1c4db1d0282e24dd9e9378e031b0284b9b354b76c93971c5bc57e9604b0b3259",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean": "add38408d04506f6377ab5ec193cb6bfd7e7b7c7031cc6620e6fc1f24c5527f5",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Capacity.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MatrixEvaluation.lean",
+          "source_sha256": "f91dd36da620022d372575c195e18f3b51e46efdd5285e4b355925d774d6a9a8",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean": "d4ab75ef2c6e6c134c98739f308774647293470067572e168a4224e5bc425369",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixEvaluation.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MatrixStream.lean",
+          "source_sha256": "b170150961b7c46a80f521a69d2930ab9210ab9c5b08f098c00e43cb75383695",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean": "2f6302b9dedea71ec3d56e4b4c5e78748984dd5d8aa1c1efa48cf91a420898a6",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MatrixStream.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5BitExtraction.lean",
+          "source_sha256": "dda251f72de4f8a35fca64d660699469fa15c352014654f3a4a9c050d3ca653d",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean": "8f4c31c7778e66c41b04dcff2bbbcbece6644873f55360ea77a1604e05cceb5b",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5BitExtraction.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MassChunks.lean",
+          "source_sha256": "ebe36e895c2fe6ce07b582e39beff438130809d940dff0808941204d09c6a31f",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean": "b4c7abf00001b06195b63037df85a876d0e738556d86d1ef0843215bbba9b41a",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunks.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MassChunkDataBase66112.lean",
+          "source_sha256": "c11afe5ce4d31994d4d2da8752ccdee6479372b14db4bb7d2d4dc1f776f0b6a7",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean": "3311e04de0183c08ebfdedaf3f03e81a9d4140ae0985ece63062f14bfb96a5ed",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66112.olean.private": null
+          }
+        },
+        {
+          "module": "Universality/Certificates/Section5MassChunkDataBase66111.lean",
+          "source_sha256": "c4cc1c4d697f9b5cfb1a35c262f4e2c6be7e3f108473054c1942bfb94477c9ae",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean": "74156308282319892ac4400e12fe3dd6bb53878c92d07e8a5572eec22afcccd9",
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean.server": null,
+            "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkDataBase66111.olean.private": null
+          }
+        }
+      ],
+      "external_direct_imports": {
+        "Init.Data.Nat.Bitwise.Lemmas": {
+          "resolved": "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean": "b5d932c8860c09379c218694945dae609deb3d6d6584dc19d98deb0050de19b1",
+            "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean.server": "884790586c97ff75c70b573b879ee861aa496e54412e90cf0b8c955547814f71",
+            "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\lib\\lean\\Init\\Data\\Nat\\Bitwise\\Lemmas.olean.private": "e407ec1068e8ceb05d42caa2c919da3ffc9b55ebeab233a3506d580a579e4fe5"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Algebra.BigOperators.Fin": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean": "0c54b5bf83abcace9b4bca0a4581bb7dad6fc1feda2fa17298889f2b0f879a23",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean.server": "2f5e147d0d3d9dcce93e0f5bbcf23dc439b4e2a4fae367b05cc2de314c825524",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Fin.olean.private": "0481aadd545c7eaccf9afbd748bfe7921199cbacd4bae830a77fb62c07540445"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Algebra.BigOperators.Ring.Finset": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean": "0b0c6a5dd3242e21ee9acecca52fc5b3b4ac1ecdfed3283a1dd1776484494955",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean.server": "476b3974b7b7e12b2a1bf31b00ff8de2b0648a6febb4dffc96c4b64353b03f46",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\Finset.olean.private": "1a30b334aabd9bf901cd00fda2cfaae3bda3392ec179c4bbcae82b69695b069a"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Algebra.BigOperators.Ring.List": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean": "823af6caceb502841e01aee20b534ed03e10c86045c913ac6a25107319c9c07f",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean.server": "0acbb19573c533c7fa04fdefd0e0fee53dec365713f3d5f9392b30438e4257f9",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\BigOperators\\Ring\\List.olean.private": "6716ac83b674c8fd57aadf671f0b1873e9dd01910a5f2323673e359b7b233d9c"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Algebra.Module.Basic": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean": "2b8c8e66825b59be9533d80039dca5a4efd3042a5df15d65a4c42db7289dfca5",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean.server": "f7b4663234362996a49b6576800e6cabb035593c62a8c8e88cee59bdf9975b7d",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Algebra\\Module\\Basic.olean.private": "041380ef51f676a65b9d1249dae83bbfd96641c78afb9246b679f74326129304"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.List.Nodup": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean": "fa7cb88ad277484be6691ba5bd249f4c4b1acf05212fda6632d5ebaebef760fc",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean.server": "a155406763db8af96b535906df7515e8dfc3c3ae607b56800ee8339312e3f38e",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Nodup.olean.private": "13b773fdeda27288cf141baa03ef5b3346ac2de3f2f2fa1c4cd3ff573ea130ae"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.List.Range": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean": "0ca54b34b926ed8c3db365263c473db53ee6f6dd21ac7baa5ddf0d697072088f",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean.server": "745cb8fe37ec726d1970adb127643387922499f1c08fb998df028cee401b80cd",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\Range.olean.private": "d67f90c9ccd569f578b38e3a56d6db4228aed83904bc1b9e894db335dcd45ded"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.List.TakeDrop": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean": "845fade3443a1ac05d3d35ab9a3427a195c392b7c9fc1c06e03b73ec3e313b23",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean.server": "db8d91f945c3b4b8b8f4a88819a4018880b5e22bf8155384b18e1479bcca28d2",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\List\\TakeDrop.olean.private": "476f98fb103f1ef36fbfa7ede4d84ba0bac67113bc19c5df6386992db56a9337"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.Nat.Choose.Basic": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean": "9e9230f5020ad07043b3c972217b321979b1a02c8f42064fb7ee2b08858c6551",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean.server": "4653e53456383fc6250e0edcdf725ef4b217f15afd2d278d6af3a9b511120862",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Basic.olean.private": "a7cdc45e878a9c7c32b4b48035f32e797333ab93f9b2ee3cdac1b7af6840a5c0"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.Nat.Choose.Bounds": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean": "792cd04745848fb09e256d944c90b951fa9dbc507c0093f15dc1eb62856b0ed4",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean.server": "10786c697ad91585c6da6a71af01709c0d721476d6368b7fe036a3b39cc893e6",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Choose\\Bounds.olean.private": "8e57e27842d9ee1d32b51cc1dc52831b6244921e8fb71c804251a88a13b22bf0"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Data.Nat.Digits.Lemmas": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean": "e53e110ed0850d1d248d7f8caf49ea182a3d03fe33ce1b64ea73189adc16c4c6",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean.server": "6485860315280f812f837155532f9c6b9dd3b503a9c19420e263c26919a1ffa8",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Data\\Nat\\Digits\\Lemmas.olean.private": "6d19bc648dedc3c8bee209a4ecfedbcb13f2923c5f22be3c97a13a3a7a91c485"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.LinearAlgebra.Matrix.Determinant.Basic": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean": "42ef2c691772de538c0821fe56f71ecd316082721a83f494bef0e59ed550434c",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean.server": "3da7dc389cad5e325169dc1e4ea90586478087db957290a8799bf9916b08035a",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Determinant\\Basic.olean.private": "36d839c55a4b3bb4fa3b0821f595f8af55888e570cab834d6bb1fa21f2282be0"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.LinearAlgebra.Matrix.Trace": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean": "7fb98156993abb046c8833c82564f78c7a11c4f7b840d96b9e3dbed874ee60bc",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean.server": "af979d38cfe2cc2d1b0a00b4dc4ff489c9f42a83efcdee1c132f581c52dd7f01",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\LinearAlgebra\\Matrix\\Trace.olean.private": "40f087e9eedd65f9737678e3fa9ba721029f173b2dd31284df5672ee2f09bf4b"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Tactic.FinCases": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean": "ee4969ab89f60be791fd5e1f4038c9422ccdd90483ae7d91236ec7cf247190c7",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean.server": "7ef87716370b1c3b3ec9540033400a3ee04d9198011d30ce0cc16acf632128bd",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\FinCases.olean.private": "c73f12fe4b8065400ab040b3742fb33b5302e68ee4c0b205aad7c206c888be4b"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Tactic.NormNum": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean": "427708091e805c768b350fd21f5826c8610438c1ab8770b8107a722ee49a9469",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean.server": "0c65b2c35fb646019d3358b2a86f31bb17294034dcfa62a5b8259aca840fe642",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\NormNum.olean.private": "52d6003a4c8f3b6531b3d2e229ba155a9a6a96c0edc27adaa959b30a79cf41e8"
+          },
+          "other_candidates": []
+        },
+        "Mathlib.Tactic.Ring": {
+          "resolved": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean",
+          "artifacts": {
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean": "9a9972cc4becc46566831f704c2c365f5510bafb5c63c1bb611c2c8490a936a1",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean.server": "9af125590b8f6c6fb6345e415a17e758c346a6c76f33818cd7efd626882381b0",
+            "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean\\Mathlib\\Tactic\\Ring.olean.private": "d60d0eebc9433fe797018e6d3005207df015547b17346e592e8741fc477ae76b"
+          },
+          "other_candidates": []
+        }
+      },
+      "compiler_sha256": "c3f02a2b739078d1237af9feefd27ec85b943b56870234b42bc0111d6699d54d",
+      "check_script_sha256": "bfffae8ee0b28e76bf25aac121a77fb348dbcd6a885918ebaffc079a09497754",
+      "compiler_version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)",
+      "search_path": [
+        "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\aesop\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\batteries\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\Cli\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\importGraph\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\plausible\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\proofwidgets\\.lake\\build\\lib\\lean",
+        "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\Qq\\.lake\\build\\lib\\lean"
+      ],
+      "package_manifest_sha256": "7f9d3653d27c4b5bf3b42304fd862a4d62d11c9cfb5475b937020c7bbf15638b",
+      "scope": "Complete local closure; direct external objects. External transitive closure relies on pinned baseline."
+    },
+    "output_artifacts": {
+      "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkProofBase66112D.olean": "75b26d525b4c60394ca5e70f6f0cdd82710a2b1299ceaf8b756aa8ab518de8de",
+      "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkProofBase66112D.olean.server": null,
+      "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\.lake\\build\\lib\\lean\\Universality\\Certificates\\Section5MassChunkProofBase66112D.olean.private": null
+    },
+    "output": "interpretation of Mathlib.Tactic.ToAdditive.guessNameExt took 125ms\ninterpretation of Mathlib.Tactic.ToDual.guessNameExt took 127ms\nimport took 8.04s\ntype checking took 595s\n'Universality.Certificates.MassChunksBase661.transition0816_0832' depends on axioms: [propext]\ncumulative profiling times:\n\t.olean serialization 52ms\n\tattribute application 0.0266ms\n\telaboration 4.7ms\n\tfix level params 0.0226ms\n\timport 8.04s\n\tinitialization 44.2ms\n\tinstantiate metavars 0.0238ms\n\tinterpretation 4.8s\n\tlet-to-have transformation 0.025ms\n\tlinting 1.48ms\n\tmodule linting 0.0033ms\n\toverlappingInstancesLinter 12.9ms\n\tparsing 0.687ms\n\tprocess pre-definitions 0.289ms\n\tshare common exprs 0.0461ms\n\ttactic execution 0.629ms\n\ttacticAnalysis 25.7ms\n\ttype checking 595s\n\ttypeclass inference 1.25ms\n",
+    "status": "pass",
+    "wrapper_exit_code": 0,
+    "run_journal": "docs/section5-kernel-runs/20261007T074711318585-8468-Section5MassChunkProofBase66112D.json",
+    "raw_output_path": "docs/section5-kernel-runs/20261007T074711318585-8468-Section5MassChunkProofBase66112D.log",
+    "raw_output_sha256": "2272f3ae64ca98120229706e14611c3eb46fe49bf5f7942212cbe98ea1d3178b"
+  }
+}

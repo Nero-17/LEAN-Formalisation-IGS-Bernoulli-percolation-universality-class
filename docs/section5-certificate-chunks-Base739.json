@@ -1,0 +1,210 @@
+{
+  "name": "Base739",
+  "source_sha256": "ace83b8a5caf8777913fb5ef46455b8ca7c8c3a9ea88ad00aa5928b00eea3dcf",
+  "depth": 952,
+  "packing_bits": 5730,
+  "chunk_steps": 16,
+  "chunks_per_module": 4,
+  "states_per_checkpoint": 953,
+  "limb_bits": 4096,
+  "raw_literals": true,
+  "independent_data_from_batch": 1,
+  "checkpoints": 61,
+  "modules": [
+    {
+      "module": "Section5MassChunkDataBase73900",
+      "bytes": 18356901,
+      "sha256": "9940fd4a760b9188f99e6f9ce520e29738f5fb0b2728df51d7c1bf7d339f4d7c"
+    },
+    {
+      "module": "Section5MassChunkProofBase73900",
+      "bytes": 1672,
+      "sha256": "1a66c21ad2c90b529c3b6de2b4fe284dccb8d590d441170ce0976b5b0f1bde0d"
+    },
+    {
+      "module": "Section5MassChunkDataBase73901",
+      "bytes": 14585739,
+      "sha256": "08c08f34c2180cc742dacf0d3c58f219b0729307679fd085648147328b11b385"
+    },
+    {
+      "module": "Section5MassChunkProofBase73901",
+      "bytes": 1737,
+      "sha256": "9abb6380665b722824b7e03c51ee4c78588ac9f57a93087291be17305fe52df4"
+    },
+    {
+      "module": "Section5MassChunkDataBase73902",
+      "bytes": 14450746,
+      "sha256": "2982f5069c2186062c9f9c5038339d4356a866338d2ef7b120a396b69b04201b"
+    },
+    {
+      "module": "Section5MassChunkProofBase73902",
+      "bytes": 1737,
+      "sha256": "a1bdfea45ec84719ff0b804f5116784bc3915cb3e4ac8458f2889f6ef765527a"
+    },
+    {
+      "module": "Section5MassChunkDataBase73903",
+      "bytes": 14325214,
+      "sha256": "ec3b8a963a9cea0e8ef1a8a2dc205ffe20856d100d326a3dda4a0605c8e62f4b"
+    },
+    {
+      "module": "Section5MassChunkProofBase73903",
+      "bytes": 1737,
+      "sha256": "51556af624402a3bc53484aecf4e1d9b4045b452d1074e83c5d96642c562697b"
+    },
+    {
+      "module": "Section5MassChunkDataBase73904",
+      "bytes": 14216904,
+      "sha256": "bbf56ebc727bc3fb8cdefed27660258fea908e3fd91a5ffd254bf59ecd81a5cd"
+    },
+    {
+      "module": "Section5MassChunkProofBase73904",
+      "bytes": 1737,
+      "sha256": "3a5174e72501190c793987997e844631c0765a2f677ffb8c4e1b1c903bcde154"
+    },
+    {
+      "module": "Section5MassChunkDataBase73905",
+      "bytes": 14128064,
+      "sha256": "d7ac227142b6c003dd3823dd78e25fc3989621bef92382d7f94a7aba9ae1b8f7"
+    },
+    {
+      "module": "Section5MassChunkProofBase73905",
+      "bytes": 1737,
+      "sha256": "49a4247f325f2f90e550fa9dcf38e891d982b187d942173187561d216fec0b47"
+    },
+    {
+      "module": "Section5MassChunkDataBase73906",
+      "bytes": 14087185,
+      "sha256": "51f731a4c51b8c5a866175211338ce8f4ab7a5291ad238754fc3d1da6966311c"
+    },
+    {
+      "module": "Section5MassChunkProofBase73906",
+      "bytes": 1737,
+      "sha256": "8c1b32766d39a000bc268da2ee3ea34623d72958c6d0ded7f40ff59f09ff568e"
+    },
+    {
+      "module": "Section5MassChunkDataBase73907",
+      "bytes": 14079747,
+      "sha256": "eed1846896bda445cfee467664e49546cf743dfca7550d1305c91b7d4fd692d3"
+    },
+    {
+      "module": "Section5MassChunkProofBase73907",
+      "bytes": 1737,
+      "sha256": "a4c4757d0f76984d1b97fd025bac4c5a38580671c9da799c799ab48eb64ecb46"
+    },
+    {
+      "module": "Section5MassChunkDataBase73908",
+      "bytes": 14099564,
+      "sha256": "e94a82f90b2b3099ec3e78ee1b609279dbb4e25caa68a675648cb00a256a0d3e"
+    },
+    {
+      "module": "Section5MassChunkProofBase73908",
+      "bytes": 1737,
+      "sha256": "0436114ab9558a3e923c1eea42db99d5ad0679f0329c2866f1d30e59008d6344"
+    },
+    {
+      "module": "Section5MassChunkDataBase73909",
+      "bytes": 14229126,
+      "sha256": "ef8e0e62378b829b66513677c594b4a713584355e82909cc689a3e088866d6a3"
+    },
+    {
+      "module": "Section5MassChunkProofBase73909",
+      "bytes": 1737,
+      "sha256": "ba7589fb638b5e6e839b6666e126a02e99940d188d01d7aa5c6176e17662286e"
+    },
+    {
+      "module": "Section5MassChunkDataBase73910",
+      "bytes": 14407445,
+      "sha256": "31fe9015f369f3856a6fbce9bdaf86a11521d75b29d3576c1ef1b4fa906bd4fd"
+    },
+    {
+      "module": "Section5MassChunkProofBase73910",
+      "bytes": 1737,
+      "sha256": "6050af2e4a149701af920d405a52b36be8370fda74a03890b83fb48eada6bb0f"
+    },
+    {
+      "module": "Section5MassChunkDataBase73911",
+      "bytes": 14628752,
+      "sha256": "241365e40e01f08e3f186bee54765fbd967e3e97671ecd8fdf1f837c59a9d578"
+    },
+    {
+      "module": "Section5MassChunkProofBase73911",
+      "bytes": 1737,
+      "sha256": "9e186c80898dabb389455e3838c78e9aed151213015ffffc0053741f87641e34"
+    },
+    {
+      "module": "Section5MassChunkDataBase73912",
+      "bytes": 15002729,
+      "sha256": "2d49313334869c04090a93e95433ea9247c0fc0247292a033d4ddc53be64824c"
+    },
+    {
+      "module": "Section5MassChunkProofBase73912",
+      "bytes": 1737,
+      "sha256": "227a424436a17c2595d65278b3ed9237e07bf4293f3bfb7dac87e6ddb570e6e9"
+    },
+    {
+      "module": "Section5MassChunkDataBase73913",
+      "bytes": 15519074,
+      "sha256": "76f524a53fb596af613f8c28b4cb98ecea6c55e5f0a1ebb94314d5b0622383ce"
+    },
+    {
+      "module": "Section5MassChunkProofBase73913",
+      "bytes": 1737,
+      "sha256": "e032e3cb3526dc0a848fe78cff3c3b8af467d94c3f50a4e23a326c071c636c62"
+    },
+    {
+      "module": "Section5MassChunkDataBase73914",
+      "bytes": 16115217,
+      "sha256": "651f2785e6e977f6bb001aad47fa69a77c4a568d918c11d37b1c77e62aa7c633"
+    },
+    {
+      "module": "Section5MassChunkProofBase73914",
+      "bytes": 1735,
+      "sha256": "d81440c97db74cdd5b07d15a6426d59704079e27fc715c2464da70a347979f7c"
+    },
+    {
+      "module": "Section5MassChunkInitialBase739",
+      "bytes": 4522,
+      "sha256": "4f2b7ccffdb2efb3a4712f2a2639b219cfd4b5193a2061573fe8495b30a04517"
+    },
+    {
+      "module": "Section5InitialMassBase739",
+      "bytes": 7555,
+      "sha256": "83fbc0fa7b8296e403feac602c4a2c00b146dc3bb0a5dd1ee1bd2299f5e438b2"
+    }
+  ],
+  "check_order": [
+    "Section5MassChunkDataBase73900",
+    "Section5MassChunkInitialBase739",
+    "Section5MassChunkProofBase73900",
+    "Section5MassChunkDataBase73901",
+    "Section5MassChunkProofBase73901",
+    "Section5MassChunkDataBase73902",
+    "Section5MassChunkProofBase73902",
+    "Section5MassChunkDataBase73903",
+    "Section5MassChunkProofBase73903",
+    "Section5MassChunkDataBase73904",
+    "Section5MassChunkProofBase73904",
+    "Section5MassChunkDataBase73905",
+    "Section5MassChunkProofBase73905",
+    "Section5MassChunkDataBase73906",
+    "Section5MassChunkProofBase73906",
+    "Section5MassChunkDataBase73907",
+    "Section5MassChunkProofBase73907",
+    "Section5MassChunkDataBase73908",
+    "Section5MassChunkProofBase73908",
+    "Section5MassChunkDataBase73909",
+    "Section5MassChunkProofBase73909",
+    "Section5MassChunkDataBase73910",
+    "Section5MassChunkProofBase73910",
+    "Section5MassChunkDataBase73911",
+    "Section5MassChunkProofBase73911",
+    "Section5MassChunkDataBase73912",
+    "Section5MassChunkProofBase73912",
+    "Section5MassChunkDataBase73913",
+    "Section5MassChunkProofBase73913",
+    "Section5MassChunkDataBase73914",
+    "Section5MassChunkProofBase73914",
+    "Section5InitialMassBase739"
+  ],
+  "generated_witness_status": "Python replay matched source; all Lean equalities still require checks"
+}

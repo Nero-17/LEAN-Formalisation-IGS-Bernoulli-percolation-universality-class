@@ -1,0 +1,1170 @@
+{
+  "root_module": "Universality.Geometry.GenerationHausdorffDimension",
+  "upstream_root": "C:/Users/lzysh/Documents/Codex/2026-10-06/new-chat/work/universality-section4",
+  "destination_root": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5",
+  "freeze_completed_at_utc": "2026-10-06T17:49:48.3263918Z",
+  "closure_count": 139,
+  "existing_identical": [
+    {
+      "module": "Universality.Graph.Reachability",
+      "upstream_sha256": "76f21ee00322bd51562a31b2f3c5cd667749c1a335b96bc90687b3229f5471e6",
+      "local_sha256": "f8fb10f42d3d660fd3edfcfae0c4b716f74216444f012d8e62b67c541d8fe3c5",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.FiniteNetwork",
+      "upstream_sha256": "e0347698217905b8e87b7e45428104e4f9c434b168e4cd0e234a0536f8cb0991",
+      "local_sha256": "f3fc9f3d0875567bd6feb504893b20f4e2b56cffcdfa6e393250003768f1ac3f",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.Substitution",
+      "upstream_sha256": "c5ec5c10b0e1e48b93901263073b0cd1e2ec88c4cfdebeaf2d2bf9eeb768c717",
+      "local_sha256": "cc17231bc45460dc9d4165c9788b7d582c53ae705718261b1e9eaadce6b8ba15",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.Bernoulli",
+      "upstream_sha256": "c9efa951abc85b099cd3f58bc563047b30cbeb00144cab6ac8fdaa53de5206d4",
+      "local_sha256": "f185f9fd2f7517c1234cc8dc2bb534e1722870e2f96045464e7d686324136aa7",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.NetworkSymmetry",
+      "upstream_sha256": "1c0938ce63ea4e1c9d809d05e83491ab292d5674b20c49e3e4bd5e0c1340dc62",
+      "local_sha256": "211fff1a31f559f3f99b70b1b4aa0fe5592ddf5d7f1b74eadb6fc34cd0d68d28",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.TerminalSymmetry",
+      "upstream_sha256": "32823d803ff8b351079ec970d5452a03767fdf3f429c045711abe9cef571d571",
+      "local_sha256": "a5a91388c2826df1d2a96dc4a23d1e6d1c4f46ec2463ab86a328e8699ec5ef50",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionStates",
+      "upstream_sha256": "0b47753e672d92b72ba506a3fcd574a613e913f7025eee60d296cbca8cafc7b4",
+      "local_sha256": "54a80743b5d17716aec674114f7ad91c7daa30713f870f4dcb0e2ab4fc6dd3f0",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.SubstitutionLaw",
+      "upstream_sha256": "a8721384a00db0f3647721fafc1ccbccd902f2051ba16c40aa895fda0937559a",
+      "local_sha256": "9cb399a833008039b756775b071b0bce8aebc9915432a4c1a52251de8c18e19e",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ProductDisintegration",
+      "upstream_sha256": "5e48c39f830512abbe79c387ac94879267b4988e1a1065d06df1d53f869f2035",
+      "local_sha256": "0894f4ae82c9b4830916df206d687a852f04ba2af54120bb7eb9dc9a68248ea4",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.LocalMassResponse",
+      "upstream_sha256": "fe4509767a63874e9f0e7ef1087dc18255104198a539f7f650fbf53817016f34",
+      "local_sha256": "b4e5867731b245ca30f9d5696ec9fc3b641dea2d8e5e918b1672475f1f1f7237",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.PositiveEigenvector",
+      "upstream_sha256": "2c86d6c5626ff1cfc169030a506f7e0977e8d80548d64538b19656673510d4f9",
+      "local_sha256": "041102fb607bcdf7a1a18f908b1ade56911616fbc05b9a2e25d70d236cf34da5",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.CommonPositiveVector",
+      "upstream_sha256": "1767ee798fa173b6252bab2e04cb55d4890fb63b34e436969efc6c063324deb9",
+      "local_sha256": "73b6969cb55f8cf93668152c1c1760aa31c57c2eeedfa4f09721c54ade5bb5e0",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.PopulationGrowth",
+      "upstream_sha256": "580d5c728debb6074a7ca838dbb0579715fab87957e6ad3d23ee5ffd72ac1bc1",
+      "local_sha256": "096e44a339c7b166103f708faf8849abe592d44e294d09d2ea735479abec3763",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.FirstMoments",
+      "upstream_sha256": "de9b0f0218a6c06a547be5b84af2403201561331b7840d17c51dfe754f90d63b",
+      "local_sha256": "4c7acd909fda786d2dcbec37067fe5349ec46b94fab1502375bdab8329046200",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.SubstitutionMass",
+      "upstream_sha256": "03554eee942e688ffa7040e68bd0b2e940d265f8d8ada8a26ff687729eb55a5e",
+      "local_sha256": "44da66e0a476c5eb876f1d64d0daf85041be31c5beb13e7a3c7883614c423ae0",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionNetwork",
+      "upstream_sha256": "3f9b7672578c82f6c24d4e774e4e51be605d882bf26597cae0ba2061c492a7a6",
+      "local_sha256": "3f9b7672578c82f6c24d4e774e4e51be605d882bf26597cae0ba2061c492a7a6",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.DistanceCertificate",
+      "upstream_sha256": "73ebe975d7e49ef5ed925bbcfdd5c2b03ca69abb77f67a78724c0522f75e217a",
+      "local_sha256": "4fe4fdd132242ed9a71178187d21fe562212cb6e0869ada19a20d7e71e15b61e",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionDistance",
+      "upstream_sha256": "671df3f5f52f9c3dbf2467d720c788adfce44c1b9c5d45ddf4d0d290f1ede7e4",
+      "local_sha256": "39696ab42181f17e0fde1bd81ac2bf887c5f17d550566dce49abeac20a52b385",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.CoarseDistance",
+      "upstream_sha256": "e83325e235c439afd12c5db64b73ac23a9af1933e39d9758efe3cd8543573cba",
+      "local_sha256": "e83325e235c439afd12c5db64b73ac23a9af1933e39d9758efe3cd8543573cba",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.EdgeResampling",
+      "upstream_sha256": "323cd4bcc97dced69afb7d9156226b479c3f7e18a9466a833c01f2de35d478fe",
+      "local_sha256": "8321dea2336d851847a12352368ba1788cda6c401e429cce2abb024e0bf59fe2",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ReliabilityPolynomial",
+      "upstream_sha256": "203e0718c838e7871223d2d80df3e48758e3389a28bebeabd3275a135f57c340",
+      "local_sha256": "ee6ec5ab0777a5f002de321ad4535a259c6bcd482fe8902bce188281db259b58",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.TwoByTwo",
+      "upstream_sha256": "6e3e24684cd85b6eae1c9c5569ed6b5508dbb022029d41cf3c805d1654e4c553",
+      "local_sha256": "8ae2ada33f2a870142c4a18b61da9b4e9eefcc2906c383b24bcd568ee9b858df",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.Wheatstone",
+      "upstream_sha256": "27b3ccb23c3f4b2af9193884fec2a72dd2aac1ff6da1b2ebc54977c065b7c5f3",
+      "local_sha256": "f759971a8bb5d3b61557b6e1eed807aa7ebad8d4b255311a2325cc8709aa8d78",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.WheatstoneReliability",
+      "upstream_sha256": "7b644744acdbed33d85bd1e23d0fa6e6041d67ce4f45d4b190dffcf68a111b21",
+      "local_sha256": "7bb82ab5d383d7f31b6b6d77286a235a021b96a0456740dbb0765b79b6fe52ec",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ReliabilityDerivative",
+      "upstream_sha256": "2b349e2aaa9dc5de145ceae83db46c5f0ad2e76583b63460e4ea7ec685b59d12",
+      "local_sha256": "812215491cdfc3ce3c62471d5220a1b45778005948019125d3340eac73f50acf",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.Russo",
+      "upstream_sha256": "c1ee5f96200574de31adf23a328d4b62c60a255717c09bd1726c35da78a71396",
+      "local_sha256": "6087a7f20eb9eda003a4ce9430645c289f46252751c1e462cd1a61524323c052",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.EdgeOpening",
+      "upstream_sha256": "bb7ec5683201fae38397083754d47a689583a2b7356aac85b8014dfa7c944627",
+      "local_sha256": "8d94bbeb001ce0d66b29a85326c60ac18871789fe41b4c9b53f061c417423316",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.Rule",
+      "upstream_sha256": "04461edc487602d15328799fc2fccb06daae56a4b3d653fda65d8f420e9bf56e",
+      "local_sha256": "3b4d72620f877c2f2ced1d3679d4d78e272e10e15c9c1e6dae02d07caa2bb19a",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.Iteration",
+      "upstream_sha256": "d5e5c9ec3f4638882eef863ef5c6722ac57418e9e1bbfe4e796c9a6876eeb28b",
+      "local_sha256": "6cc788b907630632f2ae1d2b139650e464752f4f07503f4e1be2d839b7b9fc12",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.ColumnGrowth",
+      "upstream_sha256": "5e43d0bc0c10d56cf0a45f2e02aa775f0014e462c9ce739c8d39efcac104d6d5",
+      "local_sha256": "c4157a54a0d3d7b3d97ea27f606dcd934ff82c9add1fe4cbdc8b13e8baa67fea",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ClusterMass",
+      "upstream_sha256": "e4dfb26e2d1ad8400e8856cc422fce5f434d750faabae73cbe30a8d1891d7f12",
+      "local_sha256": "0f7a36fba572b07f05bda8f5dc17acb0e981b20a5190adb9efaf22bca5faaa53",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ConditionalPivotal",
+      "upstream_sha256": "07b19e005b5c9e795ee7917d9efea7903a814d6292e32c1b4c5799d716a8dc0b",
+      "local_sha256": "579d548aa4fde4bcdfb4830f340dfc8fb23150e72c7f3d41564a245f5565db28",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.StateRowIdentities",
+      "upstream_sha256": "6aea309dd6746f19aa6073b41adbc28fad72f6858dcdd50a809f5deee5373ce3",
+      "local_sha256": "bdcb15f3613b8029f075a6a46e71ceaec9078c4260671f736e1b21cae97b4b77",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.SimpleConfigurations",
+      "upstream_sha256": "f5f3b6a3c33feba826d41f58761a25dfaab8bc4ada390377788779da9bce7c51",
+      "local_sha256": "b34d7b7b93d1eff4af2fa1271a6f95482f77cfd4d3cfd150c54806c026ccc7d2",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.MassPositivity",
+      "upstream_sha256": "afca34b5fdb2adaaff4650e1aefa7f0548af65c2fb02bfdf63c66a99c7e82700",
+      "local_sha256": "f537ef090f622b45c0158610ec9a7851143c76a7210a58a30c44407fe41d7068",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.WheatstoneKernels",
+      "upstream_sha256": "de1b012f63d341621fe7913bbd6d11d4ed5e9c3902bba965a425f2faa96ccf3a",
+      "local_sha256": "dd0d293fe1ec38631178cf02f360424db214e881b77fe2c6d2c2a019537d49ec",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.SpectralSeparation",
+      "upstream_sha256": "f9428e03a5062dde57a5803f356776463653da18fa768da9a018fb93f7bfe0a1",
+      "local_sha256": "588066b05fbad9e2e41f727c6bf77e5a55889607ac45aaed994fd42d6b8dbaec",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.PositiveTwoByTwo",
+      "upstream_sha256": "d23bc86145eef2b3394d0ad675f0861838a8ea9800903ff809b289633f4b08f9",
+      "local_sha256": "368ad31cc5465a6f7daf8fdf336abe53f91acbf37d2781c94fcb59e7c8685b13",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.MassPlane",
+      "upstream_sha256": "959524fb4ad546ca9aaafbb416f428b93a9176485ad64a4e107c8f75adb91bf4",
+      "local_sha256": "6d79c517f9ad10dc3e978d41bd9caa2d3f7aa0e7cddb4891151fcb12424c86ba",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.WheatstoneSpectrum",
+      "upstream_sha256": "8c8e69ec9e5a604afaf947d84f7d64a9e8b79603dd510e5c1252920396ca736f",
+      "local_sha256": "139a81a73d8bbc1de65dd86d3a6797e348a4e0d5eda39b357a4445e8027173ce",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.UniversalPivotalVector",
+      "upstream_sha256": "f6ed74a158014caf5ddca73135ea6a96b63c7ffac585888bf411a4c9b05a552e",
+      "local_sha256": "6106629b3c5761b581b977b7f51d056e3d8eb2db52745f307dacdc861683ebd7",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.GeometricMassPositivity",
+      "upstream_sha256": "33505093447661e8f53f88ad9eba1e41cbc7b306e86b3ab68c1291a89422a9b0",
+      "local_sha256": "e61ac6e13ef9f0745c2cb12213390a1785fe197863c8b8db2ef0baa654a83a8f",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionSymmetry",
+      "upstream_sha256": "5898eaa581803dd974ec5dd37657064a16be157bdd1425025537612bd31b3c8b",
+      "local_sha256": "002b327f3121b73b4d16837b495c1f24d30a7176799641d9d7502b1362390f64",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.TerminalSymmetricRule",
+      "upstream_sha256": "b94cd47e46b9346b88b7e4646801878e7a21c700b463fe439c11247c0047673a",
+      "local_sha256": "4c4323dc52dc6c9e22f79b7c13a3aeb580177d476dd8753ed44f6d3c30b1a445",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.FiniteMassDimension",
+      "upstream_sha256": "755953e3e3147a49d62b9d9f9912da74e2565eb4b47ad1b9264c7c103c9ca073",
+      "local_sha256": "8d1c98a856a224c8d402ee9b0a3c005ceeb94b1d71dabb0299c36ef7ced58fc2",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ProbabilityEndpoints",
+      "upstream_sha256": "d2a7d45a61d91b259175d2ba3181de1ee6a48407e6e4ca61513bba10523b0a58",
+      "local_sha256": "413b62d2e233f27a57451edf9e89427fa765bfa189ff93402c396a4f2790508f",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.InteriorFixedPoint",
+      "upstream_sha256": "cf178560d2656509c89dc11541afc93fb852bb5468f4aa541b49bbf3727c4901",
+      "local_sha256": "34d4acb79444cf4f4ef69ac6acce93af16a3532d8f4e59d2a6d78639efb7fe66",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.FixedPointCutCriterion",
+      "upstream_sha256": "12a20f9756b89436df2050f2c3f2e1a4a15f8f63d8c0c7db78cfbfadc5844b85",
+      "local_sha256": "2c6a03e9039770d3684f3e58cf43f8444d1898f76bb78ddc715f08cf87bde9f6",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.RootEdgeResponse",
+      "upstream_sha256": "c1fa62b39b70344d1c1246389cafa8fcdb59685b3e313ab61a0b1400440c162a",
+      "local_sha256": "3c58e831005811d0c134f6f8abefbd5a008538b97434d6dc41343005043fa544",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.EdgeScoreIdentities",
+      "upstream_sha256": "5282fbf461b7ff164981efae263746707e3144997a6e4765980d5482a0db1864",
+      "local_sha256": "1652d2bdf59a29245cc002fb951af76ef07af156e5cad2f2289090c5770e956f",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.PivotalRightVector",
+      "upstream_sha256": "540bf8c065a2d1e450e37a3e315acb8ad5b91abde037c1d6beabaaea49ad0e16",
+      "local_sha256": "f239f6cf416339c473004db2892095dafad703703825edcad18b44fa139cccc2",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.TwoByTwoExpansion",
+      "upstream_sha256": "84fcb214700b7d95c183033c0cb4883a317f90b5d949c052c1f406d5d3282ae6",
+      "local_sha256": "41d8753fbe6b7f8d0cb2d62090c0f15f21a1752ffc56df76719e74e98d717520",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.ResponseDominance",
+      "upstream_sha256": "bb0b35d73af1283862bc80b1807a7f849a3b3af1ff3d8db64de1c232784554e0",
+      "local_sha256": "9a4c67e414a7318552ac9d4a34ad81c432ecb9d21ab4da495ac73a1d177d6447",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.StrictReliability",
+      "upstream_sha256": "d2b9c36c453aed77617cccab285a1f255449bfba4c1b50f0b78508bf4973b23a",
+      "local_sha256": "3dd56ac8b40eec5481f9d3a306008b9ad511eac5311c56cdc1d935a880b495ef",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.PivotalDimension",
+      "upstream_sha256": "e978e2630b81a0c6acb3f31a82f5bb90ea18dc2d727e57acaf74d416650dc062",
+      "local_sha256": "58a3b2a9b70b594943d47d06c990806f30357ed8b808f2e8fc79476acf4d5893",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ExactMassExpansion",
+      "upstream_sha256": "78181f4df3ad91e65a57445b34da44237f0745ea691e54f2b23b6a4242dc1f23",
+      "local_sha256": "37167ebc8eaae8b79c31d1fc79a708d086cf907149df3a55476f8e6336a2addf",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.CriticalBlockDecomposition",
+      "upstream_sha256": "161207413f212dfa4487240a4900833afb55a8f84e717fd3a97b5664227ef1ea",
+      "local_sha256": "758eea73be686d71f8ebf3796fc5170d5454ac2b9ad23bf34da2369853161065",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.RealDiagonalization",
+      "upstream_sha256": "84655c5c9525d382c6858a551ab8cdf7aab8660099168eeb6b982b2d28e7bf7e",
+      "local_sha256": "6c26ef4d4444810d735f6a7d3f83c667590444de9fd1149679674b174e75d39e",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.FiniteCore",
+      "upstream_sha256": "9cc53da229ec39ff55385c995a934a02f0b869d1e39362b84fa2f75da5db4e05",
+      "local_sha256": "08aacedab398b956174e40d9b13e0fc4d73a271dd1c2cb1a95cec29cb2a4eb16",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionConnectivity",
+      "upstream_sha256": "dd44b897e147a0bfef92167c0b69fb8b85e4e5e05bdbb67fbd9a59602aaa2073",
+      "local_sha256": "6d8b268a7c7b87b04d46548520c5097b6db32b90e60d6a1e19015182640ccc59",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.ClassicalRule",
+      "upstream_sha256": "4c1eb8bb409d1c1ec6128967505d7e8df4b9dc7523475a1f39966c0c67dc3804",
+      "local_sha256": "fa292aa9d0b109ee06360a55de7700ff7861e41c08172cf1b6282bf4829d28e0",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionFullConnectivity",
+      "upstream_sha256": "2ab15abe1bec96c96f08902dd84305227184be51cfbb083ec39bbfc442b7776d",
+      "local_sha256": "ae9e9d502991a3b28cbaf42780eb302b7d5a4da6a7781cd1b075f58a2b50dd15",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.InternalCellConnectivity",
+      "upstream_sha256": "4a5cfbf9a574254dfef807c45e60f19b02b34bbc1187677bcd030dc3b9bd8657",
+      "local_sha256": "5f07816e5fc12e266eb1728a8cbbe3833a69e1650f3c8763e5ff1016c8667486",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionSimple",
+      "upstream_sha256": "24d7dcf0cf4f551983e50c9809490e7d3c9a40cb69e9f91c54dd7d1c5801eadb",
+      "local_sha256": "60c9b3d0749e5e4c76a228b9d6fffd6a8035e09f68b92b5f7800d5305826fd3d",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionInvolution",
+      "upstream_sha256": "5255fda95ce9764f633f8ccc13d85b92e253e5397b649534a11b3bd2a2b89716",
+      "local_sha256": "97a345398ac4c5f2ade9977e746754a9abff78af6f9299c69fbbe94a7a9ffdb3",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Matrix.PrimitiveThreeState",
+      "upstream_sha256": "501b21da448132427484b78bd2e257309b5cd2387685974bb7988ffc1a56f63f",
+      "local_sha256": "53782f4ae37272e550cd88ad438be806b5bd03208cd0bb6384640df3df41bfd0",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.GeometricPrimitivity",
+      "upstream_sha256": "049456bd74eddcbeff22604356016eaac33bbdcc635cb34ffb33a65ed2b750d7",
+      "local_sha256": "725cb6424870d186107208c4dc985b58875008ca73906c60b8a4ff7319fe6ffd",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.MassRowBounds",
+      "upstream_sha256": "60bedbee40d87436361cc8e19af4f1cf5df0151af66225d0b891fe9143b1b5ed",
+      "local_sha256": "7bf8037d6d022ca128ce1212d6ec9f69ce9577c008dd144751f4a421d002e6b0",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.MassRowLowerBounds",
+      "upstream_sha256": "c578f8e3a2ab0754bc3fe25bc319230f133b4981970bef031c5b4bc679c9e577",
+      "local_sha256": "532e29656fe2fb9f4c89a6dbf3d40ae4ea8fb67120c6107201d6cc576fd9db06",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.IncidentDegree",
+      "upstream_sha256": "d63cf15ae13916fcd2b5dc245d9d641d389fcef76fd7163232eed87ddefade4c",
+      "local_sha256": "ee0af1505131892757b1bc9fa010faff0ef8d9cb93925ba4a838b511b2ca7428",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.CountingPolynomials",
+      "upstream_sha256": "4b96a86ff4daf4e557e3bd2316a7e4ab4931c463afdc108a07681762066879b7",
+      "local_sha256": "88bef47ca9f2d0571b84b8e8ee44ce1c677add277808e4ca68cd75f291ba0b95",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.CrossingOpenCount",
+      "upstream_sha256": "2943b03543d0be6c900daf77b9d0422308b7dc35cbb2f4dacfee6278e6d27fc5",
+      "local_sha256": "2b6ca85d4e4d58fc36cb03a96f763d5d69cf6d51e260fb1d475ada4eac993923",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.PathEdgeMinimality",
+      "upstream_sha256": "9f6df5961e8e0c4e1b2fef625f1ca4724a960ee971e369f03bc4f9570cd8504e",
+      "local_sha256": "2cbfb321b261b6ce029986ff62eb4910c3f9f6faa04625e27439be5ebed0920d",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.CanonicalPivotal",
+      "upstream_sha256": "9540b096c4e8c8eb5dc7187c3c03cd8ab37d91b4707b21449e6f89e03a685b16",
+      "local_sha256": "f294642088b29508699938d355fad58a1548a174eddeaf30271bda19add0f676",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionPivotal",
+      "upstream_sha256": "8e76e7b257a5dd7e83ee61592c1049b4a61b4635a7d8b5da9b1193d4f8b722af",
+      "local_sha256": "b60a1a827879a7894e86d052a66432a4a7da1c226d494c9b949f6db5d4e467b0",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.ClassicalSubstitution",
+      "upstream_sha256": "3ae088143ec87a9c5957498b783e8f85fd339b1bfbde6d6caa0f83d5a07dc1b5",
+      "local_sha256": "0364f9c871093c105ec23a219a236fba7b97f17981cb6406e4816834654c995b",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.JointDisintegration",
+      "upstream_sha256": "d63ca51a7186cb7efca129b8f75821bcca856dc0c6ffbee4daf6346627151101",
+      "local_sha256": "7086aafb644b88348065cdd1da942d91230e470b869e7c2a93c0a3989b208cde",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.MultilevelLaw",
+      "upstream_sha256": "3f31fee3feba589610a27922df8a33689a84ccc65236ae0fd30d398086b2eae8",
+      "local_sha256": "f0f8d6166559a87de96369ad603d27c155291018d1fdd7ba422ea85d9117487b",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.OrientedStates",
+      "upstream_sha256": "d5df74591a412a7651eceb41e38a86289a169d796e2f882740faeb3f9e9abb13",
+      "local_sha256": "4c435f518ce63271b30fc3ca5b9c0bcc86a86deef26b62aa736040b8373b01b7",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.InternalVertexMass",
+      "upstream_sha256": "41a6cdea93b6909625a67d4771d41ae548f606b634108a094a2d4df3d07b7afb",
+      "local_sha256": "ba3389975ac9d9f5993bed843eb97cc3c7f1f87e80885a450ec4fc46b2931228",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.FiniteVolume",
+      "upstream_sha256": "549677752ca6d2405b7ec6b7c5dff91323f3416ee523ac11e69619b0a4aec2a1",
+      "local_sha256": "39eb4f13400dda4f64220e5150551052e6ce7ac31c525889211de4f33bbb87e6",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.VolumeLimit",
+      "upstream_sha256": "3edfcd40a911368ab4966dd31849357d4e49a6bc28a2bb55e5ea12540e7cfe01",
+      "local_sha256": "197011a50b80d9c110ce2e489ee52d2c76b39b0b4fd8dc35a9aa568a988f4f67",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.FiniteClusters",
+      "upstream_sha256": "32a2c7e6aa80d65d32bf04b8cc4cba28b3759513e47b15cc9a7f1d086ce7311d",
+      "local_sha256": "6fba3d7545a12b0fcf9cd466c7df54ac04f7f9c28303cd521a5437fc9ca86fc3",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.FiniteClusterDensity",
+      "upstream_sha256": "e59befb99f5e7658b8ce9328793acb92f62d386eaf12df91d42451dd819c1bfb",
+      "local_sha256": "e4d4e8f2560aadcc9c1db32a65140b27707ccafde5760b6c97a7f18c12122b3e",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.InternalClusterEmbedding",
+      "upstream_sha256": "14dab950063a4e2bef44e12b004b04ff9bb45a39ea446e5a125a9dcb48d2c1ce",
+      "local_sha256": "b67fd38579cbbd72727a26a8ec1dc93603d3811c1cb738cda9793ad647e46707",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.FiberCounting",
+      "upstream_sha256": "511eff25af8c470d8f838712e7e25950b6b05d712174c64cb671802bf5ea2385",
+      "local_sha256": "683350fdadfc6dc1d17bd53dfe7ae7018766c087f8adb20759958ad8f75ac1d3",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.CoarseClusterCounting",
+      "upstream_sha256": "d44784ba5e2946c9bafd5a2493ffadfd2e6dc77db61581d6e7669cbded7acc5d",
+      "local_sha256": "f9d403b24662dcb5899522aeab4982e949d06aea3f58875b09fe739fc45838b6",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.InternalClusterDecomposition",
+      "upstream_sha256": "4092f482a18d7edb7b977aa30ee6a85a73d0d6d8ed80e2012140d48c3d035c7f",
+      "local_sha256": "1c1edf41eebb1ad3e6393e71a9e4c05d5b11e0a0bd4b27465fecaf909ca06d4f",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.InternalClusterChoices",
+      "upstream_sha256": "94e09896e090786e277f05350b1172c8f7f88947c661bcb1b522575fcfbf5022",
+      "local_sha256": "a0cdbe943afbe3f08da52b5232938c0431d0fb0e511498b1e4bd43c9a162e302",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ConditionalSubstitutionLaw",
+      "upstream_sha256": "437218f6bfca9b4d74b7cc6e0e16254bbe2c5c5a7a03ee42af491ca634ee7130",
+      "local_sha256": "84c7b0bd8373c21008adc64afb40dc7be6358813a1021041283e52527c2b967c",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ClusterNumberRecursion",
+      "upstream_sha256": "b1ff28b0c912dfe7344533470fd4711fa07e429e2affd7320b8f75842c735152",
+      "local_sha256": "ea05d9ad85eba37f1cab1ef5f2d07b305408960b2da2a7df3d5f1e547a1e8ed2",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ClusterNumberBoundary",
+      "upstream_sha256": "60a31f6115f1ab90dd5fd2ce8b720ccf0a4c67d1fc840148e73950e231a2dcd4",
+      "local_sha256": "157728bd8007c949996f3d04efada0fa57b489ff6619f3bd1b01e60ee70e7461",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ClusterNumberIteration",
+      "upstream_sha256": "1943b9abfdf4fcf7a774a93ca839af30ad50c5db87dc30ebeffc13eb7e2ab6aa",
+      "local_sha256": "cdfc2f6cf3dc9f6966d11984bd9c97127c4a508425160de96983771f0b8ae63c",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Analysis.DiscountedIteration",
+      "upstream_sha256": "90deb6cb90a3a0356f2faf2c6a20c76c7a3f5dc84b7f0eac78449d37d84fb7f7",
+      "local_sha256": "49e84913a1b416fa9cc7ca1b1456c6f799dfca6ad584a5f57b380e93bc7ab340",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ClusterNumberSeries",
+      "upstream_sha256": "32d563cf0c0ea07e2d851fa9b40ce8949fe3a4e7afcd6de3818c31bc9a3b78f8",
+      "local_sha256": "a51f487a0c68c519fd7e869512058e292ee321671ed47dd19b1a37de51c1dd68",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ClusterNumberNormalization",
+      "upstream_sha256": "a619a15096e173b4edefbfac6d77d1ec830bd4f3948b31acdc38ef6e5215972c",
+      "local_sha256": "ec6f6eb0c35a2d476ed92c5f34f86c77f17727d66951262f0a5579343ed95255",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ClusterNumberVolumeLimit",
+      "upstream_sha256": "675bcf3a0e79a9ae4e2aa01e1c64960e408d0eaaff8e4f84f210f8abfdc0e401",
+      "local_sha256": "f5ac4e8ec84e2eb85bedeefb139a1e997e8ce28a60e7e8401c6e1435e9f165d2",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.BernoulliVariance",
+      "upstream_sha256": "3bf345ba7ccb8a4b714ce7bccece580a9aa87913b2a99dd854e4e4eed2fb4519",
+      "local_sha256": "7f3c09371508c35c3e82be17672218a644836c3739b1436ae64c0eb682baa461",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.StrictInstability",
+      "upstream_sha256": "42bf498988ed9f76be47f6955250fa7304b46ae5c8b6a58fe65f7e9ef9be9391",
+      "local_sha256": "5c6daf46bac76c400c5c4009e6982e2f79f28e9f0cce2fa52ff70da478c6c2cb",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.PivotalResponseBound",
+      "upstream_sha256": "ee81cf3597125bba74b5aea3c9952a6431bb046ed8c8854f515ec55acf6bbd82",
+      "local_sha256": "d887f6a25291d1f55995b38a07ebf256d2ab8ca5f2132fb7e263a82eeb3708f3",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.ClassicalClusterNumber",
+      "upstream_sha256": "116fd4472dd7278cec3276fc340a0b3a4c0a8c7559f24c9d10c1de9585a4568e",
+      "local_sha256": "4530a54cbf15d3205e3c20a51d3d090884f47af18bea179f8e9a983b6b4029fe",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionRadius",
+      "upstream_sha256": "35674d272a9d8929db5480f5a9ba35638f38c35f44e7181cd2bee8f7e97a04e3",
+      "local_sha256": "35674d272a9d8929db5480f5a9ba35638f38c35f44e7181cd2bee8f7e97a04e3",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionPotential",
+      "upstream_sha256": "02b6483a7590309e6721091481552833a6169d8b5e0cb479b87c4c2e4aa74f06",
+      "local_sha256": "02b6483a7590309e6721091481552833a6169d8b5e0cb479b87c4c2e4aa74f06",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.CellIsometry",
+      "upstream_sha256": "c120ab5cb86feaab9454301d4577966c0f5ef0bcd75616c3f4d33b52504010f6",
+      "local_sha256": "c120ab5cb86feaab9454301d4577966c0f5ef0bcd75616c3f4d33b52504010f6",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.NetworkEquivalence",
+      "upstream_sha256": "b842d87a4a32e9cf921c8dc587c3b8a247931bea6f2f33ed1ddb2899bc846d0d",
+      "local_sha256": "ed18a058d94f469378b49f56d1cdb8403d57e3ad351df38cbc4a2cdb0b93887c",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.InternalMassLaw",
+      "upstream_sha256": "02b9ebf7171edf85c5651245387aa41d78fa898c5afea2fa7d6c421ab4a4bcd6",
+      "local_sha256": "3a2df0c9cf365bc1afb3c3db4b4ba297e482d064b7a7ce931023af8830f1c12f",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.InternalMassSymmetry",
+      "upstream_sha256": "f07920a2d2cc3566aef629ba03f2ba89a815bf642b65191af966d91aaf3fc733",
+      "local_sha256": "fdc845d0679ba3d6196feee0d3f26ced4c70c43e0c3cdf37630cc4e94921bc53",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Probability.FiniteProductMoments",
+      "upstream_sha256": "530660a3ab01f97ccad24bf8583cbd71c04fdf6ebaf1035e40d568fd7056ac94",
+      "local_sha256": "1b711a5ce80aed6a2e56214dde6aa99347ed6edfd6c098e80efceaffbd91e93a",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.InternalMassMoments",
+      "upstream_sha256": "023deccba482a6e773d20267a538100423fea38d74bd6334c1ecc62bf9efe2e6",
+      "local_sha256": "738a78ee1548b4fdec2bdea31171626ca9674a1a4d4732ee574101ddad1bd572",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Percolation.MassEquivalence",
+      "upstream_sha256": "9e90121ff51295e409cac3320282526d0b0e871f1f2414200eee986232b14227",
+      "local_sha256": "2fff62b2ab174090e0d343dff3d917154d46a13fa17a07d01e8296e7620a6752",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionEquivalence",
+      "upstream_sha256": "f1f26f1f4ce0a0a7f73f662c066e22e5c987f7affa326fc9d649f77ea976a1ed",
+      "local_sha256": "795c16352106b92667969e72ae7a55797948abaf66cd6ebef31b0f3b2adadf75",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionAssociator",
+      "upstream_sha256": "2e462354e207c693c3fae61d873372c20b4aebbd803ccd7d21bb138120134db2",
+      "local_sha256": "8e3dd6fdd3757bcc2b235a93a1d224771276f64ad790903ae47cfe36416578f3",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.SubstitutionAssociativity",
+      "upstream_sha256": "17ef4a6b5d25485ee997f813cd978c237e696e00e80e2b4ada442a04f53b9f7c",
+      "local_sha256": "1b65c7692bdfaf5eb86f91d1a187a96bfa7ae0aab756980d4112eebc18ada78b",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    },
+    {
+      "module": "Universality.Graph.GenerationReassociation",
+      "upstream_sha256": "6af7df54e0f9efc8e71908aa031d4782f928d368d0dff19bc6c4ae3a3e43bcab",
+      "local_sha256": "2bb2f6ebbbb833281a5aa4035366d6ea5d572e059a36b943f0fe48163a51f7b8",
+      "comparison": "Identical after CRLF/LF normalization; existing file preserved"
+    }
+  ],
+  "frozen_modules_in_dependency_order": [
+    {
+      "module": "Universality.Geometry.MetricDirectLimit",
+      "relative_path": "Universality/Geometry/MetricDirectLimit.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\MetricDirectLimit.lean",
+      "upstream_sha256": "89373ad727a2a6542755031690b9fb6ad81bbd3f68f7d9aa6cd1d055a73c0ead",
+      "copied_sha256": "89373ad727a2a6542755031690b9fb6ad81bbd3f68f7d9aa6cd1d055a73c0ead",
+      "copied_at_utc": "2026-10-06T17:49:47.9586629Z"
+    },
+    {
+      "module": "Universality.Geometry.ScaledGenerationMetric",
+      "relative_path": "Universality/Geometry/ScaledGenerationMetric.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\ScaledGenerationMetric.lean",
+      "upstream_sha256": "c7f4a74d891b9f147899376f35275e52d0a5de9a06cd33907b6b31c1b17580b1",
+      "copied_sha256": "c7f4a74d891b9f147899376f35275e52d0a5de9a06cd33907b6b31c1b17580b1",
+      "copied_at_utc": "2026-10-06T17:49:47.9797994Z"
+    },
+    {
+      "module": "Universality.Geometry.IsometricSequence",
+      "relative_path": "Universality/Geometry/IsometricSequence.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\IsometricSequence.lean",
+      "upstream_sha256": "db4959807ff220da6913de040824b2a1495a1a1b7725cb8ec30d9edf7d889575",
+      "copied_sha256": "db4959807ff220da6913de040824b2a1495a1a1b7725cb8ec30d9edf7d889575",
+      "copied_at_utc": "2026-10-06T17:49:47.9976288Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationCompletion",
+      "relative_path": "Universality/Geometry/GenerationCompletion.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationCompletion.lean",
+      "upstream_sha256": "ac0b4da1319d2fe875391b9ad7def6982140ed8439dd1d10e31e798e45e3a55f",
+      "copied_sha256": "ac0b4da1319d2fe875391b9ad7def6982140ed8439dd1d10e31e798e45e3a55f",
+      "copied_at_utc": "2026-10-06T17:49:48.0169934Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationNet",
+      "relative_path": "Universality/Geometry/GenerationNet.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationNet.lean",
+      "upstream_sha256": "30e61fc1d92b871e64545f032d1a3faa317acf6ff3840804c76dc48b7aefba4f",
+      "copied_sha256": "30e61fc1d92b871e64545f032d1a3faa317acf6ff3840804c76dc48b7aefba4f",
+      "copied_at_utc": "2026-10-06T17:49:48.0226165Z"
+    },
+    {
+      "module": "Universality.Geometry.GeometricNets",
+      "relative_path": "Universality/Geometry/GeometricNets.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GeometricNets.lean",
+      "upstream_sha256": "84658d2c2f8244cac31e77d265f770af57d31c902ab96063099412222eed31f0",
+      "copied_sha256": "84658d2c2f8244cac31e77d265f770af57d31c902ab96063099412222eed31f0",
+      "copied_at_utc": "2026-10-06T17:49:48.0404747Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationCompactness",
+      "relative_path": "Universality/Geometry/GenerationCompactness.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationCompactness.lean",
+      "upstream_sha256": "be0d70f19ed379a70c39673df9bf854fb072e5fe439b7b3f18e4d0081daed92b",
+      "copied_sha256": "be0d70f19ed379a70c39673df9bf854fb072e5fe439b7b3f18e4d0081daed92b",
+      "copied_at_utc": "2026-10-06T17:49:48.0481786Z"
+    },
+    {
+      "module": "Universality.Percolation.UniformGenerationVolume",
+      "relative_path": "Universality/Percolation/UniformGenerationVolume.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Percolation\\UniformGenerationVolume.lean",
+      "upstream_sha256": "d886aea47140163a41155c18a63cb6951324ce6bdb5ee531de72cdba0e433878",
+      "copied_sha256": "d886aea47140163a41155c18a63cb6951324ce6bdb5ee531de72cdba0e433878",
+      "copied_at_utc": "2026-10-06T17:49:48.067887Z"
+    },
+    {
+      "module": "Universality.Geometry.GeometricCovers",
+      "relative_path": "Universality/Geometry/GeometricCovers.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GeometricCovers.lean",
+      "upstream_sha256": "5890de2cca80077637cd0d7d0d7db481cb4d9c82b7c00120040be5295d62a081",
+      "copied_sha256": "5890de2cca80077637cd0d7d0d7db481cb4d9c82b7c00120040be5295d62a081",
+      "copied_at_utc": "2026-10-06T17:49:48.0850081Z"
+    },
+    {
+      "module": "Universality.Geometry.FiniteCoverHausdorffBound",
+      "relative_path": "Universality/Geometry/FiniteCoverHausdorffBound.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\FiniteCoverHausdorffBound.lean",
+      "upstream_sha256": "6a317896b7227e6d9d634586939e615236511da361ca2b78433a52f0c79af3f2",
+      "copied_sha256": "6a317896b7227e6d9d634586939e615236511da361ca2b78433a52f0c79af3f2",
+      "copied_at_utc": "2026-10-06T17:49:48.1020833Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationHausdorffUpperBound",
+      "relative_path": "Universality/Geometry/GenerationHausdorffUpperBound.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationHausdorffUpperBound.lean",
+      "upstream_sha256": "29e38d8cb47c8ee1ec11b326b7f7a5f9d81137f8853cb9d23c07ae0e0ffc20fb",
+      "copied_sha256": "29e38d8cb47c8ee1ec11b326b7f7a5f9d81137f8853cb9d23c07ae0e0ffc20fb",
+      "copied_at_utc": "2026-10-06T17:49:48.1083363Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationMetricSpace",
+      "relative_path": "Universality/Geometry/GenerationMetricSpace.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationMetricSpace.lean",
+      "upstream_sha256": "62857d08181f94356eba928476cdd27a5562cf1cf47676696e3a745450f74c1b",
+      "copied_sha256": "62857d08181f94356eba928476cdd27a5562cf1cf47676696e3a745450f74c1b",
+      "copied_at_utc": "2026-10-06T17:49:48.114765Z"
+    },
+    {
+      "module": "Universality.Graph.NetworkEmbedding",
+      "relative_path": "Universality/Graph/NetworkEmbedding.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Graph\\NetworkEmbedding.lean",
+      "upstream_sha256": "02eabd99f976b5480129dfc07b757126865b6b634f2f1f44ce08c2966f2a71af",
+      "copied_sha256": "02eabd99f976b5480129dfc07b757126865b6b634f2f1f44ce08c2966f2a71af",
+      "copied_at_utc": "2026-10-06T17:49:48.1308801Z"
+    },
+    {
+      "module": "Universality.Geometry.CellBoundaryPotential",
+      "relative_path": "Universality/Geometry/CellBoundaryPotential.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\CellBoundaryPotential.lean",
+      "upstream_sha256": "834093aa1a4d460117824f4be133cb498adf0954f40ff94a97d69598e64775e0",
+      "copied_sha256": "834093aa1a4d460117824f4be133cb498adf0954f40ff94a97d69598e64775e0",
+      "copied_at_utc": "2026-10-06T17:49:48.1514405Z"
+    },
+    {
+      "module": "Universality.Graph.GenerationCellEmbedding",
+      "relative_path": "Universality/Graph/GenerationCellEmbedding.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Graph\\GenerationCellEmbedding.lean",
+      "upstream_sha256": "265fb8e84545ac819772289dbcd1167e1a6594c2001ae3e80e2c55dada368463",
+      "copied_sha256": "265fb8e84545ac819772289dbcd1167e1a6594c2001ae3e80e2c55dada368463",
+      "copied_at_utc": "2026-10-06T17:49:48.1673909Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationCellMetric",
+      "relative_path": "Universality/Geometry/GenerationCellMetric.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationCellMetric.lean",
+      "upstream_sha256": "ee4d43b9b1dd94268f1eabeb4f27338fbcf3d82126e012c182a1904973a07c30",
+      "copied_sha256": "ee4d43b9b1dd94268f1eabeb4f27338fbcf3d82126e012c182a1904973a07c30",
+      "copied_at_utc": "2026-10-06T17:49:48.1882971Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationCellBoundary",
+      "relative_path": "Universality/Geometry/GenerationCellBoundary.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationCellBoundary.lean",
+      "upstream_sha256": "8c5005d1713960df84114b9db52115e80dfa3c1425ba0ddc06916ca8a5ec6bca",
+      "copied_sha256": "8c5005d1713960df84114b9db52115e80dfa3c1425ba0ddc06916ca8a5ec6bca",
+      "copied_at_utc": "2026-10-06T17:49:48.2057016Z"
+    },
+    {
+      "module": "Universality.Geometry.SequenceSimilarity",
+      "relative_path": "Universality/Geometry/SequenceSimilarity.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\SequenceSimilarity.lean",
+      "upstream_sha256": "decbbd32c326715ac93c943f484dd4d3c555f04773bac11e811a94d2ea7d1719",
+      "copied_sha256": "decbbd32c326715ac93c943f484dd4d3c555f04773bac11e811a94d2ea7d1719",
+      "copied_at_utc": "2026-10-06T17:49:48.2130359Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationMetricCells",
+      "relative_path": "Universality/Geometry/GenerationMetricCells.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationMetricCells.lean",
+      "upstream_sha256": "66cf4d217e8bc4e68dddb3a9300debda1826a7f8269485d8db7bcc194ce94a81",
+      "copied_sha256": "66cf4d217e8bc4e68dddb3a9300debda1826a7f8269485d8db7bcc194ce94a81",
+      "copied_at_utc": "2026-10-06T17:49:48.234492Z"
+    },
+    {
+      "module": "Universality.Geometry.InternalSimilarity",
+      "relative_path": "Universality/Geometry/InternalSimilarity.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\InternalSimilarity.lean",
+      "upstream_sha256": "c2c794caf5502d4de12c654ab522e57d9b6d31fc6bd495a6a5c1fc41c6d74ee7",
+      "copied_sha256": "c2c794caf5502d4de12c654ab522e57d9b6d31fc6bd495a6a5c1fc41c6d74ee7",
+      "copied_at_utc": "2026-10-06T17:49:48.2534771Z"
+    },
+    {
+      "module": "Universality.Geometry.SymbolicHausdorffLowerBound",
+      "relative_path": "Universality/Geometry/SymbolicHausdorffLowerBound.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\SymbolicHausdorffLowerBound.lean",
+      "upstream_sha256": "2519d7bcafbfffd1984cb93cbf7a6d56907b85569aa139ac96d8665c6f9bc5c3",
+      "copied_sha256": "2519d7bcafbfffd1984cb93cbf7a6d56907b85569aa139ac96d8665c6f9bc5c3",
+      "copied_at_utc": "2026-10-06T17:49:48.2708712Z"
+    },
+    {
+      "module": "Universality.Geometry.SeparatedSimilarities",
+      "relative_path": "Universality/Geometry/SeparatedSimilarities.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\SeparatedSimilarities.lean",
+      "upstream_sha256": "063c1ca6bbffae6820b85a851fa52ea0bfd1637cc21a32a8c05b395d1460be40",
+      "copied_sha256": "063c1ca6bbffae6820b85a851fa52ea0bfd1637cc21a32a8c05b395d1460be40",
+      "copied_at_utc": "2026-10-06T17:49:48.2769257Z"
+    },
+    {
+      "module": "Universality.Geometry.BlockDimensionLimit",
+      "relative_path": "Universality/Geometry/BlockDimensionLimit.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\BlockDimensionLimit.lean",
+      "upstream_sha256": "8283aee50daa4320409f72b3798b12f82ea5aded67c8b086d096934c8e1c5cb6",
+      "copied_sha256": "8283aee50daa4320409f72b3798b12f82ea5aded67c8b086d096934c8e1c5cb6",
+      "copied_at_utc": "2026-10-06T17:49:48.2941852Z"
+    },
+    {
+      "module": "Universality.Geometry.SeparatedBlocks",
+      "relative_path": "Universality/Geometry/SeparatedBlocks.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\SeparatedBlocks.lean",
+      "upstream_sha256": "c587ace27fc90150613ce77b154e36fce6006deef17a11dcb42362127d53fc51",
+      "copied_sha256": "c587ace27fc90150613ce77b154e36fce6006deef17a11dcb42362127d53fc51",
+      "copied_at_utc": "2026-10-06T17:49:48.3194252Z"
+    },
+    {
+      "module": "Universality.Geometry.GenerationHausdorffDimension",
+      "relative_path": "Universality/Geometry/GenerationHausdorffDimension.lean",
+      "upstream_path": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat\\work\\universality-section4\\Universality\\Geometry\\GenerationHausdorffDimension.lean",
+      "upstream_sha256": "2aa8c1ddc9a92eba854f269d96e380add9f1b2f4b1dc8d38432a0e281dec7985",
+      "copied_sha256": "2aa8c1ddc9a92eba854f269d96e380add9f1b2f4b1dc8d38432a0e281dec7985",
+      "copied_at_utc": "2026-10-06T17:49:48.3263501Z"
+    }
+  ],
+  "builds": [
+    {
+      "module": "Universality.Geometry.MetricDirectLimit",
+      "source_sha256": "89373ad727a2a6542755031690b9fb6ad81bbd3f68f7d9aa6cd1d055a73c0ead",
+      "started_at_utc": "2026-10-06T17:50:27.1709257Z",
+      "finished_at_utc": "2026-10-06T17:50:43.8326712Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/MetricDirectLimit.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_MetricDirectLimit.log",
+      "olean_sha256": "feac714cdb28d959e289b8e49b9c67700c97618d0c3c58db0d6cc924da5e5f7e"
+    },
+    {
+      "module": "Universality.Geometry.ScaledGenerationMetric",
+      "source_sha256": "c7f4a74d891b9f147899376f35275e52d0a5de9a06cd33907b6b31c1b17580b1",
+      "started_at_utc": "2026-10-06T17:50:43.8712452Z",
+      "finished_at_utc": "2026-10-06T17:51:15.3559097Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/ScaledGenerationMetric.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_ScaledGenerationMetric.log",
+      "olean_sha256": "96375d7ad9b36e3798314f059a3c143073b732bfaa847914bc60d06fa7d444bb"
+    },
+    {
+      "module": "Universality.Geometry.IsometricSequence",
+      "source_sha256": "db4959807ff220da6913de040824b2a1495a1a1b7725cb8ec30d9edf7d889575",
+      "started_at_utc": "2026-10-06T17:51:15.3621739Z",
+      "finished_at_utc": "2026-10-06T17:51:31.1504338Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/IsometricSequence.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_IsometricSequence.log",
+      "olean_sha256": "ab40a6f19ef1faab786eaf35f439143d74b5c730fbf0439c63c8217cdf7c36fa"
+    },
+    {
+      "module": "Universality.Geometry.GenerationCompletion",
+      "source_sha256": "ac0b4da1319d2fe875391b9ad7def6982140ed8439dd1d10e31e798e45e3a55f",
+      "started_at_utc": "2026-10-06T17:51:31.1554398Z",
+      "finished_at_utc": "2026-10-06T17:51:53.4873402Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationCompletion.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationCompletion.log",
+      "olean_sha256": "af7ce7fb7fbf6999dd9e9fa81b03b44baab882b92552313c4e1e1ab580a2ac6f"
+    },
+    {
+      "module": "Universality.Geometry.GenerationNet",
+      "source_sha256": "30e61fc1d92b871e64545f032d1a3faa317acf6ff3840804c76dc48b7aefba4f",
+      "started_at_utc": "2026-10-06T17:51:53.4915846Z",
+      "finished_at_utc": "2026-10-06T17:52:14.2800402Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationNet.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationNet.log",
+      "olean_sha256": "3c62bc91e8b0b6807a7ca835bbbae914ffb1e7ae90a5e084eb4eb9143a261f80"
+    },
+    {
+      "module": "Universality.Geometry.GeometricNets",
+      "source_sha256": "84658d2c2f8244cac31e77d265f770af57d31c902ab96063099412222eed31f0",
+      "started_at_utc": "2026-10-06T17:52:14.2852289Z",
+      "finished_at_utc": "2026-10-06T17:52:34.4128138Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GeometricNets.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GeometricNets.log",
+      "olean_sha256": "7b24ee8ede609630b012d78b74376b148fb42b1379ad43821afbf4e4bacd3a4a"
+    },
+    {
+      "module": "Universality.Geometry.GenerationCompactness",
+      "source_sha256": "be0d70f19ed379a70c39673df9bf854fb072e5fe439b7b3f18e4d0081daed92b",
+      "started_at_utc": "2026-10-06T17:52:34.418867Z",
+      "finished_at_utc": "2026-10-06T17:52:57.759543Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationCompactness.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationCompactness.log",
+      "olean_sha256": "653c8fd58401fe3a94eb12a5aee6ee5e598474018648fcc29ae4dc58c8f0e9c8"
+    },
+    {
+      "module": "Universality.Percolation.UniformGenerationVolume",
+      "source_sha256": "d886aea47140163a41155c18a63cb6951324ce6bdb5ee531de72cdba0e433878",
+      "started_at_utc": "2026-10-06T17:52:57.764328Z",
+      "finished_at_utc": "2026-10-06T17:53:24.8630626Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Percolation/UniformGenerationVolume.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Percolation_UniformGenerationVolume.log",
+      "olean_sha256": "4e1cf9bc4039f105c613bee9f87afd5d8343d14f5ff780a77c8e9041e69381be"
+    },
+    {
+      "module": "Universality.Geometry.GeometricCovers",
+      "source_sha256": "5890de2cca80077637cd0d7d0d7db481cb4d9c82b7c00120040be5295d62a081",
+      "started_at_utc": "2026-10-06T17:53:24.8675928Z",
+      "finished_at_utc": "2026-10-06T17:53:44.8291624Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GeometricCovers.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GeometricCovers.log",
+      "olean_sha256": "8d5d8da4181769fd3bafd0485d65f4d4824dad637afd9ec59db99ea19e40863d"
+    },
+    {
+      "module": "Universality.Geometry.FiniteCoverHausdorffBound",
+      "source_sha256": "6a317896b7227e6d9d634586939e615236511da361ca2b78433a52f0c79af3f2",
+      "started_at_utc": "2026-10-06T17:53:44.833382Z",
+      "finished_at_utc": "2026-10-06T17:54:11.5391962Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/FiniteCoverHausdorffBound.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_FiniteCoverHausdorffBound.log",
+      "olean_sha256": "65bb79020a933317c7e30ce44f2570cb2a51d0c2f1a6ded3aeca43edadc38500"
+    },
+    {
+      "module": "Universality.Geometry.GenerationHausdorffUpperBound",
+      "source_sha256": "29e38d8cb47c8ee1ec11b326b7f7a5f9d81137f8853cb9d23c07ae0e0ffc20fb",
+      "started_at_utc": "2026-10-06T17:54:11.5462117Z",
+      "finished_at_utc": "2026-10-06T17:54:39.0051653Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationHausdorffUpperBound.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationHausdorffUpperBound.log",
+      "olean_sha256": "4019b42a8311c1ec8ff52487c9d7336146f9eaaff65520a087631af788d28268"
+    },
+    {
+      "module": "Universality.Geometry.GenerationMetricSpace",
+      "source_sha256": "62857d08181f94356eba928476cdd27a5562cf1cf47676696e3a745450f74c1b",
+      "started_at_utc": "2026-10-06T17:54:39.0096374Z",
+      "finished_at_utc": "2026-10-06T17:55:03.4296837Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationMetricSpace.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationMetricSpace.log",
+      "olean_sha256": "9d37b69987cb80aaeeeb654aff38f0f3a2055df1a5a540f319d85a97292b1abf"
+    },
+    {
+      "module": "Universality.Graph.NetworkEmbedding",
+      "source_sha256": "02eabd99f976b5480129dfc07b757126865b6b634f2f1f44ce08c2966f2a71af",
+      "started_at_utc": "2026-10-06T17:55:03.4338283Z",
+      "finished_at_utc": "2026-10-06T17:55:30.1897149Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Graph/NetworkEmbedding.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Graph_NetworkEmbedding.log",
+      "olean_sha256": "276df1aba06ec118b4bdf99f736f8468a129d2a453d74dd58a3718b1037edda5"
+    },
+    {
+      "module": "Universality.Geometry.CellBoundaryPotential",
+      "source_sha256": "834093aa1a4d460117824f4be133cb498adf0954f40ff94a97d69598e64775e0",
+      "started_at_utc": "2026-10-06T17:55:30.1947187Z",
+      "finished_at_utc": "2026-10-06T17:56:00.6862626Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/CellBoundaryPotential.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_CellBoundaryPotential.log",
+      "olean_sha256": "a8df51e1d2df221cf21ed276747ee6ed2b3a1306e5da5be0e7054e8005b9a948"
+    },
+    {
+      "module": "Universality.Graph.GenerationCellEmbedding",
+      "source_sha256": "265fb8e84545ac819772289dbcd1167e1a6594c2001ae3e80e2c55dada368463",
+      "started_at_utc": "2026-10-06T17:56:00.6899196Z",
+      "finished_at_utc": "2026-10-06T17:56:27.1028561Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Graph/GenerationCellEmbedding.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Graph_GenerationCellEmbedding.log",
+      "olean_sha256": "ddbec2f27f9d53d3eac64e22f17d75d6d19465e1a93efa0164b6d50f32f265a2"
+    },
+    {
+      "module": "Universality.Geometry.GenerationCellMetric",
+      "source_sha256": "ee4d43b9b1dd94268f1eabeb4f27338fbcf3d82126e012c182a1904973a07c30",
+      "started_at_utc": "2026-10-06T17:56:27.1104644Z",
+      "finished_at_utc": "2026-10-06T17:56:59.8334607Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationCellMetric.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationCellMetric.log",
+      "olean_sha256": "9fa7c3f898c232ab813a34a90080a3112c97b45600ab2de966b2f87ed39e4406"
+    },
+    {
+      "module": "Universality.Geometry.GenerationCellBoundary",
+      "source_sha256": "8c5005d1713960df84114b9db52115e80dfa3c1425ba0ddc06916ca8a5ec6bca",
+      "started_at_utc": "2026-10-06T17:56:59.8380479Z",
+      "finished_at_utc": "2026-10-06T17:57:32.548979Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationCellBoundary.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationCellBoundary.log",
+      "olean_sha256": "ca33ebbed5f5e612e24e74aefd214cd8fda81dba68e6a3402e4d31cb2d2d4e89"
+    },
+    {
+      "module": "Universality.Geometry.SequenceSimilarity",
+      "source_sha256": "decbbd32c326715ac93c943f484dd4d3c555f04773bac11e811a94d2ea7d1719",
+      "started_at_utc": "2026-10-06T17:57:32.5538355Z",
+      "finished_at_utc": "2026-10-06T17:57:56.4573968Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/SequenceSimilarity.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_SequenceSimilarity.log",
+      "olean_sha256": "6f8b884c821b1a6ec767f0e3ce49f8cc818390e1f48b66909244e292119e2e59"
+    },
+    {
+      "module": "Universality.Geometry.GenerationMetricCells",
+      "source_sha256": "66cf4d217e8bc4e68dddb3a9300debda1826a7f8269485d8db7bcc194ce94a81",
+      "started_at_utc": "2026-10-06T17:57:56.4643448Z",
+      "finished_at_utc": "2026-10-06T17:58:29.7787092Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationMetricCells.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationMetricCells.log",
+      "olean_sha256": "43379e060247b52f5202eb07ff3c16cf0bdb27342d9b12f837507c8d45a058f3"
+    },
+    {
+      "module": "Universality.Geometry.InternalSimilarity",
+      "source_sha256": "c2c794caf5502d4de12c654ab522e57d9b6d31fc6bd495a6a5c1fc41c6d74ee7",
+      "started_at_utc": "2026-10-06T17:58:29.78475Z",
+      "finished_at_utc": "2026-10-06T17:58:53.2190586Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/InternalSimilarity.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_InternalSimilarity.log",
+      "olean_sha256": "6637cc6219400e6fb15510911789f7cfa89635df35dc6e51f0e57d85c36ed290"
+    },
+    {
+      "module": "Universality.Geometry.SymbolicHausdorffLowerBound",
+      "source_sha256": "2519d7bcafbfffd1984cb93cbf7a6d56907b85569aa139ac96d8665c6f9bc5c3",
+      "started_at_utc": "2026-10-06T17:58:53.2272312Z",
+      "finished_at_utc": "2026-10-06T17:59:32.0886868Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/SymbolicHausdorffLowerBound.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_SymbolicHausdorffLowerBound.log",
+      "olean_sha256": "5d749eb7db338610c5de804c3f461cc203cb4cf12e438a88fabc2047e3fb692a"
+    },
+    {
+      "module": "Universality.Geometry.SeparatedSimilarities",
+      "source_sha256": "063c1ca6bbffae6820b85a851fa52ea0bfd1637cc21a32a8c05b395d1460be40",
+      "started_at_utc": "2026-10-06T17:59:32.0934188Z",
+      "finished_at_utc": "2026-10-06T17:59:58.1987588Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/SeparatedSimilarities.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_SeparatedSimilarities.log",
+      "olean_sha256": "d1cfafb5d9ada44dacc5e1d1142108c700e82913863d1c18c005ce3e4b56f185"
+    },
+    {
+      "module": "Universality.Geometry.BlockDimensionLimit",
+      "source_sha256": "8283aee50daa4320409f72b3798b12f82ea5aded67c8b086d096934c8e1c5cb6",
+      "started_at_utc": "2026-10-06T17:59:58.2037648Z",
+      "finished_at_utc": "2026-10-06T18:00:22.4434559Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/BlockDimensionLimit.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_BlockDimensionLimit.log",
+      "olean_sha256": "faecec814fb083c2dde0073803b1a73e3b9db864cf74d49597808e21e862f176"
+    },
+    {
+      "module": "Universality.Geometry.SeparatedBlocks",
+      "source_sha256": "c587ace27fc90150613ce77b154e36fce6006deef17a11dcb42362127d53fc51",
+      "started_at_utc": "2026-10-06T18:00:22.4491774Z",
+      "finished_at_utc": "2026-10-06T18:00:51.0356579Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/SeparatedBlocks.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_SeparatedBlocks.log",
+      "olean_sha256": "05725087273eab91e5ddc1c9f4f8326576ce6c49f5a324d96cbe6cd71b1b4dfa"
+    },
+    {
+      "module": "Universality.Geometry.GenerationHausdorffDimension",
+      "source_sha256": "2aa8c1ddc9a92eba854f269d96e380add9f1b2f4b1dc8d38432a0e281dec7985",
+      "started_at_utc": "2026-10-06T18:00:51.0402149Z",
+      "finished_at_utc": "2026-10-06T18:01:18.2057689Z",
+      "exit_code": 0,
+      "command": "./scripts/check.ps1 -Module Universality/Geometry/GenerationHausdorffDimension.lean -Threads 1",
+      "log": "C:\\Users\\lzysh\\Documents\\Codex\\2026-10-06\\new-chat-2\\work\\universality-section5\\docs\\section5-geometry-integration-logs\\Universality_Geometry_GenerationHausdorffDimension.log",
+      "olean_sha256": "260da8fbc40832045b9c65eb2bd242b4e5f41e2f25d02240fb7e450fa5adcd0a"
+    }
+  ],
+  "status": "all_frozen_modules_compiled",
+  "compilation_completed_at_utc": "2026-10-06T18:01:18.2119537Z",
+  "verification_completed_at_utc": "2026-10-06T18:01:34.8973121Z",
+  "local_bridge_check": {
+    "module": "Universality.Section5.HausdorffDimensions",
+    "source_sha256": "f083cc3b1f5180056b49f03cdea190c1d5ad149b6c5580b97de894a1249dc881",
+    "olean_sha256": "feeb1e478b525b1983b8cdcd4f569c902c78494b77ca20ffc1fc0de49d3ec48d",
+    "recorded_at_utc": "2026-10-06T18:03:39.0676324Z",
+    "exit_code": 0,
+    "command": "./scripts/check.ps1 -Module Universality/Section5/HausdorffDimensions.lean -Threads 1",
+    "warnings": 0
+  },
+  "local_boundary_audit": {
+    "module": "Section5HausdorffAudit",
+    "source_sha256": "05cd41f17367ac7286dc019f0e3db181902b1a5ae39dfa5baa79eb8e8f65e76d",
+    "olean_sha256": "863c3716bf1cd908c27d4a4165197c0c509862c314d97de0df9432c642e31958",
+    "recorded_at_utc": "2026-10-06T18:04:39.3585870Z",
+    "exit_code": 0,
+    "command": "./scripts/check.ps1 -Module Section5HausdorffAudit.lean -Threads 1",
+    "log": "docs/section5-hausdorff-audit.log",
+    "boundaries": 8,
+    "axiom_scope": "Seven boundaries standard only; shifted transcendence additionally uses Universality.External.gelfond_schneider_real"
+  }
+}
