@@ -1,0 +1,16 @@
+Universality/Percolation/DisconnectedMassSpan.lean:83:60: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  simp only [conditionalCellWeight, R.crosses_all_closed, i̵f̵_̵p̵o̵s̵ ̵r̵f̵l̵,̵ ̵Bool.false_eq_true,
+  ̵  ̵ ̵ ̵ ̵ ̵↓reduceIte, hfixed]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Universality/Percolation/DisconnectedMassSpan.lean:87:6: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  simp only [conditionalCellWeight, R.crosses_onlyOpen_false edge hfirst hsecond,
+       ̵ ̵i̵f̵_̵p̵o̵s̵ ̵r̵f̵l̵,̵ ̵Bool.false_eq_true, ↓reduceIte, hfixed]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

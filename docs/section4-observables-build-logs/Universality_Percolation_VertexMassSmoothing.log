@@ -1,0 +1,2 @@
+Universality/Percolation/VertexMassSmoothing.lean:68:10: warning: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+Universality/Percolation/VertexMassSmoothing.lean:88:12: warning: `tendsto_finset_prod` has been deprecated: Use `tendsto_finsetProd` instead

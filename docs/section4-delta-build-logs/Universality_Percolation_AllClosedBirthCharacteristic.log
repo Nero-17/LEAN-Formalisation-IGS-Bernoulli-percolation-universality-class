@@ -1,0 +1,25 @@
+Universality/Percolation/AllClosedBirthCharacteristic.lean:60:15: warning: This simp argument is unused:
+  Nat.cast_add
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.cast_a̵d̵d̵,̵ ̵N̵a̵t̵.̵c̵a̵st̵_̵s̵um, mul_add, Complex.ofReal_add, add_mul,
+  ̵  ̵ ̵ ̵ ̵ ̵Complex.exp_add, Finset.mul_sum,
+  ̲  ̲ ̲ ̲ ̲ ̲Complex.ofReal_sum, Finset.sum_mul, Complex.exp_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Universality/Percolation/AllClosedBirthCharacteristic.lean:111:39: warning: This simp argument is unused:
+  root.property.1
+
+Hint: Omit it from the simp argument list.
+  simp [R.clusterVertices_allClosed, r̵o̵o̵t̵.̵p̵r̵o̵p̵e̵r̵t̵y̵.̵1̵,̵ ̵root.property.2, Ne.symm root.property.1,
+  ̲  ̲ ̲ ̲ ̲ ̲Ne.symm root.property.2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Universality/Percolation/AllClosedBirthCharacteristic.lean:111:56: warning: This simp argument is unused:
+  root.property.2
+
+Hint: Omit it from the simp argument list.
+  simp [R.clusterVertices_allClosed, root.property.1, r̵o̵o̵t̵.̵p̵r̵o̵p̵e̵r̵t̵y̵.̵2̵,̵Ne.symm root.property.1,
+  ̲  ̲ ̲ ̲ ̲ ̲Ne.symm root.property.2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

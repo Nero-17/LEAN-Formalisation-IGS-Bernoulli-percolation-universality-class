@@ -1,0 +1,4 @@
+'Universality.Section4.scale_log_rank_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]

@@ -1,0 +1,3 @@
+'Universality.Rule.Classical.exists_compact_generation_metric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

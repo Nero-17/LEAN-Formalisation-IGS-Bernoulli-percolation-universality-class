@@ -1,0 +1,8 @@
+'Universality.Rule.CoreObservableExponents.to_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Universality.Rule.Classical.coreObservableExponents_eq_iff_criticalDimensions_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.existsUnique_coreObservableExponents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.CoreObservableExponents.positive' depends on axioms: [propext, Classical.choice, Quot.sound]

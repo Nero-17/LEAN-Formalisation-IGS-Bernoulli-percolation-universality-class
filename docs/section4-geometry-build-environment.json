@@ -1,0 +1,57 @@
+{
+  "sha256": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
+  "identity": {
+    "lean_executable": "C:\\Users\\lzysh\\.elan\\toolchains\\leanprover--lean4---v4.32.1\\bin\\lean.exe",
+    "lean_sha256": "c3f02a2b739078d1237af9feefd27ec85b943b56870234b42bc0111d6699d54d",
+    "lean_version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)",
+    "lean_toolchain_sha256": "97402b00d0468725baf4a753bf630ad69d0c588df2a7f5a849429b7926dfe000",
+    "lake_manifest_sha256": "7f9d3653d27c4b5bf3b42304fd862a4d62d11c9cfb5475b937020c7bbf15638b",
+    "packages": [
+      {
+        "name": "aesop",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\aesop",
+        "revision": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3"
+      },
+      {
+        "name": "batteries",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\batteries",
+        "revision": "023ce7d62a0531e22a5331e20b587817a80d49ff"
+      },
+      {
+        "name": "Cli",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\Cli",
+        "revision": "88679d088c9720c27ebdf2ba4dafe17341747f94"
+      },
+      {
+        "name": "importGraph",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\importGraph",
+        "revision": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12"
+      },
+      {
+        "name": "LeanSearchClient",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\LeanSearchClient",
+        "revision": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843"
+      },
+      {
+        "name": "mathlib",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\mathlib",
+        "revision": "520045ab14e26149ee970e2e617ca04b09bde5d6"
+      },
+      {
+        "name": "plausible",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\plausible",
+        "revision": "e12c1910fe855cbfc38803cd4e55543906d5fa62"
+      },
+      {
+        "name": "proofwidgets",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\proofwidgets",
+        "revision": "6e311e2a844da9b2cc3971187df2fe0066947b93"
+      },
+      {
+        "name": "Qq",
+        "path": "C:\\Users\\lzysh\\Documents\\Codex\\lean32\\packages\\Qq",
+        "revision": "38d591e778f100aec9762bb582f9c7f55f50e9dc"
+      }
+    ]
+  }
+}

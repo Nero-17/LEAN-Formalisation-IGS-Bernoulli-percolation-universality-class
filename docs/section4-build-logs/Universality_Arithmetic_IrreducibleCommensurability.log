@@ -1,0 +1,18 @@
+'Universality.Rule.Classical.irreducible_thermal_no_integer_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.irreducible_pivotal_dimension_transcendental' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.gelfond_schneider_real]
+'Universality.Rule.Classical.irreducible_criticalDimensions_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.commensurate_of_irreducible_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.common_primitive_base_of_irreducible_fixedPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]

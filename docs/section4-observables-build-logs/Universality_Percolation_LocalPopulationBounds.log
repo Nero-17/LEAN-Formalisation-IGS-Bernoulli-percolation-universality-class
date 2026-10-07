@@ -1,0 +1,7 @@
+Universality/Percolation/LocalPopulationBounds.lean:71:15: warning: This simp argument is unused:
+  hchild
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵c̵h̵i̵l̵d̵,̵ ̵zero_mul, Finset.sum_const_zero, Matrix.mulVec, dotProduct]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

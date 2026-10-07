@@ -1,0 +1,15 @@
+Universality/Arithmetic/GraphFixedPointPolynomial.lean:79:14: warning: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [derivative_add, derivative_mul, derivative_C, derivative_X,
+  ̵  ̵ ̵ ̵zero_mul, o̵n̵e̵_̵mul_̲o̲n̲e̲,
+  ̲ m̵u̵l̵_̵o̵n̵e̵,̵  ̲ ̲add_zero, zero_add, eval_C] at hderivative
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Universality.FiniteNetwork.integerFixedPointPolynomial_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.FiniteNetwork.integerFixedPointPolynomial_isPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

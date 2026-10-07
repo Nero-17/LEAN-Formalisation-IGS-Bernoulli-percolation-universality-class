@@ -1,0 +1,6 @@
+'Universality.Rule.Classical.irreducible_thermal_no_integer_power_of_nonconstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.irreducible_thermal_no_integer_power_of_mod_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,31 @@
+'Universality.Rule.Classical.commensurate_of_coreObservableExponents_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.commensurate_of_coreObservableExponents_irreducible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.common_primitive_base_of_coreObservableExponents_rank' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.common_primitive_base_of_coreObservableExponents_irreducible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.scale_log_rank_le_two_of_coreObservableExponents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.aligned_coreObservableExponents_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Rule.Classical.scale_power_two_of_wheatstone_coreObservableExponents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]
+'Universality.Rule.Classical.scale_power_two_of_diamond_coreObservableExponents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Universality.External.six_exponentials]

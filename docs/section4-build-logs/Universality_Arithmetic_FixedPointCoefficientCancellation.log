@@ -1,0 +1,6 @@
+'Universality.Section4.IndexedNetwork.signedCoefficient_eq_zero_of_head_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Section4.IndexedNetwork.signedCoefficient_eq_zero_of_not_linked_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'Universality.Section4.preconnected_of_surjective_weak_map' does not depend on any axioms
+'Universality.Section4.IndexedNetwork.vertexConnectedOn_iff_active' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Section4.IndexedNetwork.VertexConnectedOn.delete_or_contract' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

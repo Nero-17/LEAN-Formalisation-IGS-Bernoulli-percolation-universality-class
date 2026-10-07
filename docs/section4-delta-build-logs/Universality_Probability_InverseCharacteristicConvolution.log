@@ -1,0 +1,7 @@
+Universality/Probability/InverseCharacteristicConvolution.lean:20:55: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  simp [n̵o̵r̵m̵_̵m̵u̵l̵,̵ ̵Complex.norm_exp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

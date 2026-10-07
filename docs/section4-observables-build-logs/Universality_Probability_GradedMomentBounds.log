@@ -1,0 +1,5 @@
+Universality/Probability/GradedMomentBounds.lean:10:5: warning: Variable name `hconstant` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`

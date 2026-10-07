@@ -1,0 +1,6 @@
+'Universality.Section4.polynomial_integer_multiplier_obstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Universality.Section4.irreducible_fixedPoint_derivative_ne_integer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
