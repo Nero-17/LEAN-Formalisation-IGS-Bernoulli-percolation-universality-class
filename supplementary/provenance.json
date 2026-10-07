@@ -36,5 +36,8 @@
     "additional/spectrum/spectral-perturbation.tex": "0dab551b9f70d4464f6eae80c4fe15ae44408af46a7be958506993996c52e0f8",
     "additional/spectrum/spectral-verification.json": "943276eb5b1a391be5839ad6b3ceb615671f34591ef42a644a5f3baad348e6ae",
     "additional/spectrum/verify_spectral.py": "5786c72b582bd62f5ae2a450403b6c24066c41977ffd99eb8aa4f19b558cd608"
+  },
+  "documentation_updates": {
+    "section5/README.md": "0a70877f959c560fa401b9739a30dc40fefc5191f9448f956357f74247a990d4"
   }
 }

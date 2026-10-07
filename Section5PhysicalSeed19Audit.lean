@@ -1,6 +1,0 @@
-import Universality.Section5.PhysicalSeed19
-
-#print axioms Universality.Section5.exactAllocationBase19
-#print axioms Universality.Section5.certifiedRule19_responses
-#print axioms Universality.Section5.certifiedRule19_hasCriticalExponents
-#print axioms Universality.Section5.certifiedRule19_physical_infinite_cluster_positive_iff

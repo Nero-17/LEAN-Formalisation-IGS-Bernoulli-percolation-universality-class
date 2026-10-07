@@ -1,14 +1,10 @@
 .lake/
-scratch/
 logs/
+work/
+scratch/
+__pycache__/
 *.olean
 *.ilean
 *.olean.server
 *.olean.private
-__pycache__/
-
-
-# Local proof-development scratch; complete R078 evidence is archived separately.
-work/
-
 /Universality/Certificates/Section5MassChunkData*.lean

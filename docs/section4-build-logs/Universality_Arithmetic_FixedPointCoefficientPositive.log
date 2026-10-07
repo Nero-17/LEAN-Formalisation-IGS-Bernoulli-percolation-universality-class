@@ -1,3 +1,0 @@
-'Universality.Section4.IndexedNetwork.normalizedCoefficient_pos' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

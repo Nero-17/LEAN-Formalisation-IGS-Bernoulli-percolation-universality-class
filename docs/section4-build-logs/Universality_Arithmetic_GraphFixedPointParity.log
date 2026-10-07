@@ -1,8 +1,0 @@
-'Universality.FiniteNetwork.invariant_minimal_cut_has_no_fixed_vertex' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.FiniteNetwork.two_closed_cut_minimal' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Universality.FiniteNetwork.invariant_two_open_crossing_has_fixed_vertex' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Rule.Classical.two_edge_configuration_parity' depends on axioms: [propext, Classical.choice, Quot.sound]

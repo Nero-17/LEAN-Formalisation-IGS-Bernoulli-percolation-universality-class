@@ -1,3 +1,0 @@
-Universality/Percolation/VertexMeanLimit.lean:48:6: warning: 'congr 1' tactic does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`

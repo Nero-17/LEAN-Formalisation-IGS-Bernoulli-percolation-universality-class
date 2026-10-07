@@ -1,6 +1,0 @@
-'Universality.Rule.Classical.criticalDimensions_finite_growth' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Rule.Classical.exp_log_scale_criticalDimensions_algebraic' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

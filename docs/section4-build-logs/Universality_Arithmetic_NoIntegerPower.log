@@ -1,7 +1,0 @@
-'Universality.Section4.logarithmic_dimension_irrational_of_no_integer_power' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Section4.logarithmic_dimension_transcendental_of_no_integer_power' depends on axioms: [propext,
- Classical.choice,
- Quot.sound,
- Universality.External.gelfond_schneider_real]

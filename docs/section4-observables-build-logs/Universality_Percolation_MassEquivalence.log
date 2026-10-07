@@ -1,5 +1,0 @@
-Universality/Percolation/MassEquivalence.lean:13:4: warning: 'change
-  (vertex ≠ R.source ∧ vertex ≠ R.target) ↔
-    (equivalence.vertex vertex ≠ S.source ∧ equivalence.vertex vertex ≠ S.target)' tactic does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`

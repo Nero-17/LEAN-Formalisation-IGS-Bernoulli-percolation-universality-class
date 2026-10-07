@@ -1,8 +1,0 @@
-Universality/Percolation/FiniteClusterDensity.lean:58:106: warning: This simp argument is unused:
-  and_assoc
-
-Hint: Omit it from the simp argument list.
-  simp [internalClusterCount,
-  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲F̵i̵n̵s̵e̵t̵.̵f̵i̵l̵t̵e̵r̵_̵f̵i̵l̵t̵e̵r̵,̵ ̵a̵n̵d̵_̵a̵s̵s̵o̵c̵]̵F̲i̲n̲s̲e̲t̲.̲f̲i̲l̲t̲e̲r̲_̲f̲i̲l̲t̲e̲r̲]̲
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

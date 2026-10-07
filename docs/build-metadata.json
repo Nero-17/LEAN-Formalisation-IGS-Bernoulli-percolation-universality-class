@@ -1,9 +1,0 @@
-{
-  "target": "Audit.lean",
-  "module_count": 863,
-  "rebuilt_count": 13,
-  "reuse_verified": true,
-  "lean_version": "Lean (version 4.32.1, x86_64-w64-windows-gnu, commit f054605aea4b840552cca2e725580bffd1e1b704, Release)",
-  "mathlib_revision": "520045ab14e26149ee970e2e617ca04b09bde5d6",
-  "completed_at_utc": "2026-10-06T20:05:04.0560222Z"
-}

@@ -1,5 +1,0 @@
-'Universality.Rule.scaledGenerationMetricSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Universality.Rule.Classical.generationOldVertex_scaled_distance' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Rule.Classical.generationOldVertex_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]

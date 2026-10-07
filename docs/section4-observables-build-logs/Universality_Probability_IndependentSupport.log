@@ -1,1 +1,0 @@
-Universality/Probability/IndependentSupport.lean:52:31: warning: `MeasureTheory.Measure.coe_finset_sum` has been deprecated: Use `MeasureTheory.Measure.coe_finsetSum` instead

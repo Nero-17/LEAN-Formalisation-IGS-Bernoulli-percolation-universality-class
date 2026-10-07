@@ -1,3 +1,0 @@
-'Universality.FiniteNetwork.integerReliabilityPolynomial_coeff_edges_eq_signedCoefficient' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

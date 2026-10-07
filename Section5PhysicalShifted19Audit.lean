@@ -1,5 +1,0 @@
-import Universality.Section5.PhysicalShifted19
-
-#print axioms Universality.Section5.exactAllocationShifted19
-#print axioms Universality.Section5.certifiedRuleShifted19_classical
-#print axioms Universality.Section5.certifiedRuleShifted19_physical_infinite_cluster_positive_iff

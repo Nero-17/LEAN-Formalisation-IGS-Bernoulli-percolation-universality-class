@@ -1,2 +1,0 @@
-Universality/Probability/SubcriticalL2Recursion.lean:37:37: warning: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead
-Universality/Probability/SubcriticalL2Recursion.lean:61:9: warning: `mul_le_mul_left'` has been deprecated: Use `mul_le_mul_right` instead

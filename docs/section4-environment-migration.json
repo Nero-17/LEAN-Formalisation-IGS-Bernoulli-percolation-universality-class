@@ -1,6 +1,0 @@
-{
-  "migrated_modules": 262,
-  "environment": "37b5ef839f586c5d10f8394d806f4e8ece8052c24d0d3ec4c7866d6583e738f7",
-  "time": "2026-10-06T15:36:27.1067706Z",
-  "basis": "Successful current-session 262-module replay with 197 rebuilt modules and 65 previously verified dependencies, followed by source/object/recursive-dependency and environment verification; no unattested extra module adopted."
-}

@@ -1,8 +1,0 @@
-from pathlib import Path
-import json
-r=Path('.')
-p=r/'Universality/Examples/PhysicalClassCounterexample.lean'
-p.write_text((r/'scratch/PhysicalClassCounterexample.lean').read_text(encoding='utf-8-sig').replace('import scratch.PhysicalExponentClass','import Universality.Percolation.PhysicalExponentClass'),encoding='utf-8')
-for name,lines in [('Universality.lean',['import Universality.Examples.PhysicalClassCounterexample']),('Audit.lean',['#print axioms Universality.'+x for x in ['reordered_physical_exponent_classes_differ','multiplicative_observations_fail_physical_classification','multiplicative_dimensions_fail_physical_classification','ambient_dimension_does_not_classify_physical_exponents']])]:
- p=r/name;t=p.read_text(encoding='utf-8-sig');old=set(t.splitlines());p.write_text(t.rstrip()+'\n'+''.join(l+'\n' for l in lines if l not in old),encoding='utf-8')
-s=json.loads((r/'SECTION3_CONTINUATION_STATE.json').read_text(encoding='utf-8-sig'));s['pending_snapshot_status']='Seventh full build running; formal freeze. Actual uniform-root size law identified, physical beta/delta and four-exponent existence/uniqueness, class iff and actual noncommutative counterexample individually checked, plus eta, moment log rates and point-radius conditional value. Physical local finiteness/radius identification, diamond spikes and common gap remain.';s['pending_full_build_axiom_audit_count']=sum(1 for l in (r/'Audit.lean').read_text(encoding='utf-8-sig').splitlines() if l.startswith('#print axioms '));(r/'SECTION3_CONTINUATION_STATE.json').write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(s['pending_full_build_axiom_audit_count'])

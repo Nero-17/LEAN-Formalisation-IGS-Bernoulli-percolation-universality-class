@@ -1,9 +1,0 @@
-'Universality.Rule.Classical.toIndexedNetwork_vertexConnectedOn' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Rule.Classical.integerReliabilityPolynomial_natDegree' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Rule.Classical.integerFixedPointPolynomial_degree' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

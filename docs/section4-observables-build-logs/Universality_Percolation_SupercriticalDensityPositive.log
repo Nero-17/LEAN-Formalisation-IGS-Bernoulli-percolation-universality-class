@@ -1,6 +1,0 @@
-Universality/Percolation/SupercriticalDensityPositive.lean:46:12: warning: 'ring' tactic does nothing
-
-Note: This linter can be disabled with `set_option linter.unusedTactic false`
-Universality/Percolation/SupercriticalDensityPositive.lean:46:12: warning: this tactic is never executed
-
-Note: This linter can be disabled with `set_option linter.unreachableTactic false`

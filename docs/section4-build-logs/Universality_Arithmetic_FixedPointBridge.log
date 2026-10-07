@@ -1,2 +1,0 @@
-'Universality.Section4.IndexedNetwork.linked_head_iff' depends on axioms: [propext]
-'Universality.Section4.IndexedNetwork.linked_head_iff_of_bridge' depends on axioms: [propext]

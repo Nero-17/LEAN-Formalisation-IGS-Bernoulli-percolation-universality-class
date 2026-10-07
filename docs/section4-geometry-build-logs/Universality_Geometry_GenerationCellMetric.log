@@ -1,4 +1,0 @@
-'Universality.Rule.generationCellEmbedding_oldVertex' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Universality.Rule.Classical.generationCellEmbedding_scaled_distance' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

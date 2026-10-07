@@ -1,7 +1,0 @@
-Universality/Graph/FiniteBernoulliMeasure.lean:34:25: warning: This simp argument is unused:
-  bernoulliMeasure_real_apply
-
-Hint: Omit it from the simp argument list.
-  simp ̵[̵b̵e̵r̵n̵o̵u̵l̵l̵i̵M̵e̵a̵s̵u̵r̵e̵_̵r̵e̵a̵l̵_̵a̵p̵p̵l̵y̵]̵
-
-Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

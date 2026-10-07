@@ -1,6 +1,0 @@
-'Universality.Section4.integer_log_relation_of_mass_power_not_mem' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Section4.logarithmic_dimensions_independent_of_mass_power_not_mem' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

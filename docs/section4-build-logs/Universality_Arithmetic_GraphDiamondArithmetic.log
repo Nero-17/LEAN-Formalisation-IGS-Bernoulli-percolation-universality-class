@@ -1,6 +1,0 @@
-'Universality.diamond_actual_criticalDimensions_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Universality.Rule.Classical.scale_power_two_of_diamond_dimensions' depends on axioms: [propext,
- Classical.choice,
- Quot.sound,
- Universality.External.six_exponentials]
-'Universality.diamond_actual_fixedPoint_irreducible' depends on axioms: [propext, Classical.choice, Quot.sound]

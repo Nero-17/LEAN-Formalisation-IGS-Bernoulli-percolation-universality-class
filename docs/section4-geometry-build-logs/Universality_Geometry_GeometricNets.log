@@ -1,3 +1,0 @@
-'Universality.Geometry.totallyBounded_union_of_geometric_steps' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,4 +1,0 @@
-'Universality.Geometry.IsometricSequence.transition_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Universality.Geometry.IsometricSequence.completion_inclusion_isometry' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

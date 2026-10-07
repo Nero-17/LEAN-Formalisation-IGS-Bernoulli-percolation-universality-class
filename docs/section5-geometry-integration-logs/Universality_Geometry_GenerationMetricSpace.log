@@ -1,2 +1,0 @@
-'Universality.Rule.generationMetricSpaceCompactSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Universality.Rule.generationMetricSpace_dimH_le' depends on axioms: [propext, Classical.choice, Quot.sound]

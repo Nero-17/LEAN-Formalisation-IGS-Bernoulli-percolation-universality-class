@@ -1,9 +1,0 @@
-Universality/Percolation/VertexMassNonconstant.lean:64:28: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-Universality/Percolation/VertexMassNonconstant.lean:64:40: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-Universality/Percolation/VertexMassNonconstant.lean:64:54: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

@@ -1,4 +1,0 @@
-'Universality.Section4.six_exponentials_real' depends on axioms: [propext,
- Classical.choice,
- Quot.sound,
- Universality.External.six_exponentials]

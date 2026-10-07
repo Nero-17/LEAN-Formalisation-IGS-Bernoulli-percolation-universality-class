@@ -1,6 +1,0 @@
-'Universality.Rule.Classical.criticalDimensions_ambient_hausdorff' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Rule.Classical.criticalDimensions_geometric_finite_growth' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

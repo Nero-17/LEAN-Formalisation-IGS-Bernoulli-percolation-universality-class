@@ -1,9 +1,0 @@
-'Universality.Rule.Classical.criticalDimensions_pivotal_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Universality.Rule.Classical.criticalDimensions_ambient_sub_mass_pos' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Rule.CoreExponentFormula.recover_dimensions' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Universality.Rule.Classical.coreExponentFormula_eq_iff_criticalDimensions_eq' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'Universality.Rule.CoreExponentFormula.recover_eta_formula' depends on axioms: [propext, Classical.choice, Quot.sound]

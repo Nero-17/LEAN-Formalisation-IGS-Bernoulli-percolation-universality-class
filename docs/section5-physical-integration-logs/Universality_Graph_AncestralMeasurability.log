@@ -1,6 +1,0 @@
-C:\Users\lzysh\Documents\Codex\2026-10-06\new-chat-2\work\universality-section5\Universality\Graph\AncestralMeasurability.lean:60:0: warning: automatically included section variable(s) unused in theorem `Universality.Rule.measurable_ancestralSampleStageRoot`:
-  [MeasurableSingletonClass Bool]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [MeasurableSingletonClass Bool] in theorem ...
-
-Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
