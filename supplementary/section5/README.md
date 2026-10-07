@@ -12,6 +12,45 @@ manuscript's macros and references and is not a standalone LaTeX document.
 
 ## Reproduce the verification
 
+The compressed manuscript keeps the Wheatstone operation, its response
+recursions, the three-state kernels, and the four target constraints. The
+allocation encoding and its complete proof remain in
+`construction-and-certificate-details.tex`; no separate supplementary PDF is
+required. Labels in that unabridged source identify the formulas independently
+of subsequent manuscript numbering.
+
+The construction has three steps:
+
+1. Expand a finite ternary tree of Wheatstone operations and decorate selected
+   leaves by another Wheatstone rule. Binary projections of leaf addresses
+   encode the allocation. Symbolic slots and physical copies have different
+   multiplicities; the source derives both explicitly.
+2. Preserve the all-outer allocation and the totals at each zero count while
+   redistributing decorations. This preserves length, volume and pivotal
+   response. Ordered mass kernels distinguish these redistributions. Signed
+   correction packets adjust the mass action, and separate capacity checks
+   ensure that every final allocation specifies an actual graph.
+3. Verify the positive eigenvector `(55,46,23)`. This identifies the mass
+   Perron root and makes it multiplicative for compositions of the certified
+   seeds. The manuscript then proves the infinite incommensurate family.
+
+### From the manuscript to the files
+
+| Mathematical claim | Source or entry point |
+|---|---|
+| Allocation definition, response formulas, integer targets and correction packets | [Unabridged construction](construction-and-certificate-details.tex) |
+| All four allocation inputs | The `word_base.json` and `packet_repair.json` files in the four directories listed below |
+| Kernel enumeration, ordered matrix sums and capacity coverage | [Integer verifier](certificates/verify.py) |
+| Shifted-scale verification | [Shifted verifier](certificates/verify_transcendental.py) |
+| Exact certificates for the actual three seed rules | [SeedCertificates.lean](../../Universality/Section5/SeedCertificates.lean), [Seed19.lean](../../Universality/Section5/Seed19.lean), [Seed739.lean](../../Universality/Section5/Seed739.lean) |
+| Actual shifted rule | [SeedShifted19.lean](../../Universality/Section5/SeedShifted19.lean) |
+| Actual physical exponents and equality of classes | [CertifiedConsequences.lean](../../Universality/Section5/CertifiedConsequences.lean) |
+| Pairwise incommensurability of the infinite family | `certifiedFamily_incommensurate` in [SeedCertificates.lean](../../Universality/Section5/SeedCertificates.lean) |
+
+For the integrated Lean build and kernel audit, follow the repository's
+[build instructions](../../docs/BUILD.md). The commands below independently check
+the certificate arithmetic and do not require Lean.
+
 From this directory, using Python 3.11 or later (standard library only):
 
 ```sh
