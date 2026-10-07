@@ -84,7 +84,7 @@ def main():
             log = logs / (module.replace('/', '_') + '.log')
             print('Checking', module, flush=True)
             with log.open('wb') as output:
-                result = subprocess.run([str(lean), '-R', str(ROOT), '-o', str(obj), module],
+                result = subprocess.run([str(lean), '-R', str(ROOT), '-o', str(obj), str(ROOT / module)],
                                         cwd=ROOT, env=environment_for_lean, stdout=output, stderr=subprocess.STDOUT)
             if result.returncode:
                 raise RuntimeError(f'{module} failed; see {log}')
