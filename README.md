@@ -22,12 +22,14 @@ source and its original build evidence, as well as all previously published
 | Section 2 | Named mathematical conclusions; see the R072 scope and later R075 probability-space extension | [R072](docs/R072_完整研究记录.md), [R075](docs/R075_完整研究记录.md) |
 | Section 3 + the four additional exponents moved to the appendix | Completed R077 statement map; 863-module closure, 956 selected axiom outputs | [Entry](Universality/Section3.lean), [coverage](docs/SECTION3_COVERAGE.md) |
 | Section 4 | Completed R080 statement map; 647-module closure, 5740 project declarations; six exponentials and Gelfond–Schneider are explicit external inputs | [Frozen coverage](https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/blob/919e8735cc28374000c6ca9554ebb0a6887e751f/docs/SECTION4_COVERAGE.md), [draft PR #1](https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/pull/1) |
-| Section 5 | Separate ongoing work; not accepted or merged by this progress review | [Existing computational supplements](supplementary/section5/README.md) |
+| Section 5 | Completed R079 statement map: 906-module closure; final dependency audit replayed successfully for 8543 kernel declarations. GS is explicit; four exponentials is conditional. | [Frozen publication notes](https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/blob/3e77e78297089288cbe216a2bd629b3b7c838bd9/docs/SECTION5_PUBLICATION.md), [draft PR #2](https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/pull/2) |
 
-Section 4 remains on its independently verified branch. Its dependency closure
-overlaps Section 3, and its declaration audit uses a different counting method;
+Sections 4 and 5 remain on their independently verified branches. Their dependency closures
+overlap Section 3, and their declaration audits use different counting methods;
 the counts must not be added. No combined Sections 2–5 build or fresh-machine
 Lake build is claimed. The Section 4 opening conjecture is not a proved theorem.
+Section 5 requires [restoring 44 hash-verified generated data files](https://github.com/Nero-17/LEAN-Formalisation-IGS-Bernoulli-percolation-universality-class/blob/3e77e78297089288cbe216a2bd629b3b7c838bd9/RESTORE_GENERATED_DATA.md)
+before building; all mathematical proof sources are included.
 
 ## Section 3 verification status
 
