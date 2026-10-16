@@ -16,6 +16,6 @@ Python 3.11 or later and the standard library; run without `-O` or `-OO`.
 The existing Section 5 input data are shared rather than duplicated.
 `provenance.json` records the sources and hashes of this supplementary upload.
 
-The repository remains private. A reviewer will need repository access or an
-export of the supplementary directory. Manuscript links to an immutable
+The repository is public. Reviewers can access the supplementary files directly.
+Manuscript links to an immutable
 Section 5 commit continue to identify that original verified snapshot.

@@ -100,5 +100,5 @@ actual graph constructions and the four exact certificates are also proved in
 the integrated Lean development; see [coverage](../../docs/COVERAGE.md). The final transcendental-dimension example is a single lattice;
 it does not exhibit an incommensurate pair in a class with nonrational dimensions.
 
-This repository currently has private visibility. Reviewers need access to
-the repository or a supplied copy of this supplement to reproduce the checks.
+This repository is public. The supplementary files and reproduction instructions
+are available without requesting access.
